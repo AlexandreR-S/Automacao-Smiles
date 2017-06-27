@@ -3496,7 +3496,7 @@ wIpgAFYEA7AiGIAVwQDOOXTkMFj6ixWh7xyG/wNt6t2BzTe8ugAAAABJRU5ErkJggg==
 			capname="inputtag"
 			addcaps="unknown,webelement,inputtag"
 			refimgid="3b8a4d2c-0216-4f69-b5cd-2805ed425b95">
-				/dom[@pageurl~'.smiles.com.br']//input[#'_favoritepassengerportlet_WAR_smilesmemberportlet_FirstName']
+				/dom[@pageurl~'.smiles.com.br']//input[#'_smilesfavoritepassengerportlet_WAR_smilesbookingportlet_FirstName']
 			</item>
 			<item
 			name="Favorito_Sobrenome"
@@ -3505,7 +3505,7 @@ wIpgAFYEA7AiGIAVwQDOOXTkMFj6ixWh7xyG/wNt6t2BzTe8ugAAAABJRU5ErkJggg==
 			capname="inputtag"
 			addcaps="unknown,webelement,inputtag"
 			refimgid="8f44dac0-0032-4355-95fe-b4ee243c3fea">
-				/dom[@pageurl~'.smiles.com.br']//input[#'_favoritepassengerportlet_WAR_smilesmemberportlet_LastName']
+				/dom[@pageurl~'.smiles.com.br']//input[#'_smilesfavoritepassengerportlet_WAR_smilesbookingportlet_LastName']
 			</item>
 			<item
 			name="Favorito_DiaNascimento"

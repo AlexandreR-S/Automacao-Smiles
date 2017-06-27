@@ -1245,8 +1245,8 @@ namespace POCSmiles
                 _comprarmilhas_comprarInfo = new RepoItemInfo(this, "ComprarMilhas_Comprar", ".//button[#'buyMilesBtn']", 30000, null, "860e8ced-636b-4409-bd60-aa3014107a11");
                 _minhaconta_gerenciarfavoritosInfo = new RepoItemInfo(this, "MinhaConta_GerenciarFavoritos", ".//.[@innertext~'Gerenciar']", 30000, null, "45978786-cc13-4f9c-b4e1-13944f782ef8");
                 _favoritos_adicionarnovopassageiroInfo = new RepoItemInfo(this, "Favoritos_AdicionarNovoPassageiro", ".//button[@innertext~'^\\ Adicionar\\ novo\\ passageir']", 30000, null, "b6acc9b1-27ea-465a-8b81-a9ee8c1ab5be");
-                _favorito_nomeInfo = new RepoItemInfo(this, "Favorito_Nome", ".//input[#'_favoritepassengerportlet_WAR_smilesmemberportlet_FirstName']", 30000, null, "b5715ba0-db61-4175-b0eb-9011edfd66c1");
-                _favorito_sobrenomeInfo = new RepoItemInfo(this, "Favorito_Sobrenome", ".//input[#'_favoritepassengerportlet_WAR_smilesmemberportlet_LastName']", 30000, null, "b92cc403-cbc5-40c5-9ac3-3beaa389a19d");
+                _favorito_nomeInfo = new RepoItemInfo(this, "Favorito_Nome", ".//input[#'_smilesfavoritepassengerportlet_WAR_smilesbookingportlet_FirstName']", 30000, null, "b5715ba0-db61-4175-b0eb-9011edfd66c1");
+                _favorito_sobrenomeInfo = new RepoItemInfo(this, "Favorito_Sobrenome", ".//input[#'_smilesfavoritepassengerportlet_WAR_smilesbookingportlet_LastName']", 30000, null, "b92cc403-cbc5-40c5-9ac3-3beaa389a19d");
                 _favorito_dianascimentoInfo = new RepoItemInfo(this, "Favorito_DiaNascimento", ".//input[@name='day']", 30000, null, "52d92c52-2e88-4797-8529-8c84898e20a1");
                 _favorito_monthInfo = new RepoItemInfo(this, "Favorito_Month", ".//input[@name='month']", 30000, null, "5c9879d5-6f18-4a2a-912a-e1711a77ac46");
                 _favorito_yearInfo = new RepoItemInfo(this, "Favorito_Year", ".//input[@name='year']", 30000, null, "55a70350-c016-41b1-99e1-de2b60b6144d");
