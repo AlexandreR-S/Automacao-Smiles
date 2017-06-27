@@ -1,16 +1,8 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="Smiles.rxtst" />
+    <Element value="SmilesRepository.rxrep" />
   </Array>
-  <Array name="bookmarks">
-    <Element value="Breakpoint|c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Base_Dados\UtilsDB.cs|50|10|True|Break||" />
-    <Element value="Breakpoint|c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Resultado_Esperado\RP_EsqueciMinhaSenha.UserCode.cs|39|10|True|Break||" />
-    <Element value="Breakpoint|C:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\EsqueciMeusDados\EsqueciMinhaSenha.cs|102|13|True|Break||" />
-    <Element value="Breakpoint|c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Resultado_Esperado\RP_EsqueciMinhaSenha.cs|100|13|True|Break||" />
-    <Element value="Breakpoint|C:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Resultado_Esperado\RP_AlterarPlano.cs|58|5|True|Break||" />
-    <Element value="Breakpoint|C:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Menu_Usuario\MeusVoos.cs|64|4|True|Break||" />
-    <Element value="Breakpoint|C:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Reserva_De_Voo\SelecionarVooAssento.cs|82|13|True|Break||" />
-  </Array>
+  <Array name="bookmarks" />
   <Array name="files">
     <Element value="Smiles.rxtst" />
     <Element value="Smiles_Componentes\SolicitarMilhas\SolicitarMilhas.cs" />

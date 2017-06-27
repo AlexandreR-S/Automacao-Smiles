@@ -21,6 +21,6 @@
       <string>9e7ad2db-31d1-4779-9371-ed295f8209e8</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution Smiles[Smiles[Resultado_Esperado[RP_ValidacaoAdesaoAposEmissao.rxrec[]]Smiles_Componentes[Cadastro[]ClubeSmiles[]Compra_De_Milhas[]Favoritos[]Generico[]Menu_Usuario[]ReativarMilhas[]Resultado_Esperado[]SolicitarMilhas[]]SmilesRepository.rxrep[]]]]&#xD;&#xA;Solution Smiles\Smiles\Smiles.rxtst&#xD;&#xA;Solution Smiles" />
+  <ProjectBrowserState value="[Solution Smiles[Smiles[Resultado_Esperado[RP_ValidacaoAdesaoAposEmissao.rxrec[]]Smiles_Componentes[Cadastro[]ClubeSmiles[]Compra_De_Milhas[]Resultado_Esperado[]SolicitarMilhas[]]SmilesRepository.rxrep[]]]]&#xD;&#xA;Solution Smiles\Smiles\SmilesRepository.rxrep&#xD;&#xA;Solution Smiles\Smiles\ExcelFramework.cs" />
   <StartupProject value="{551BD582-6B87-460D-9D7F-87D70B4528F0}" />
 </Properties>
