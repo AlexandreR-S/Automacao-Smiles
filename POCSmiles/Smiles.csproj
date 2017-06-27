@@ -2545,6 +2545,9 @@
       <UserCode>true</UserCode>
       <id>2e605624-cb02-422d-85c3-8f59ba7adef6</id>
     </Compile>
+    <Compile Include="TESTE_GIT\TESTE_GIT.cs">
+      <id>1196fad7-01d0-4aae-b502-15a44999881f</id>
+    </Compile>
     <Compile Include="Transferencia_De_Milhas\TransferirMilhas.cs">
       <BoundTo>104f2102-113d-49b5-b800-9717db79c075</BoundTo>
       <DependentUpon>TransferirMilhas.rxrec</DependentUpon>
@@ -3563,6 +3566,9 @@
   <ItemGroup>
     <Folder Include="Busca_De_Voos">
       <id>5563d20b-4e28-402b-9f31-18cedd94926a</id>
+    </Folder>
+    <Folder Include="TESTE_GIT">
+      <id>c9ed7761-7b1d-4279-a6a8-ede73f0b2d76</id>
     </Folder>
     <Folder Include="Smiles_Componentes\Generico">
       <id>88268281-0c35-4c0f-8dbf-2daaef6767c8</id>
