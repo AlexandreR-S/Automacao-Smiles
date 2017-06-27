@@ -156,7 +156,7 @@ namespace POCSmiles.Smiles_Componentes.Favoritos
 				repo.SmilesOMelhorProgramaDeMilhasS1.Favorito_Sobrenome.PressKeys(Sobrenome, 10);
 				Delay.Milliseconds(0);
 				
-				//SeleclGenrerFlag(Sexo);
+				SelectGenderFlag(Sexo);
 				Delay.Milliseconds(10);
 				
 				Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$DiaNascimento' with focus on 'SmilesOMelhorProgramaDeMilhasS1.Favorito_DiaNascimento'.", repo.SmilesOMelhorProgramaDeMilhasS1.Favorito_DiaNascimentoInfo, new RecordItemIndex(5));
@@ -197,6 +197,24 @@ namespace POCSmiles.Smiles_Componentes.Favoritos
 			}
 			
 			iComponentStatus = Program.endComponent();
+		}
+		public void SelectGenderFlag(string sexo)
+		{
+			try {
+				if (sexo.Equals("")) {
+					return;
+				}
+				Report.Info("Selecting " + sexo);
+				if (sexo.Equals("Masculino")) {
+					Utils.ClickElement(repo.SmilesOMelhorProgramaDeMilhasS1.AbsoluteBasePath.ToResolvedString() + "//input[@type='radio' and @value~'MALE']");
+				}else{
+					Utils.ClickElement(repo.SmilesOMelhorProgramaDeMilhasS1.AbsoluteBasePath.ToResolvedString() + "//input[@type='radio' and @value~'FEMALE']");
+				}
+				Report.Info(sexo + " selected");
+			} catch (Exception) {
+				Report.Error("CadastrarUsuario - Error selecting genre");
+				throw new System.Exception("CadastrarUsuario.SeleclGenrerFlag");
+			}
 		}
 	}
 }
