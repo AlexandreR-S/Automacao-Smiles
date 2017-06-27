@@ -1,0 +1,676 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="262824ba3fa218a5"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="08/06/2017 11:40:59"
+		timestampiso="2017-06-08T14:40:59"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="4.7m"
+			durationms="281209"
+			type="test suite"
+			rid="1d2a0ee5fcf2f9b8"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="Smiles"
+			runconfigname="Regressivo"
+			runlabel=""
+			maxchildren="1">
+			<params>
+				<param
+					name="PMR_URL">
+					C:\Automacao - Smiles\lib\PNR\PNR_Smiles.xlsx
+				</param>
+				<param
+					name="Cadastro_CadastroUsuarios">
+					C:\Automacao - Smiles\lib\PNR\Cadastro_Usuarios.xlsx
+				</param>
+				<param
+					name="Database_Location">
+					C:\Automacao - Smiles\lib\PNR\SmilesDB.accdb
+				</param>
+				<param
+					name="MAX_COMPRA_MILHAS">
+					40000
+				</param>
+				<param
+					name="MIN_MILHAS">
+					60000
+				</param>
+				<param
+					name="MAX_RESERVAS_ISENTO">
+					5
+				</param>
+				<param
+					name="MAX_VALOR_REEMBOLSO">
+					150
+				</param>
+				<param
+					name="AMBIENTE_TESTE">
+				</param>
+				<param
+					name="BROWSER">
+				</param>
+				<param
+					name="AGENDAR">
+				</param>
+				<param
+					name="JIRA_USERNAME">
+					admin
+				</param>
+				<param
+					name="JIRA_PASSWORD">
+					admin
+				</param>
+				<param
+					name="JIRA_SERVERURL">
+					http://localhost:8080/
+				</param>
+				<param
+					name="MIN_DATE_RANGE">
+					30
+				</param>
+				<param
+					name="MAX_DATE_RANGE">
+					45
+				</param>
+				<param
+					name="INCOGNITION_MODE">
+					FALSE
+				</param>
+			</params>
+			<detail>
+				Su&#237;te de teste que contempla os fluxos do portal Smiles
+			</detail>
+			<activity
+				result="Failed"
+				duration="4.7m"
+				durationms="281137"
+				type="folder"
+				rid="24cf80c2e055f038"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				foldername="Atomic">
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="4.7m"
+					durationms="281029"
+					type="folder"
+					rid="17f1d6f52d471eab"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					foldername="D_HOMOLOGACAO1">
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="4.7m"
+						durationms="281028"
+						type="folder"
+						rid="a26d498268ee2a3"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="1"
+						totalblockedcount="0"
+						foldername="DH_NEGATIVO1">
+						<detail>
+						</detail>
+						<activity
+							result="Failed"
+							duration="4.6m"
+							durationms="277795"
+							type="test case"
+							rid="a3b6100f53651db"
+							totalerrorcount="1"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="1"
+							totalblockedcount="0"
+							testcasename="Smiles_Buscar_Voo"
+							testcaseid="26f11a91-1396-4bc7-b7cf-55d36fcb8142"
+							datasource="N_Smiles_Buscar_Voo"
+							iterationcount="3"
+							maxchildren="0">
+							<params/>
+							<detail>
+								&lt;P&gt;Caso de teste com o objetivo de realizar busca de voo com resultado esperado 
+negativo&lt;/P&gt;
+							</detail>
+							<activity
+								result="Failed"
+								duration="4.6m"
+								durationms="277790"
+								type="test case iteration"
+								rid="18eebe05620ac680"
+								totalerrorcount="1"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								testcasename="Smiles_Buscar_Voo"
+								iteration="1">
+								<datarow>
+									<field
+										name="Browser">
+										Chrome
+									</field>
+									<field
+										name="URL">
+										portal-uat.smiles.com.br
+									</field>
+									<field
+										name="TipoTrajeto">
+										IDA E VOLTA
+									</field>
+									<field
+										name="TipoVoo">
+										G3
+									</field>
+									<field
+										name="De1">
+										GRU
+									</field>
+									<field
+										name="Para1">
+										FOR
+									</field>
+									<field
+										name="De2">
+									</field>
+									<field
+										name="Para2">
+									</field>
+									<field
+										name="QuantidadeAdultos">
+										0
+									</field>
+									<field
+										name="QuantidadeCriancas">
+										0
+									</field>
+									<field
+										name="QuantidadeBebes">
+										02
+									</field>
+									<field
+										name="DataPartida1">
+										d+10
+									</field>
+									<field
+										name="DataRetorno1">
+										d+15
+									</field>
+									<field
+										name="DataPartida2">
+									</field>
+									<field
+										name="MensagemEsperada">
+										A quantidade de beb&#234;s n&#227;o pode ser maior que o n&#250;mero de adultos.
+									</field>
+									<field
+										name="IdentificacaoCaso">
+										Homologa&#231;&#227;o - Busca com crian&#231;a/Beb&#234; (Valida&#231;&#227;o das regras)
+									</field>
+								</datarow>
+								<detail>
+								</detail>
+								<activity
+									result="Success"
+									duration="423ms"
+									durationms="423"
+									type="test module"
+									rid="5f7b9a56734f076"
+									totalerrorcount="0"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="IniciarDesktop"
+									moduleid="50e42e85-06f5-4206-9cb7-80b8e8db2d4a"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<varbindings/>
+								</activity>
+								<activity
+									result="Failed"
+									duration="4.6m"
+									durationms="277272"
+									type="test module"
+									rid="16cf2834c3e63dd2"
+									totalerrorcount="1"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="NBV_BuscarVoos"
+									moduleid="62c059e2-ec78-466e-b364-a0c626b9b4e1"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<errmsg>
+										Failed to find item 'SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.BuscaVoo_MensagemMesmoDia'.
+									</errmsg>
+									<varbindings/>
+									<item
+										timeRelativeToTestSuiteStartTime="00:09.213"
+										timeRelativeToTestModuleStartTime="00:00.043"
+										timeWallClock="11:41:08"
+										time="00:09.213"
+										level="Info"
+										category="Mouse">
+										<message>
+											Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.MenuPrincipal_BuscarVoo' at LowerCenter.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//body[#'wrapper']/div[@id='wrapper']//nav/ul//span[@innertext='Buscar Voo' or @innertext='Buscar']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.MenuPrincipal_BuscarVoo"
+											id="7b0190f8ea5242ac959a8f21009eac36"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Busca_De_Voos\NBV_BuscarVoos.cs"
+											codeline="154"
+											itemindex="0"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="00:26.542"
+										timeRelativeToTestModuleStartTime="00:17.373"
+										timeWallClock="11:41:26"
+										time="00:26.542"
+										level="Info"
+										category="Delay">
+										<message>
+											Waiting for 2s.
+										</message>
+										<metainfo
+											itemindex="1"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Busca_De_Voos\NBV_BuscarVoos.cs"
+											codeline="158"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="00:28.630"
+										timeRelativeToTestModuleStartTime="00:19.460"
+										timeWallClock="11:41:28"
+										time="00:28.630"
+										level="Info"
+										category="User">
+										<message>
+											Wainting system load
+										</message>
+										<metainfo
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+											codeline="247"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="00:28.891"
+										timeRelativeToTestModuleStartTime="00:19.721"
+										timeWallClock="11:41:28"
+										time="00:28.891"
+										level="Success"
+										category="Validation">
+										<message>
+											/dom[@pageurl~'uat3.smiles.com.br']
+										</message>
+										<metainfo
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs"
+											codeline="181"
+											loglvl="Success"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="00:31.191"
+										timeRelativeToTestModuleStartTime="00:22.021"
+										timeWallClock="11:41:30"
+										time="00:31.191"
+										level="Info"
+										category="User">
+										<message>
+											System loaded
+										</message>
+										<metainfo
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+											codeline="249"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="00:31.342"
+										timeRelativeToTestModuleStartTime="00:22.172"
+										timeWallClock="11:41:31"
+										time="00:31.342"
+										level="Info"
+										category="Validation">
+										<message>
+											Validating Exists on item 'SmilesOMelhorProgramaDeMilhasS1.Validacao_EncontreSeuVoo2'.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//.[@innertext~'Voos']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Validacao_EncontreSeuVoo2"
+											id="95fe819081aa49afbce70bee4d92a030"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Busca_De_Voos\NBV_BuscarVoos.cs"
+											codeline="164"
+											itemindex="3"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="00:45.319"
+										timeRelativeToTestModuleStartTime="00:36.149"
+										timeWallClock="11:41:45"
+										time="00:45.319"
+										level="Success"
+										category="Validation">
+										<message>
+											Element for item 'Validacao_EncontreSeuVoo2' does exist.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//.[@innertext~'Voos']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Validacao_EncontreSeuVoo2"
+											id="95fe819081aa49afbce70bee4d92a030"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Busca_De_Voos\NBV_BuscarVoos.cs"
+											codeline="165"
+											loglvl="Success"
+											itemindex="3"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="00:45.516"
+										timeRelativeToTestModuleStartTime="00:36.346"
+										timeWallClock="11:41:45"
+										time="00:45.516"
+										level="Info"
+										category="User">
+										<message>
+											Seleting item 'TYO'
+										</message>
+										<metainfo
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+											codeline="439"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="00:49.276"
+										timeRelativeToTestModuleStartTime="00:40.107"
+										timeWallClock="11:41:49"
+										time="00:49.276"
+										level="Info"
+										category="User">
+										<message>
+											Item 'TYO' selected
+										</message>
+										<metainfo
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+											codeline="441"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="00:49.596"
+										timeRelativeToTestModuleStartTime="00:40.426"
+										timeWallClock="11:41:49"
+										time="00:49.596"
+										level="Info"
+										category="User">
+										<message>
+											Seleting item 'SHA'
+										</message>
+										<metainfo
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+											codeline="439"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="00:53.566"
+										timeRelativeToTestModuleStartTime="00:44.396"
+										timeWallClock="11:41:53"
+										time="00:53.566"
+										level="Info"
+										category="User">
+										<message>
+											Item 'SHA' selected
+										</message>
+										<metainfo
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+											codeline="441"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="00:53.719"
+										timeRelativeToTestModuleStartTime="00:44.550"
+										timeWallClock="11:41:53"
+										time="00:53.719"
+										level="Info"
+										category="User">
+										<message>
+											Selecting item 'SOMENTE IDA'
+										</message>
+										<metainfo
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+											codeline="416"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="01:01.898"
+										timeRelativeToTestModuleStartTime="00:52.728"
+										timeWallClock="11:42:01"
+										time="01:01.898"
+										level="Info"
+										category="Mouse">
+										<message>
+											Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.BuscarVoo_De1' at Center.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//input[#'inputOrigin']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.BuscarVoo_De1"
+											id="0021010c28004ab2b169be8519ffa6f5"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Busca_De_Voos\NBV_BuscarVoos.cs"
+											codeline="186"
+											itemindex="9"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="01:04.784"
+										timeRelativeToTestModuleStartTime="00:55.614"
+										timeWallClock="11:42:04"
+										time="01:04.784"
+										level="Info"
+										category="User">
+										<message>
+											Selectiong date on calendar with date: 11/06/2017
+										</message>
+										<metainfo
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+											codeline="484"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="01:16.985"
+										timeRelativeToTestModuleStartTime="01:07.815"
+										timeWallClock="11:42:16"
+										time="01:16.985"
+										level="None"
+										category="Validation">
+										<message>
+											/dom[@pageurl~'uat3.smiles.com.br']//div[#'ui-datepicker-div']/div[1]/div//.[@innertext~'Junho']
+										</message>
+										<metainfo
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs"
+											codeline="157"
+											loglvl="None"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="01:18.577"
+										timeRelativeToTestModuleStartTime="01:09.407"
+										timeWallClock="11:42:18"
+										time="01:18.577"
+										level="Info"
+										category="User">
+										<message>
+											Date: 11/06/2017 selected
+										</message>
+										<metainfo
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+											codeline="516"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="01:18.670"
+										timeRelativeToTestModuleStartTime="01:09.500"
+										timeWallClock="11:42:18"
+										time="01:18.670"
+										level="Info"
+										category="User">
+										<message>
+											Inserting passengers
+										</message>
+										<metainfo
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+											codeline="451"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="02:07.895"
+										timeRelativeToTestModuleStartTime="01:58.725"
+										timeWallClock="11:43:07"
+										time="02:07.895"
+										level="Info"
+										category="Mouse">
+										<message>
+											Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.BuscarVoo_BotaoBuscarVoo' at Center.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//.[#'submitFlightSearch']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.BuscarVoo_BotaoBuscarVoo"
+											id="f2c69b122a204edba74b8921977251a3"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Busca_De_Voos\NBV_BuscarVoos.cs"
+											codeline="202"
+											itemindex="14"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="02:21.898"
+										timeRelativeToTestModuleStartTime="02:12.728"
+										timeWallClock="11:43:21"
+										time="02:21.898"
+										level="Info"
+										category="Delay">
+										<message>
+											Waiting for 1s.
+										</message>
+										<metainfo
+											itemindex="15"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Busca_De_Voos\NBV_BuscarVoos.cs"
+											codeline="206"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="02:50.595"
+										timeRelativeToTestModuleStartTime="02:41.425"
+										timeWallClock="11:43:50"
+										time="02:50.595"
+										level="Success"
+										category="Validation"
+										errimg="images_08_06_20_3a9f63ef\08_06_20_3a9f63ef_da59eb1d_trace.jpg"
+										errthumb="images_08_06_20_3a9f63ef\08_06_20_3a9f63ef_da59eb1d_trace_thumb.jpg">
+										<message>
+											/dom[@domain='portal-uat3.smiles.com.br']//div[#'yui_patched_v3_11_0_1_1496933004167_2417']/button[@innertext='&#215;']
+										</message>
+										<metainfo
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs"
+											codeline="181"
+											loglvl="Success"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="03:15.444"
+										timeRelativeToTestModuleStartTime="03:06.274"
+										timeWallClock="11:44:15"
+										time="03:15.444"
+										level="Info"
+										category="Passed"
+										errimg="images_08_06_20_3a9f63ef\08_06_20_3a9f63ef_35b3e33e_trace.jpg"
+										errthumb="images_08_06_20_3a9f63ef\08_06_20_3a9f63ef_35b3e33e_trace_thumb.jpg">
+										<message>
+											Objeto encontrado e clicado
+										</message>
+										<metainfo
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+											codeline="259"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="04:46.201"
+										timeRelativeToTestModuleStartTime="04:37.032"
+										timeWallClock="11:45:45"
+										time="04:46.201"
+										level="Error"
+										category="Module"
+										errimg="images_08_06_20_3a9f63ef\08_06_20_3a9f63ef_36fae9c5_trace.jpg"
+										errthumb="images_08_06_20_3a9f63ef\08_06_20_3a9f63ef_36fae9c5_trace_thumb.jpg">
+										<message>
+											Failed to find item 'SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.BuscaVoo_MensagemMesmoDia'.<br/>No element found for path '/dom[@pageurl~'uat3.smiles.com.br']//p[@innertext~'A\ data\ de\ hoje\ foi\ seleci']' within 1m.
+										</message>
+										<metainfo
+											stacktrace="   em Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   em Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   em Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   em POCSmiles.SmilesRepositoryFolders.SmilesOMelhorProgramaDeMilhasS1AppFolder.get_BuscaVoo_MensagemMesmoDia() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\SmilesRepository.cs:linha 10203
+   em POCSmiles.Smiles_Componentes.Busca_De_Voos.NBV_BuscarVoos.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Busca_De_Voos\NBV_BuscarVoos.cs:linha 212
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Busca_De_Voos\NBV_BuscarVoos.cs"
+											codeline="212"
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//p[@innertext~'A\ data\ de\ hoje\ foi\ seleci']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.BuscaVoo_MensagemMesmoDia"
+											id="0d4324b7bd6442f7b2bf642ea8d08777"
+											timeout="60000"
+											loglvl="Error"/>
+									</item>
+								</activity>
+							</activity>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="98d6a95d3f2d33b"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="RODRIGUES"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="27/06/2017 09:56:54"
+		timestampiso="2017-06-27T12:56:54"
+		timeoutfactor="1"
+		module="SolicitarMilhas">
+		<detail>
+			SolicitarMilhas
+		</detail>
+		<errmsg>
+			No element found for path '//div[@id='btn-partner-gol']' within 10s.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.804"
+			timeRelativeToTestModuleStartTime="00:00.804"
+			timeWallClock="09:56:55"
+			time="00:00.804"
+			level="Warn"
+			category="Data"
+			errimg=".\Solicita_482e1f0c_b84a0203_trace.jpg"
+			errthumb=".\Solicita_482e1f0c_b84a0203_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>NumeroVoo, LocalizadorVoo, DataVoo, CabineViagem, ClasseReserva, NomePassageiro, SobrenomePassageiro, AeroportoOrigem, AeroportoDestino, BilheteEletronico, AnexarBilheteEletronico, AnexarCartaoEmbarque, CompanhiaAerea
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.932"
+			timeRelativeToTestModuleStartTime="00:12.932"
+			timeWallClock="09:57:07"
+			time="00:12.932"
+			level="Error"
+			category="Module"
+			errimg=".\Solicita_482e1f0c_b68ae06b_trace.jpg"
+			errthumb=".\Solicita_482e1f0c_b68ae06b_trace_thumb.jpg">
+			<message>
+				No element found for path '//div[@id='btn-partner-gol']' within 10s.
+			</message>
+			<metainfo
+				stacktrace="   em Ranorex.Core.Element.FindSingle(RxPath path, Duration timeout)
+   em Ranorex.Core.Element.FromPath(String path)
+   em Ranorex.DivTag.op_Implicit(String path)
+   em POCSmiles.Smiles_Componentes.SolicitarMilhas.SolicitarMilhas.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\SolicitarMilhas\SolicitarMilhas.cs:linha 211
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\SolicitarMilhas\SolicitarMilhas.cs"
+				codeline="211"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

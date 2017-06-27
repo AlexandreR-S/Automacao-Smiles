@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="10.09s"
+		durationms="10086"
+		type="root"
+		rid="2b0f3bd9cd074da"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="RODRIGUES"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="22/06/2017 15:48:12"
+		timestampiso="2017-06-22T18:48:12"
+		timeoutfactor="1"
+		module="PagamentoSemTecladoVirtual">
+		<detail>
+			PagamentoSemTecladoVirtual
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.718"
+			timeRelativeToTestModuleStartTime="00:00.718"
+			timeWallClock="15:48:12"
+			time="00:00.718"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>NumeroCartao, NomeTitular, MesVencimento, AnoVencimento, CodigoSeguranca, Parcelas
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.839"
+			timeRelativeToTestModuleStartTime="00:00.839"
+			timeWallClock="15:48:13"
+			time="00:00.839"
+			level="Info"
+			category="User">
+			<message>
+				Selecting item '09'
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="178"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.587"
+			timeRelativeToTestModuleStartTime="00:05.587"
+			timeWallClock="15:48:17"
+			time="00:05.587"
+			level="Info"
+			category="User">
+			<message>
+				Item '09' selected
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="180"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.086"
+			timeRelativeToTestModuleStartTime="00:10.086"
+			timeWallClock="15:48:22"
+			time="00:10.086"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

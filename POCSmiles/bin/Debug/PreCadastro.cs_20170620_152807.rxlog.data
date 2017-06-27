@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="ee6e534cad2221"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="RODRIGUES"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="20/06/2017 15:28:15"
+		timestampiso="2017-06-20T18:28:15"
+		timeoutfactor="1"
+		module="PreCadastro">
+		<detail>
+			PreCadastro
+		</detail>
+		<errmsg>
+			Opera&#231;&#227;o aritm&#233;tica resultou em um estouro.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.818"
+			timeRelativeToTestModuleStartTime="00:00.818"
+			timeWallClock="15:28:16"
+			time="00:00.818"
+			level="Warn"
+			category="Data"
+			errimg=".\PreCadas_f435619c_6e941023_trace.jpg"
+			errthumb=".\PreCadas_f435619c_6e941023_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>CPF, Nome, Sobrenome, DataNascimentoDia, DataNascimentoMes, DataNascimentoAno, DocumentoIdentidade, Email, CEP, ConfirmarEmail, Sexo
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.716"
+			timeRelativeToTestModuleStartTime="00:05.716"
+			timeWallClock="15:28:21"
+			time="00:05.716"
+			level="Error"
+			category="Module"
+			errimg=".\PreCadas_f435619c_59671258_trace.jpg"
+			errthumb=".\PreCadas_f435619c_59671258_trace_thumb.jpg">
+			<message>
+				Opera&#231;&#227;o aritm&#233;tica resultou em um estouro.
+			</message>
+			<metainfo
+				stacktrace="   em POCSmiles.Utils.RndNumber(Int32 length) na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs:linha 218
+   em POCSmiles.Smiles_Componentes.ClubeSmiles.PreCadastro.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\ClubeSmiles\PreCadastro.cs:linha 139
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs"
+				codeline="218"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

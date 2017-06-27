@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="651222bad70f703"
+		totalerrorcount="3"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="3"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="19/06/2017 11:47:06"
+		timestampiso="2017-06-19T14:47:06"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="12.62s"
+			durationms="12615"
+			type="test suite"
+			rid="879d260d800997"
+			totalerrorcount="3"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="3"
+			totalblockedcount="0"
+			testsuitename="Smiles"
+			runconfigname="Regressivo"
+			runlabel=""
+			maxchildren="1">
+			<params>
+				<param
+					name="PMR_URL">
+					C:\Automacao - Smiles\lib\PNR\PNR_Smiles.xlsx
+				</param>
+				<param
+					name="Cadastro_CadastroUsuarios">
+					C:\Automacao - Smiles\lib\PNR\Cadastro_Usuarios.xlsx
+				</param>
+				<param
+					name="Database_Location">
+					C:\Automacao - Smiles\lib\PNR\SmilesDB.accdb
+				</param>
+				<param
+					name="MAX_COMPRA_MILHAS">
+					40000
+				</param>
+				<param
+					name="MIN_MILHAS">
+					60000
+				</param>
+				<param
+					name="MAX_RESERVAS_ISENTO">
+					5
+				</param>
+				<param
+					name="MAX_VALOR_REEMBOLSO">
+					150
+				</param>
+				<param
+					name="AMBIENTE_TESTE">
+				</param>
+				<param
+					name="BROWSER">
+				</param>
+				<param
+					name="AGENDAR">
+				</param>
+				<param
+					name="JIRA_USERNAME">
+					admin
+				</param>
+				<param
+					name="JIRA_PASSWORD">
+					admin
+				</param>
+				<param
+					name="JIRA_SERVERURL">
+					http://localhost:8080/
+				</param>
+				<param
+					name="MIN_DATE_RANGE">
+					30
+				</param>
+				<param
+					name="MAX_DATE_RANGE">
+					45
+				</param>
+				<param
+					name="INCOGNITION_MODE">
+					FALSE
+				</param>
+			</params>
+			<detail>
+				Su&#237;te de teste que contempla os fluxos do portal Smiles
+			</detail>
+			<activity
+				result="Failed"
+				duration="12.56s"
+				durationms="12559"
+				type="folder"
+				rid="14b17d33cd5c0908"
+				totalerrorcount="3"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="3"
+				totalblockedcount="0"
+				foldername="Atomic">
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="12.56s"
+					durationms="12559"
+					type="folder"
+					rid="481f4cd2710339b"
+					totalerrorcount="3"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="3"
+					totalblockedcount="0"
+					foldername="D_HOMOLOGACAO1">
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="12.56s"
+						durationms="12559"
+						type="folder"
+						rid="4d96da3bb506e3b"
+						totalerrorcount="3"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="3"
+						totalblockedcount="0"
+						foldername="DH_POSITIVO1">
+						<detail>
+						</detail>
+						<activity
+							result="Failed"
+							duration="9.37s"
+							durationms="9374"
+							type="test case"
+							rid="1b900dc7f75c961"
+							totalerrorcount="3"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="3"
+							totalblockedcount="0"
+							testcasename="Atendimento_Online_Nao_Sou_Cliente"
+							testcaseid="f1c7aa6e-2e0b-4fa3-bb3a-70b6e5852d6d"
+							datasource="S_Smiles_AindaNaoSouCliente"
+							iterationcount="3"
+							maxchildren="0">
+							<params>
+								<param
+									name="Country">
+									Brasil
+								</param>
+								<param
+									name="Dataset_Version">
+									1
+								</param>
+								<param
+									name="Company_Code">
+									Chrome
+								</param>
+							</params>
+							<detail>
+								&lt;P&gt;Teste com o objetivo de&amp;nbsp;validar inicio do chat atendimento online com 
+usu&#225;rio j&#225; logado.&lt;/P&gt;
+							</detail>
+							<activity
+								result="Failed"
+								duration="3.94s"
+								durationms="3940"
+								type="test case iteration"
+								rid="2c511f7990278e96"
+								totalerrorcount="1"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								testcasename="Atendimento_Online_Nao_Sou_Cliente"
+								iteration="1">
+								<datarow>
+									<field
+										name="Browser">
+										Chrome
+									</field>
+									<field
+										name="URL">
+										portal-uat.smiles.com.br
+									</field>
+									<field
+										name="IdentificacaoCaso">
+										Homologa&#231;&#227;o - Atendimento Online (Em&#237;lia) N&#227;o sou cliente
+									</field>
+								</datarow>
+								<detail>
+								</detail>
+								<activity
+									result="Success"
+									duration="3.77s"
+									durationms="3767"
+									type="test module"
+									rid="14081a18c8b5bc8"
+									totalerrorcount="0"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="StartScript"
+									moduleid="13ec580c-0a06-47da-a998-b3cbd4eb5338"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<varbindings/>
+								</activity>
+								<activity
+									result="Failed"
+									duration="131ms"
+									durationms="131"
+									type="test module"
+									rid="31b7e4b4106ba88"
+									totalerrorcount="1"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="IniciarDesktop"
+									moduleid="50e42e85-06f5-4206-9cb7-80b8e8db2d4a"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<errmsg>
+										Refer&#234;ncia de objeto n&#227;o definida para uma inst&#226;ncia de um objeto.
+									</errmsg>
+									<varbindings/>
+									<item
+										timeRelativeToTestSuiteStartTime="00:12.389"
+										timeRelativeToTestModuleStartTime="00:00.017"
+										timeWallClock="11:47:19"
+										time="00:12.389"
+										level="Error"
+										category="Module"
+										errimg="images_19_06_20_7f190bbc\19_06_20_7f190bbc_ab85a8c2_trace.jpg"
+										errthumb="images_19_06_20_7f190bbc\19_06_20_7f190bbc_ab85a8c2_trace_thumb.jpg">
+										<message>
+											Refer&#234;ncia de objeto n&#227;o definida para uma inst&#226;ncia de um objeto.
+										</message>
+										<metainfo
+											stacktrace="   em POCSmiles.Program.startComponent() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs:linha 348
+   em POCSmiles.Smiles_Componentes.Generico.IniciarDesktop.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Generico\IniciarDesktop.cs:linha 77
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+											codefile="2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+											codeline="348"
+											loglvl="Error"/>
+									</item>
+								</activity>
+							</activity>
+							<activity
+								result="Failed"
+								duration="2.67s"
+								durationms="2669"
+								type="test case iteration"
+								rid="1025c1702d47f410"
+								totalerrorcount="1"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								testcasename="Atendimento_Online_Nao_Sou_Cliente"
+								iteration="2">
+								<datarow>
+									<field
+										name="Browser">
+										IE
+									</field>
+									<field
+										name="URL">
+										portal-uat.smiles.com.br
+									</field>
+									<field
+										name="IdentificacaoCaso">
+										Homologa&#231;&#227;o - Atendimento Online (Em&#237;lia) N&#227;o sou cliente
+									</field>
+								</datarow>
+								<detail>
+								</detail>
+								<activity
+									result="Success"
+									duration="2.53s"
+									durationms="2528"
+									type="test module"
+									rid="1d87a905209c310a"
+									totalerrorcount="0"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="StartScript"
+									moduleid="13ec580c-0a06-47da-a998-b3cbd4eb5338"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<varbindings/>
+								</activity>
+								<activity
+									result="Failed"
+									duration="135ms"
+									durationms="135"
+									type="test module"
+									rid="9b7904bb818c58c"
+									totalerrorcount="1"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="IniciarDesktop"
+									moduleid="50e42e85-06f5-4206-9cb7-80b8e8db2d4a"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<errmsg>
+										Refer&#234;ncia de objeto n&#227;o definida para uma inst&#226;ncia de um objeto.
+									</errmsg>
+									<varbindings/>
+									<item
+										timeRelativeToTestSuiteStartTime="00:15.053"
+										timeRelativeToTestModuleStartTime="00:00.017"
+										timeWallClock="11:47:21"
+										time="00:15.053"
+										level="Error"
+										category="Module"
+										errimg="images_19_06_20_7f190bbc\19_06_20_7f190bbc_273191ee_trace.jpg"
+										errthumb="images_19_06_20_7f190bbc\19_06_20_7f190bbc_273191ee_trace_thumb.jpg">
+										<message>
+											Refer&#234;ncia de objeto n&#227;o definida para uma inst&#226;ncia de um objeto.
+										</message>
+										<metainfo
+											stacktrace="   em POCSmiles.Program.startComponent() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs:linha 348
+   em POCSmiles.Smiles_Componentes.Generico.IniciarDesktop.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Generico\IniciarDesktop.cs:linha 77
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+											codefile="2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+											codeline="348"
+											loglvl="Error"/>
+									</item>
+								</activity>
+							</activity>
+							<activity
+								result="Failed"
+								duration="2.73s"
+								durationms="2729"
+								type="test case iteration"
+								rid="67761b56100ec02"
+								totalerrorcount="1"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								testcasename="Atendimento_Online_Nao_Sou_Cliente"
+								iteration="3">
+								<datarow>
+									<field
+										name="Browser">
+										Firefox
+									</field>
+									<field
+										name="URL">
+										portal-uat.smiles.com.br
+									</field>
+									<field
+										name="IdentificacaoCaso">
+										Homologa&#231;&#227;o - Atendimento Online (Em&#237;lia) N&#227;o sou cliente
+									</field>
+								</datarow>
+								<detail>
+								</detail>
+								<activity
+									result="Success"
+									duration="2.6s"
+									durationms="2598"
+									type="test module"
+									rid="506d18cf439f338"
+									totalerrorcount="0"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="StartScript"
+									moduleid="13ec580c-0a06-47da-a998-b3cbd4eb5338"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<varbindings/>
+								</activity>
+								<activity
+									result="Failed"
+									duration="124ms"
+									durationms="124"
+									type="test module"
+									rid="7d0fec0dc1325"
+									totalerrorcount="1"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="IniciarDesktop"
+									moduleid="50e42e85-06f5-4206-9cb7-80b8e8db2d4a"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<errmsg>
+										Refer&#234;ncia de objeto n&#227;o definida para uma inst&#226;ncia de um objeto.
+									</errmsg>
+									<varbindings/>
+									<item
+										timeRelativeToTestSuiteStartTime="00:17.796"
+										timeRelativeToTestModuleStartTime="00:00.018"
+										timeWallClock="11:47:24"
+										time="00:17.796"
+										level="Error"
+										category="Module"
+										errimg="images_19_06_20_7f190bbc\19_06_20_7f190bbc_ee8158cf_trace.jpg"
+										errthumb="images_19_06_20_7f190bbc\19_06_20_7f190bbc_ee8158cf_trace_thumb.jpg">
+										<message>
+											Refer&#234;ncia de objeto n&#227;o definida para uma inst&#226;ncia de um objeto.
+										</message>
+										<metainfo
+											stacktrace="   em POCSmiles.Program.startComponent() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs:linha 348
+   em POCSmiles.Smiles_Componentes.Generico.IniciarDesktop.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Generico\IniciarDesktop.cs:linha 77
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+											codefile="2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+											codeline="348"
+											loglvl="Error"/>
+									</item>
+								</activity>
+							</activity>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

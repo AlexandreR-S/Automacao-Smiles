@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="991a084396640b7"
+		totalerrorcount="2"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="12/06/2017 10:24:23"
+		timestampiso="2017-06-12T13:24:23"
+		timeoutfactor="1"
+		module="SolicitarMilhas">
+		<detail>
+			SolicitarMilhas
+		</detail>
+		<errmsg>
+			SolicitarMilhas.SetCalendarDate
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.670"
+			timeRelativeToTestModuleStartTime="00:00.671"
+			timeWallClock="10:24:23"
+			time="00:00.670"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>NumeroVoo, LocalizadorVoo, DataVoo, CabineViagem, ClasseReserva, NomePassageiro, SobrenomePassageiro, AeroportoOrigem, AeroportoDestino, BilheteEletronico, AnexarBilheteEletronico, AnexarCartaoEmbarque, CompanhiaAerea, URL
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:26.918"
+			timeRelativeToTestModuleStartTime="01:26.918"
+			timeWallClock="10:25:50"
+			time="01:26.918"
+			level="Info"
+			category="User">
+			<message>
+				Selecting item 'Gol'
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="270"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:29.258"
+			timeRelativeToTestModuleStartTime="01:29.258"
+			timeWallClock="10:25:52"
+			time="01:29.258"
+			level="Info"
+			category="User">
+			<message>
+				Item 'Gol' selected
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="272"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:33.427"
+			timeRelativeToTestModuleStartTime="01:33.428"
+			timeWallClock="10:25:56"
+			time="01:33.427"
+			level="Info"
+			category="User">
+			<message>
+				Selectiong date on calendar with date: 12/06/2017
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="539"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:40.798"
+			timeRelativeToTestModuleStartTime="01:40.799"
+			timeWallClock="10:26:03"
+			time="01:40.798"
+			level="Success"
+			category="Validation"
+			errimg=".\Solicita_9c34a298_1a4ab725_trace.jpg"
+			errthumb=".\Solicita_9c34a298_1a4ab725_trace_thumb.jpg">
+			<message>
+				/dom[@pageurl~'uat3.smiles.com.br']//div[#'ui-datepicker-div']/div[1]/div//.[@innertext~'Junho']
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs"
+				codeline="157"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:41.520"
+			timeRelativeToTestModuleStartTime="01:41.520"
+			timeWallClock="10:26:04"
+			time="01:41.520"
+			level="Error"
+			category="User"
+			errimg=".\Solicita_9c34a298_b7481795_trace.jpg"
+			errthumb=".\Solicita_9c34a298_b7481795_trace_thumb.jpg">
+			<message>
+				SolicitarMilhas - Error launched trying to select date 12/06/2017
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="547"
+				loglvl="Error"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:41.544"
+			timeRelativeToTestModuleStartTime="01:41.544"
+			timeWallClock="10:26:04"
+			time="01:41.544"
+			level="Error"
+			category="Module"
+			errimg=".\Solicita_9c34a298_b7481795_trace.jpg"
+			errthumb=".\Solicita_9c34a298_b7481795_trace_thumb.jpg">
+			<message>
+				SolicitarMilhas.SetCalendarDate
+			</message>
+			<metainfo
+				stacktrace="   em POCSmiles.Program.SetCalendarDate2(String calendarIcon, String date) na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs:linha 548
+   em POCSmiles.Smiles_Componentes.SolicitarMilhas.SolicitarMilhas.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\SolicitarMilhas\SolicitarMilhas.cs:linha 231
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="548"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

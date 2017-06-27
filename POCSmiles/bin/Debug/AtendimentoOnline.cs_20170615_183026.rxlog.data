@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="15f3d8e9e90289fc"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="15/06/2017 18:30:36"
+		timestampiso="2017-06-15T21:30:36"
+		timeoutfactor="1"
+		module="AtendimentoOnline">
+		<detail>
+			AtendimentoOnline
+		</detail>
+		<errmsg>
+			Failed to find item 'SmilesRepository.AtendimentoOnlineHomologacao.Atendimento_AtendimentoOnline'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.981"
+			timeRelativeToTestModuleStartTime="00:00.981"
+			timeWallClock="18:30:37"
+			time="00:00.981"
+			level="Info"
+			category="Mouse"
+			errimg=".\Atendime_5a23228c_cbcff5d6_trace.jpg"
+			errthumb=".\Atendime_5a23228c_cbcff5d6_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'AtendimentoOnlineHomologacao.Atendimento_AtendimentoOnline' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl='https://smiles--tst1.custhelp.com/app/answers/list_pesquisa_site/kw/Emilia']//a[@innertext~'.*Atendimento Online.*']"
+				fullname="SmilesRepository.AtendimentoOnlineHomologacao.Atendimento_AtendimentoOnline"
+				id="5d4b52474c124186be3efcf229cfbd26"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\AtendimentoOnline\AtendimentoOnline.cs"
+				codeline="52"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:01.409"
+			timeRelativeToTestModuleStartTime="01:01.409"
+			timeWallClock="18:31:37"
+			time="01:01.409"
+			level="Error"
+			category="Module"
+			errimg=".\Atendime_5a23228c_a9e45441_trace.jpg"
+			errthumb=".\Atendime_5a23228c_a9e45441_trace_thumb.jpg">
+			<message>
+				Failed to find item 'SmilesRepository.AtendimentoOnlineHomologacao.Atendimento_AtendimentoOnline'.<br/>No element found for path '/dom[@pageurl='https://smiles--tst1.custhelp.com/app/answers/list_pesquisa_site/kw/Emilia']//a[@innertext~'.*Atendimento Online.*']' within 1m.
+			</message>
+			<metainfo
+				stacktrace="   em Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   em Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   em Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   em POCSmiles.SmilesRepositoryFolders.AtendimentoOnlineHomologacaoAppFolder.get_Atendimento_AtendimentoOnline() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\SmilesRepository.cs:linha 14937
+   em POCSmiles.Smiles_Componentes.AtendimentoOnline.AtendimentoOnline.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\AtendimentoOnline\AtendimentoOnline.cs:linha 53
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\AtendimentoOnline\AtendimentoOnline.cs"
+				codeline="53"
+				type="repoitem"
+				path="/dom[@pageurl='https://smiles--tst1.custhelp.com/app/answers/list_pesquisa_site/kw/Emilia']//a[@innertext~'.*Atendimento Online.*']"
+				fullname="SmilesRepository.AtendimentoOnlineHomologacao.Atendimento_AtendimentoOnline"
+				id="5d4b52474c124186be3efcf229cfbd26"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="0"/>
+		</item>
+	</activity>
+</report>

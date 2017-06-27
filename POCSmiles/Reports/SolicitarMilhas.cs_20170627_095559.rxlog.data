@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="10704a10f9b71d7a"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="RODRIGUES"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="27/06/2017 09:56:04"
+		timestampiso="2017-06-27T12:56:04"
+		timeoutfactor="1"
+		module="SolicitarMilhas">
+		<detail>
+			SolicitarMilhas
+		</detail>
+		<errmsg>
+			Refer&#234;ncia de objeto n&#227;o definida para uma inst&#226;ncia de um objeto.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.738"
+			timeRelativeToTestModuleStartTime="00:00.739"
+			timeWallClock="09:56:05"
+			time="00:00.738"
+			level="Warn"
+			category="Data"
+			errimg=".\Solicita_a5ff1f0d_85bde102_trace.jpg"
+			errthumb=".\Solicita_a5ff1f0d_85bde102_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>NumeroVoo, LocalizadorVoo, DataVoo, CabineViagem, ClasseReserva, NomePassageiro, SobrenomePassageiro, AeroportoOrigem, AeroportoDestino, BilheteEletronico, AnexarBilheteEletronico, AnexarCartaoEmbarque, CompanhiaAerea
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.700"
+			timeRelativeToTestModuleStartTime="00:03.701"
+			timeWallClock="09:56:08"
+			time="00:03.700"
+			level="Error"
+			category="Module"
+			errimg=".\Solicita_a5ff1f0d_2cea4197_trace.jpg"
+			errthumb=".\Solicita_a5ff1f0d_2cea4197_trace_thumb.jpg">
+			<message>
+				Refer&#234;ncia de objeto n&#227;o definida para uma inst&#226;ncia de um objeto.
+			</message>
+			<metainfo
+				stacktrace="   em POCSmiles.Smiles_Componentes.SolicitarMilhas.SolicitarMilhas.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\SolicitarMilhas\SolicitarMilhas.cs:linha 211
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\SolicitarMilhas\SolicitarMilhas.cs"
+				codeline="211"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

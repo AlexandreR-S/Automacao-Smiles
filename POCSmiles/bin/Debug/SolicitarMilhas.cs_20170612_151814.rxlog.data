@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="3.3m"
+		durationms="197845"
+		type="root"
+		rid="354caeb98546307"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="12/06/2017 15:18:34"
+		timestampiso="2017-06-12T18:18:34"
+		timeoutfactor="1"
+		module="SolicitarMilhas">
+		<detail>
+			SolicitarMilhas
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.846"
+			timeRelativeToTestModuleStartTime="00:00.846"
+			timeWallClock="15:18:35"
+			time="00:00.846"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>NumeroVoo, LocalizadorVoo, DataVoo, CabineViagem, ClasseReserva, NomePassageiro, SobrenomePassageiro, AeroportoOrigem, AeroportoDestino, BilheteEletronico, AnexarBilheteEletronico, AnexarCartaoEmbarque, CompanhiaAerea, URL
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.399"
+			timeRelativeToTestModuleStartTime="00:06.399"
+			timeWallClock="15:18:40"
+			time="00:06.399"
+			level="Info"
+			category="User">
+			<message>
+				Selecting item 'Delta'
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="273"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.630"
+			timeRelativeToTestModuleStartTime="00:09.630"
+			timeWallClock="15:18:44"
+			time="00:09.630"
+			level="Info"
+			category="User">
+			<message>
+				Item 'Delta' selected
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="275"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.536"
+			timeRelativeToTestModuleStartTime="00:12.536"
+			timeWallClock="15:18:47"
+			time="00:12.536"
+			level="Info"
+			category="User">
+			<message>
+				Selectiong date on calendar with date: 26/05/2017
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="542"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.131"
+			timeRelativeToTestModuleStartTime="00:19.131"
+			timeWallClock="15:18:53"
+			time="00:19.131"
+			level="Success"
+			category="Validation">
+			<message>
+				/dom[@pageurl~'uat3.smiles.com.br']//div[#'ui-datepicker-div']/div[1]/div//.[@innertext~'Maio']
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs"
+				codeline="157"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.398"
+			timeRelativeToTestModuleStartTime="00:20.398"
+			timeWallClock="15:18:54"
+			time="00:20.398"
+			level="Info"
+			category="User">
+			<message>
+				Date: 26/05/2017 selected
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="548"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.571"
+			timeRelativeToTestModuleStartTime="00:23.571"
+			timeWallClock="15:18:58"
+			time="00:23.571"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'uat3.smiles.com.br']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Self"
+				id="e521a4ca40a440339dff7636708858c3"
+				timeout="30000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\SolicitarMilhas\SolicitarMilhas.cs"
+				codeline="243"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.007"
+			timeRelativeToTestModuleStartTime="00:30.007"
+			timeWallClock="15:19:04"
+			time="00:30.007"
+			level="None"
+			category="Validation">
+			<message>
+				/dom[@pageurl~'uat3.smiles.com.br']//input[@name='_smilescreditrequestportlet_WAR_smilesmemberportlet_flightNumber' and @visible='True']
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs"
+				codeline="181"
+				loglvl="None"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.550"
+			timeRelativeToTestModuleStartTime="00:32.550"
+			timeWallClock="15:19:07"
+			time="00:32.550"
+			level="None"
+			category="Validation">
+			<message>
+				/dom[@pageurl~'uat3.smiles.com.br']//input[@name~'_smilescreditrequestportlet_WAR_smilesmemberportlet_trackingNumber' and @visible='True']
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs"
+				codeline="181"
+				loglvl="None"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.707"
+			timeRelativeToTestModuleStartTime="00:34.707"
+			timeWallClock="15:19:09"
+			time="00:34.707"
+			level="None"
+			category="Validation">
+			<message>
+				/dom[@pageurl~'uat3.smiles.com.br']//input[@name='_smilescreditrequestportlet_WAR_smilesmemberportlet_flightNumber' and @visible='True']
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs"
+				codeline="181"
+				loglvl="None"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.808"
+			timeRelativeToTestModuleStartTime="00:36.808"
+			timeWallClock="15:19:11"
+			time="00:36.808"
+			level="None"
+			category="Validation">
+			<message>
+				/dom[@pageurl~'uat3.smiles.com.br']//input[@name~'_smilescreditrequestportlet_WAR_smilesmemberportlet_trackingNumberG31' and @visible='True']
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs"
+				codeline="181"
+				loglvl="None"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:19.958"
+			timeRelativeToTestModuleStartTime="01:19.958"
+			timeWallClock="15:19:54"
+			time="01:19.958"
+			level="Info"
+			category="User">
+			<message>
+				Inserting text '2371'
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="143"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="03:17.845"
+			timeRelativeToTestModuleStartTime="03:17.845"
+			timeWallClock="15:21:52"
+			time="03:17.845"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

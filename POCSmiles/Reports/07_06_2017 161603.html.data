@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="38ced2366f01719"
+		totalerrorcount="3"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="3"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="07/06/2017 16:16:03"
+		timestampiso="2017-06-07T19:16:03"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="4.64s"
+			durationms="4635"
+			type="test suite"
+			rid="264a4ab98455e936"
+			totalerrorcount="3"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="3"
+			totalblockedcount="0"
+			testsuitename="Smiles"
+			runconfigname="Regressivo"
+			runlabel=""
+			maxchildren="1">
+			<params>
+				<param
+					name="PMR_URL">
+					C:\Automacao - Smiles\lib\PNR\PNR_Smiles.xlsx
+				</param>
+				<param
+					name="Cadastro_CadastroUsuarios">
+					C:\Automacao - Smiles\lib\PNR\Cadastro_Usuarios.xlsx
+				</param>
+				<param
+					name="Database_Location">
+					C:\Automacao - Smiles\lib\PNR\SmilesDB.accdb
+				</param>
+				<param
+					name="MAX_COMPRA_MILHAS">
+					40000
+				</param>
+				<param
+					name="MIN_MILHAS">
+					60000
+				</param>
+				<param
+					name="MAX_RESERVAS_ISENTO">
+					5
+				</param>
+				<param
+					name="MAX_VALOR_REEMBOLSO">
+					150
+				</param>
+				<param
+					name="AMBIENTE_TESTE">
+				</param>
+				<param
+					name="BROWSER">
+				</param>
+				<param
+					name="AGENDAR">
+				</param>
+				<param
+					name="JIRA_USERNAME">
+					admin
+				</param>
+				<param
+					name="JIRA_PASSWORD">
+					admin
+				</param>
+				<param
+					name="JIRA_SERVERURL">
+					http://localhost:8080/
+				</param>
+				<param
+					name="MIN_DATE_RANGE">
+					30
+				</param>
+				<param
+					name="MAX_DATE_RANGE">
+					45
+				</param>
+				<param
+					name="INCOGNITION_MODE">
+					FALSE
+				</param>
+			</params>
+			<detail>
+				Su&#237;te de teste que contempla os fluxos do portal Smiles
+			</detail>
+			<activity
+				result="Failed"
+				duration="4.37s"
+				durationms="4367"
+				type="folder"
+				rid="1060d6daa34f9d84"
+				totalerrorcount="3"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="3"
+				totalblockedcount="0"
+				foldername="Atomic">
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="4.37s"
+					durationms="4366"
+					type="folder"
+					rid="2247844bbeafbe00"
+					totalerrorcount="3"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="3"
+					totalblockedcount="0"
+					foldername="D_HOMOLOGACAO1">
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="4.37s"
+						durationms="4366"
+						type="folder"
+						rid="227f008cce90dbb7"
+						totalerrorcount="3"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="3"
+						totalblockedcount="0"
+						foldername="DH_POSITIVO1">
+						<detail>
+						</detail>
+						<activity
+							result="Failed"
+							duration="1.09s"
+							durationms="1085"
+							type="test case"
+							rid="eb681551c65ed25"
+							totalerrorcount="3"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="3"
+							totalblockedcount="0"
+							testcasename="Navegacao_Links_Promocoes"
+							testcaseid="700b693d-7580-4643-8610-4f29051fe224"
+							datasource="S_Smiles_NavegacaoLinksPromocoes"
+							iterationcount="3"
+							maxchildren="0">
+							<params/>
+							<detail>
+								&lt;P&gt;Teste com objetivo de acionar links de promo&#231;&#245;es&lt;/P&gt;
+							</detail>
+							<activity
+								result="Failed"
+								duration="552ms"
+								durationms="552"
+								type="test case iteration"
+								rid="1b27adbc1b3b5ca0"
+								totalerrorcount="1"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								testcasename="Navegacao_Links_Promocoes"
+								iteration="1">
+								<datarow>
+									<field
+										name="Browser">
+										Chrome
+									</field>
+									<field
+										name="URL">
+										portal-uat.smiles.com.br
+									</field>
+									<field
+										name="Links">
+										&#32;
+									</field>
+									<field
+										name="IdentificacaoCaso">
+										Homologa&#231;&#227;o - Links de promo&#231;&#245;es (header)
+									</field>
+								</datarow>
+								<detail>
+								</detail>
+								<activity
+									result="Failed"
+									duration="442ms"
+									durationms="442"
+									type="test module"
+									rid="109a8c1a3d057b0f"
+									totalerrorcount="1"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="StartScript"
+									moduleid="13ec580c-0a06-47da-a998-b3cbd4eb5338"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<errmsg>
+										A chave fornecida n&#227;o estava presente no dicion&#225;rio.
+									</errmsg>
+									<varbindings/>
+									<item
+										timeRelativeToTestSuiteStartTime="00:09.530"
+										timeRelativeToTestModuleStartTime="00:00.191"
+										timeWallClock="16:16:13"
+										time="00:09.530"
+										level="Error"
+										category="Module"
+										errimg="images_07_06_20_ba779f19\07_06_20_ba779f19_cc3ce847_trace.jpg"
+										errthumb="images_07_06_20_ba779f19\07_06_20_ba779f19_cc3ce847_trace_thumb.jpg">
+										<message>
+											A chave fornecida n&#227;o estava presente no dicion&#225;rio.
+										</message>
+										<metainfo
+											stacktrace="   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Ranorex.Core.IndexedDictionary`2.get_Item(TKey key)
+   em POCSmiles.Smiles_Componentes.Generico.StartScript.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Generico\StartScript.cs:linha 58
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+											codefile="2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Generico\StartScript.cs"
+											codeline="58"
+											loglvl="Error"/>
+									</item>
+								</activity>
+							</activity>
+							<activity
+								result="Failed"
+								duration="330ms"
+								durationms="330"
+								type="test case iteration"
+								rid="611fe8c21c62389"
+								totalerrorcount="1"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								testcasename="Navegacao_Links_Promocoes"
+								iteration="2">
+								<datarow>
+									<field
+										name="Browser">
+										IE
+									</field>
+									<field
+										name="URL">
+										portal-uat.smiles.com.br
+									</field>
+									<field
+										name="Links">
+										&#32;
+									</field>
+									<field
+										name="IdentificacaoCaso">
+										Homologa&#231;&#227;o - Links de promo&#231;&#245;es (header)
+									</field>
+								</datarow>
+								<detail>
+								</detail>
+								<activity
+									result="Failed"
+									duration="136ms"
+									durationms="136"
+									type="test module"
+									rid="1163063b8a5deca8"
+									totalerrorcount="1"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="StartScript"
+									moduleid="13ec580c-0a06-47da-a998-b3cbd4eb5338"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<errmsg>
+										A chave fornecida n&#227;o estava presente no dicion&#225;rio.
+									</errmsg>
+									<varbindings/>
+									<item
+										timeRelativeToTestSuiteStartTime="00:09.798"
+										timeRelativeToTestModuleStartTime="00:00.014"
+										timeWallClock="16:16:13"
+										time="00:09.798"
+										level="Error"
+										category="Module"
+										errimg="images_07_06_20_ba779f19\07_06_20_ba779f19_dd361181_trace.jpg"
+										errthumb="images_07_06_20_ba779f19\07_06_20_ba779f19_dd361181_trace_thumb.jpg">
+										<message>
+											A chave fornecida n&#227;o estava presente no dicion&#225;rio.
+										</message>
+										<metainfo
+											stacktrace="   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Ranorex.Core.IndexedDictionary`2.get_Item(TKey key)
+   em POCSmiles.Smiles_Componentes.Generico.StartScript.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Generico\StartScript.cs:linha 58
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+											codefile="2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Generico\StartScript.cs"
+											codeline="58"
+											loglvl="Error"/>
+									</item>
+								</activity>
+							</activity>
+							<activity
+								result="Failed"
+								duration="173ms"
+								durationms="173"
+								type="test case iteration"
+								rid="d5d647a818f1db0"
+								totalerrorcount="1"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								testcasename="Navegacao_Links_Promocoes"
+								iteration="3">
+								<datarow>
+									<field
+										name="Browser">
+										Firefox
+									</field>
+									<field
+										name="URL">
+										portal-uat.smiles.com.br
+									</field>
+									<field
+										name="Links">
+										&#32;
+									</field>
+									<field
+										name="IdentificacaoCaso">
+										Homologa&#231;&#227;o - Links de promo&#231;&#245;es (header)
+									</field>
+								</datarow>
+								<detail>
+								</detail>
+								<activity
+									result="Failed"
+									duration="169ms"
+									durationms="169"
+									type="test module"
+									rid="1784a382e38d0c0"
+									totalerrorcount="1"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="StartScript"
+									moduleid="13ec580c-0a06-47da-a998-b3cbd4eb5338"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<errmsg>
+										A chave fornecida n&#227;o estava presente no dicion&#225;rio.
+									</errmsg>
+									<varbindings/>
+									<item
+										timeRelativeToTestSuiteStartTime="00:10.166"
+										timeRelativeToTestModuleStartTime="00:00.044"
+										timeWallClock="16:16:14"
+										time="00:10.166"
+										level="Error"
+										category="Module"
+										errimg="images_07_06_20_ba779f19\07_06_20_ba779f19_bc5eb8ee_trace.jpg"
+										errthumb="images_07_06_20_ba779f19\07_06_20_ba779f19_bc5eb8ee_trace_thumb.jpg">
+										<message>
+											A chave fornecida n&#227;o estava presente no dicion&#225;rio.
+										</message>
+										<metainfo
+											stacktrace="   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Ranorex.Core.IndexedDictionary`2.get_Item(TKey key)
+   em POCSmiles.Smiles_Componentes.Generico.StartScript.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Generico\StartScript.cs:linha 58
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+											codefile="2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Generico\StartScript.cs"
+											codeline="58"
+											loglvl="Error"/>
+									</item>
+								</activity>
+							</activity>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

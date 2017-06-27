@@ -1,0 +1,678 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.2"
+id="24f34366-37e3-47d8-9659-9c60cbe4c29b"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		SelecionarVooGateway
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SelecionarVooGateway"
+	namespace="POCSmiles.Selecao_De_Voos"/>
+	<variables>
+		<var
+		name="TipoPagamentoTaxas"
+		id="28ec59d8-ad30-4a1d-ae63-38455112347f">
+		</var>
+		<var
+		name="TipoPagamentoVooVolta"
+		id="826d864f-298a-4bcf-8b99-c9d81ce06bb0">
+		</var>
+		<var
+		name="TipoPagamentoVooIda"
+		id="3db5c437-21b6-4a76-a600-8e34f1be6e63">
+		</var>
+		<var
+		name="SiglaCompanhiaAereaIda"
+		id="e144315f-e99a-473a-b58a-8c1efd026cb8">
+		</var>
+		<var
+		name="SiglaCompanhiaAereaVolta"
+		id="068dfcea-0640-4b7e-9ddd-01baafb1535e">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Selecao_De_Voos"
+		classname="SelecionarVooGateway"
+		methodname="SelectFlyPayment"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="d804ac13-b841-486e-9e6e-b63925f4835b">
+				<argument
+				variable="TipoPagamentoVooIda"
+				argname="type"
+				id="6132803c-643e-46dc-9663-8381ea4d4c63">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						Smiles
+					</argvalue>
+				</argument>
+				<argument
+				argname="route"
+				id="24e0a808-47a1-4387-8910-77551944e8ba">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						IDA
+					</argvalue>
+				</argument>
+				<argument
+				variable="SiglaCompanhiaAereaIda"
+				argname="linha"
+				id="bdca05e4-a078-4215-ad54-201779c678b1">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						$SiglaCompanhiaAereaIda
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="1000ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Selecao_De_Voos"
+		classname="SelecionarVooGateway"
+		methodname="WaitSmilesLoad"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="54233a78-8607-43c4-8841-b0bcaea848fe"/>
+		</userrecorditem>
+		<explicitdelayitem
+		enabled="False"
+		optional="False"
+		duration="1000ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<WaitForRecordItem
+		enabled="False"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="bedf2ea1-b557-4efa-a680-03b38fc3777c"
+		waittimeout="60000ms"
+		waitaction="NotExists">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="1cf77ac0-f2e9-459b-8a8b-dbaafc376d04">
+				<path>
+					/dom[@pageurl~'.*'+$SmilesURL+'.*'][1]//p[@innertext='Aguarde......' and @visible='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Selecao_De_Voos"
+		classname="SelecionarVooGateway"
+		methodname="SelectFlyPayment"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="d804ac13-b841-486e-9e6e-b63925f4835b">
+				<argument
+				variable="TipoPagamentoVooVolta"
+				argname="type"
+				id="6132803c-643e-46dc-9663-8381ea4d4c63">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						Smiles
+					</argvalue>
+				</argument>
+				<argument
+				argname="route"
+				id="24e0a808-47a1-4387-8910-77551944e8ba">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						VOLTA
+					</argvalue>
+				</argument>
+				<argument
+				variable="SiglaCompanhiaAereaVolta"
+				argname="linha"
+				id="5f61cf24-9c1f-4f30-b95a-69757e63e865">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						$SiglaCompanhiaAereaVolta
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="1000ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Selecao_De_Voos"
+		classname="SelecionarVooGateway"
+		methodname="WaitSmilesLoad"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="54233a78-8607-43c4-8841-b0bcaea848fe"/>
+		</userrecorditem>
+		<explicitdelayitem
+		enabled="False"
+		optional="False"
+		duration="1000ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<WaitForRecordItem
+		enabled="False"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="bedf2ea1-b557-4efa-a680-03b38fc3777c"
+		waittimeout="60000ms"
+		waitaction="NotExists">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="1cf77ac0-f2e9-459b-8a8b-dbaafc376d04">
+				<path>
+					/dom[@pageurl~'.*'+$SmilesURL+'.*'][1]//p[@innertext='Aguarde......' and @visible='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Selecao_De_Voos"
+		classname="SelecionarVooGateway"
+		methodname="SelectRatePayment"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="0910b515-0b15-4a26-8e75-9cced253c3c9">
+				<argument
+				variable="TipoPagamentoTaxas"
+				argname="type"
+				id="a31eaddd-a899-46cf-861b-b73df38e5aa7">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						MILHAS
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="500ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Selecao_De_Voos"
+		classname="SelecionarVooGateway"
+		methodname="WaitSmilesLoad"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="54233a78-8607-43c4-8841-b0bcaea848fe"/>
+		</userrecorditem>
+		<explicitdelayitem
+		enabled="False"
+		optional="False"
+		duration="1000ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<WaitForRecordItem
+		enabled="False"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="bedf2ea1-b557-4efa-a680-03b38fc3777c"
+		waittimeout="60000ms"
+		waitaction="NotExists">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="1cf77ac0-f2e9-459b-8a8b-dbaafc376d04">
+				<path>
+					/dom[@pageurl~'.*'+$SmilesURL+'.*'][1]//p[@innertext='Aguarde......' and @visible='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Selecao_De_Voos"
+		classname="SelecionarVooGateway"
+		methodname="SelectCheckBox"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="9a02f2bf-9711-4276-a663-ef803beb76ed">
+				<argument
+				argname="checkBoxPath"
+				id="84e0eb22-df8a-46d1-848d-4ae9b8dd29c1">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						//div[@class='boarding-details']//input[@type='checkbox'][1]
+					</argvalue>
+				</argument>
+				<argument
+				argname="check"
+				id="d416b65a-a7d6-48df-b6f1-c147eda37f4d">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						true
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="a402ae4d-b2b7-461a-bf78-8bd155ccc8cd"
+		action="Click"
+		button="Left"
+		movetime="1ms"
+		sx="850"
+		sy="585"
+		loc="63;15">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="cc3917e5-8876-43db-9961-615d59524308">
+				<element
+				role="unknown"
+				prefcap="buttontag"
+				capabilities="webelement, buttontag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="2"
+				rect="787,570,168,45"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						btStandard01
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						_smilesordersummaryportlet_WAR_smilesflightsportlet_INSTANCE_RCVV8sHo5yq4_continue
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Continuar
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						submit
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='portal-uat.smiles.com.br']//button[#'_smilesordersummaryportlet_WAR_smilesflightsportlet_INSTANCE_RCVV8sHo5yq4_continue']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="fce363ec-a016-406c-ac4c-cd1291e78fd5">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAGqAfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoqKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKAClWkpVoAWg9KKD0oAbRRRQAhIHr+VJuHv8AkadR
+QA3cPf8AI0bh7/kadRQA3cPf8jRuHv8AkadRQA3cPf8AI0bh7/kadRQA3cPf8jRuHv8AkadRQA3c
+Pf8AI0bh7/kadRQA3cPf8jRTqKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigApVpKVaA
+FoPSig9KAG0UUUAFFFFACMQqknoBk1U/tSz/AOe3/jp/wq5VKT/kMRf9cjQBZM8Qg84tiPGd3tSr
+KjxCVWyhGc1S1GeJZ4IZW2pne/GenQUaZNGzzQxNuRW3Jxjg9qALizRtD5wcGPGd1BmjEPnFsR43
+Z9qyX2C6aMFhZmQbvTd6fSrWpTRqYYZGCozbn47DtQBdikSaMPG25T0NQtf2qyeW0yhs474/OoNP
+niaeeGJ8oTvTjHXrTYxLYwGOSATQDJLqece4NAGiDkZHSlpkTI8SNH9wgbfpT6ACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKVaSlWgBaD0ooPSgBtFFFABRSFgDjn8BRu9m/75NAC
+1EYENws5zuVdo9Kk3ezf98mjd7N/3yaAI1gRbh5uS7gDnsPakktkkm83LK+0plTjg1Lu9m/75NG7
+2b/vk0AQi1iFr9n2/u8Y/wDr0RWqRSCQFmYIEyxzwKm3ezf98mjd7N/3yaAI3t0edJjncoI46EH1
+qA6dF90STCP/AJ5h/lq3u9m/75NG72b/AL5NAAqhFCqMADAFLSbvZv8Avk0bvZv++TQAtFJu9m/7
+5NFAC0UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFKtJSrQAtB6UUHpQA2iiigBF++30H9
+afTF++30H9afQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA2iiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigApVpKVaAFoPSig9KAG0UUUAIv32+g/rT6Yv32+g/rT6AI5pRGOSBxkk9AKjgukl6M
+rAnGR60l5D5qnqQwwcdRUFlaeVwu4jcCSRjpQBoVUluWSWVd8SbACAw5bj61bqLyAWmJP+tAGMdO
+KAImuH3IGKw5UNlxkE+lWRnaOhOPwqExSrEkaOpAUKdy5/HrUkcflwiND0GATzQBC1w8Tusm1tqb
+/lGMe1OgmMjYZ1zjO0KR+p602O1IR1kcOJPvHbgn8c0vkSD5vMBdU2p8uAPc0AOnleNowqgqzAEk
++tNknkDyiMLiJQTkde+Kkki8xUBblWDZx1xTJLcuzlX2iQYcYz+VAEyMHRWHRhmihQFUKOgGBRQA
+lFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAU
+UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABSrSUq0ALQelFB6UANooooARfvt9B/Wn0wM
+Fc5IHA6/jS70/vL+dADqKbvT+8v50b0/vL+dADqKbvT+8v50b0/vL+dADqKbvT+8v50b0/vL+dAD
+qKbvT+8v50b0/vL+dADqKbvT+8v50b0/vL+dADqKbvT+8v50UAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABSrSUq0ALQelFB6UANooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigApVpKVaAFoPSig9KAG0UUUAFFJyWIBAwPSja
+394fl/8AXoAWik2t/eH5f/Xo2t/eH5f/AF6AFopNrf3h+X/16Nrf3h+X/wBegBaKTa394fl/9eja
+394fl/8AXoAWik2t/eH5f/Xo2t/eH5f/AF6AFopNrf3h+X/16Nrf3h+X/wBegBaKTa394fl/9eig
+BaKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAClWkpVoAWg9KKD0oAbRRRQAi/fb6D+tPpi
+/fb6D+tPoAKKKKACiiigAooooAKKKKACiikLAEAkDPA96AFooooAbRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUq0lKtAC0HpRQelADaKKKAEX77fQf1p9MX77fQf1p9AEMzEvs7Yz9aYrbG
+XaMAkAippI9+CDhh3pqQkMGdtxHTAoAlqvMuLuBsnkkYzwODVikKgkEgEjp7UARXKiWPYGTIZchj
+79KrMcAxbEVRKocoMAg1eKIc5VTu68daQRoE2BFC/wB3HFAFJ+JHjHEPmqCB06cj88VPbfLJOi8I
+rDaB0HHNTCNAmwIoX+7jilVVRdqqFHoBigCt9ol4OEwZDHjB/OjzmLqrqhIkK5x7ZyPSrOxf7o65
+6d/WjYuc7RnOenegDJlP7uH/AK5j+ZorVMUZxmNeBgcUVLjdlqVkFFFFUQFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFKtJSrQAtB6UUHpQA2iiigBF++30H9afTOQxIAOR60bm/uj8//AK1AD6KZ
+ub+6Pz/+tRub+6Pz/wDrUAPopm5v7o/P/wCtRub+6Pz/APrUAPopm5v7o/P/AOtRub+6Pz/+tQA+
+imbm/uj8/wD61G5v7o/P/wCtQA+imbm/uj8//rUbm/uj8/8A61AD6KZub+6Pz/8ArUUALRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUq0lKtAC0HpRQelADaKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigCmXyn+uGQvHzgc5+tSxyIHZfMDAt8vzg9qnoqVFotyT6BRRRVEBRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFKtJSrQAtB6UUHpQA2iiigCG4jJRnEjqVU8KcCmW42wiZ5XOVydzZF
+TSgtE6jqQQKj8lmsxEeG24/Gs2tbo0T92zBLlGYDa67vulhgGkhnZ7h0KvjjGR0+tNKTS+WroEVC
+CTnOcU4JItxIVX5Xx82enHpReQ7R1HC4XeFKSLk4BZcA0kDMZZgSSA3HtVdbeTchMWGVgWcvnNWY
+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
+			</helperscreenshot>
+		</mouseitem>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="3000ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Selecao_De_Voos"
+		classname="SelecionarVooGateway"
+		methodname="WaitPageLoad"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="9990ef34-66ae-4a7b-bb85-d0689e764b99"/>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Selecao_De_Voos"
+		classname="SelecionarVooGateway"
+		methodname="ClickIfExist"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="8939f823-74f7-4a65-a739-7bba5e4d9b98"/>
+		</userrecorditem>
+		<loggingrecorditem
+		enabled="True"
+		optional="False"
+		searchpropertyid="bc0a3ffd-70f9-4a1f-895b-d17f6a1ab4e3"
+		action="Screenshot"
+		category="User"
+		message=""
+		reportlevel="Success;110">
+			<comment/>
+			<bindings/>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	name="SmilesRepository"
+	id="f8bb210d-8025-4309-a036-286794eed585"
+	rxversion="6.2"
+	relativepath="..\SmilesRepository.rxrep">
+		<codegen
+		classname="SmilesRepository"
+		namespace="POCSmiles"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="2d08fe81-6727-4e90-82e1-ffba91f7633c"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		SelecionarVooGateway.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

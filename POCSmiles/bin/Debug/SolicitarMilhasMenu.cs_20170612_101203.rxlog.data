@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2c25a00fe18ad5b4"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="12/06/2017 10:12:32"
+		timestampiso="2017-06-12T13:12:32"
+		timeoutfactor="1"
+		module="SolicitarMilhasMenu">
+		<detail>
+			SolicitarMilhasMenu
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.417"
+			timeRelativeToTestModuleStartTime="00:22.418"
+			timeWallClock="10:12:54"
+			time="00:22.417"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.MenuUsuario_Milhas' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'uat3.smiles.com.br']//div[#'p_p_id_smilesloginportlet_WAR_smilesloginportlet_']/div/div[2]/div[1]/?/?/div/?/?/span[@innertext~'^.*?\d? milhas$']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.MenuUsuario_Milhas"
+				id="22290a0283474249ae4b0939d2abf06a"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Menu_Usuario\SolicitarMilhasMenu.cs"
+				codeline="52"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:41.322"
+			timeRelativeToTestModuleStartTime="00:41.322"
+			timeWallClock="10:13:13"
+			time="00:41.322"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Menu_Usuario\SolicitarMilhasMenu.cs"
+				codeline="56"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:46.948"
+			timeRelativeToTestModuleStartTime="00:46.948"
+			timeWallClock="10:13:19"
+			time="00:46.948"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.MenuUsuario_SolicitarMilhas' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'uat3.smiles.com.br']//div[#'p_p_id_smilesloginportlet_WAR_smilesloginportlet_']//a[@innertext='Solicitar milhas'][1]"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.MenuUsuario_SolicitarMilhas"
+				id="a48840691ef54452b92b5f6f705753a9"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Menu_Usuario\SolicitarMilhasMenu.cs"
+				codeline="59"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:20.436"
+			timeRelativeToTestModuleStartTime="01:20.437"
+			timeWallClock="10:13:52"
+			time="01:20.436"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'SmilesOMelhorProgramaDeMilhasS1.SolicitarMilhas_DataVoo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'uat3.smiles.com.br']//input[#'_smilescreditrequestportlet_WAR_smilesmemberportlet_flightDayG31']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.SolicitarMilhas_DataVoo"
+				id="f6de6084c8374e2584c312bc0d7b9096"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Menu_Usuario\SolicitarMilhasMenu.cs"
+				codeline="63"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:26.902"
+			timeRelativeToTestModuleStartTime="01:26.903"
+			timeWallClock="10:13:59"
+			time="01:26.902"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'SolicitarMilhas_DataVoo' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'uat3.smiles.com.br']//input[#'_smilescreditrequestportlet_WAR_smilesmemberportlet_flightDayG31']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.SolicitarMilhas_DataVoo"
+				id="f6de6084c8374e2584c312bc0d7b9096"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Menu_Usuario\SolicitarMilhasMenu.cs"
+				codeline="64"
+				loglvl="Success"
+				itemindex="3"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:35.358"
+			timeRelativeToTestModuleStartTime="01:35.359"
+			timeWallClock="10:14:07"
+			time="01:35.358"
+			level="Success"
+			category="User">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\Solicita_35a2c1b3_rxlog.jpg"><img src=".\Solicita_35a2c1b3_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Menu_Usuario\SolicitarMilhasMenu.cs"
+				codeline="67"
+				loglvl="Success"/>
+		</item>
+	</activity>
+</report>

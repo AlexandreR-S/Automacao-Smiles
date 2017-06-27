@@ -1,0 +1,37 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Smiles.rxtst" />
+  </Array>
+  <Array name="bookmarks">
+    <Element value="Breakpoint|c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Base_Dados\UtilsDB.cs|50|10|True|Break||" />
+    <Element value="Breakpoint|c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Resultado_Esperado\RP_EsqueciMinhaSenha.UserCode.cs|39|10|True|Break||" />
+    <Element value="Breakpoint|C:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\EsqueciMeusDados\EsqueciMinhaSenha.cs|102|13|True|Break||" />
+    <Element value="Breakpoint|c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Resultado_Esperado\RP_EsqueciMinhaSenha.cs|100|13|True|Break||" />
+    <Element value="Breakpoint|C:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Resultado_Esperado\RP_AlterarPlano.cs|58|5|True|Break||" />
+    <Element value="Breakpoint|C:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Menu_Usuario\MeusVoos.cs|64|4|True|Break||" />
+    <Element value="Breakpoint|C:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Reserva_De_Voo\SelecionarVooAssento.cs|82|13|True|Break||" />
+  </Array>
+  <Array name="files">
+    <Element value="Smiles.rxtst" />
+    <Element value="Smiles_Componentes\SolicitarMilhas\SolicitarMilhas.cs" />
+    <Element value="SmilesRepository.cs" />
+    <Element value="SmilesRepository.rxrep" />
+    <Element value="Smiles_Componentes\Menu_Usuario\SolicitarMilhasUsuario.cs" />
+    <Element value="Program.cs" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <fileNames value="" />
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="POCSmiles.Mobile.RxBrowser.Login.Logout.Logout2()" />
+      <Element value="POCSmiles.ClubeSmiles.AdesaoCadastro.InvokeClick()" />
+      <Element value="POCSmiles.Mobile.RxBrowser.Pagamento.PagamentoComTecladoVirtual.selectListAsHuman(String text, String element)" />
+      <Element value="POCSmiles.Mobile.RxBrowser.Init.InitRxBrowser.WaitForDocumentLoad()" />
+      <Element value="POCSmiles.Mobile.RxBrowser.Init.InitRxBrowser.CheckDomState()" />
+      <Element value="POCSmiles.Mobile.RxBrowser.Pagamento.PagamentoComTecladoVirtual.selectList(String text, String element)" />
+    </Array>
+    <Properties name="watchVars" />
+  </Properties>
+</Properties>

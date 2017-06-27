@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.2"
+id="7d86676b-aa23-40bd-a0ef-219615fc13d1"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		ImprimirCartaoSmiles
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ImprimirCartaoSmiles"
+	namespace="POCSmiles.ImprimirCartao"/>
+	<variables/>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.ImprimirCartao"
+		classname="ImprimirCartaoSmiles"
+		methodname="Mouse_Click_MinhaConta_BotaoImprimirCartao"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="e21aba28-3c9d-464f-b1b1-cb46a0b4e35c"/>
+		</userrecorditem>
+		<loggingrecorditem
+		enabled="True"
+		optional="False"
+		searchpropertyid="9833292b-d256-4cbf-bf8a-a20d46a4c030"
+		action="Screenshot"
+		category="User"
+		message=""
+		reportlevel="Success;110">
+			<comment/>
+			<bindings/>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	name="SmilesRepository"
+	id="f8bb210d-8025-4309-a036-286794eed585"
+	rxversion="6.2"
+	relativepath="..\SmilesRepository.rxrep">
+		<codegen
+		classname="SmilesRepository"
+		namespace="POCSmiles"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="2d08fe81-6727-4e90-82e1-ffba91f7633c"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ImprimirCartaoSmiles.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

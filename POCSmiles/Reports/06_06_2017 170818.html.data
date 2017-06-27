@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="104b7ff524b92800"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="06/06/2017 17:08:18"
+		timestampiso="2017-06-06T20:08:18"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="3.1m"
+			durationms="184306"
+			type="test suite"
+			rid="28887e674ad8f58"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="Smiles"
+			runconfigname="Regressivo"
+			runlabel=""
+			maxchildren="1">
+			<params>
+				<param
+					name="PMR_URL">
+					C:\Automacao - Smiles\lib\PNR\PNR_Smiles.xlsx
+				</param>
+				<param
+					name="Cadastro_CadastroUsuarios">
+					C:\Automacao - Smiles\lib\PNR\Cadastro_Usuarios.xlsx
+				</param>
+				<param
+					name="Database_Location">
+					C:\Automacao - Smiles\lib\PNR\SmilesDB.accdb
+				</param>
+				<param
+					name="MAX_COMPRA_MILHAS">
+					40000
+				</param>
+				<param
+					name="MIN_MILHAS">
+					60000
+				</param>
+				<param
+					name="MAX_RESERVAS_ISENTO">
+					5
+				</param>
+				<param
+					name="MAX_VALOR_REEMBOLSO">
+					150
+				</param>
+				<param
+					name="AMBIENTE_TESTE">
+				</param>
+				<param
+					name="BROWSER">
+				</param>
+				<param
+					name="AGENDAR">
+				</param>
+				<param
+					name="JIRA_USERNAME">
+					admin
+				</param>
+				<param
+					name="JIRA_PASSWORD">
+					admin
+				</param>
+				<param
+					name="JIRA_SERVERURL">
+					http://localhost:8080/
+				</param>
+				<param
+					name="MIN_DATE_RANGE">
+					30
+				</param>
+				<param
+					name="MAX_DATE_RANGE">
+					45
+				</param>
+				<param
+					name="INCOGNITION_MODE">
+					FALSE
+				</param>
+			</params>
+			<detail>
+				Su&#237;te de teste que contempla os fluxos do portal Smiles
+			</detail>
+			<activity
+				result="Failed"
+				duration="3.1m"
+				durationms="184170"
+				type="folder"
+				rid="2bd686e0ee2f019"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				foldername="Atomic">
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="3.1m"
+					durationms="184169"
+					type="folder"
+					rid="13b2b2894fbce1b4"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					foldername="D_HOMOLOGACAO1">
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="3.1m"
+						durationms="184114"
+						type="folder"
+						rid="3039520b0b39c11e"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="1"
+						totalblockedcount="0"
+						foldername="DH_POSITIVO1">
+						<detail>
+						</detail>
+						<activity
+							result="Failed"
+							duration="2.9m"
+							durationms="174760"
+							type="test case"
+							rid="e00fa7f869db21e"
+							totalerrorcount="1"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="1"
+							totalblockedcount="0"
+							testcasename="Esqueci_Minha_Senha"
+							testcaseid="7418f91f-609e-4650-8ff7-5ac61fa950b3"
+							datasource="S_Smiles_EsqueciMinhaSenha"
+							iterationcount="3"
+							maxchildren="0">
+							<params>
+								<param
+									name="Country">
+									Brasil
+								</param>
+								<param
+									name="Dataset_Version">
+									1
+								</param>
+								<param
+									name="Company_Code">
+									Chrome
+								</param>
+							</params>
+							<detail>
+								&lt;P&gt;Teste com objetivo de acionar a op&#231;&#227;o de esquecimento do n&#250;mero 
+smiles&lt;/P&gt;
+							</detail>
+							<activity
+								result="Failed"
+								duration="2.9m"
+								durationms="174691"
+								type="test case iteration"
+								rid="880268a4b31991a"
+								totalerrorcount="1"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								testcasename="Esqueci_Minha_Senha"
+								iteration="1">
+								<datarow>
+									<field
+										name="Browser">
+										Chrome
+									</field>
+									<field
+										name="URL">
+										portal-uat.smiles.com.br
+									</field>
+									<field
+										name="NumSmiles">
+										448595383
+									</field>
+									<field
+										name="CPF">
+										63629942806
+									</field>
+									<field
+										name="IdentificacaoCaso">
+										Homologa&#231;&#227;o - Esqueci minha senha (Mesmo e-mail)
+									</field>
+								</datarow>
+								<detail>
+								</detail>
+								<activity
+									result="Success"
+									duration="16.49s"
+									durationms="16488"
+									type="test module"
+									rid="204d65c92b597ee3"
+									totalerrorcount="0"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="StartScript"
+									moduleid="13ec580c-0a06-47da-a998-b3cbd4eb5338"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<varbindings/>
+								</activity>
+								<activity
+									result="Success"
+									duration="1.42s"
+									durationms="1416"
+									type="test module"
+									rid="1df440384afad53b"
+									totalerrorcount="0"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="IniciarDesktop"
+									moduleid="50e42e85-06f5-4206-9cb7-80b8e8db2d4a"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<varbindings/>
+								</activity>
+								<activity
+									result="Success"
+									duration="1.3m"
+									durationms="77522"
+									type="test module"
+									rid="37c37279aee88b5"
+									totalerrorcount="0"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="EsqueciMinhaSenha"
+									moduleid="b93a501f-96b5-47d8-8d26-217248fb6cbc"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<varbindings/>
+									<item
+										timeRelativeToTestSuiteStartTime="00:37.927"
+										timeRelativeToTestModuleStartTime="00:00.451"
+										timeWallClock="17:08:56"
+										time="00:37.927"
+										level="Info"
+										category="Validation">
+										<message>
+											Validating Exists on item 'SmilesOMelhorProgramaDeMilhasS1.BrandWrapperHiddenPhone'.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//a[@innertext='Entrar']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.BrandWrapperHiddenPhone"
+											id="ebee8f6198fa4ee39f777eb5e18be2ac"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\EsqueciMeusDados\EsqueciMinhaSenha.cs"
+											codeline="89"
+											itemindex="0"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="01:23.977"
+										timeRelativeToTestModuleStartTime="00:46.501"
+										timeWallClock="17:09:42"
+										time="01:23.977"
+										level="Success"
+										category="Validation">
+										<message>
+											Element for item 'BrandWrapperHiddenPhone' does exist.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//a[@innertext='Entrar']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.BrandWrapperHiddenPhone"
+											id="ebee8f6198fa4ee39f777eb5e18be2ac"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\EsqueciMeusDados\EsqueciMinhaSenha.cs"
+											codeline="90"
+											loglvl="Success"
+											itemindex="0"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="01:24.080"
+										timeRelativeToTestModuleStartTime="00:46.604"
+										timeWallClock="17:09:42"
+										time="01:24.080"
+										level="Info"
+										category="Mouse">
+										<message>
+											Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.BrandWrapperHiddenPhone' at Center.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//a[@innertext='Entrar']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.BrandWrapperHiddenPhone"
+											id="ebee8f6198fa4ee39f777eb5e18be2ac"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\EsqueciMeusDados\EsqueciMinhaSenha.cs"
+											codeline="93"
+											itemindex="1"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="01:29.937"
+										timeRelativeToTestModuleStartTime="00:52.460"
+										timeWallClock="17:09:48"
+										time="01:29.937"
+										level="Info"
+										category="Mouse">
+										<message>
+											Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.YuiPatchedV3110114701446020751849' at 87;7.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//a[@innertext=' Esqueceu sua senha? ']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.YuiPatchedV3110114701446020751849"
+											id="a9cc1650ec2a496a9f4e669aab3e9363"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\EsqueciMeusDados\EsqueciMinhaSenha.cs"
+											codeline="97"
+											itemindex="2"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="01:45.207"
+										timeRelativeToTestModuleStartTime="01:07.731"
+										timeWallClock="17:10:03"
+										time="01:45.207"
+										level="Info"
+										category="Keyboard">
+										<message>
+											Key sequence from variable '$NumSmiles' with focus on 'SmilesOMelhorProgramaDeMilhasS1.Esqueci_NumSmiles'.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//input[#'_smilesmemberpasswordresetportlet_WAR_smilesaccountmanagerportlet_inputNumberSmiles']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Esqueci_NumSmiles"
+											id="c26f88f143db49fab3751e76597300af"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\EsqueciMeusDados\EsqueciMinhaSenha.cs"
+											codeline="101"
+											itemindex="3"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="01:46.404"
+										timeRelativeToTestModuleStartTime="01:08.927"
+										timeWallClock="17:10:04"
+										time="01:46.404"
+										level="Info"
+										category="Keyboard">
+										<message>
+											Key sequence from variable '$CPF' with focus on 'SmilesOMelhorProgramaDeMilhasS1.Esqueci_CPF'.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//input[#'_smilesmemberpasswordresetportlet_WAR_smilesaccountmanagerportlet_inputCpfTwo']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Esqueci_CPF"
+											id="b99a5c828d6946fbb822bf913eb2631e"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\EsqueciMeusDados\EsqueciMinhaSenha.cs"
+											codeline="105"
+											itemindex="4"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="01:47.805"
+										timeRelativeToTestModuleStartTime="01:10.329"
+										timeWallClock="17:10:06"
+										time="01:47.805"
+										level="Info"
+										category="Mouse">
+										<message>
+											Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.Esqueci_Enviar' at Center.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//button[@innertext~'Enviar' and @visible='True']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Esqueci_Enviar"
+											id="af871343045b4129a8d5b1f8d26c3375"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\EsqueciMeusDados\EsqueciMinhaSenha.cs"
+											codeline="109"
+											itemindex="5"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="01:54.311"
+										timeRelativeToTestModuleStartTime="01:16.835"
+										timeWallClock="17:10:12"
+										time="01:54.311"
+										level="Info"
+										category="User">
+										<message>
+											<a class="thickbox" style="padding-right:8px" rel="module" href="images_06_06_20_fa64ffd9\06_06_20_9ea09168_rxlog.jpg"><img src="images_06_06_20_fa64ffd9\06_06_20_9ea09168_rxlog_thumb.jpg" alt="Screenshot"/></a>
+										</message>
+										<metainfo
+											itemindex="6"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\EsqueciMeusDados\EsqueciMinhaSenha.cs"
+											codeline="113"
+											loglvl="Info"/>
+									</item>
+								</activity>
+								<activity
+									result="Failed"
+									duration="1.3m"
+									durationms="78697"
+									type="test module"
+									rid="39ce11dbeeb47fa"
+									totalerrorcount="1"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="RP_EsqueciMinhaSenha"
+									moduleid="3761b01a-d54c-4ece-9d00-7faa542c8d0c"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<errmsg>
+										Failed to find item 'SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.FecharNovaSenhaEnviada'.
+									</errmsg>
+									<varbindings/>
+									<item
+										timeRelativeToTestSuiteStartTime="01:55.426"
+										timeRelativeToTestModuleStartTime="00:00.422"
+										timeWallClock="17:10:13"
+										time="01:55.426"
+										level="Info"
+										category="Validation">
+										<message>
+											Validating Exists on item 'SmilesOMelhorProgramaDeMilhasS1.Esqueci_EnviarEmail'.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//button[@id='btnSubmitSendEmail' and @visible='True']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Esqueci_EnviarEmail"
+											id="bc08105aa10f41868ead3d50a1f6f167"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Resultado_Esperado\RP_EsqueciMinhaSenha.cs"
+											codeline="83"
+											itemindex="0"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="01:57.244"
+										timeRelativeToTestModuleStartTime="00:02.240"
+										timeWallClock="17:10:15"
+										time="01:57.244"
+										level="Success"
+										category="Validation">
+										<message>
+											Element for item 'Esqueci_EnviarEmail' does exist.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//button[@id='btnSubmitSendEmail' and @visible='True']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Esqueci_EnviarEmail"
+											id="bc08105aa10f41868ead3d50a1f6f167"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Resultado_Esperado\RP_EsqueciMinhaSenha.cs"
+											codeline="84"
+											loglvl="Success"
+											itemindex="0"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="01:57.478"
+										timeRelativeToTestModuleStartTime="00:02.475"
+										timeWallClock="17:10:15"
+										time="01:57.478"
+										level="Info"
+										category="User">
+										<message>
+											<a class="thickbox" style="padding-right:8px" rel="module" href="images_06_06_20_fa64ffd9\06_06_20_fbf91ccd_rxlog.jpg"><img src="images_06_06_20_fa64ffd9\06_06_20_fbf91ccd_rxlog_thumb.jpg" alt="Screenshot"/></a>
+										</message>
+										<metainfo
+											itemindex="1"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Resultado_Esperado\RP_EsqueciMinhaSenha.cs"
+											codeline="87"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="01:57.482"
+										timeRelativeToTestModuleStartTime="00:02.479"
+										timeWallClock="17:10:15"
+										time="01:57.482"
+										level="Info"
+										category="Mouse">
+										<message>
+											Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.Esqueci_EnviarEmail' at 125;34.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//button[@id='btnSubmitSendEmail' and @visible='True']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Esqueci_EnviarEmail"
+											id="bc08105aa10f41868ead3d50a1f6f167"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Resultado_Esperado\RP_EsqueciMinhaSenha.cs"
+											codeline="89"
+											itemindex="2"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="01:59.727"
+										timeRelativeToTestModuleStartTime="00:04.724"
+										timeWallClock="17:10:17"
+										time="01:59.727"
+										level="Info"
+										category="Validation">
+										<message>
+											Validating Exists on item 'SmilesOMelhorProgramaDeMilhasS1.Validacao_NovaSenhaFoiEnviadaPara'.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//div[#'formContentEmailSent']/?/?/p[@innertext~'^Nova\ senha\ foi\ enviada\ pa' and @visible='True']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Validacao_NovaSenhaFoiEnviadaPara"
+											id="25440b38304b4e9eac3e68448db59633"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Resultado_Esperado\RP_EsqueciMinhaSenha.cs"
+											codeline="93"
+											itemindex="3"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="02:04.291"
+										timeRelativeToTestModuleStartTime="00:09.288"
+										timeWallClock="17:10:22"
+										time="02:04.291"
+										level="Success"
+										category="Validation"
+										errimg="images_06_06_20_fa64ffd9\06_06_20_fa64ffd9_d8960c3f_trace.jpg"
+										errthumb="images_06_06_20_fa64ffd9\06_06_20_fa64ffd9_d8960c3f_trace_thumb.jpg">
+										<message>
+											Element for item 'Validacao_NovaSenhaFoiEnviadaPara' does exist.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//div[#'formContentEmailSent']/?/?/p[@innertext~'^Nova\ senha\ foi\ enviada\ pa' and @visible='True']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Validacao_NovaSenhaFoiEnviadaPara"
+											id="25440b38304b4e9eac3e68448db59633"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Resultado_Esperado\RP_EsqueciMinhaSenha.cs"
+											codeline="94"
+											loglvl="Success"
+											itemindex="3"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="02:04.478"
+										timeRelativeToTestModuleStartTime="00:09.474"
+										timeWallClock="17:10:22"
+										time="02:04.478"
+										level="Info"
+										category="Close message box"
+										errimg="images_06_06_20_fa64ffd9\06_06_20_fa64ffd9_f4248b80_trace.jpg"
+										errthumb="images_06_06_20_fa64ffd9\06_06_20_fa64ffd9_f4248b80_trace_thumb.jpg">
+										<message>
+											Closing e-mail information box 'repo.SmilesOMelhorProgramaDeMilhasS1.FecharNovaSenhaEnviada'.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//div[@class='yui3-widget-hd modal-header']/div[@class='toolbar-content yui3-widget component toolbar']/button[@class='btn close close-content yui3-widget btn-content' and @visible='True']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.FecharNovaSenhaEnviada"
+											id="225a8a83f90249a8b893825321245a8b"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Resultado_Esperado\RP_EsqueciMinhaSenha.cs"
+											codeline="97"
+											itemindex="4"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="03:13.371"
+										timeRelativeToTestModuleStartTime="01:18.368"
+										timeWallClock="17:11:31"
+										time="03:13.371"
+										level="Error"
+										category="Module"
+										errimg="images_06_06_20_fa64ffd9\06_06_20_fa64ffd9_3abc8221_trace.jpg"
+										errthumb="images_06_06_20_fa64ffd9\06_06_20_fa64ffd9_3abc8221_trace_thumb.jpg">
+										<message>
+											Failed to find item 'SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.FecharNovaSenhaEnviada'.<br/>No element found for path '/dom[@pageurl~'uat3.smiles.com.br']//div[@class='yui3-widget-hd modal-header']/div[@class='toolbar-content yui3-widget component toolbar']/button[@class='btn close close-content yui3-widget btn-content' and @visible='True']' within 1m.
+										</message>
+										<metainfo
+											stacktrace="   em Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   em Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   em Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   em POCSmiles.SmilesRepositoryFolders.SmilesOMelhorProgramaDeMilhasS1AppFolder.get_FecharNovaSenhaEnviada() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\SmilesRepository.cs:linha 10443
+   em POCSmiles.Smiles_Componentes.Resultado_Esperado.RP_EsqueciMinhaSenha.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Resultado_Esperado\RP_EsqueciMinhaSenha.cs:linha 98
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Resultado_Esperado\RP_EsqueciMinhaSenha.cs"
+											codeline="98"
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//div[@class='yui3-widget-hd modal-header']/div[@class='toolbar-content yui3-widget component toolbar']/button[@class='btn close close-content yui3-widget btn-content' and @visible='True']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.FecharNovaSenhaEnviada"
+											id="225a8a83f90249a8b893825321245a8b"
+											timeout="60000"
+											loglvl="Error"
+											itemindex="4"/>
+									</item>
+								</activity>
+							</activity>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

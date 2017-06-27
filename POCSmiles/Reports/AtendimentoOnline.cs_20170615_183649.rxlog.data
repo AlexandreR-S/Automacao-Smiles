@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="e73dca8d376bcb2"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="15/06/2017 18:36:58"
+		timestampiso="2017-06-15T21:36:58"
+		timeoutfactor="1"
+		module="AtendimentoOnline">
+		<detail>
+			AtendimentoOnline
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.910"
+			timeRelativeToTestModuleStartTime="00:00.910"
+			timeWallClock="18:36:59"
+			time="00:00.910"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'AtendimentoOnlineHomologacao.Atendimento_AtendimentoOnline' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl='https://smiles--tst1.custhelp.com/app/answers/list_pesquisa_site/kw/Emilia']//a[@innertext~'.*Atendimento Online.*']"
+				fullname="SmilesRepository.AtendimentoOnlineHomologacao.Atendimento_AtendimentoOnline"
+				id="5d4b52474c124186be3efcf229cfbd26"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\AtendimentoOnline\AtendimentoOnline.cs"
+				codeline="52"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.494"
+			timeRelativeToTestModuleStartTime="00:15.494"
+			timeWallClock="18:37:14"
+			time="00:15.494"
+			level="Success"
+			category="User">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\Atendime_a10b1037_rxlog.jpg"><img src=".\Atendime_a10b1037_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\AtendimentoOnline\AtendimentoOnline.cs"
+				codeline="57"
+				loglvl="Success"/>
+		</item>
+	</activity>
+</report>

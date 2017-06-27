@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.2"
+id="a42d1e31-ab7d-471f-a9da-51f093d8fdc9"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		SalvarAdesaoClube
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SalvarAdesaoClube"
+	namespace="POCSmiles.Resultado_Esperado"/>
+	<variables>
+		<var
+		name="CadastroUsuarios"
+		id="95fbc22d-3835-4dd9-bc54-c08d9cb2f943">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Resultado_Esperado"
+		classname="SalvarAdesaoClube"
+		methodname="SalvarAdesao"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="6d5af941-7d2f-40d5-8491-d54267d52686">
+				<argument
+				variable="CadastroUsuarios"
+				argname="excelPath"
+				id="19d139ca-7695-4194-b7bd-eade1a08be7b">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue/>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="SmilesRepository"
+	id="f8bb210d-8025-4309-a036-286794eed585"
+	rxversion="6.2"
+	relativepath="..\SmilesRepository.rxrep">
+		<codegen
+		classname="SmilesRepository"
+		namespace="POCSmiles"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="2d08fe81-6727-4e90-82e1-ffba91f7633c"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		SalvarAdesaoClube.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="32552baf53f5e40"
+		totalerrorcount="2"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="02/06/2017 11:19:58"
+		timestampiso="2017-06-02T14:19:58"
+		timeoutfactor="1"
+		module="IniciarDesktop">
+		<detail>
+			IniciarDesktop
+		</detail>
+		<errmsg>
+			IniciarDesktop.Begin
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.385"
+			timeRelativeToTestModuleStartTime="00:00.385"
+			timeWallClock="11:19:59"
+			time="00:00.385"
+			level="Warn"
+			category="Data"
+			errimg=".\TESTINIC_3e4d0d56_43315de0_trace.jpg"
+			errthumb=".\TESTINIC_3e4d0d56_43315de0_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>Browser, URL
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.516"
+			timeRelativeToTestModuleStartTime="00:00.516"
+			timeWallClock="11:19:59"
+			time="00:00.516"
+			level="Error"
+			category="User"
+			errimg=".\TESTINIC_3e4d0d56_da9df973_trace.jpg"
+			errthumb=".\TESTINIC_3e4d0d56_da9df973_trace_thumb.jpg">
+			<message>
+				IniciarDesktop - Error starting system. Error:Refer&#234;ncia de objeto n&#227;o definida para uma inst&#226;ncia de um objeto.
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\IniciarDesktop.UserCode.cs"
+				codeline="66"
+				loglvl="Error"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.531"
+			timeRelativeToTestModuleStartTime="00:00.531"
+			timeWallClock="11:19:59"
+			time="00:00.531"
+			level="Error"
+			category="Module"
+			errimg=".\TESTINIC_3e4d0d56_da9df973_trace.jpg"
+			errthumb=".\TESTINIC_3e4d0d56_da9df973_trace_thumb.jpg">
+			<message>
+				IniciarDesktop.Begin
+			</message>
+			<metainfo
+				stacktrace="   em POCSmiles.IniciarDesktop.Begin(String browser, String url) na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\IniciarDesktop.UserCode.cs:linha 67
+   em POCSmiles.IniciarDesktop.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\IniciarDesktop.cs:linha 106
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="2\Desktop\Automacao - Smiles\POCSmiles\IniciarDesktop.UserCode.cs"
+				codeline="67"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

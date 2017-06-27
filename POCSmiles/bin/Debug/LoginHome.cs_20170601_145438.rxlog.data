@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3817f30af8fd13db"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="01/06/2017 14:55:02"
+		timestampiso="2017-06-01T17:55:02"
+		timeoutfactor="1"
+		module="LoginHome">
+		<detail>
+			LoginHome
+		</detail>
+		<errmsg>
+			Failed to find item 'SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.ClubeSmiles_AlterarPlano'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.184"
+			timeRelativeToTestModuleStartTime="00:00.184"
+			timeWallClock="14:55:02"
+			time="00:00.184"
+			level="Warn"
+			category="Data"
+			errimg=".\LoginHom_871767fb_d6424e53_trace.jpg"
+			errthumb=".\LoginHom_871767fb_d6424e53_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>CPFSmilesID, Senha, URL
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:00.510"
+			timeRelativeToTestModuleStartTime="01:00.510"
+			timeWallClock="14:56:03"
+			time="01:00.510"
+			level="Error"
+			category="Module"
+			errimg=".\LoginHom_871767fb_44204189_trace.jpg"
+			errthumb=".\LoginHom_871767fb_44204189_trace_thumb.jpg">
+			<message>
+				Failed to find item 'SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.ClubeSmiles_AlterarPlano'.<br/>No element found for path '/dom[@pageurl~''][1]//a[#'upgradeDowngrade']' within 1m.
+			</message>
+			<metainfo
+				stacktrace="   em Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   em Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   em Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   em POCSmiles.SmilesRepositoryFolders.SmilesOMelhorProgramaDeMilhasS1AppFolder.get_ClubeSmiles_AlterarPlano() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\SmilesRepository.cs:linha 6056
+   em POCSmiles.Smiles_Components.Generico.LoginHome.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Components\Generico\LoginHome.cs:linha 119
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Components\Generico\LoginHome.cs"
+				codeline="119"
+				type="repoitem"
+				path="/dom[@pageurl~''][1]//a[#'upgradeDowngrade']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.ClubeSmiles_AlterarPlano"
+				id="736b434d57d140d9abdb1215e569b020"
+				timeout="60000"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

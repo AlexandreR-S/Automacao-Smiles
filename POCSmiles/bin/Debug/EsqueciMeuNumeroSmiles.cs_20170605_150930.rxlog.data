@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="132e38b900143be"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="05/06/2017 15:10:01"
+		timestampiso="2017-06-05T18:10:01"
+		timeoutfactor="1"
+		module="EsqueciMeuNumeroSmiles">
+		<detail>
+			EsqueciMeuNumeroSmiles
+		</detail>
+		<errmsg>
+			Refer&#234;ncia de objeto n&#227;o definida para uma inst&#226;ncia de um objeto.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.415"
+			timeRelativeToTestModuleStartTime="00:00.415"
+			timeWallClock="15:10:02"
+			time="00:00.415"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Documento, TipoDocumento, DataNascimentoDia, DataNascimentoMes, DataNascimentoAno
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.531"
+			timeRelativeToTestModuleStartTime="00:00.531"
+			timeWallClock="15:10:02"
+			time="00:00.531"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'SmilesOMelhorProgramaDeMilhasS1.BrandWrapperHiddenPhone'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'3.smiles.com.br'][1]//a[@innertext='Entrar']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.BrandWrapperHiddenPhone"
+				id="ebee8f6198fa4ee39f777eb5e18be2ac"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\EsqueciMeusDados\EsqueciMeuNumeroSmiles.cs"
+				codeline="108"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.835"
+			timeRelativeToTestModuleStartTime="00:03.835"
+			timeWallClock="15:10:05"
+			time="00:03.835"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'BrandWrapperHiddenPhone' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'3.smiles.com.br'][1]//a[@innertext='Entrar']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.BrandWrapperHiddenPhone"
+				id="ebee8f6198fa4ee39f777eb5e18be2ac"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\EsqueciMeusDados\EsqueciMeuNumeroSmiles.cs"
+				codeline="109"
+				loglvl="Success"
+				itemindex="0"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.851"
+			timeRelativeToTestModuleStartTime="00:03.851"
+			timeWallClock="15:10:05"
+			time="00:03.851"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.BrandWrapperHiddenPhone' at LowerCenter.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'3.smiles.com.br'][1]//a[@innertext='Entrar']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.BrandWrapperHiddenPhone"
+				id="ebee8f6198fa4ee39f777eb5e18be2ac"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\EsqueciMeusDados\EsqueciMeuNumeroSmiles.cs"
+				codeline="112"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.578"
+			timeRelativeToTestModuleStartTime="00:06.578"
+			timeWallClock="15:10:08"
+			time="00:06.578"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'SmilesOMelhorProgramaDeMilhasS1.BrandWrapperHiddenPhone'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'3.smiles.com.br'][1]//a[@innertext='Entrar']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.BrandWrapperHiddenPhone"
+				id="ebee8f6198fa4ee39f777eb5e18be2ac"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\EsqueciMeusDados\EsqueciMeuNumeroSmiles.cs"
+				codeline="116"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.954"
+			timeRelativeToTestModuleStartTime="00:08.954"
+			timeWallClock="15:10:10"
+			time="00:08.954"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'BrandWrapperHiddenPhone' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'3.smiles.com.br'][1]//a[@innertext='Entrar']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.BrandWrapperHiddenPhone"
+				id="ebee8f6198fa4ee39f777eb5e18be2ac"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\EsqueciMeusDados\EsqueciMeuNumeroSmiles.cs"
+				codeline="117"
+				loglvl="Success"
+				itemindex="2"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.961"
+			timeRelativeToTestModuleStartTime="00:08.961"
+			timeWallClock="15:10:10"
+			time="00:08.961"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{TAB}{TAB}'.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\EsqueciMeusDados\EsqueciMeuNumeroSmiles.cs"
+				codeline="124"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.275"
+			timeRelativeToTestModuleStartTime="00:09.275"
+			timeWallClock="15:10:10"
+			time="00:09.275"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 500ms.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\EsqueciMeusDados\EsqueciMeuNumeroSmiles.cs"
+				codeline="128"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.819"
+			timeRelativeToTestModuleStartTime="00:09.819"
+			timeWallClock="15:10:11"
+			time="00:09.819"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.Esqueci_EsqueciNumeroSmiles' at 61;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'3.smiles.com.br'][1]//a[@innertext~'Esqueceu\ seu\ número\ Smil' and @visible='True']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Esqueci_EsqueciNumeroSmiles"
+				id="f7369bd2b16d42c788e6e773e59a960d"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\EsqueciMeusDados\EsqueciMeuNumeroSmiles.cs"
+				codeline="131"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.829"
+			timeRelativeToTestModuleStartTime="00:14.829"
+			timeWallClock="15:10:16"
+			time="00:14.829"
+			level="Info"
+			category="User">
+			<message>
+				Selecting item 'CPF'
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="219"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.025"
+			timeRelativeToTestModuleStartTime="00:15.025"
+			timeWallClock="15:10:16"
+			time="00:15.025"
+			level="Info"
+			category="User">
+			<message>
+				Item 'CPF' selected
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="221"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.031"
+			timeRelativeToTestModuleStartTime="00:15.031"
+			timeWallClock="15:10:16"
+			time="00:15.031"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$Documento' with focus on 'SmilesOMelhorProgramaDeMilhasS1.Esqueci_NumeroDocumento'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'3.smiles.com.br'][1]//input[#'inputCpf']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Esqueci_NumeroDocumento"
+				id="544bcd6ad40948a1860a464e6dabf800"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\EsqueciMeusDados\EsqueciMeuNumeroSmiles.cs"
+				codeline="138"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.645"
+			timeRelativeToTestModuleStartTime="00:15.645"
+			timeWallClock="15:10:17"
+			time="00:15.645"
+			level="Info"
+			category="Keyboard"
+			errimg=".\EsqueciM_1b3a9f10_04ac4523_trace.jpg"
+			errthumb=".\EsqueciM_1b3a9f10_04ac4523_trace_thumb.jpg">
+			<message>
+				Key sequence from variable '$DataNascimentoDia' with focus on 'SmilesOMelhorProgramaDeMilhasS1.Esqueci_DataNascimentoDia'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'3.smiles.com.br'][1]//input[#'inputBirthdayDay']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Esqueci_DataNascimentoDia"
+				id="a3a4528eb69149f0bba6af154f18b1ac"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\EsqueciMeusDados\EsqueciMeuNumeroSmiles.cs"
+				codeline="142"
+				itemindex="9"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.681"
+			timeRelativeToTestModuleStartTime="00:15.681"
+			timeWallClock="15:10:17"
+			time="00:15.681"
+			level="Info"
+			category="User"
+			errimg=".\EsqueciM_1b3a9f10_04ac4523_trace.jpg"
+			errthumb=".\EsqueciM_1b3a9f10_04ac4523_trace_thumb.jpg">
+			<message>
+				Inserting text '29'
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="143"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.723"
+			timeRelativeToTestModuleStartTime="00:15.723"
+			timeWallClock="15:10:17"
+			time="00:15.723"
+			level="Error"
+			category="Module"
+			errimg=".\EsqueciM_1b3a9f10_6f5ce712_trace.jpg"
+			errthumb=".\EsqueciM_1b3a9f10_6f5ce712_trace_thumb.jpg">
+			<message>
+				Refer&#234;ncia de objeto n&#227;o definida para uma inst&#226;ncia de um objeto.
+			</message>
+			<metainfo
+				stacktrace="   em POCSmiles.Utils.GetComponentName() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs:linha 236
+   em POCSmiles.Smiles_comp.Program.TypeKeys(String element, String text) na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs:linha 150
+   em POCSmiles.Smiles_Componentes.EsqueciMeusDados.EsqueciMeuNumeroSmiles.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\EsqueciMeusDados\EsqueciMeuNumeroSmiles.cs:linha 144
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs"
+				codeline="236"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

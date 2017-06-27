@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.2"
+id="cc22b8c1-5a5d-4097-924b-9d3212b161f9"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		Logout
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Logout"
+	namespace="POCSmiles.Mobile.RxBrowser.Login"/>
+	<variables/>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Mobile.RxBrowser.Login"
+		classname="Logout"
+		methodname="Logout2"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="29ebf142-b01f-44d7-a610-01a9aee62f8a"/>
+		</userrecorditem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="7535deac-c783-4bcd-83f0-5c840aa043b8"
+		action="Exists">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="20d17b2e-cc47-4a04-a69d-6fcbaa38473e">
+				<path>
+					/mobileapp[@title='ranorex.RxBrowser']//dom//div[@innertext='Entrar']
+				</path>
+			</info>
+			<matchname/>
+			<matchvalue/>
+		</validationitem>
+	</recorditems>
+	<repository
+	name="SmilesRepository"
+	id="f8bb210d-8025-4309-a036-286794eed585"
+	rxversion="6.2"
+	relativepath="..\..\..\SmilesRepository.rxrep">
+		<codegen
+		classname="SmilesRepository"
+		namespace="POCSmiles"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="2d08fe81-6727-4e90-82e1-ffba91f7633c"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Logout.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

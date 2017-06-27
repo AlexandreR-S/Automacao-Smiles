@@ -1,0 +1,3514 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{551BD582-6B87-460D-9D7F-87D70B4528F0}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>POCSmiles</RootNamespace>
+    <AssemblyName>Smiles</AssemblyName>
+    <RanorexVersion>6.2</RanorexVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <projectdefaultrepository>c6a91086-7475-49db-9962-f8a21f28fd25</projectdefaultrepository>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <StartAction>Project</StartAction>
+    <TargetFrameworkProfile />
+    <RanorexTargetsPath>$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <NoWin32Manifest>False</NoWin32Manifest>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <RunCodeAnalysis>False</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>4194304</BaseAddress>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel" />
+    <Reference Include="Ranorex.Core" />
+    <Reference Include="Ranorex.Libs.Util" />
+    <Reference Include="Ranorex.Plugin.Cef" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb" />
+    <Reference Include="Ranorex.Plugin.Flex" />
+    <Reference Include="Ranorex.Plugin.Java" />
+    <Reference Include="Ranorex.Plugin.Mobile" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb" />
+    <Reference Include="Ranorex.Plugin.Msaa" />
+    <Reference Include="Ranorex.Plugin.Office" />
+    <Reference Include="Ranorex.Plugin.Qt" />
+    <Reference Include="Ranorex.Plugin.RawText" />
+    <Reference Include="Ranorex.Plugin.Sap" />
+    <Reference Include="Ranorex.Plugin.Uia" />
+    <Reference Include="Ranorex.Plugin.Web" />
+    <Reference Include="Ranorex.Plugin.WebDriver" />
+    <Reference Include="Ranorex.Plugin.Win32" />
+    <Reference Include="Ranorex.Plugin.WinForms" />
+    <Reference Include="Ranorex.Plugin.Wpf" />
+    <Reference Include="Ranorex_JiraIntegration">
+      <HintPath>..\lib\References\RanorexJiraIntegrationLibs_6.0\Ranorex_JiraIntegration.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp">
+      <HintPath>..\lib\References\RanorexJiraIntegrationLibs_6.0\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TechTalk.JiraRestClient">
+      <HintPath>..\lib\References\RanorexJiraIntegrationLibs_6.0\TechTalk.JiraRestClient.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>254eb301-ca38-4875-9a0b-cba46a6135c9</id>
+    </Compile>
+    <Compile Include="AtendimentoOnline\AindaNaoSouCliente.cs">
+      <BoundTo>31658b89-bcc3-4ccd-b1c0-6de46ce376de</BoundTo>
+      <DependentUpon>AindaNaoSouCliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7475d5aa-443e-4f7c-8c33-880e49d70107</id>
+    </Compile>
+    <Compile Include="AtendimentoOnline\AindaNaoSouCliente.UserCode.cs">
+      <BoundTo>31658b89-bcc3-4ccd-b1c0-6de46ce376de</BoundTo>
+      <DependentUpon>AindaNaoSouCliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>134ce9ec-0a7c-450f-a961-01fca0d78b78</id>
+    </Compile>
+    <Compile Include="AtendimentoOnline\AtendimentoOnline.cs">
+      <BoundTo>bd8f6d5d-9951-4ec9-92f9-986f0c99ee9c</BoundTo>
+      <DependentUpon>AtendimentoOnline.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6cc5ee7c-6792-417c-b51e-d35beb5d20c6</id>
+    </Compile>
+    <Compile Include="AtendimentoOnline\AtendimentoOnline.UserCode.cs">
+      <BoundTo>bd8f6d5d-9951-4ec9-92f9-986f0c99ee9c</BoundTo>
+      <DependentUpon>AtendimentoOnline.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6f54b4db-427e-4252-b26a-49690fe6baf3</id>
+    </Compile>
+    <Compile Include="AtendimentoOnline\Emilia.cs">
+      <BoundTo>DB0CB9DF-4DD3-42BE-AFDA-B6631FBA8F55</BoundTo>
+      <DependentUpon>Emilia.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>351a2ec4-01f0-4071-a151-8471dc80a766</id>
+    </Compile>
+    <Compile Include="AtendimentoOnline\IniciarAtendimento.cs">
+      <BoundTo>a0a59260-0379-4f26-b458-bc18c0023b57</BoundTo>
+      <DependentUpon>IniciarAtendimento.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ffd86d17-ce8e-4d1c-bd08-274e37c5e508</id>
+    </Compile>
+    <Compile Include="AtendimentoOnline\IniciarAtendimento.UserCode.cs">
+      <BoundTo>a0a59260-0379-4f26-b458-bc18c0023b57</BoundTo>
+      <DependentUpon>IniciarAtendimento.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fb15294a-4f07-4f0a-98eb-e851ea64bc03</id>
+    </Compile>
+    <Compile Include="AtendimentoOnline\JaSouCliente.cs">
+      <BoundTo>b2a18523-bf32-47b7-884c-919c549d8acf</BoundTo>
+      <DependentUpon>JaSouCliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1d0a8c36-cfb8-4089-96a7-6ef9572fa327</id>
+    </Compile>
+    <Compile Include="AtendimentoOnline\JaSouCliente.UserCode.cs">
+      <BoundTo>b2a18523-bf32-47b7-884c-919c549d8acf</BoundTo>
+      <DependentUpon>JaSouCliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>cda16f07-dd29-42c7-91a6-88c0913af6a9</id>
+    </Compile>
+    <Compile Include="AtendimentoOnline\Login.cs">
+      <id>e757c18f-a654-4efb-83ba-fb0c31b7a4a0</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <BoundTo>5e8550de-adc4-4163-8a65-1a581799c626</BoundTo>
+    </Compile>
+    <Compile Include="AtendimentoOnline\Login.UserCode.cs">
+      <id>446f5de8-87d8-46c5-a584-64e8b990e077</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <BoundTo>5e8550de-adc4-4163-8a65-1a581799c626</BoundTo>
+    </Compile>
+    <Compile Include="AtendimentoOnline\PossoAjudar.cs">
+      <BoundTo>992c476c-140e-452d-9947-98ab663ad1f6</BoundTo>
+      <DependentUpon>PossoAjudar.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>533b6634-7b6e-4099-9e82-3ecc85e06ab6</id>
+    </Compile>
+    <Compile Include="AtendimentoOnline\PossoAjudar.UserCode.cs">
+      <BoundTo>992c476c-140e-452d-9947-98ab663ad1f6</BoundTo>
+      <DependentUpon>PossoAjudar.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b9bd9e4e-1c22-43f2-8601-894e7eb4883d</id>
+    </Compile>
+    <Compile Include="AtendimentoOnline\AcessarAtendimentoOnline.cs">
+      <BoundTo>ed670b33-abde-4176-95ec-3092d7dc2497</BoundTo>
+      <DependentUpon>AcessarAtendimentoOnline.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a65441e1-3964-4fe8-9e0f-49ea8d368264</id>
+    </Compile>
+    <Compile Include="AtendimentoOnline\AcessarAtendimentoOnline.UserCode.cs">
+      <BoundTo>ed670b33-abde-4176-95ec-3092d7dc2497</BoundTo>
+      <DependentUpon>AcessarAtendimentoOnline.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>bab8229a-630b-4b87-84af-c5eab1ec8465</id>
+    </Compile>
+    <Compile Include="AtendimentoOnline\RP_AtendimentoEmilia.cs">
+      <BoundTo>f2436b02-9658-4322-b2c4-01782ac859b7</BoundTo>
+      <DependentUpon>RP_AtendimentoEmilia.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>032426b9-8982-4fa7-bd2c-c0400e9bf603</id>
+    </Compile>
+    <Compile Include="AtendimentoOnline\RP_AtendimentoEmilia.UserCode.cs">
+      <BoundTo>f2436b02-9658-4322-b2c4-01782ac859b7</BoundTo>
+      <DependentUpon>RP_AtendimentoEmilia.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3e79c373-d37d-423a-bc58-03eed6d21c64</id>
+    </Compile>
+    <Compile Include="Base_Dados\RandomValues.cs">
+      <BoundTo>6fda769d-75a8-40f2-ac47-4a8a434e929b</BoundTo>
+      <DependentUpon>RandomValues.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>48b4fa14-bd53-4a57-99cd-a597b9097999</id>
+    </Compile>
+    <Compile Include="Base_Dados\RandomValues.UserCode.cs">
+      <BoundTo>6fda769d-75a8-40f2-ac47-4a8a434e929b</BoundTo>
+      <DependentUpon>RandomValues.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0de398e1-d303-417a-bc84-0b9042a96755</id>
+    </Compile>
+    <Compile Include="Base_Dados\UtilsDB.cs">
+      <id>e45b7e94-465a-4318-9c40-a96a462592a5</id>
+    </Compile>
+    <Compile Include="Busca_De_Voos\BuscarVoos.cs">
+      <id>e3a04274-716c-4c43-8d42-c388b79c65bc</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>BuscarVoos.rxrec</DependentUpon>
+      <BoundTo>ad0264e9-e441-43c3-9edc-61c0dc287eeb</BoundTo>
+    </Compile>
+    <Compile Include="Busca_De_Voos\BuscarVoos.UserCode.cs">
+      <id>6ec98431-2386-496d-8d7f-f8bc25b0c7a8</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>BuscarVoos.rxrec</DependentUpon>
+      <BoundTo>ad0264e9-e441-43c3-9edc-61c0dc287eeb</BoundTo>
+    </Compile>
+    <Compile Include="Busca_De_Voos\NBV_BuscarVoos.cs">
+      <id>67286f31-d699-4c87-b801-18f92bbd7ae8</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>NBV_BuscarVoos.rxrec</DependentUpon>
+      <BoundTo>5ca47be8-280a-4b2a-8e6e-f039c9393439</BoundTo>
+    </Compile>
+    <Compile Include="Busca_De_Voos\NBV_BuscarVoos.UserCode.cs">
+      <id>198e2874-7eab-4a0f-8a91-adb25bc8e639</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>NBV_BuscarVoos.rxrec</DependentUpon>
+      <BoundTo>5ca47be8-280a-4b2a-8e6e-f039c9393439</BoundTo>
+    </Compile>
+    <Compile Include="Busca_De_Voos\Tooltip.cs">
+      <BoundTo>2d605650-515a-4afa-a545-3ab4e61c2730</BoundTo>
+      <DependentUpon>Tooltip.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b3db1e47-d723-45b5-be59-4aca97b8f1a1</id>
+    </Compile>
+    <Compile Include="Busca_De_Voos\Tooltip.UserCode.cs">
+      <BoundTo>2d605650-515a-4afa-a545-3ab4e61c2730</BoundTo>
+      <DependentUpon>Tooltip.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f22f4bd6-d371-4c51-aa07-8cbd82f06534</id>
+    </Compile>
+    <Compile Include="Cadastro\AlterarDados.cs">
+      <BoundTo>0e22a29a-fc14-41cb-8c50-07909c5c6159</BoundTo>
+      <DependentUpon>AlterarDados.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4922b21c-3ee6-4937-b935-5d4963838f8e</id>
+    </Compile>
+    <Compile Include="Cadastro\AlterarDados.UserCode.cs">
+      <BoundTo>0e22a29a-fc14-41cb-8c50-07909c5c6159</BoundTo>
+      <DependentUpon>AlterarDados.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1b9fed43-755f-4246-b822-c56e483825d6</id>
+    </Compile>
+    <Compile Include="Cadastro\AlterarSenha.cs">
+      <BoundTo>6697ee7e-9740-475a-a374-90983afdb4fc</BoundTo>
+      <DependentUpon>AlterarSenha.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6135faef-78da-4b7f-a0ce-e883aab3e1c2</id>
+    </Compile>
+    <Compile Include="Cadastro\AlterarSenha.UserCode.cs">
+      <BoundTo>6697ee7e-9740-475a-a374-90983afdb4fc</BoundTo>
+      <DependentUpon>AlterarSenha.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c00c71b4-ba7a-4743-982c-730b809627fe</id>
+    </Compile>
+    <Compile Include="Cadastro\CadastrarUsuario.cs">
+      <id>69955da6-8b27-49c0-8054-0bb3ca8ca47c</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>CadastrarUsuario.rxrec</DependentUpon>
+      <BoundTo>8c9f2b2f-dc4e-4260-8785-870a1b14f62a</BoundTo>
+    </Compile>
+    <Compile Include="Cadastro\CadastrarUsuario.UserCode.cs">
+      <id>aa1eb778-1cab-4492-a66a-54d95d25cd78</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>CadastrarUsuario.rxrec</DependentUpon>
+      <BoundTo>8c9f2b2f-dc4e-4260-8785-870a1b14f62a</BoundTo>
+    </Compile>
+    <Compile Include="ClubeSmiles\AdesaoCadastro.cs">
+      <id>aa651101-7814-4d6e-9e75-6f3dce0c190e</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>AdesaoCadastro.rxrec</DependentUpon>
+      <BoundTo>b01b08af-6824-4756-b263-bcd2e10858a1</BoundTo>
+    </Compile>
+    <Compile Include="ClubeSmiles\AdesaoCadastro.UserCode.cs">
+      <id>e9b647b5-8d60-4f32-b0d4-755e7071c5c6</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>AdesaoCadastro.rxrec</DependentUpon>
+      <BoundTo>b01b08af-6824-4756-b263-bcd2e10858a1</BoundTo>
+    </Compile>
+    <Compile Include="ClubeSmiles\AdesaoEmissao.cs">
+      <BoundTo>d8c41024-5794-4230-953f-f9c062ec62af</BoundTo>
+      <DependentUpon>AdesaoEmissao.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a84b5728-9e5a-4c57-9959-24bf7a662105</id>
+    </Compile>
+    <Compile Include="ClubeSmiles\AdesaoEmissao.UserCode.cs">
+      <BoundTo>d8c41024-5794-4230-953f-f9c062ec62af</BoundTo>
+      <DependentUpon>AdesaoEmissao.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fc425863-fced-4203-957b-ee6ed66af7d0</id>
+    </Compile>
+    <Compile Include="ClubeSmiles\AdesaoMenu.cs">
+      <BoundTo>49cb306a-cf5a-44a1-a592-dd3255a647da</BoundTo>
+      <DependentUpon>AdesaoMenu.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>43bbe28d-ae40-47ef-b507-c37d5822a711</id>
+    </Compile>
+    <Compile Include="ClubeSmiles\AdesaoMenu.UserCode.cs">
+      <BoundTo>49cb306a-cf5a-44a1-a592-dd3255a647da</BoundTo>
+      <DependentUpon>AdesaoMenu.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2f596e86-41aa-4cec-a1d1-42b1eeab083a</id>
+    </Compile>
+    <Compile Include="ClubeSmiles\AlterarFormaPagamento.cs">
+      <BoundTo>387f194b-5316-4c07-88c3-57092fa79e0d</BoundTo>
+      <DependentUpon>AlterarFormaPagamento.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>eaee40d2-413e-4d83-bb54-c6e3527c6ff3</id>
+    </Compile>
+    <Compile Include="ClubeSmiles\AlterarFormaPagamento.UserCode.cs">
+      <BoundTo>387f194b-5316-4c07-88c3-57092fa79e0d</BoundTo>
+      <DependentUpon>AlterarFormaPagamento.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>be52e3a5-071c-4aff-8617-fb444a4a087a</id>
+    </Compile>
+    <Compile Include="ClubeSmiles\AlterarPlano.cs">
+      <BoundTo>368b2bf7-6967-4806-96c4-362efa39b960</BoundTo>
+      <DependentUpon>AlterarPlano.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0a7bc470-38ef-45eb-b24d-5e5828262657</id>
+    </Compile>
+    <Compile Include="ClubeSmiles\AlterarPlano.UserCode.cs">
+      <BoundTo>368b2bf7-6967-4806-96c4-362efa39b960</BoundTo>
+      <DependentUpon>AlterarPlano.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ae3a8c8b-cb4c-466e-a532-3745b7fb7547</id>
+    </Compile>
+    <Compile Include="ClubeSmiles\BannerAlteracaoPlano.cs">
+      <BoundTo>be0a96cb-eb49-43c4-ae45-d894b1206244</BoundTo>
+      <DependentUpon>BannerAlteracaoPlano.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0932055d-7605-4bba-84ff-24c44384bb9a</id>
+    </Compile>
+    <Compile Include="ClubeSmiles\BannerAlteracaoPlano.UserCode.cs">
+      <BoundTo>be0a96cb-eb49-43c4-ae45-d894b1206244</BoundTo>
+      <DependentUpon>BannerAlteracaoPlano.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>61820bca-b2ef-41a2-acb5-681f26ab0fc5</id>
+    </Compile>
+    <Compile Include="ClubeSmiles\CancelarAssinatura.cs">
+      <BoundTo>abb65273-0045-4672-a5f3-5b909702796b</BoundTo>
+      <DependentUpon>CancelarAssinatura.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9dda9135-8472-4729-9297-d9cec5f70c38</id>
+    </Compile>
+    <Compile Include="ClubeSmiles\CancelarAssinatura.UserCode.cs">
+      <BoundTo>abb65273-0045-4672-a5f3-5b909702796b</BoundTo>
+      <DependentUpon>CancelarAssinatura.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>14ae2606-afd2-4642-a096-ee0108e310ed</id>
+    </Compile>
+    <Compile Include="ClubeSmiles\ComprarComTecladoVirtualClubeSmiles.cs">
+      <id>a60d6c32-1d4e-4656-8fca-5a3ade55e509</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>ComprarComTecladoVirtualClubeSmiles.rxrec</DependentUpon>
+      <BoundTo>b36b5f3d-0346-4a0f-81b1-ddb282a68cbd</BoundTo>
+    </Compile>
+    <Compile Include="ClubeSmiles\ComprarComTecladoVirtualClubeSmiles.UserCode.cs">
+      <id>ca578d60-d6d2-4876-a60c-5488ded653e0</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>ComprarComTecladoVirtualClubeSmiles.rxrec</DependentUpon>
+      <BoundTo>b36b5f3d-0346-4a0f-81b1-ddb282a68cbd</BoundTo>
+    </Compile>
+    <Compile Include="ClubeSmiles\ComprarComTecladoVirtualClubeSmilesNew.cs">
+      <id>06036569-d55b-4a4b-a398-e2f5eb58f3a1</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>ComprarComTecladoVirtualClubeSmilesNew.rxrec</DependentUpon>
+      <BoundTo>af2d0de7-d580-4f77-a664-43b7cf10cca3</BoundTo>
+    </Compile>
+    <Compile Include="ClubeSmiles\ComprarComTecladoVirtualClubeSmilesNew.UserCode.cs">
+      <id>3a659bba-9625-41de-9fb8-2fd32118dc7b</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>ComprarComTecladoVirtualClubeSmilesNew.rxrec</DependentUpon>
+      <BoundTo>af2d0de7-d580-4f77-a664-43b7cf10cca3</BoundTo>
+    </Compile>
+    <Compile Include="ClubeSmiles\ComprarSemTecladoVirtualClubeSmiles.cs">
+      <id>59eb69b4-ef28-4b42-9e6f-6df2a6ae5cab</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>ComprarSemTecladoVirtualClubeSmiles.rxrec</DependentUpon>
+      <BoundTo>a7596989-ecb3-4503-87cb-636ce9707993</BoundTo>
+    </Compile>
+    <Compile Include="ClubeSmiles\ComprarSemTecladoVirtualClubeSmiles.UserCode.cs">
+      <id>14303539-bff1-496d-bea3-5ff713d9c5b8</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>ComprarSemTecladoVirtualClubeSmiles.rxrec</DependentUpon>
+      <BoundTo>a7596989-ecb3-4503-87cb-636ce9707993</BoundTo>
+    </Compile>
+    <Compile Include="ClubeSmiles\ComprarSemTecladoVirtualClubeSmilesNew.cs">
+      <id>02cca2bf-a558-40d0-920a-58daae203c5d</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>ComprarSemTecladoVirtualClubeSmilesNew.rxrec</DependentUpon>
+      <BoundTo>57babdbf-a48b-425b-9f0f-ebc21e63a3c9</BoundTo>
+    </Compile>
+    <Compile Include="ClubeSmiles\ComprarSemTecladoVirtualClubeSmilesNew.UserCode.cs">
+      <id>458d370b-f3f1-42a3-9c04-39046050fb83</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>ComprarSemTecladoVirtualClubeSmilesNew.rxrec</DependentUpon>
+      <BoundTo>57babdbf-a48b-425b-9f0f-ebc21e63a3c9</BoundTo>
+    </Compile>
+    <Compile Include="ClubeSmiles\Configuracoes.cs">
+      <BoundTo>3db100f2-3fef-431c-bdf5-3f2ba4ff509d</BoundTo>
+      <DependentUpon>Configuracoes.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3b090210-dd64-46d5-8208-d7ba8267c6b3</id>
+    </Compile>
+    <Compile Include="ClubeSmiles\Configuracoes.UserCode.cs">
+      <BoundTo>3db100f2-3fef-431c-bdf5-3f2ba4ff509d</BoundTo>
+      <DependentUpon>Configuracoes.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4c027cf4-44d1-40e0-971b-5d801d22da1d</id>
+    </Compile>
+    <Compile Include="ClubeSmiles\MenuClubeSmiles.cs">
+      <BoundTo>ebe59d03-ae69-4a96-ac53-82669b9c3b28</BoundTo>
+      <DependentUpon>MenuClubeSmiles.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ef823f4c-4ba1-4912-b8d9-3cc5d261f2f1</id>
+    </Compile>
+    <Compile Include="ClubeSmiles\MenuClubeSmiles.UserCode.cs">
+      <BoundTo>ebe59d03-ae69-4a96-ac53-82669b9c3b28</BoundTo>
+      <DependentUpon>MenuClubeSmiles.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a1cdca14-f347-4a2b-b0eb-f1a6b0c066ec</id>
+    </Compile>
+    <Compile Include="ClubeSmiles\PreCadastro.cs">
+      <BoundTo>99e76bc4-18ad-4101-877d-e654c84d5f5e</BoundTo>
+      <DependentUpon>PreCadastro.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bc60b572-0939-4536-b642-560a7c9dade5</id>
+    </Compile>
+    <Compile Include="ClubeSmiles\PreCadastro.UserCode.cs">
+      <BoundTo>99e76bc4-18ad-4101-877d-e654c84d5f5e</BoundTo>
+      <DependentUpon>PreCadastro.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>55b33a6a-dd93-4eea-a8ad-95f690313ec5</id>
+    </Compile>
+    <Compile Include="Comprar\ComprarComTecladoVirtual.cs">
+      <BoundTo>2d0418e3-f4cf-40cd-a3a7-c442278dd5a6</BoundTo>
+      <DependentUpon>ComprarComTecladoVirtual.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3a541fc9-4f7f-43ef-9388-c164b734d93b</id>
+    </Compile>
+    <Compile Include="Comprar\ComprarComTecladoVirtual.UserCode.cs">
+      <BoundTo>2d0418e3-f4cf-40cd-a3a7-c442278dd5a6</BoundTo>
+      <DependentUpon>ComprarComTecladoVirtual.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>507be770-59cf-484c-8091-37c0c55b475c</id>
+    </Compile>
+    <Compile Include="Comprar\ComprarComTecladoVirtualETaxas.cs">
+      <BoundTo>9a7cc4fb-28cf-4025-abe7-5fa052f02684</BoundTo>
+      <DependentUpon>ComprarComTecladoVirtualETaxas.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>abf0dce6-4f56-4d04-909d-254757760494</id>
+    </Compile>
+    <Compile Include="Comprar\ComprarComTecladoVirtualETaxas.UserCode.cs">
+      <BoundTo>9a7cc4fb-28cf-4025-abe7-5fa052f02684</BoundTo>
+      <DependentUpon>ComprarComTecladoVirtualETaxas.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5dcdeeb3-d96a-4dd0-b746-dbc94519fa1c</id>
+    </Compile>
+    <Compile Include="Comprar\ComprarSemTecladoVirtual.cs">
+      <id>d6311ec8-ce4d-4437-aae7-b5bd39752eaa</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>ComprarSemTecladoVirtual.rxrec</DependentUpon>
+      <BoundTo>ccd541d0-eefb-4532-b0a1-116786e3f701</BoundTo>
+    </Compile>
+    <Compile Include="Comprar\ComprarSemTecladoVirtual.UserCode.cs">
+      <id>c4babab9-3a34-4cf5-b2d3-eeaa6c097195</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>ComprarSemTecladoVirtual.rxrec</DependentUpon>
+      <BoundTo>ccd541d0-eefb-4532-b0a1-116786e3f701</BoundTo>
+    </Compile>
+    <Compile Include="Comprar\ConfirmarAlteracao.cs">
+      <BoundTo>d337a44d-9e51-476f-815c-5603ae0887ad</BoundTo>
+      <DependentUpon>ConfirmarAlteracao.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>30842ed8-bf8b-4e8c-ad2f-8f70d204e45c</id>
+    </Compile>
+    <Compile Include="Comprar\ConfirmarAlteracao.UserCode.cs">
+      <BoundTo>d337a44d-9e51-476f-815c-5603ae0887ad</BoundTo>
+      <DependentUpon>ConfirmarAlteracao.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>43941a46-4fed-4a83-a20b-25edc629a94a</id>
+    </Compile>
+    <Compile Include="Comprar\PagamentoComTecladoVirtual.cs">
+      <id>76041b93-f858-408b-b6fc-3dd49e77096a</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>PagamentoComTecladoVirtual.rxrec</DependentUpon>
+      <BoundTo>d01e6147-7d2e-4afa-bdaa-32fff27a5cd2</BoundTo>
+    </Compile>
+    <Compile Include="Comprar\PagamentoComTecladoVirtual.UserCode.cs">
+      <id>586e82e2-d8b4-4d09-960d-754dccb69c52</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>PagamentoComTecladoVirtual.rxrec</DependentUpon>
+      <BoundTo>d01e6147-7d2e-4afa-bdaa-32fff27a5cd2</BoundTo>
+    </Compile>
+    <Compile Include="Comprar\PagamentoSemTecladoVirtual.cs">
+      <id>60c9d930-d4f6-47bc-a684-21e11647616d</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>PagamentoSemTecladoVirtual.rxrec</DependentUpon>
+      <BoundTo>60890b41-f4dc-49bf-ab72-100435721d9e</BoundTo>
+    </Compile>
+    <Compile Include="Comprar\PagamentoSemTecladoVirtual.UserCode.cs">
+      <id>a3dca6d1-5b96-44d2-bbb9-55d0f49a1fa7</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>PagamentoSemTecladoVirtual.rxrec</DependentUpon>
+      <BoundTo>60890b41-f4dc-49bf-ab72-100435721d9e</BoundTo>
+    </Compile>
+    <Compile Include="Compra_De_Milhas\ComprarMilhas.cs">
+      <BoundTo>05ff5cdb-c4b5-43f1-95b5-0b11ea46a02b</BoundTo>
+      <DependentUpon>ComprarMilhas.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c09e35e5-61c6-41ca-a431-7780d40a2e25</id>
+    </Compile>
+    <Compile Include="Compra_De_Milhas\ComprarMilhas.UserCode.cs">
+      <BoundTo>05ff5cdb-c4b5-43f1-95b5-0b11ea46a02b</BoundTo>
+      <DependentUpon>ComprarMilhas.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ff28b2a6-0a3b-48d2-88c6-5e247a5e8684</id>
+    </Compile>
+    <Compile Include="Compra_De_Milhas\ComprarMilhasNEW.cs">
+      <DependentUpon>ComprarMilhasNEW.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f7a5cf4b-63bc-47eb-bff2-b86df7ee8293</id>
+      <BoundTo>20ec09d8-6875-497d-a776-9525f273c18c</BoundTo>
+    </Compile>
+    <Compile Include="Compra_De_Milhas\ComprarMilhasNEW.UserCode.cs">
+      <DependentUpon>ComprarMilhasNEW.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4bf962b5-b3e6-4bca-8e92-8e4dec36e3c0</id>
+      <BoundTo>20ec09d8-6875-497d-a776-9525f273c18c</BoundTo>
+    </Compile>
+    <Compile Include="Dados_Do_Passageiro\InserirPassageiros.cs">
+      <BoundTo>7e70ea7d-0a52-490f-89e4-bc59506c4c74</BoundTo>
+      <DependentUpon>InserirPassageiros.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0a6f1c73-904e-434c-93e8-96030fb5fbe5</id>
+    </Compile>
+    <Compile Include="Dados_Do_Passageiro\InserirPassageiros.UserCode.cs">
+      <BoundTo>7e70ea7d-0a52-490f-89e4-bc59506c4c74</BoundTo>
+      <DependentUpon>InserirPassageiros.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f1f0bd61-ffb9-4f72-96d2-cd74211855c6</id>
+    </Compile>
+    <Compile Include="Dados_Do_Passageiro\InserirPassageirosGateway.cs">
+      <DependentUpon>InserirPassageirosGateway.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>38a84a1e-2e65-4fe8-8a4b-53916081f0d3</id>
+      <BoundTo>a624083e-e3ed-4f62-82b4-4263ed0116e4</BoundTo>
+    </Compile>
+    <Compile Include="Dados_Do_Passageiro\InserirPassageirosGateway.UserCode.cs">
+      <DependentUpon>InserirPassageirosGateway.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f168ec9f-0e58-4891-86f2-e87c016721a7</id>
+      <BoundTo>a624083e-e3ed-4f62-82b4-4263ed0116e4</BoundTo>
+    </Compile>
+    <Compile Include="DesktopWebFunctions.cs">
+      <id>856e160d-4271-4b53-a5ba-c345c4b4ecf5</id>
+    </Compile>
+    <Compile Include="Emissao\EmissaoSemMilhas.cs">
+      <BoundTo>beb5292e-cb28-4d85-a115-7fce47cd6dbe</BoundTo>
+      <DependentUpon>EmissaoSemMilhas.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>411c14f5-5471-4f77-aca5-c6f9527d7f8e</id>
+    </Compile>
+    <Compile Include="Emissao\EmissaoSemMilhas.UserCode.cs">
+      <BoundTo>beb5292e-cb28-4d85-a115-7fce47cd6dbe</BoundTo>
+      <DependentUpon>EmissaoSemMilhas.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b0371e28-e8c2-442c-bf6c-2b9ed1e4d94c</id>
+    </Compile>
+    <Compile Include="Escolher_Assentos\EscolherAssentos.cs">
+      <BoundTo>50ebaf6d-402a-4308-9afa-a6937311fc53</BoundTo>
+      <DependentUpon>EscolherAssentos.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>74c9740e-ae06-458d-a922-d9334d8e4b66</id>
+    </Compile>
+    <Compile Include="Escolher_Assentos\EscolherAssentos.UserCode.cs">
+      <BoundTo>50ebaf6d-402a-4308-9afa-a6937311fc53</BoundTo>
+      <DependentUpon>EscolherAssentos.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>61ad1b56-c79a-4e5a-b324-1ce3c52e8a7a</id>
+    </Compile>
+    <Compile Include="EsqueciMeusDados\EsqueciMeuNumeroSmiles.cs">
+      <BoundTo>6d82c6b2-9b5c-441b-9212-ecc8a94ab671</BoundTo>
+      <DependentUpon>EsqueciMeuNumeroSmiles.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d2749b2d-101d-4151-acc3-95b8bf3e3fc6</id>
+    </Compile>
+    <Compile Include="EsqueciMeusDados\EsqueciMeuNumeroSmiles.UserCode.cs">
+      <BoundTo>6d82c6b2-9b5c-441b-9212-ecc8a94ab671</BoundTo>
+      <DependentUpon>EsqueciMeuNumeroSmiles.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>608f781e-edd6-495f-b80b-7b6d3b7b9265</id>
+    </Compile>
+    <Compile Include="EsqueciMeusDados\EsqueciMinhaSenha.cs">
+      <BoundTo>3ca38305-4248-49a3-ac45-50cacbd99b0c</BoundTo>
+      <DependentUpon>EsqueciMinhaSenha.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b473f94c-053f-4f4f-92d0-65a15d77b980</id>
+    </Compile>
+    <Compile Include="EsqueciMeusDados\EsqueciMinhaSenha.UserCode.cs">
+      <BoundTo>3ca38305-4248-49a3-ac45-50cacbd99b0c</BoundTo>
+      <DependentUpon>EsqueciMinhaSenha.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6a095b38-4ebf-46c3-a85e-afb76166b8f1</id>
+    </Compile>
+    <Compile Include="ExcelFramework.cs">
+      <id>9ccf2f17-c51c-4c00-b9d8-98fd61b6792b</id>
+    </Compile>
+    <Compile Include="Extrato\AcessarExtrato.cs">
+      <BoundTo>20436810-562c-4c8f-b27b-092e34388098</BoundTo>
+      <DependentUpon>AcessarExtrato.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>67a4a35b-c5c4-4210-8793-4e10a349679c</id>
+    </Compile>
+    <Compile Include="Extrato\AcessarExtrato.UserCode.cs">
+      <BoundTo>20436810-562c-4c8f-b27b-092e34388098</BoundTo>
+      <DependentUpon>AcessarExtrato.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6c704fd5-676e-4086-a3f2-f5d846ab3757</id>
+    </Compile>
+    <Compile Include="Favoritos\ExcluirFavorito.cs">
+      <BoundTo>383a0d67-605b-4d32-bfbe-2c0b14bdfa08</BoundTo>
+      <DependentUpon>ExcluirFavorito.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b7c5efde-5331-4571-a95c-6fec8efd43b3</id>
+    </Compile>
+    <Compile Include="Favoritos\ExcluirFavorito.UserCode.cs">
+      <BoundTo>383a0d67-605b-4d32-bfbe-2c0b14bdfa08</BoundTo>
+      <DependentUpon>ExcluirFavorito.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>80b73b84-1fd7-4102-9dbe-bf7b3dd5be0b</id>
+    </Compile>
+    <Compile Include="Favoritos\InserirFavorito.cs">
+      <BoundTo>2fb14d6c-be19-4254-a871-bc1a22c6c681</BoundTo>
+      <DependentUpon>InserirFavorito.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6ca47f56-92f2-403a-982b-d0d05a2fe6f4</id>
+    </Compile>
+    <Compile Include="Favoritos\InserirFavorito.UserCode.cs">
+      <BoundTo>2fb14d6c-be19-4254-a871-bc1a22c6c681</BoundTo>
+      <DependentUpon>InserirFavorito.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>50d076da-2a8d-484e-b812-17edcf143d71</id>
+    </Compile>
+    <Compile Include="Favoritos\EditarFavorito.cs">
+      <BoundTo>3905527f-c7ed-433f-9ad2-90e3b39a14c0</BoundTo>
+      <DependentUpon>EditarFavorito.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4cff14b0-00dd-482d-a0d1-800f28143529</id>
+    </Compile>
+    <Compile Include="Favoritos\EditarFavorito.UserCode.cs">
+      <BoundTo>3905527f-c7ed-433f-9ad2-90e3b39a14c0</BoundTo>
+      <DependentUpon>EditarFavorito.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>09cd39a5-7669-4e5c-9ed8-d8d9a1c143e2</id>
+    </Compile>
+    <Compile Include="Favoritos\GerenciarFavoritos.cs">
+      <BoundTo>ff839dda-6d16-4f05-a67b-c2517f50c262</BoundTo>
+      <DependentUpon>GerenciarFavoritos.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3ecbca96-3f89-4248-a339-8c559b3166f0</id>
+    </Compile>
+    <Compile Include="Favoritos\GerenciarFavoritos.UserCode.cs">
+      <BoundTo>ff839dda-6d16-4f05-a67b-c2517f50c262</BoundTo>
+      <DependentUpon>GerenciarFavoritos.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a05b29d8-5373-491b-9721-74b72bd3f9bd</id>
+    </Compile>
+    <Compile Include="FormProgress.cs">
+      <id>3426d2b6-9846-40cd-aa21-237e1bdff413</id>
+    </Compile>
+    <Compile Include="FormProgress.Designer.cs">
+      <DependentUpon>FormProgress.cs</DependentUpon>
+      <id>2fd96f89-6312-4234-9c46-5e026f4af074</id>
+      <BoundTo>3426d2b6-9846-40cd-aa21-237e1bdff413</BoundTo>
+    </Compile>
+    <Compile Include="GIFT\BuscarEvento.cs">
+      <BoundTo>7e3f8337-a5ef-4c7d-9f6a-fb8e0d75ca4b</BoundTo>
+      <DependentUpon>BuscarEvento.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4935ae46-84ae-4df9-a659-948b44ed54e0</id>
+    </Compile>
+    <Compile Include="GIFT\BuscarEvento.UserCode.cs">
+      <BoundTo>7e3f8337-a5ef-4c7d-9f6a-fb8e0d75ca4b</BoundTo>
+      <DependentUpon>BuscarEvento.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f5bd895d-736e-4273-840b-a14713ff7432</id>
+    </Compile>
+    <Compile Include="GIFT\CriarEvento.cs">
+      <BoundTo>ca2b9cdb-109a-4b93-bb2e-cd1407d6a113</BoundTo>
+      <DependentUpon>CriarEvento.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0c58371b-4b4f-4bdb-8863-accd20ed053f</id>
+    </Compile>
+    <Compile Include="GIFT\CriarEvento.UserCode.cs">
+      <BoundTo>ca2b9cdb-109a-4b93-bb2e-cd1407d6a113</BoundTo>
+      <DependentUpon>CriarEvento.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>699ad3c7-1f04-4da2-8bb5-d26e882e7c12</id>
+    </Compile>
+    <Compile Include="GIFT\FinalizarEvento.cs">
+      <BoundTo>7605f7ba-c913-4064-9770-e5cb78e04128</BoundTo>
+      <DependentUpon>FinalizarEvento.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fe8aa8bd-7bd7-4e3e-a5bb-bafbd90e1c8c</id>
+    </Compile>
+    <Compile Include="GIFT\FinalizarEvento.UserCode.cs">
+      <BoundTo>7605f7ba-c913-4064-9770-e5cb78e04128</BoundTo>
+      <DependentUpon>FinalizarEvento.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a00538f8-1494-4ae3-8f4f-eb69845f3a58</id>
+    </Compile>
+    <Compile Include="GIFT\MenuGIFT.cs">
+      <BoundTo>3ef1f96c-a59b-4363-ae32-274d98f1ee04</BoundTo>
+      <DependentUpon>MenuGIFT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5dcd699a-bcef-45ea-9dfd-67332fb33704</id>
+    </Compile>
+    <Compile Include="GIFT\MenuGIFT.UserCode.cs">
+      <BoundTo>3ef1f96c-a59b-4363-ae32-274d98f1ee04</BoundTo>
+      <DependentUpon>MenuGIFT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c2ab62a2-2d6b-4641-9130-980625085113</id>
+    </Compile>
+    <Compile Include="GIFT\PresentearComprarMilhas.cs">
+      <BoundTo>578d60b7-1cb7-4080-9cb1-7599c419458c</BoundTo>
+      <DependentUpon>PresentearComprarMilhas.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f138d832-bd3b-4121-b4a1-165329ac47ed</id>
+    </Compile>
+    <Compile Include="GIFT\PresentearComprarMilhas.UserCode.cs">
+      <BoundTo>578d60b7-1cb7-4080-9cb1-7599c419458c</BoundTo>
+      <DependentUpon>PresentearComprarMilhas.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>746936c7-26e3-4744-a7e3-1a30e5901a9d</id>
+    </Compile>
+    <Compile Include="GIFT\PresentearTransferirMilhas.cs">
+      <BoundTo>507c472b-519b-4d68-ae09-4abae19e7355</BoundTo>
+      <DependentUpon>PresentearTransferirMilhas.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>27f5c2f5-816e-4877-9464-6fadaeca8683</id>
+    </Compile>
+    <Compile Include="GIFT\PresentearTransferirMilhas.UserCode.cs">
+      <BoundTo>507c472b-519b-4d68-ae09-4abae19e7355</BoundTo>
+      <DependentUpon>PresentearTransferirMilhas.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4b916522-647a-4e04-abdc-2a013741930c</id>
+    </Compile>
+    <Compile Include="ImprimirCartao\ImprimirCartaoSmiles.cs">
+      <BoundTo>cc143e32-4976-4b12-8338-8080c65c1741</BoundTo>
+      <DependentUpon>ImprimirCartaoSmiles.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>76846a12-5b0b-4763-971f-5b98357a7bf8</id>
+    </Compile>
+    <Compile Include="ImprimirCartao\ImprimirCartaoSmiles.UserCode.cs">
+      <BoundTo>cc143e32-4976-4b12-8338-8080c65c1741</BoundTo>
+      <DependentUpon>ImprimirCartaoSmiles.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>bff3376a-2e2a-4552-b3bd-74f4befbbca2</id>
+    </Compile>
+    <Compile Include="IniciarDesktop.cs">
+      <BoundTo>e2c17d9c-5449-409e-ab86-52183b0bc952</BoundTo>
+      <DependentUpon>IniciarDesktop.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e6e24225-d0f2-4b28-96c7-3dda475379fb</id>
+    </Compile>
+    <Compile Include="IniciarDesktop.UserCode.cs">
+      <BoundTo>e2c17d9c-5449-409e-ab86-52183b0bc952</BoundTo>
+      <DependentUpon>IniciarDesktop.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>755ebb43-2845-4b19-aff8-83b01a5fed59</id>
+    </Compile>
+    <Compile Include="IniciarEstimativa.cs">
+      <id>fe13875a-1989-4282-b0a1-adc64bac91a4</id>
+    </Compile>
+    <Compile Include="InitSetup.cs">
+      <BoundTo>52a98df5-3e85-46fc-b9b7-1e37d415c8d1</BoundTo>
+      <DependentUpon>InitSetup.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>14372970-7718-48b4-9d3d-8cb108392941</id>
+    </Compile>
+    <Compile Include="InitSetup.UserCode.cs">
+      <BoundTo>52a98df5-3e85-46fc-b9b7-1e37d415c8d1</BoundTo>
+      <DependentUpon>InitSetup.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ccd28b2a-9d33-4873-88bd-e6d9dc10baa3</id>
+    </Compile>
+    <Compile Include="ErrorInspector.cs">
+      <BoundTo>88a08025-9978-4b2b-8762-b418354a9c83</BoundTo>
+      <DependentUpon>ErrorInspector.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>40b8996d-f255-4f93-b95a-75787e3dec21</id>
+    </Compile>
+    <Compile Include="ErrorInspector.UserCode.cs">
+      <BoundTo>88a08025-9978-4b2b-8762-b418354a9c83</BoundTo>
+      <DependentUpon>ErrorInspector.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8f7700a4-ef82-47a8-b9af-839778126689</id>
+    </Compile>
+    <Compile Include="Links\NavegacaoLinksFooter.cs">
+      <BoundTo>71826c78-f195-41ab-9bb2-329268872b36</BoundTo>
+      <DependentUpon>NavegacaoLinksFooter.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8fac5755-eb22-4904-a02e-88326514ce48</id>
+    </Compile>
+    <Compile Include="Links\NavegacaoLinksFooter.UserCode.cs">
+      <BoundTo>71826c78-f195-41ab-9bb2-329268872b36</BoundTo>
+      <DependentUpon>NavegacaoLinksFooter.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>32881eab-4709-49a0-ad24-dd6716e8239b</id>
+    </Compile>
+    <Compile Include="Links\NavegacaoLinksPromocoes.cs">
+      <BoundTo>e6692876-bb8d-4d96-a478-dbacf62e0b51</BoundTo>
+      <DependentUpon>NavegacaoLinksPromocoes.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d9a589a5-a535-4f51-a84f-960b475409fe</id>
+    </Compile>
+    <Compile Include="Links\NavegacaoLinksPromocoes.UserCode.cs">
+      <BoundTo>e6692876-bb8d-4d96-a478-dbacf62e0b51</BoundTo>
+      <DependentUpon>NavegacaoLinksPromocoes.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c92b6565-ba6e-4428-a044-ba41f0fc79e5</id>
+    </Compile>
+    <Compile Include="LoginHome.cs">
+      <BoundTo>693f86ab-ad7f-4c3a-8ae6-4696ca907d09</BoundTo>
+      <DependentUpon>LoginHome.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1f2d616f-1930-4d54-a0bd-9a6d7f48aed4</id>
+    </Compile>
+    <Compile Include="LoginHome.UserCode.cs">
+      <BoundTo>693f86ab-ad7f-4c3a-8ae6-4696ca907d09</BoundTo>
+      <DependentUpon>LoginHome.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7b283b24-aa8d-4d56-8847-4cb639221a58</id>
+    </Compile>
+    <Compile Include="Menu_Usuario\AlterarMeusDados.cs">
+      <BoundTo>e6dba1ed-909d-43a0-8cfb-8a46a39570f6</BoundTo>
+      <DependentUpon>AlterarMeusDados.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>10008fe3-f540-4043-9822-8fdf564aaba8</id>
+    </Compile>
+    <Compile Include="Menu_Usuario\AlterarMeusDados.UserCode.cs">
+      <BoundTo>e6dba1ed-909d-43a0-8cfb-8a46a39570f6</BoundTo>
+      <DependentUpon>AlterarMeusDados.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9f245711-d69e-4162-a5ae-347cf0c43fc9</id>
+    </Compile>
+    <Compile Include="Menu_Usuario\ComprarMilhas.cs">
+      <id>48e559f2-f3e2-4484-b2b8-8372c98c3ab8</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>ComprarMilhas.rxrec</DependentUpon>
+      <BoundTo>5172f4f0-a0ae-4369-b98b-3317dd5ed003</BoundTo>
+    </Compile>
+    <Compile Include="Menu_Usuario\ComprarMilhas.UserCode.cs">
+      <id>89d449f2-40bc-414c-964c-9ce8943c9de7</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>ComprarMilhas.rxrec</DependentUpon>
+      <BoundTo>5172f4f0-a0ae-4369-b98b-3317dd5ed003</BoundTo>
+    </Compile>
+    <Compile Include="Menu_Usuario\SolicitarMilhas.cs">
+      <BoundTo>d030b6b8-2bf7-46df-b52d-3021dc9f07cf</BoundTo>
+      <DependentUpon>SolicitarMilhas.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>494772ee-837d-4778-897f-ea6ecfec5802</id>
+    </Compile>
+    <Compile Include="Menu_Usuario\SolicitarMilhas.UserCode.cs">
+      <BoundTo>d030b6b8-2bf7-46df-b52d-3021dc9f07cf</BoundTo>
+      <DependentUpon>SolicitarMilhas.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e6918c7d-188f-4c8f-823f-416a7b09c8bc</id>
+    </Compile>
+    <Compile Include="Menu_Usuario\TransferirMilhas.cs">
+      <id>b4fd410d-8df6-4852-b259-857a76a6a02a</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>TransferirMilhas.rxrec</DependentUpon>
+      <BoundTo>cfb38a30-8aae-492c-950d-9a5311ebd3b9</BoundTo>
+    </Compile>
+    <Compile Include="Menu_Usuario\TransferirMilhas.UserCode.cs">
+      <id>eac6dfe7-25b7-47b8-9772-d6ad60fd61ed</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>TransferirMilhas.rxrec</DependentUpon>
+      <BoundTo>cfb38a30-8aae-492c-950d-9a5311ebd3b9</BoundTo>
+    </Compile>
+    <Compile Include="Menu_Usuario\Menu_ClubeSmiles.cs">
+      <id>462da654-e07a-49b9-886e-de610bfdd898</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>Menu_ClubeSmiles.rxrec</DependentUpon>
+      <BoundTo>6014c4d9-5ed5-45d5-a2af-d6dbe4dcbda9</BoundTo>
+    </Compile>
+    <Compile Include="Menu_Usuario\Menu_ClubeSmiles.UserCode.cs">
+      <id>dbcac882-e6d3-49ed-939c-ed9c79a29f1a</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>Menu_ClubeSmiles.rxrec</DependentUpon>
+      <BoundTo>6014c4d9-5ed5-45d5-a2af-d6dbe4dcbda9</BoundTo>
+    </Compile>
+    <Compile Include="Menu_Usuario\MeusVoos.cs">
+      <id>cf1feb19-d6a9-4313-97de-89dd17a02e54</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>MeusVoos.rxrec</DependentUpon>
+      <BoundTo>5c3fcd0c-b07f-491b-9c67-d68ff01da7b1</BoundTo>
+    </Compile>
+    <Compile Include="Menu_Usuario\MeusVoos.UserCode.cs">
+      <id>c542115a-0176-4efe-b38c-a530db757943</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>MeusVoos.rxrec</DependentUpon>
+      <BoundTo>5c3fcd0c-b07f-491b-9c67-d68ff01da7b1</BoundTo>
+    </Compile>
+    <Compile Include="Menu_Usuario\MinhaConta.cs">
+      <BoundTo>ab781046-893c-482c-8fb6-ea0ff087bca7</BoundTo>
+      <DependentUpon>MinhaConta.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ca6a93b1-fd9c-4233-af9a-0b6fdbbe9886</id>
+    </Compile>
+    <Compile Include="Menu_Usuario\MinhaConta.UserCode.cs">
+      <BoundTo>ab781046-893c-482c-8fb6-ea0ff087bca7</BoundTo>
+      <DependentUpon>MinhaConta.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>589afe57-0a8a-4dbc-930b-77127af488e8</id>
+    </Compile>
+    <Compile Include="Mobile\AppSmiles\BuscaDeVoos\BuscarVoos.cs">
+      <BoundTo>307b4f23-f1f9-437c-a2ee-4273bde9fa09</BoundTo>
+      <DependentUpon>BuscarVoos.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3c9b0441-7280-4f64-91c5-9bdf9a2486c4</id>
+    </Compile>
+    <Compile Include="Mobile\AppSmiles\BuscaDeVoos\BuscarVoos.UserCode.cs">
+      <BoundTo>307b4f23-f1f9-437c-a2ee-4273bde9fa09</BoundTo>
+      <DependentUpon>BuscarVoos.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9bd7df82-2de1-43bd-be04-b16fef342d66</id>
+    </Compile>
+    <Compile Include="Mobile\AppSmiles\BuscaDeVoos\SelecionarVoo.cs">
+      <BoundTo>4ef5bfc7-2a7d-4395-9135-662f6fed8022</BoundTo>
+      <DependentUpon>SelecionarVoo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bb7ff6da-41f0-41be-82d5-acff594958b7</id>
+    </Compile>
+    <Compile Include="Mobile\AppSmiles\BuscaDeVoos\SelecionarVoo.UserCode.cs">
+      <BoundTo>4ef5bfc7-2a7d-4395-9135-662f6fed8022</BoundTo>
+      <DependentUpon>SelecionarVoo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>73362841-2352-4fcf-acae-8b52237bf930</id>
+    </Compile>
+    <Compile Include="Mobile\AppSmiles\FinalizacaoApp\FinalizarAppSmiles.cs">
+      <BoundTo>ad6cfc8a-0d85-45c7-b6d1-c48ada3b2f84</BoundTo>
+      <DependentUpon>FinalizarAppSmiles.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0e27d585-42d7-4e59-8917-d919ed1cd25d</id>
+    </Compile>
+    <Compile Include="Mobile\AppSmiles\FinalizacaoApp\FinalizarAppSmiles.UserCode.cs">
+      <BoundTo>ad6cfc8a-0d85-45c7-b6d1-c48ada3b2f84</BoundTo>
+      <DependentUpon>FinalizarAppSmiles.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7c847ac9-46c5-40f4-aaba-dca4b167f0b4</id>
+    </Compile>
+    <Compile Include="Mobile\AppSmiles\InicializacaoApp\IniciarApp.cs">
+      <BoundTo>0ec77f4d-02df-44cc-a451-66102e95a7ba</BoundTo>
+      <DependentUpon>IniciarApp.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f72d0d31-940d-47aa-97fb-0b8a8caa2b5a</id>
+    </Compile>
+    <Compile Include="Mobile\AppSmiles\InicializacaoApp\IniciarApp.UserCode.cs">
+      <BoundTo>0ec77f4d-02df-44cc-a451-66102e95a7ba</BoundTo>
+      <DependentUpon>IniciarApp.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e571088f-3559-4824-a63d-a01f25087124</id>
+    </Compile>
+    <Compile Include="Mobile\AppSmiles\InicializacaoApp\Login.cs">
+      <BoundTo>254ba2d6-786c-41e9-b145-649cc9c63d99</BoundTo>
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c7637be7-bc9e-44ce-bf27-438c2a4a831f</id>
+    </Compile>
+    <Compile Include="Mobile\AppSmiles\InicializacaoApp\Login.UserCode.cs">
+      <BoundTo>254ba2d6-786c-41e9-b145-649cc9c63d99</BoundTo>
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>aa0541b7-e1c5-47d7-bdfa-a5ce6abf0e53</id>
+    </Compile>
+    <Compile Include="Mobile\AppSmiles\MenuPrincipal\AcessarMenu.cs">
+      <BoundTo>5310b7aa-83cc-4add-8902-b6b9997fe60f</BoundTo>
+      <DependentUpon>AcessarMenu.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7975cc38-0c5d-4b22-b5b0-17eba94664d1</id>
+    </Compile>
+    <Compile Include="Mobile\AppSmiles\MenuPrincipal\AcessarMenu.UserCode.cs">
+      <BoundTo>5310b7aa-83cc-4add-8902-b6b9997fe60f</BoundTo>
+      <DependentUpon>AcessarMenu.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>92d1e4ba-f42f-4598-8177-fd940cd3f9c3</id>
+    </Compile>
+    <Compile Include="Mobile\AppSmiles\MenuPrincipal\MenuBuscarVoos.cs">
+      <BoundTo>2e95b37f-2f47-4efb-ab76-39c80baa7ec3</BoundTo>
+      <DependentUpon>MenuBuscarVoos.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3c37974a-9f21-488d-b1c3-de4466b4996c</id>
+    </Compile>
+    <Compile Include="Mobile\AppSmiles\MenuPrincipal\MenuBuscarVoos.UserCode.cs">
+      <BoundTo>2e95b37f-2f47-4efb-ab76-39c80baa7ec3</BoundTo>
+      <DependentUpon>MenuBuscarVoos.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>afd02ffb-a519-44b2-9166-9f18d591c270</id>
+    </Compile>
+    <Compile Include="Mobile\AppSmiles\Pagamento\Pagamento.cs">
+      <BoundTo>639389aa-289d-4bc6-a164-292979371e8a</BoundTo>
+      <DependentUpon>Pagamento.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bdd43a8f-4414-49b4-80c3-964da88c2935</id>
+    </Compile>
+    <Compile Include="Mobile\AppSmiles\Pagamento\Pagamento.UserCode.cs">
+      <BoundTo>639389aa-289d-4bc6-a164-292979371e8a</BoundTo>
+      <DependentUpon>Pagamento.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3f5e5dce-d5a5-4ed7-b960-d66db15ce746</id>
+    </Compile>
+    <Compile Include="Mobile\AppSmiles\Passageiros\InserirPassageiros.cs">
+      <BoundTo>99a1f6e4-6048-440a-b506-1af48a33d70d</BoundTo>
+      <DependentUpon>InserirPassageiros.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>16c97cef-1f05-46d5-98ad-84492d76ec42</id>
+    </Compile>
+    <Compile Include="Mobile\AppSmiles\Passageiros\InserirPassageiros.UserCode.cs">
+      <BoundTo>99a1f6e4-6048-440a-b506-1af48a33d70d</BoundTo>
+      <DependentUpon>InserirPassageiros.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>80a27365-e682-4386-855c-8554e136bba6</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\AdesaoClube\AdesaoPosSelecaoVoo.cs">
+      <BoundTo>60f65cce-ee8e-4f3f-8819-cbfae1d2900a</BoundTo>
+      <DependentUpon>AdesaoPosSelecaoVoo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3c937c5a-d6e4-432a-84dd-105fb3b1dd00</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\AdesaoClube\AdesaoPosSelecaoVoo.UserCode.cs">
+      <BoundTo>60f65cce-ee8e-4f3f-8819-cbfae1d2900a</BoundTo>
+      <DependentUpon>AdesaoPosSelecaoVoo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fa32fdc1-4104-4bc4-a530-3148a587fffb</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\BuscarVoo\BuscarVoo.cs">
+      <BoundTo>bf86a648-7e02-4db6-b000-8442d1a3ecd1</BoundTo>
+      <DependentUpon>BuscarVoo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1b6771de-4ae9-4113-9f34-7c62454ee232</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\BuscarVoo\BuscarVoo.UserCode.cs">
+      <BoundTo>bf86a648-7e02-4db6-b000-8442d1a3ecd1</BoundTo>
+      <DependentUpon>BuscarVoo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>612b687e-a498-46cd-b289-4ab58c0f327c</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\DadosPassageiros\InserirPassageiros.cs">
+      <BoundTo>8ba49a3e-56a0-44cb-88e7-faaf16dfacc9</BoundTo>
+      <DependentUpon>InserirPassageiros.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>78446cfc-a973-4c42-94c7-bf51a21ca874</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\DadosPassageiros\InserirPassageiros.UserCode.cs">
+      <BoundTo>8ba49a3e-56a0-44cb-88e7-faaf16dfacc9</BoundTo>
+      <DependentUpon>InserirPassageiros.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1ac8c7a9-b4d0-4a31-aaad-9509d1e6850b</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\Emissao\EmissaoSemMilhas.cs">
+      <BoundTo>50db7f6a-1c4b-49e1-a64f-a47997f0527e</BoundTo>
+      <DependentUpon>EmissaoSemMilhas.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4b985cff-e6ce-4335-b308-0e3d73991d74</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\Emissao\EmissaoSemMilhas.UserCode.cs">
+      <BoundTo>50db7f6a-1c4b-49e1-a64f-a47997f0527e</BoundTo>
+      <DependentUpon>EmissaoSemMilhas.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fe0d871e-c3a7-47ce-8097-026a857cbe06</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\Emissao\ReservarVooComCobranca.cs">
+      <BoundTo>01dc9499-4983-4f05-af2b-837065c4b777</BoundTo>
+      <DependentUpon>ReservarVooComCobranca.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b5c4abe0-5a06-4a8f-a2cc-1ef8bdd8ad2e</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\Emissao\ReservarVooComCobranca.UserCode.cs">
+      <BoundTo>01dc9499-4983-4f05-af2b-837065c4b777</BoundTo>
+      <DependentUpon>ReservarVooComCobranca.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>bd94be39-cd4b-4259-9666-a19e96ddc270</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\Emissao\ReservarVooSemCobranca.cs">
+      <BoundTo>a87ed206-5d42-4ae2-9d8d-a70d4ab8af77</BoundTo>
+      <DependentUpon>ReservarVooSemCobranca.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e0dd6dfd-82b4-436e-ab87-8ad55df6f26a</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\Emissao\ReservarVooSemCobranca.UserCode.cs">
+      <BoundTo>a87ed206-5d42-4ae2-9d8d-a70d4ab8af77</BoundTo>
+      <DependentUpon>ReservarVooSemCobranca.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5f318416-c7fa-4412-9498-22abdd83517f</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\Init\InitRxBrowser.cs">
+      <BoundTo>791652ae-141a-4f8c-852d-df89ac40f932</BoundTo>
+      <DependentUpon>InitRxBrowser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3cbf0385-bcf2-4c76-a3fa-317e1d5f538e</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\Init\InitRxBrowser.UserCode.cs">
+      <BoundTo>791652ae-141a-4f8c-852d-df89ac40f932</BoundTo>
+      <DependentUpon>InitRxBrowser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b1d2c8f3-9b53-4a73-a490-32dcfa436bc4</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\Login\LoginHeader.cs">
+      <BoundTo>f3797baf-5f6e-4ab4-a292-087cc9582c6a</BoundTo>
+      <DependentUpon>LoginHeader.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5347b51c-29fb-41fb-8fde-c53673f44447</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\Login\LoginHeader.UserCode.cs">
+      <BoundTo>f3797baf-5f6e-4ab4-a292-087cc9582c6a</BoundTo>
+      <DependentUpon>LoginHeader.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f80b4a98-cea3-45c9-a48c-858c0bd6c1c4</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\Login\Logout.cs">
+      <BoundTo>9f913d2e-51b4-41e8-8726-d4124ca41f06</BoundTo>
+      <DependentUpon>Logout.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>78626c2a-7b1e-4c82-b9a2-94ee65d026e0</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\Login\Logout.UserCode.cs">
+      <BoundTo>9f913d2e-51b4-41e8-8726-d4124ca41f06</BoundTo>
+      <DependentUpon>Logout.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5ae7dc36-873f-4568-a231-df460c103083</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\MenusUsuarios\MeusVoos.cs">
+      <BoundTo>709c101f-03fc-4c29-b625-6ac0b778a8fc</BoundTo>
+      <DependentUpon>MeusVoos.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2c0dddb9-5c32-452c-9f02-ce972a475261</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\MenusUsuarios\MeusVoos.UserCode.cs">
+      <BoundTo>709c101f-03fc-4c29-b625-6ac0b778a8fc</BoundTo>
+      <DependentUpon>MeusVoos.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>08d319d3-7377-453a-af82-1d5d3a2d12dd</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\Meus_Voos\CapturarReembolsoCancelamento.cs">
+      <BoundTo>f8afa3cd-67f2-4a3d-b694-6fc6c8ba9611</BoundTo>
+      <DependentUpon>CapturarReembolsoCancelamento.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0511a83d-6cbe-478c-afe1-5b087479f498</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\Meus_Voos\CapturarReembolsoCancelamento.UserCode.cs">
+      <BoundTo>f8afa3cd-67f2-4a3d-b694-6fc6c8ba9611</BoundTo>
+      <DependentUpon>CapturarReembolsoCancelamento.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2aa8084f-f06c-4163-8598-d6c8644a3412</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\Meus_Voos\EmissaoSemMilhas.cs">
+      <BoundTo>f5d3003d-eddf-455f-8389-647ed69e329e</BoundTo>
+      <DependentUpon>EmissaoSemMilhas.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9eff58ac-58b4-423f-b054-148e6ecc385e</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\Meus_Voos\EmissaoSemMilhas.UserCode.cs">
+      <BoundTo>f5d3003d-eddf-455f-8389-647ed69e329e</BoundTo>
+      <DependentUpon>EmissaoSemMilhas.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>72f4bde8-ede9-42ad-b8d4-b474ead3f2af</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\Meus_Voos\ProximosVoos.cs">
+      <BoundTo>7f94e03a-bafe-4b1c-a3fd-06ec1db070fb</BoundTo>
+      <DependentUpon>ProximosVoos.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9e017c39-b570-49fe-83db-f3fc9d263943</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\Meus_Voos\ProximosVoos.UserCode.cs">
+      <BoundTo>7f94e03a-bafe-4b1c-a3fd-06ec1db070fb</BoundTo>
+      <DependentUpon>ProximosVoos.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>df3bf258-911a-4fdf-8442-4e3071a2166a</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\Meus_Voos\SelecionarVooAssento.cs">
+      <BoundTo>2ae45269-f115-4319-83d1-bd7fb7d9b5bb</BoundTo>
+      <DependentUpon>SelecionarVooAssento.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>eb5a7d09-365e-4bdc-8ac0-68415ecc1d91</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\Meus_Voos\SelecionarVooAssento.UserCode.cs">
+      <BoundTo>2ae45269-f115-4319-83d1-bd7fb7d9b5bb</BoundTo>
+      <DependentUpon>SelecionarVooAssento.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2c9d04b2-1469-4c98-9559-a9f69b3f8227</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\Meus_Voos\SelecionarVooCancelamentoEmissaoSemMilhas.cs">
+      <BoundTo>4c471029-c071-487a-9d8b-38feb992ea2e</BoundTo>
+      <DependentUpon>SelecionarVooCancelamentoEmissaoSemMilhas.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9dcb7647-a0e2-4aa8-856e-35345b677845</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\Meus_Voos\SelecionarVooCancelamentoEmissaoSemMilhas.UserCode.cs">
+      <BoundTo>4c471029-c071-487a-9d8b-38feb992ea2e</BoundTo>
+      <DependentUpon>SelecionarVooCancelamentoEmissaoSemMilhas.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>736003a0-0cc1-4d96-9167-5cbb3d765c7a</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\Meus_Voos\SelecionarVooCancelamentoG3.cs">
+      <BoundTo>7a25b3bc-152d-4c06-9edf-538e1834f9b1</BoundTo>
+      <DependentUpon>SelecionarVooCancelamentoG3.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>84095656-09a2-4738-b04a-fc8966f35fba</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\Meus_Voos\SelecionarVooCancelamentoG3.UserCode.cs">
+      <BoundTo>7a25b3bc-152d-4c06-9edf-538e1834f9b1</BoundTo>
+      <DependentUpon>SelecionarVooCancelamentoG3.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f38f0c7c-23d8-4cc7-a5e9-4370fed3a7cc</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\Meus_Voos\SelecionarVooCancelamentoYY.cs">
+      <BoundTo>7f7d90b6-a887-45b5-8307-9c7c2ae2b548</BoundTo>
+      <DependentUpon>SelecionarVooCancelamentoYY.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>816ae98d-11ee-4cc1-8591-b113f849a626</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\Meus_Voos\SelecionarVooCancelamentoYY.UserCode.cs">
+      <BoundTo>7f7d90b6-a887-45b5-8307-9c7c2ae2b548</BoundTo>
+      <DependentUpon>SelecionarVooCancelamentoYY.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>aa932d4d-99dc-48c8-b691-3a945c688b24</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\Pagamento\PagamentoComTecladoVirtual.cs">
+      <BoundTo>31224b98-0075-4e60-bd7f-226e18161caa</BoundTo>
+      <DependentUpon>PagamentoComTecladoVirtual.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9b6ba7a5-0a63-41d4-9900-5d559addaec2</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\Pagamento\PagamentoComTecladoVirtual.UserCode.cs">
+      <BoundTo>31224b98-0075-4e60-bd7f-226e18161caa</BoundTo>
+      <DependentUpon>PagamentoComTecladoVirtual.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3801906e-8f86-4a7d-8423-0b37c1b9ad83</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\Pagamento\PagamentoSemTecladoVirtual.cs">
+      <BoundTo>efd566b5-c93a-4321-aaee-3bb9b9153eb4</BoundTo>
+      <DependentUpon>PagamentoSemTecladoVirtual.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>301e91c7-9d9a-4c30-8ebd-56f57a69b0f6</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\Pagamento\PagamentoSemTecladoVirtual.UserCode.cs">
+      <BoundTo>efd566b5-c93a-4321-aaee-3bb9b9153eb4</BoundTo>
+      <DependentUpon>PagamentoSemTecladoVirtual.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>dca75261-842b-4120-8cf5-80d915e0d798</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\ResultadoEsperado\MensagemTela.cs">
+      <id>57a8c26b-f25e-40eb-aea1-36363af97778</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>MensagemTela.rxrec</DependentUpon>
+      <BoundTo>46ada10c-b6b0-4bcc-b5ac-8e8c5e4c63fc</BoundTo>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\ResultadoEsperado\MensagemTela.UserCode.cs">
+      <id>79158506-7551-4ff5-92a8-066cc1038c7e</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>MensagemTela.rxrec</DependentUpon>
+      <BoundTo>46ada10c-b6b0-4bcc-b5ac-8e8c5e4c63fc</BoundTo>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\ResultadoEsperado\RP_BuscarVoo.cs">
+      <BoundTo>780446c5-5f3c-4010-bd7a-d338f5fdea09</BoundTo>
+      <DependentUpon>RP_BuscarVoo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>58bf7072-cc6e-4b21-a7c9-577cbbf7b082</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\ResultadoEsperado\RP_BuscarVoo.UserCode.cs">
+      <BoundTo>780446c5-5f3c-4010-bd7a-d338f5fdea09</BoundTo>
+      <DependentUpon>RP_BuscarVoo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fc81c643-07bf-46e0-ba48-d96deb3cd5c4</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\ResultadoEsperado\RP_CancelamentoVoo.cs">
+      <BoundTo>8d3845b0-7395-45f1-a6a2-4fdf35049991</BoundTo>
+      <DependentUpon>RP_CancelamentoVoo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8c8d6c9d-7080-43d2-b2c2-b8d3467c42cd</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\ResultadoEsperado\RP_CancelamentoVoo.UserCode.cs">
+      <BoundTo>8d3845b0-7395-45f1-a6a2-4fdf35049991</BoundTo>
+      <DependentUpon>RP_CancelamentoVoo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>273822b0-9a52-489d-b7f5-d6d53b9fe022</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\ResultadoEsperado\RP_Compra.cs">
+      <BoundTo>0a0e3f97-4818-4e47-a8df-3026411dbd06</BoundTo>
+      <DependentUpon>RP_Compra.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>beec5016-a22c-4e2a-86d4-495d817c81c3</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\ResultadoEsperado\RP_Compra.UserCode.cs">
+      <BoundTo>0a0e3f97-4818-4e47-a8df-3026411dbd06</BoundTo>
+      <DependentUpon>RP_Compra.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9e0367e7-bad3-45c3-92c3-b218f09a5207</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\ResultadoEsperado\RP_InserirPassageiros.cs">
+      <BoundTo>8abf4c74-f53f-4774-a6b9-d90d0bec6cd5</BoundTo>
+      <DependentUpon>RP_InserirPassageiros.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>eb593115-39d5-4b9e-ad63-7203098da662</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\ResultadoEsperado\RP_InserirPassageiros.UserCode.cs">
+      <BoundTo>8abf4c74-f53f-4774-a6b9-d90d0bec6cd5</BoundTo>
+      <DependentUpon>RP_InserirPassageiros.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1f7eb4f1-b1a8-405e-8899-d3742502852f</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\ResultadoEsperado\RP_SelecionarVoo.cs">
+      <BoundTo>46e45a01-b611-441f-87f8-a3a40797e4c8</BoundTo>
+      <DependentUpon>RP_SelecionarVoo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>76c0d1bc-d003-4168-8daa-4fef7da68d27</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\ResultadoEsperado\RP_SelecionarVoo.UserCode.cs">
+      <BoundTo>46e45a01-b611-441f-87f8-a3a40797e4c8</BoundTo>
+      <DependentUpon>RP_SelecionarVoo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b0280b18-7816-4bfa-9f77-1382e035cc45</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\SelecaoVoos\SelecionarVoo.cs">
+      <BoundTo>53e98511-c1a2-4e69-a19a-bc1a157afb0a</BoundTo>
+      <DependentUpon>SelecionarVoo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c3cce032-9542-4245-9110-8e0443871bc1</id>
+    </Compile>
+    <Compile Include="Mobile\RxBrowser\SelecaoVoos\SelecionarVoo.UserCode.cs">
+      <BoundTo>53e98511-c1a2-4e69-a19a-bc1a157afb0a</BoundTo>
+      <DependentUpon>SelecionarVoo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7e7fddca-0387-4396-92f3-aecf887d42ff</id>
+    </Compile>
+    <Compile Include="Reativar_Milhas\Menu_ReativarMilhas.cs">
+      <BoundTo>bdf30724-3b2d-4d61-95e3-b392d0521107</BoundTo>
+      <DependentUpon>Menu_ReativarMilhas.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e91f4fb8-2b60-4036-9f4c-e65c2d5d1e38</id>
+    </Compile>
+    <Compile Include="Reativar_Milhas\Menu_ReativarMilhas.UserCode.cs">
+      <BoundTo>bdf30724-3b2d-4d61-95e3-b392d0521107</BoundTo>
+      <DependentUpon>Menu_ReativarMilhas.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5986fca1-e028-4e98-870f-c7f63e12d5c1</id>
+    </Compile>
+    <Compile Include="Reativar_Milhas\ReativarMihas.cs">
+      <BoundTo>c6945d6d-193e-4d16-883e-fbd2b8aac281</BoundTo>
+      <DependentUpon>ReativarMihas.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>415ba87c-3d8a-4342-ac40-d057a8f05971</id>
+    </Compile>
+    <Compile Include="Reativar_Milhas\ReativarMihas.UserCode.cs">
+      <BoundTo>c6945d6d-193e-4d16-883e-fbd2b8aac281</BoundTo>
+      <DependentUpon>ReativarMihas.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3ecc83a4-bbaf-400d-a19c-165070d47e0e</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>1e3a22d8-3d88-4459-8e33-9b819c308fd9</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6472e149-ddee-4c24-8d95-35a20ca1058d</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>1e3a22d8-3d88-4459-8e33-9b819c308fd9</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>cf42cd81-57a9-47f6-84bf-23f77ebd87fa</id>
+    </Compile>
+    <Compile Include="Reserva_De_Voo\MeusVoosEmissaoSemMilhas.cs">
+      <DependentUpon>MeusVoosEmissaoSemMilhas.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>00ec31e1-914d-4582-a1e0-cfbda8377236</id>
+      <BoundTo>bfd24192-df00-4dcc-aac7-bcb320bc29af</BoundTo>
+    </Compile>
+    <Compile Include="Reserva_De_Voo\MeusVoosEmissaoSemMilhas.UserCode.cs">
+      <DependentUpon>MeusVoosEmissaoSemMilhas.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>655ce628-2458-4202-8187-3468c864cd05</id>
+      <BoundTo>bfd24192-df00-4dcc-aac7-bcb320bc29af</BoundTo>
+    </Compile>
+    <Compile Include="Reserva_De_Voo\ReservarVooComCobranca.cs">
+      <id>4f36786f-6636-415c-87da-5b4276ec82ea</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>ReservarVooComCobranca.rxrec</DependentUpon>
+      <BoundTo>fc61be60-2df3-45c5-ad4c-3c0e7cfbab93</BoundTo>
+    </Compile>
+    <Compile Include="Reserva_De_Voo\ReservarVooComCobranca.UserCode.cs">
+      <id>987902c3-4048-4bd8-a559-d706049ff5cb</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>ReservarVooComCobranca.rxrec</DependentUpon>
+      <BoundTo>fc61be60-2df3-45c5-ad4c-3c0e7cfbab93</BoundTo>
+    </Compile>
+    <Compile Include="Reserva_De_Voo\ProximosVoos.cs">
+      <BoundTo>7c736b48-6b1a-4a54-8885-5bb0234b2aed</BoundTo>
+      <DependentUpon>ProximosVoos.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>49f74cbb-4e3d-40a9-8d6e-28ed649586cd</id>
+    </Compile>
+    <Compile Include="Reserva_De_Voo\ProximosVoos.UserCode.cs">
+      <BoundTo>7c736b48-6b1a-4a54-8885-5bb0234b2aed</BoundTo>
+      <DependentUpon>ProximosVoos.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9f004904-b928-4f9a-98b8-727eef0dd94d</id>
+    </Compile>
+    <Compile Include="Reserva_De_Voo\ReservarVooComCobrancaGateway.cs">
+      <id>8ae66aa7-c132-41ad-8846-7c1adb8afdfd</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>ReservarVooComCobrancaGateway.rxrec</DependentUpon>
+      <BoundTo>b1a1152b-610b-4836-a16e-4fec5c6378b7</BoundTo>
+    </Compile>
+    <Compile Include="Reserva_De_Voo\ReservarVooComCobrancaGateway.UserCode.cs">
+      <id>384a8568-1381-4203-863a-369a96dedb00</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>ReservarVooComCobrancaGateway.rxrec</DependentUpon>
+      <BoundTo>b1a1152b-610b-4836-a16e-4fec5c6378b7</BoundTo>
+    </Compile>
+    <Compile Include="Reserva_De_Voo\ReservarVooSemCobranca.cs">
+      <BoundTo>64335dab-d598-47f6-9564-041d819a72b9</BoundTo>
+      <DependentUpon>ReservarVooSemCobranca.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c4b2feff-8287-44f7-9322-65f8d011a718</id>
+    </Compile>
+    <Compile Include="Reserva_De_Voo\ReservarVooSemCobranca.UserCode.cs">
+      <BoundTo>64335dab-d598-47f6-9564-041d819a72b9</BoundTo>
+      <DependentUpon>ReservarVooSemCobranca.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>930f068a-ac43-475e-85eb-1a123203fd3c</id>
+    </Compile>
+    <Compile Include="Reserva_De_Voo\ReservarVooSemCobrancaGateway.cs">
+      <DependentUpon>ReservarVooSemCobrancaGateway.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2d2073eb-71dc-4538-9d4d-244cbb9579f8</id>
+      <BoundTo>c34fce32-3f57-4018-a48d-3253e88e9caf</BoundTo>
+    </Compile>
+    <Compile Include="Reserva_De_Voo\ReservarVooSemCobrancaGateway.UserCode.cs">
+      <DependentUpon>ReservarVooSemCobrancaGateway.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a60a7bd2-8358-414e-93fb-2200f2628435</id>
+      <BoundTo>c34fce32-3f57-4018-a48d-3253e88e9caf</BoundTo>
+    </Compile>
+    <Compile Include="Reserva_De_Voo\SelecionarVooAssento.cs">
+      <BoundTo>3c5fd8ac-1d9c-4c52-9511-e4bedf9acc19</BoundTo>
+      <DependentUpon>SelecionarVooAssento.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e5c4d597-431d-4d7e-a081-57bb7b799306</id>
+    </Compile>
+    <Compile Include="Reserva_De_Voo\SelecionarVooAssento.UserCode.cs">
+      <BoundTo>3c5fd8ac-1d9c-4c52-9511-e4bedf9acc19</BoundTo>
+      <DependentUpon>SelecionarVooAssento.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3326f5bc-5043-4329-9076-3a572b0068a0</id>
+    </Compile>
+    <Compile Include="Reserva_De_Voo\SelecionarVooCancelamento.cs">
+      <BoundTo>903ed3e4-1c8e-485c-87a5-3ab6955681fb</BoundTo>
+      <DependentUpon>SelecionarVooCancelamento.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2e598309-4f11-4c5f-98ef-1401aa3ec575</id>
+    </Compile>
+    <Compile Include="Reserva_De_Voo\SelecionarVooCancelamento.UserCode.cs">
+      <BoundTo>903ed3e4-1c8e-485c-87a5-3ab6955681fb</BoundTo>
+      <DependentUpon>SelecionarVooCancelamento.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b39615fb-3e7d-46f5-a71e-d3f5262106b1</id>
+    </Compile>
+    <Compile Include="Reserva_De_Voo\SelecionarVooCancelamentoEmissaoSemMilhas.cs">
+      <DependentUpon>SelecionarVooCancelamentoEmissaoSemMilhas.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7c3f65c9-91d7-457b-9b2b-5bcc3c4c6210</id>
+      <BoundTo>d8913d01-5c5b-4f28-bc1b-a0b1c2c0c42f</BoundTo>
+    </Compile>
+    <Compile Include="Reserva_De_Voo\SelecionarVooCancelamentoEmissaoSemMilhas.UserCode.cs">
+      <DependentUpon>SelecionarVooCancelamentoEmissaoSemMilhas.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1787bf66-67ab-4ba6-8f58-2afa7cca4da4</id>
+      <BoundTo>d8913d01-5c5b-4f28-bc1b-a0b1c2c0c42f</BoundTo>
+    </Compile>
+    <Compile Include="Reserva_De_Voo\SelecionarVooCancelamentoYY.cs">
+      <DependentUpon>SelecionarVooCancelamentoYY.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>096bb1b8-a125-4798-8990-ec5f4779c940</id>
+      <BoundTo>cc363994-9228-4e0b-9d66-d7424a99a889</BoundTo>
+    </Compile>
+    <Compile Include="Reserva_De_Voo\SelecionarVooCancelamentoYY.UserCode.cs">
+      <DependentUpon>SelecionarVooCancelamentoYY.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6b4fb453-163b-4fc6-a9c7-0df80278edf9</id>
+      <BoundTo>cc363994-9228-4e0b-9d66-d7424a99a889</BoundTo>
+    </Compile>
+    <Compile Include="Reserva_De_Voo\SelecionarVooReservado.cs">
+      <BoundTo>99fbe488-8d4f-476d-9207-c272ba1e18c7</BoundTo>
+      <DependentUpon>SelecionarVooReservado.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>24397e53-86fc-48b2-8bc2-c477fac74728</id>
+    </Compile>
+    <Compile Include="Reserva_De_Voo\SelecionarVooReservado.UserCode.cs">
+      <BoundTo>99fbe488-8d4f-476d-9207-c272ba1e18c7</BoundTo>
+      <DependentUpon>SelecionarVooReservado.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a96bdcb7-24e5-4a9d-a23e-e65aeb785496</id>
+    </Compile>
+    <Compile Include="Reserva_De_Voo\VoosReservados.cs">
+      <BoundTo>06078d99-258f-4508-8425-011e0f26e69c</BoundTo>
+      <DependentUpon>VoosReservados.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b290f004-6ba6-4f03-8264-264f232fc96c</id>
+    </Compile>
+    <Compile Include="Reserva_De_Voo\VoosReservados.UserCode.cs">
+      <BoundTo>06078d99-258f-4508-8425-011e0f26e69c</BoundTo>
+      <DependentUpon>VoosReservados.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>72630953-08a7-468d-893c-a05bf7d7ef51</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\CapturarMilhasLogin.cs">
+      <BoundTo>85a764a6-3e7a-493f-940d-41d9bcd90cc3</BoundTo>
+      <DependentUpon>CapturarMilhasLogin.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>268cb87a-f0e8-43d7-9a84-9e76d5f781bf</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\CapturarMilhasLogin.UserCode.cs">
+      <BoundTo>85a764a6-3e7a-493f-940d-41d9bcd90cc3</BoundTo>
+      <DependentUpon>CapturarMilhasLogin.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ccb39aed-ce9b-40ec-ac92-743113c67d0c</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\CapturarReembolsoCancelamento.cs">
+      <BoundTo>45ff2291-d523-4424-8715-d9c5653d6bcd</BoundTo>
+      <DependentUpon>CapturarReembolsoCancelamento.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>343c8f67-1a55-44a2-b69e-e2bf93aafc8f</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\CapturarReembolsoCancelamento.UserCode.cs">
+      <BoundTo>45ff2291-d523-4424-8715-d9c5653d6bcd</BoundTo>
+      <DependentUpon>CapturarReembolsoCancelamento.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>66437d2b-e50f-4d91-814c-7931fd02cba4</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_ComprarPassagemGateway.cs">
+      <DependentUpon>RP_ComprarPassagemGateway.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f6563690-dd30-4608-8fce-4ff49896ef95</id>
+      <BoundTo>563c5afc-9904-48f1-8fc7-6b7bcc64d0f0</BoundTo>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_ComprarPassagemGateway.UserCode.cs">
+      <DependentUpon>RP_ComprarPassagemGateway.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7589cfb6-318f-4339-b7ef-df379a32796c</id>
+      <BoundTo>563c5afc-9904-48f1-8fc7-6b7bcc64d0f0</BoundTo>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_EditarFavorito.cs">
+      <BoundTo>82abe668-a776-4e4c-bba1-c6290cf42bd7</BoundTo>
+      <DependentUpon>RP_EditarFavorito.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8bb9b11c-bb12-4743-94e4-28c94c02c232</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_EditarFavorito.UserCode.cs">
+      <BoundTo>82abe668-a776-4e4c-bba1-c6290cf42bd7</BoundTo>
+      <DependentUpon>RP_EditarFavorito.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2aff10d9-831b-46d4-ab16-287fcf0dfeb9</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_ExcluirFavorito.cs">
+      <BoundTo>91279ab6-de00-404e-964b-5f584075a705</BoundTo>
+      <DependentUpon>RP_ExcluirFavorito.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>afd6758c-d239-400b-a117-666d101cdf6e</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_ExcluirFavorito.UserCode.cs">
+      <BoundTo>91279ab6-de00-404e-964b-5f584075a705</BoundTo>
+      <DependentUpon>RP_ExcluirFavorito.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ff99e155-bb74-4d03-ac90-f3b601309102</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_Extrato.cs">
+      <BoundTo>e9fb3216-3015-49d8-8b54-5bc18dc17df1</BoundTo>
+      <DependentUpon>RP_Extrato.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ff8f6242-92bb-4428-8a8f-c915cf67a380</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_Extrato.UserCode.cs">
+      <BoundTo>e9fb3216-3015-49d8-8b54-5bc18dc17df1</BoundTo>
+      <DependentUpon>RP_Extrato.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7f3ad33c-ca32-4619-af97-bce196adeaf3</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_InserirFavorito.cs">
+      <BoundTo>5d6a50b3-f747-4d68-8902-a1059e1fe9ba</BoundTo>
+      <DependentUpon>RP_InserirFavorito.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e1cf65d1-a685-44a3-ba84-7ad1db6a3815</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_InserirFavorito.UserCode.cs">
+      <BoundTo>5d6a50b3-f747-4d68-8902-a1059e1fe9ba</BoundTo>
+      <DependentUpon>RP_InserirFavorito.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a0c0bd9d-1c6e-4607-bdae-c2aa45906139</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RN_ComprarMilhas.cs">
+      <BoundTo>ecc66097-ef52-4bc0-a07e-502741fcd88e</BoundTo>
+      <DependentUpon>RN_ComprarMilhas.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d352e48c-77f7-4b5a-b603-b550166a728b</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RN_ComprarMilhas.UserCode.cs">
+      <BoundTo>ecc66097-ef52-4bc0-a07e-502741fcd88e</BoundTo>
+      <DependentUpon>RN_ComprarMilhas.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7c557c06-cd85-4b9b-ab11-6e22e374c7a1</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RN_SolicitarMilhas.cs">
+      <BoundTo>e9396a01-bd41-4f74-bc0f-5adca7090a94</BoundTo>
+      <DependentUpon>RN_SolicitarMilhas.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6b61e500-e4c6-45e1-a0ed-769707a49b24</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RN_SolicitarMilhas.UserCode.cs">
+      <BoundTo>e9396a01-bd41-4f74-bc0f-5adca7090a94</BoundTo>
+      <DependentUpon>RN_SolicitarMilhas.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d9d3ab65-d72f-43e6-b822-1139e3849807</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RN_TransferirMilhas.cs">
+      <BoundTo>117be5a7-f9f2-459d-9059-41ed39aeb2c6</BoundTo>
+      <DependentUpon>RN_TransferirMilhas.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>981f1742-be44-49fe-ae6b-a2cbcd5b0c8a</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RN_TransferirMilhas.UserCode.cs">
+      <BoundTo>117be5a7-f9f2-459d-9059-41ed39aeb2c6</BoundTo>
+      <DependentUpon>RN_TransferirMilhas.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a26019f7-7bfb-4002-82eb-24a10091c918</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_AlteracaoFormaPagamentoClube.cs">
+      <BoundTo>d934ff60-2e5c-46e6-bd1a-842cf86843dd</BoundTo>
+      <DependentUpon>RP_AlteracaoFormaPagamentoClube.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9d482edc-9fe0-44af-8531-caa5e97034c9</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_AlteracaoFormaPagamentoClube.UserCode.cs">
+      <BoundTo>d934ff60-2e5c-46e6-bd1a-842cf86843dd</BoundTo>
+      <DependentUpon>RP_AlteracaoFormaPagamentoClube.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>30af440e-5654-4e02-ae62-8f0fc4b71ce0</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_AlterarAssentos.cs">
+      <BoundTo>356723a6-c2e7-479b-93f5-7c0b7baa8a95</BoundTo>
+      <DependentUpon>RP_AlterarAssentos.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0433d6b8-dbeb-4dd4-a130-52920b60e22c</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_AlterarAssentos.UserCode.cs">
+      <BoundTo>356723a6-c2e7-479b-93f5-7c0b7baa8a95</BoundTo>
+      <DependentUpon>RP_AlterarAssentos.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0adf831f-837f-4f3f-83f0-a4591abf7e9c</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_AlterarCadastro.cs">
+      <BoundTo>f47b9bc8-c1d3-4e9d-a5c4-225fd501b0d7</BoundTo>
+      <DependentUpon>RP_AlterarCadastro.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>402860e9-5942-441b-a536-7936129b5547</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_AlterarCadastro.UserCode.cs">
+      <BoundTo>f47b9bc8-c1d3-4e9d-a5c4-225fd501b0d7</BoundTo>
+      <DependentUpon>RP_AlterarCadastro.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ad6078f8-b18d-4e86-a087-9dc3d3cb6c05</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_AlterarPlano.cs">
+      <BoundTo>78b55ffc-66d9-4d82-95f2-7db35772cc49</BoundTo>
+      <DependentUpon>RP_AlterarPlano.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>222e808e-f34d-4ee1-a739-e6d3bf57bc4a</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_AlterarPlano.UserCode.cs">
+      <BoundTo>78b55ffc-66d9-4d82-95f2-7db35772cc49</BoundTo>
+      <DependentUpon>RP_AlterarPlano.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5843ac29-131a-4e7a-befc-e1172bc7d96f</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_AlterarSenha.cs">
+      <BoundTo>481e12cd-cc8e-478f-bcda-a6fea6401465</BoundTo>
+      <DependentUpon>RP_AlterarSenha.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>08485517-583f-40cd-bdb1-4622a5eb30fc</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_AlterarSenha.UserCode.cs">
+      <BoundTo>481e12cd-cc8e-478f-bcda-a6fea6401465</BoundTo>
+      <DependentUpon>RP_AlterarSenha.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e2159465-4ac7-4227-9be7-620b37ca7f0f</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_CadastroUsuario.cs">
+      <BoundTo>1ddd81aa-d539-4dfc-9103-fd10c5834aff</BoundTo>
+      <DependentUpon>RP_CadastroUsuario.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0cf376cc-f84f-4f33-a492-3643e6c2ad35</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_CadastroUsuario.UserCode.cs">
+      <BoundTo>1ddd81aa-d539-4dfc-9103-fd10c5834aff</BoundTo>
+      <DependentUpon>RP_CadastroUsuario.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>516c4d68-2fa4-4b39-82db-db8d41d7da70</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_CancelamentoEmissaoSemMilhas.cs">
+      <BoundTo>71514ebb-5c6b-42d7-a6c6-73064cdfd95b</BoundTo>
+      <DependentUpon>RP_CancelamentoEmissaoSemMilhas.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7afdc936-0518-47dd-9970-9233ff7810d7</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_CancelamentoEmissaoSemMilhas.UserCode.cs">
+      <BoundTo>71514ebb-5c6b-42d7-a6c6-73064cdfd95b</BoundTo>
+      <DependentUpon>RP_CancelamentoEmissaoSemMilhas.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c9feaf98-b4a1-46f2-934f-5062607f3860</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_CancelamentoVoo.cs">
+      <BoundTo>66c98cf5-1713-4f31-a3b9-8b7513ca5d7d</BoundTo>
+      <DependentUpon>RP_CancelamentoVoo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>43fc99e2-e4aa-4344-9f12-815edda1475d</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_CancelamentoVoo.UserCode.cs">
+      <BoundTo>66c98cf5-1713-4f31-a3b9-8b7513ca5d7d</BoundTo>
+      <DependentUpon>RP_CancelamentoVoo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0a16df41-554c-40dc-9cb6-0a71a28f42d2</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_CancelarAssinatura.cs">
+      <BoundTo>d9a2808d-3d03-4937-aa24-ab56e27e4a17</BoundTo>
+      <DependentUpon>RP_CancelarAssinatura.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>65789140-52f4-41a9-a52e-432e38a91927</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_CancelarAssinatura.UserCode.cs">
+      <BoundTo>d9a2808d-3d03-4937-aa24-ab56e27e4a17</BoundTo>
+      <DependentUpon>RP_CancelarAssinatura.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>885c650f-383e-4dfc-9a0c-81f0ab0b0f20</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_ClubePreCadastro.cs">
+      <BoundTo>9899ddc0-5675-4eea-b856-d0d477ceb2f7</BoundTo>
+      <DependentUpon>RP_ClubePreCadastro.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>482864a7-0232-4f03-b82f-e5248b91bbdf</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_ClubePreCadastro.UserCode.cs">
+      <BoundTo>9899ddc0-5675-4eea-b856-d0d477ceb2f7</BoundTo>
+      <DependentUpon>RP_ClubePreCadastro.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5f45a4b5-77b3-4b0f-96ae-1479d002b8fb</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_CriarEvento.cs">
+      <BoundTo>442c1584-4f4d-4857-a8be-32b195157b55</BoundTo>
+      <DependentUpon>RP_CriarEvento.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b9b2f422-26a9-477c-a7cc-9b36250f7ce3</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_CriarEvento.UserCode.cs">
+      <BoundTo>442c1584-4f4d-4857-a8be-32b195157b55</BoundTo>
+      <DependentUpon>RP_CriarEvento.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d0c77d32-7748-492e-88ee-bdd91f5a8c92</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_EmissaoSemMilhas.cs">
+      <BoundTo>2bbb58bf-1aa3-4c6c-89ae-e85822a7e908</BoundTo>
+      <DependentUpon>RP_EmissaoSemMilhas.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>dfd856e8-45ed-430e-9692-f0f2237e8c33</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_EmissaoSemMilhas.UserCode.cs">
+      <BoundTo>2bbb58bf-1aa3-4c6c-89ae-e85822a7e908</BoundTo>
+      <DependentUpon>RP_EmissaoSemMilhas.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>099aaaca-07a0-4d4a-b13b-969647002505</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_EsqueciMeuNumeroSmiles.cs">
+      <BoundTo>a60360ee-21d4-4dc5-8550-36c01c30e566</BoundTo>
+      <DependentUpon>RP_EsqueciMeuNumeroSmiles.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f52439d6-2f73-441a-b913-f43bb5662a26</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_EsqueciMeuNumeroSmiles.UserCode.cs">
+      <BoundTo>a60360ee-21d4-4dc5-8550-36c01c30e566</BoundTo>
+      <DependentUpon>RP_EsqueciMeuNumeroSmiles.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>aec93625-0c15-4ee6-9ee1-ca117ae566e5</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_EsqueciMinhaSenha.cs">
+      <BoundTo>41a86349-563a-4dd1-aa19-1d7bfa8d5ff4</BoundTo>
+      <DependentUpon>RP_EsqueciMinhaSenha.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b0dd8699-fbd0-4168-bf98-b716c346e67e</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_EsqueciMinhaSenha.UserCode.cs">
+      <BoundTo>41a86349-563a-4dd1-aa19-1d7bfa8d5ff4</BoundTo>
+      <DependentUpon>RP_EsqueciMinhaSenha.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7fff435d-b541-48a6-9669-eca6a16c7e70</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_FinalizacaoReserva.cs">
+      <BoundTo>7472f427-7316-4514-9c1c-ee45ce3d8217</BoundTo>
+      <DependentUpon>RP_FinalizacaoReserva.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4a09f349-ff2d-4b17-bc5f-57ef0bd64882</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_FinalizacaoReserva.UserCode.cs">
+      <BoundTo>7472f427-7316-4514-9c1c-ee45ce3d8217</BoundTo>
+      <DependentUpon>RP_FinalizacaoReserva.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>abbdb968-101e-4c14-832e-ebe4baba1c4d</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_FinalizarEvento.cs">
+      <BoundTo>b7f2762b-efc4-4046-8deb-5ac7936dd293</BoundTo>
+      <DependentUpon>RP_FinalizarEvento.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>990862c2-2807-4396-b650-2eed632fd6b0</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_FinalizarEvento.UserCode.cs">
+      <BoundTo>b7f2762b-efc4-4046-8deb-5ac7936dd293</BoundTo>
+      <DependentUpon>RP_FinalizarEvento.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9ee2f601-9dd8-4755-89cd-0177049b2d30</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_GIFTPresentear.cs">
+      <BoundTo>d8da42ff-77a0-46df-8f36-214e71429cd1</BoundTo>
+      <DependentUpon>RP_GIFTPresentear.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1fa12c34-9ca8-4387-a1bb-71e7d138915d</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_GIFTPresentear.UserCode.cs">
+      <BoundTo>d8da42ff-77a0-46df-8f36-214e71429cd1</BoundTo>
+      <DependentUpon>RP_GIFTPresentear.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>404254d8-d447-4537-a483-e698958977c3</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_GIFTPresentearTransferir.cs">
+      <BoundTo>c6e99659-4659-450b-816b-db8dd9b0de42</BoundTo>
+      <DependentUpon>RP_GIFTPresentearTransferir.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0acbe906-17a4-405e-9d7c-488394eaf6e1</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_GIFTPresentearTransferir.UserCode.cs">
+      <BoundTo>c6e99659-4659-450b-816b-db8dd9b0de42</BoundTo>
+      <DependentUpon>RP_GIFTPresentearTransferir.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>263b6ea4-212f-41f4-bcf8-a2486bd02e04</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_ImprimirCartao.cs">
+      <BoundTo>16d4f6c6-1ceb-4745-8093-27ee58de6314</BoundTo>
+      <DependentUpon>RP_ImprimirCartao.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>51ee17fc-83f2-4e12-8b0e-c23b647ba755</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_ImprimirCartao.UserCode.cs">
+      <BoundTo>16d4f6c6-1ceb-4745-8093-27ee58de6314</BoundTo>
+      <DependentUpon>RP_ImprimirCartao.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ba8e8256-1a4e-405a-9cb8-26b0c8b7a95c</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_InserirPassageirosGateway.cs">
+      <DependentUpon>RP_InserirPassageirosGateway.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>39d5c557-771e-4784-bd93-1da2b9c4c344</id>
+      <BoundTo>5af60844-7761-4a14-aa9a-0a7571d890cc</BoundTo>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_InserirPassageirosGateway.UserCode.cs">
+      <DependentUpon>RP_InserirPassageirosGateway.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4a4a296f-da6d-4bc1-83cf-3a0be9cf956c</id>
+      <BoundTo>5af60844-7761-4a14-aa9a-0a7571d890cc</BoundTo>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_NavegacaoLinksFooter.cs">
+      <BoundTo>496e299e-20fd-4cc0-b1c0-bbcf77d0e8e3</BoundTo>
+      <DependentUpon>RP_NavegacaoLinksFooter.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2aed906e-12e6-4c0c-a613-f74df19530cd</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_NavegacaoLinksFooter.UserCode.cs">
+      <BoundTo>496e299e-20fd-4cc0-b1c0-bbcf77d0e8e3</BoundTo>
+      <DependentUpon>RP_NavegacaoLinksFooter.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c6489557-4634-4ed6-9c2e-d18307d67e51</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_NavegacaoLinksPromocoes.cs">
+      <BoundTo>f2312cac-019b-47c8-b7c2-fcde6d2ec883</BoundTo>
+      <DependentUpon>RP_NavegacaoLinksPromocoes.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>69312a62-c675-4bab-ab9d-c22ed33e3628</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_NavegacaoLinksPromocoes.UserCode.cs">
+      <BoundTo>f2312cac-019b-47c8-b7c2-fcde6d2ec883</BoundTo>
+      <DependentUpon>RP_NavegacaoLinksPromocoes.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>df359dc1-3857-426a-a467-932d5179f007</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_PainelMinhaConta.cs">
+      <BoundTo>79ff3962-416f-4e84-92bf-02629fe5ed65</BoundTo>
+      <DependentUpon>RP_PainelMinhaConta.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9e3ca423-3079-420f-a0b2-a89a600452b3</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_PainelMinhaConta.UserCode.cs">
+      <BoundTo>79ff3962-416f-4e84-92bf-02629fe5ed65</BoundTo>
+      <DependentUpon>RP_PainelMinhaConta.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a78d5d28-c62b-4819-959f-5d2cfb98e276</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_ReativarMilhas.cs">
+      <BoundTo>99b841d3-096c-4f47-a4ef-f711982147b7</BoundTo>
+      <DependentUpon>RP_ReativarMilhas.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bf33e5fa-828c-4859-a338-f280d8ad3aca</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_ReativarMilhas.UserCode.cs">
+      <BoundTo>99b841d3-096c-4f47-a4ef-f711982147b7</BoundTo>
+      <DependentUpon>RP_ReativarMilhas.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fad5f214-c43f-420d-99b6-88190db59c28</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_ReservaVoo.cs">
+      <BoundTo>f17ed0c9-4343-4574-9c10-28f7a83e87f9</BoundTo>
+      <DependentUpon>RP_ReservaVoo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3b91e6d4-e621-4873-a32d-5a95dd13ce53</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_ReservaVoo.UserCode.cs">
+      <BoundTo>f17ed0c9-4343-4574-9c10-28f7a83e87f9</BoundTo>
+      <DependentUpon>RP_ReservaVoo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>809f3e7a-2bf8-4050-b1f4-9efe38db5d14</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_SelecionarAssentos.cs">
+      <BoundTo>b04fd804-09b9-455e-8a3f-1f52a590a918</BoundTo>
+      <DependentUpon>RP_SelecionarAssentos.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6ac5fda9-c6e9-447b-be9d-be2532425e24</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_SelecionarAssentos.UserCode.cs">
+      <BoundTo>b04fd804-09b9-455e-8a3f-1f52a590a918</BoundTo>
+      <DependentUpon>RP_SelecionarAssentos.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>427938d7-6404-4247-8b38-06168fae2c5e</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_ShoppingSmiles.cs">
+      <BoundTo>16a8ad73-7191-4f19-bc73-3ec59f45af71</BoundTo>
+      <DependentUpon>RP_ShoppingSmiles.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>27da0c3e-02cc-48be-b2fd-03dd6054a273</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_ShoppingSmiles.UserCode.cs">
+      <BoundTo>16a8ad73-7191-4f19-bc73-3ec59f45af71</BoundTo>
+      <DependentUpon>RP_ShoppingSmiles.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>bb28dcd0-d071-494a-934b-b8d52f56200d</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_SolicitarMilhas.cs">
+      <BoundTo>2d0138aa-4b6b-4884-b3b8-da1d067099ca</BoundTo>
+      <DependentUpon>RP_SolicitarMilhas.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fba0aa45-3fec-4359-8518-218925d13141</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_SolicitarMilhas.UserCode.cs">
+      <BoundTo>2d0138aa-4b6b-4884-b3b8-da1d067099ca</BoundTo>
+      <DependentUpon>RP_SolicitarMilhas.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ac3fb8da-4fb1-4bbe-a887-fefb48e592d1</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_Tooltip.cs">
+      <BoundTo>3f653623-8f14-4c3a-afaf-9c5574bd4917</BoundTo>
+      <DependentUpon>RP_Tooltip.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>52eeda23-1d0b-4c2c-aa46-87bc42f192a2</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_Tooltip.UserCode.cs">
+      <BoundTo>3f653623-8f14-4c3a-afaf-9c5574bd4917</BoundTo>
+      <DependentUpon>RP_Tooltip.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5af1077f-ccbe-49b1-bac8-11f9da85d91f</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_TransferirMilhas.cs">
+      <BoundTo>a6aa468c-8b45-4837-bc9a-a25014bbf005</BoundTo>
+      <DependentUpon>RP_TransferirMilhas.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ac76d103-0d2a-4dbe-baa7-e070340563ce</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_TransferirMilhas.UserCode.cs">
+      <BoundTo>a6aa468c-8b45-4837-bc9a-a25014bbf005</BoundTo>
+      <DependentUpon>RP_TransferirMilhas.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2b1f46a2-693a-4f4e-9cae-450215ab51ce</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_ValidacaoAdesaoAposEmissao.cs">
+      <BoundTo>6c01d6f0-299f-4ca6-8b31-f89dcce32583</BoundTo>
+      <DependentUpon>RP_ValidacaoAdesaoAposEmissao.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6d5fcaa9-3854-499a-a34f-5ffa48198553</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_ValidacaoAdesaoAposEmissao.UserCode.cs">
+      <BoundTo>6c01d6f0-299f-4ca6-8b31-f89dcce32583</BoundTo>
+      <DependentUpon>RP_ValidacaoAdesaoAposEmissao.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>45637b38-71cc-430e-83f8-7c0e0ce8aa8f</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_ValidacaoCompraMilhas.cs">
+      <BoundTo>77832253-01f0-41d2-b4d1-4006d043090a</BoundTo>
+      <DependentUpon>RP_ValidacaoCompraMilhas.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ab368415-6921-4e49-a093-0615891251f5</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_ValidacaoCompraMilhas.UserCode.cs">
+      <BoundTo>77832253-01f0-41d2-b4d1-4006d043090a</BoundTo>
+      <DependentUpon>RP_ValidacaoCompraMilhas.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>add9d82d-5859-4be2-af85-eacc9424e3c4</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_ValidacaoReembolso.cs">
+      <BoundTo>16101503-cfc9-406f-ba15-0222933ef067</BoundTo>
+      <DependentUpon>RP_ValidacaoReembolso.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>665c6357-8b1d-4753-a965-81d60d610b80</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_ValidacaoReembolso.UserCode.cs">
+      <BoundTo>16101503-cfc9-406f-ba15-0222933ef067</BoundTo>
+      <DependentUpon>RP_ValidacaoReembolso.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>17e9e28d-fdef-4404-b8be-ea631dbdd274</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_ValidarAdesaoClube.cs">
+      <BoundTo>33d78d40-8b9d-45b0-aa9d-057426804eaa</BoundTo>
+      <DependentUpon>RP_ValidarAdesaoClube.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>faf14b2d-df8a-4277-a6e1-a1224d4cf5a1</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_ValidarAdesaoClube.UserCode.cs">
+      <BoundTo>33d78d40-8b9d-45b0-aa9d-057426804eaa</BoundTo>
+      <DependentUpon>RP_ValidarAdesaoClube.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c3ad1ea4-f2ed-4f97-b392-228d9aad34d1</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\SalvarAdesaoClube.cs">
+      <BoundTo>7bb57898-c365-4eb3-b437-8111315eb4ba</BoundTo>
+      <DependentUpon>SalvarAdesaoClube.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c6aaa415-6879-4965-b020-919f7d2142a6</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\SalvarAdesaoClube.UserCode.cs">
+      <BoundTo>7bb57898-c365-4eb3-b437-8111315eb4ba</BoundTo>
+      <DependentUpon>SalvarAdesaoClube.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ba9c2d3a-7a68-452b-afce-93ca2bb5019e</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\SalvarDadosCadastro.cs">
+      <BoundTo>9bda51dc-4ded-4d0e-92fb-201a7172ac1d</BoundTo>
+      <DependentUpon>SalvarDadosCadastro.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8f6770ec-a488-47cd-92a2-be64cd1d5db3</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\SalvarDadosCadastro.UserCode.cs">
+      <BoundTo>9bda51dc-4ded-4d0e-92fb-201a7172ac1d</BoundTo>
+      <DependentUpon>SalvarDadosCadastro.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f828467f-eb32-41a3-bc8b-9d5d1d2d51b7</id>
+    </Compile>
+    <Compile Include="SelecaoBrowser.cs">
+      <id>245df406-21d6-4671-b125-2c362e01847e</id>
+    </Compile>
+    <Compile Include="Selecao_De_Voos\AdesaoClubeSmiles.cs">
+      <id>ea0d8816-cdf5-4aa5-8167-dadadd3b0b1b</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>AdesaoClubeSmiles.rxrec</DependentUpon>
+      <BoundTo>5e28b535-d49d-464f-a200-6cbce83a259e</BoundTo>
+    </Compile>
+    <Compile Include="Selecao_De_Voos\AdesaoClubeSmiles.UserCode.cs">
+      <id>e39c0218-b344-4acf-a838-79d74dcb1e29</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>AdesaoClubeSmiles.rxrec</DependentUpon>
+      <BoundTo>5e28b535-d49d-464f-a200-6cbce83a259e</BoundTo>
+    </Compile>
+    <Compile Include="Selecao_De_Voos\SelecionarVooGateway.cs">
+      <id>2ee05b61-9578-4ab3-9fbb-d14597d9cd5c</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>SelecionarVooGateway.rxrec</DependentUpon>
+      <BoundTo>fb84ebd9-5d03-4b63-b153-e58a3a29fe40</BoundTo>
+    </Compile>
+    <Compile Include="Selecao_De_Voos\SelecionarVooGateway.UserCode.cs">
+      <id>a2848f46-9aa9-4667-80cc-7cb7962b56b7</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>SelecionarVooGateway.rxrec</DependentUpon>
+      <BoundTo>fb84ebd9-5d03-4b63-b153-e58a3a29fe40</BoundTo>
+    </Compile>
+    <Compile Include="ShoppingSmiles\MenuShoppingSmiles.cs">
+      <BoundTo>2962fee6-9349-4719-810e-0c6ce7b001de</BoundTo>
+      <DependentUpon>MenuShoppingSmiles.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>10a1f9a6-eda1-4541-8f80-3f416e9cbf90</id>
+    </Compile>
+    <Compile Include="ShoppingSmiles\MenuShoppingSmiles.UserCode.cs">
+      <BoundTo>2962fee6-9349-4719-810e-0c6ce7b001de</BoundTo>
+      <DependentUpon>MenuShoppingSmiles.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3234d17b-1035-49ef-9636-2c8873126494</id>
+    </Compile>
+    <Compile Include="SmilesMobileRepository.cs">
+      <DependentUpon>SmilesMobileRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>72ee505c-53d4-4c1d-b619-3db2d7ed8c97</id>
+      <BoundTo>c7ca2e1f-782d-40d7-9de1-96f07d7cdb20</BoundTo>
+    </Compile>
+    <Compile Include="SmilesRepository.cs">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <DependentUpon>SmilesRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>bd97a8db-81a3-4ef9-86c6-79ef86663108</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>31682d8c-0da9-4ce7-81ac-38f988c8509e</id>
+    </Compile>
+    <Compile Include="ComprarMilhas.cs">
+      <BoundTo>b186383d-bfd4-4b9a-8469-78098db2bb6d</BoundTo>
+      <DependentUpon>ComprarMilhas.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1fcb91bc-a2f5-4c98-9544-eb681b05c507</id>
+    </Compile>
+    <Compile Include="ComprarMilhas.UserCode.cs">
+      <BoundTo>b186383d-bfd4-4b9a-8469-78098db2bb6d</BoundTo>
+      <DependentUpon>ComprarMilhas.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>776a4fe8-1df0-46ee-ae5e-0cd79af90e08</id>
+    </Compile>
+    <Compile Include="OLD_ReservarVoo.cs">
+      <BoundTo>3f63698c-9757-4042-9733-abcada073f1e</BoundTo>
+      <DependentUpon>OLD_ReservarVoo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e373fd6c-b6e7-490f-967d-887ae3bf2abe</id>
+    </Compile>
+    <Compile Include="OLD_ReservarVoo.UserCode.cs">
+      <BoundTo>3f63698c-9757-4042-9733-abcada073f1e</BoundTo>
+      <DependentUpon>OLD_ReservarVoo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d232e697-cbde-4be9-b021-17bb502b616a</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\MensagemTela.cs">
+      <id>21b5796a-20fd-4ba6-8b82-6f331f2d1203</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>MensagemTela.rxrec</DependentUpon>
+      <BoundTo>eb351055-ab76-4d89-aeac-677cd7dd079e</BoundTo>
+    </Compile>
+    <Compile Include="Resultado_Esperado\MensagemTela.UserCode.cs">
+      <id>d05cd5c3-9828-4073-a3f6-316736ddc452</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>MensagemTela.rxrec</DependentUpon>
+      <BoundTo>eb351055-ab76-4d89-aeac-677cd7dd079e</BoundTo>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_BuscarVoo.cs">
+      <id>81241f9e-5307-48c0-b934-6c1ad207bad8</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>RP_BuscarVoo.rxrec</DependentUpon>
+      <BoundTo>00095952-c077-4aee-aca8-f57259191dfa</BoundTo>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_BuscarVoo.UserCode.cs">
+      <id>3fd82985-da07-40b2-9f16-0198b340f9dd</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>RP_BuscarVoo.rxrec</DependentUpon>
+      <BoundTo>00095952-c077-4aee-aca8-f57259191dfa</BoundTo>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_ComprarPassagem.cs">
+      <BoundTo>fdba8db9-308f-4dd3-b433-be09d2f19779</BoundTo>
+      <DependentUpon>RP_ComprarPassagem.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>204f01c2-5d0f-4f10-b916-683d5a75528e</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_ComprarPassagem.UserCode.cs">
+      <BoundTo>fdba8db9-308f-4dd3-b433-be09d2f19779</BoundTo>
+      <DependentUpon>RP_ComprarPassagem.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3a160d77-91e3-4db2-8ea3-07b0525a28a7</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_InserirPassageiros.cs">
+      <BoundTo>33b8dd5c-eca3-4c89-9369-23708725500d</BoundTo>
+      <DependentUpon>RP_InserirPassageiros.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>39f67b11-6020-4077-8263-eceff80dea21</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_InserirPassageiros.UserCode.cs">
+      <BoundTo>33b8dd5c-eca3-4c89-9369-23708725500d</BoundTo>
+      <DependentUpon>RP_InserirPassageiros.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1d6c4ade-8de9-4d2d-b688-2dd8de336a52</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_SelecionarVoo.cs">
+      <id>cdfb3c01-09ab-4a0c-9e55-eaf3af3adbac</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>RP_SelecionarVoo.rxrec</DependentUpon>
+      <BoundTo>2ceb5dca-bc69-4755-ab48-cecd4212f5d8</BoundTo>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_SelecionarVoo.UserCode.cs">
+      <id>dc8332e8-19cb-4fac-b82b-7a3afe12f1b7</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>RP_SelecionarVoo.rxrec</DependentUpon>
+      <BoundTo>2ceb5dca-bc69-4755-ab48-cecd4212f5d8</BoundTo>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_ValidacaoEmissao.cs">
+      <BoundTo>56581eff-3fa2-4e30-add4-44ea721546ef</BoundTo>
+      <DependentUpon>RP_ValidacaoEmissao.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d7584c8b-117d-4080-b5f8-42173d274b14</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\RP_ValidacaoEmissao.UserCode.cs">
+      <BoundTo>56581eff-3fa2-4e30-add4-44ea721546ef</BoundTo>
+      <DependentUpon>RP_ValidacaoEmissao.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>cee0fda4-47a6-4397-822c-4bfbf4fbe574</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\SalvarDadosExcel.cs">
+      <BoundTo>a8cb470a-52dd-4674-83e4-0f6118b17cb9</BoundTo>
+      <DependentUpon>SalvarDadosExcel.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>53532f2a-a3d1-469d-95a8-1568c7a504f2</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\SalvarDadosExcel.UserCode.cs">
+      <BoundTo>a8cb470a-52dd-4674-83e4-0f6118b17cb9</BoundTo>
+      <DependentUpon>SalvarDadosExcel.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f4c41ecc-0e35-44f0-85a2-9dcdc8809f82</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\SalvarReport.cs">
+      <BoundTo>c4f4d542-f23d-4b2d-861c-09f74b36a4b9</BoundTo>
+      <DependentUpon>SalvarReport.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>34599f8c-0c59-4d42-976b-34f9fa7f07c5</id>
+    </Compile>
+    <Compile Include="Resultado_Esperado\SalvarReport.UserCode.cs">
+      <BoundTo>c4f4d542-f23d-4b2d-861c-09f74b36a4b9</BoundTo>
+      <DependentUpon>SalvarReport.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2ac33fe5-1ee7-4472-88a5-f9419541f40e</id>
+    </Compile>
+    <Compile Include="Selecao_De_Voos\SelecionarVoo.cs">
+      <id>d0bb7baa-b769-4d8a-acd6-4ef8ce5675a7</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>SelecionarVoo.rxrec</DependentUpon>
+      <BoundTo>71185a98-8a9c-4c0d-b59c-ffc7bf3c60ce</BoundTo>
+    </Compile>
+    <Compile Include="Selecao_De_Voos\SelecionarVoo.UserCode.cs">
+      <id>8b7a61b7-23ee-4c04-a8d0-6063617e7741</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>SelecionarVoo.rxrec</DependentUpon>
+      <BoundTo>71185a98-8a9c-4c0d-b59c-ffc7bf3c60ce</BoundTo>
+    </Compile>
+    <Compile Include="Selecao_De_Voos\VC_Pedido.cs">
+      <BoundTo>42517c95-cfd3-4526-88e7-57fbe0f571d8</BoundTo>
+      <DependentUpon>VC_Pedido.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8d577861-33c3-4c85-8d54-f9fe0e2992aa</id>
+    </Compile>
+    <Compile Include="Selecao_De_Voos\VC_Pedido.UserCode.cs">
+      <BoundTo>42517c95-cfd3-4526-88e7-57fbe0f571d8</BoundTo>
+      <DependentUpon>VC_Pedido.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1a510761-bfdb-47b4-82c1-162b5d0873d9</id>
+    </Compile>
+    <Compile Include="Smiles_UserCode.cs">
+      <id>c34818a4-daa6-4b65-8801-5472efaf0ebb</id>
+    </Compile>
+    <Compile Include="SolicitarMilhas\SolicitarMilhas.cs">
+      <BoundTo>1f799866-8212-45af-84dd-beaf6c79e325</BoundTo>
+      <DependentUpon>SolicitarMilhas.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fab14cf5-1623-4cdd-abb6-756c3abce298</id>
+    </Compile>
+    <Compile Include="SolicitarMilhas\SolicitarMilhas.UserCode.cs">
+      <BoundTo>1f799866-8212-45af-84dd-beaf6c79e325</BoundTo>
+      <DependentUpon>SolicitarMilhas.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>29209733-0112-4b3f-9965-45af0f838615</id>
+    </Compile>
+    <Compile Include="Teste\ExecuteWithJekins.cs">
+      <BoundTo>a282a741-600b-413f-a553-fe11ac53f78c</BoundTo>
+      <DependentUpon>ExecuteWithJekins.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>523d17c4-85da-494b-a2e3-16afc5e96c24</id>
+    </Compile>
+    <Compile Include="Teste\ExecuteWithJekins.UserCode.cs">
+      <BoundTo>a282a741-600b-413f-a553-fe11ac53f78c</BoundTo>
+      <DependentUpon>ExecuteWithJekins.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b32f6ae0-046c-40de-9fe4-ff6086906dfb</id>
+    </Compile>
+    <Compile Include="Teste\InserirMilhas.cs">
+      <BoundTo>b8454aeb-c6db-44e9-944c-1e72844740fe</BoundTo>
+      <DependentUpon>InserirMilhas.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f0b175d2-859d-4ec9-a1bf-cbfaaa12f3e7</id>
+    </Compile>
+    <Compile Include="Teste\InserirMilhas.UserCode.cs">
+      <BoundTo>b8454aeb-c6db-44e9-944c-1e72844740fe</BoundTo>
+      <DependentUpon>InserirMilhas.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f30d0578-40c4-4080-83e5-bcaf7a0d6676</id>
+    </Compile>
+    <Compile Include="Teste\Recording1.cs">
+      <BoundTo>6a443b0c-d943-4f04-9cc3-5e8c21bee756</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>30c2f155-0f9e-4c82-91f5-da45ed1de986</id>
+    </Compile>
+    <Compile Include="Teste\Recording1.UserCode.cs">
+      <BoundTo>6a443b0c-d943-4f04-9cc3-5e8c21bee756</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>43fc5cbf-fcce-4ef9-b4cd-207117eaab5e</id>
+    </Compile>
+    <Compile Include="Teste\TesteMobile.cs">
+      <BoundTo>da57c2e2-648c-4aec-8955-dfc241b19478</BoundTo>
+      <DependentUpon>TesteMobile.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a7ad5d24-c6a9-480b-adde-b9dc9b23aa0b</id>
+    </Compile>
+    <Compile Include="Teste\TesteMobile.UserCode.cs">
+      <BoundTo>da57c2e2-648c-4aec-8955-dfc241b19478</BoundTo>
+      <DependentUpon>TesteMobile.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c5c015f3-0b4e-4a34-8dec-0ccff59eb3d2</id>
+    </Compile>
+    <Compile Include="Teste\ToolTipMobile.UserCode.cs">
+      <BoundTo>97e0c5ef-9465-4cad-bc6f-9eef26a12df1</BoundTo>
+      <DependentUpon>ToolTipMobile.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2e605624-cb02-422d-85c3-8f59ba7adef6</id>
+    </Compile>
+    <Compile Include="Transferencia_De_Milhas\TransferirMilhas.cs">
+      <BoundTo>104f2102-113d-49b5-b800-9717db79c075</BoundTo>
+      <DependentUpon>TransferirMilhas.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c4dd2ccb-cb20-422f-9fc9-ace09c3ceb0c</id>
+    </Compile>
+    <Compile Include="Transferencia_De_Milhas\TransferirMilhas.UserCode.cs">
+      <BoundTo>104f2102-113d-49b5-b800-9717db79c075</BoundTo>
+      <DependentUpon>TransferirMilhas.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7bd15b98-715f-4dc7-b459-46fb7c2c38c2</id>
+    </Compile>
+    <Compile Include="Utils.cs">
+      <id>05f840be-69fc-4803-8911-2c6ab28ff7b1</id>
+    </Compile>
+    <Compile Include="UtilsMobile.cs">
+      <id>4c80d547-d4ac-4396-99fe-a61121b33987</id>
+    </Compile>
+    <Compile Include="VerificarAgenda.cs">
+      <id>7430f87a-f61c-4eca-bc46-fb3700232c18</id>
+    </Compile>
+    <Content Include="CustomReport\RanorexReport.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>70b4dd28-e9c4-40f5-97ee-ab691a9c2aa8</id>
+    </Content>
+    <Content Include="CustomReport\RanorexReport.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>ebd4795d-9182-492d-8e8f-250d12e39b94</id>
+    </Content>
+    <Content Include="CustomReport\RanorexReport.xsl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>c16f2d20-fed1-4d3f-b5a2-a9fc6e5e57be</id>
+    </Content>
+    <Content Include="CustomReport\View.rxlog">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>95f91d72-dad5-419d-bb59-4680a65dc349</id>
+    </Content>
+    <Content Include="CustomReport\View.rxlog.data">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>6e18dac5-f5ea-45ef-80c2-7c0d04c29057</id>
+    </Content>
+    <None Include="app.config">
+      <id>b8c8af82-731e-416d-9118-10448b58ccd2</id>
+    </None>
+    <None Include="AtendimentoOnline\AindaNaoSouCliente.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>31658b89-bcc3-4ccd-b1c0-6de46ce376de</id>
+      <recordtableid>2483ff23-6b01-42dd-9d7e-5561351301f5</recordtableid>
+    </None>
+    <None Include="AtendimentoOnline\AtendimentoOnline.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>bd8f6d5d-9951-4ec9-92f9-986f0c99ee9c</id>
+      <recordtableid>71634616-d09d-4362-9225-fcbe0c08c298</recordtableid>
+    </None>
+    <None Include="AtendimentoOnline\Emilia.rximg">
+      <BoundTo>DB0CB9DF-4DD3-42BE-AFDA-B6631FBA8F55</BoundTo>
+      <DependentUpon>Emilia.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>e826becc-b67d-494d-a8bc-315a136d2108</id>
+    </None>
+    <None Include="AtendimentoOnline\Emilia.rxrep">
+      <id>DB0CB9DF-4DD3-42BE-AFDA-B6631FBA8F55</id>
+      <repoid>cf80d4cb-a5cc-4530-8f79-b1f26dd75246</repoid>
+      <reporootid>e9cf99ba-57ca-4958-aa91-b5118b846492</reporootid>
+    </None>
+    <None Include="AtendimentoOnline\IniciarAtendimento.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>a0a59260-0379-4f26-b458-bc18c0023b57</id>
+      <recordtableid>99667ca0-4806-47d8-b663-4f7688d63334</recordtableid>
+    </None>
+    <None Include="AtendimentoOnline\JaSouCliente.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>b2a18523-bf32-47b7-884c-919c549d8acf</id>
+      <recordtableid>6e219d90-6bf3-497a-b484-f87f0db60ab5</recordtableid>
+    </None>
+    <None Include="AtendimentoOnline\Login.rxrec">
+      <recordtableid>695d3c72-0981-413e-811e-a3e2fff11f26</recordtableid>
+      <id>5e8550de-adc4-4163-8a65-1a581799c626</id>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="AtendimentoOnline\PossoAjudar.rxrec">
+      <id>992c476c-140e-452d-9947-98ab663ad1f6</id>
+      <recordtableid>a4a7b7b0-546b-4e76-b7f3-af37e404f563</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="AtendimentoOnline\AcessarAtendimentoOnline.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>ed670b33-abde-4176-95ec-3092d7dc2497</id>
+      <recordtableid>b4c976c3-fca1-4b82-ba92-d25a8da1e136</recordtableid>
+    </None>
+    <None Include="AtendimentoOnline\RP_AtendimentoEmilia.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>f2436b02-9658-4322-b2c4-01782ac859b7</id>
+      <recordtableid>ebe50028-bd78-4295-93e7-b37e4de12321</recordtableid>
+    </None>
+    <None Include="Base_Dados\RandomValues.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>6fda769d-75a8-40f2-ac47-4a8a434e929b</id>
+      <recordtableid>3a96fb6d-ac7d-4a9a-9248-103c28597ef2</recordtableid>
+    </None>
+    <None Include="Busca_De_Voos\BuscarVoos.rxrec">
+      <id>ad0264e9-e441-43c3-9edc-61c0dc287eeb</id>
+      <recordtableid>60096201-82c0-41a7-8f2b-da40db3297dc</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Busca_De_Voos\NBV_BuscarVoos.rxrec">
+      <id>5ca47be8-280a-4b2a-8e6e-f039c9393439</id>
+      <recordtableid>114e5d3c-fc7e-4a98-aaa8-98deb80778de</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Busca_De_Voos\Tooltip.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>2d605650-515a-4afa-a545-3ab4e61c2730</id>
+      <recordtableid>393ae41a-2ec7-413e-b088-4d5d2f16f715</recordtableid>
+    </None>
+    <None Include="Cadastro\AlterarDados.rxrec">
+      <id>0e22a29a-fc14-41cb-8c50-07909c5c6159</id>
+      <recordtableid>0716928f-eb23-4b5f-b9f2-3edabc090e80</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Cadastro\AlterarSenha.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>6697ee7e-9740-475a-a374-90983afdb4fc</id>
+      <recordtableid>48c4d98d-b2b7-46f4-ab14-79cfb42e9461</recordtableid>
+    </None>
+    <None Include="Cadastro\CadastrarUsuario.rxrec">
+      <recordtableid>15d2c128-57c8-430a-a9ac-d1494b1ac2eb</recordtableid>
+      <id>8c9f2b2f-dc4e-4260-8785-870a1b14f62a</id>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="ClubeSmiles\AdesaoCadastro.rxrec">
+      <recordtableid>e5b36def-c49f-4d48-a304-96cca17853e0</recordtableid>
+      <id>b01b08af-6824-4756-b263-bcd2e10858a1</id>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="ClubeSmiles\AdesaoEmissao.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>d8c41024-5794-4230-953f-f9c062ec62af</id>
+      <recordtableid>9cddb5ab-9b82-4795-ba3f-6c91a8adcd2a</recordtableid>
+    </None>
+    <None Include="ClubeSmiles\AdesaoMenu.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>49cb306a-cf5a-44a1-a592-dd3255a647da</id>
+      <recordtableid>6d9148c5-f70b-406f-8dcd-a97a5c02b3e6</recordtableid>
+    </None>
+    <None Include="ClubeSmiles\AlterarFormaPagamento.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>387f194b-5316-4c07-88c3-57092fa79e0d</id>
+      <recordtableid>84f20fbd-b036-4484-b5ea-a3177e10f5ec</recordtableid>
+    </None>
+    <None Include="ClubeSmiles\AlterarPlano.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>368b2bf7-6967-4806-96c4-362efa39b960</id>
+      <recordtableid>bf37ba35-401e-40fc-b4ce-835afce82cbb</recordtableid>
+    </None>
+    <None Include="ClubeSmiles\BannerAlteracaoPlano.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>be0a96cb-eb49-43c4-ae45-d894b1206244</id>
+      <recordtableid>0b325068-f5e0-42a5-9e0f-b39c94950d2f</recordtableid>
+    </None>
+    <None Include="ClubeSmiles\CancelarAssinatura.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>abb65273-0045-4672-a5f3-5b909702796b</id>
+      <recordtableid>3c228fa4-be1f-498b-b299-223eef38be85</recordtableid>
+    </None>
+    <None Include="ClubeSmiles\ComprarComTecladoVirtualClubeSmiles.rxrec">
+      <recordtableid>24ba05d5-d912-40ad-b0b5-8eee6f9e39c8</recordtableid>
+      <id>b36b5f3d-0346-4a0f-81b1-ddb282a68cbd</id>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="ClubeSmiles\ComprarComTecladoVirtualClubeSmilesNew.rxrec">
+      <recordtableid>fcb495ac-4dcc-4f91-a605-51228153ebbc</recordtableid>
+      <id>af2d0de7-d580-4f77-a664-43b7cf10cca3</id>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="ClubeSmiles\ComprarSemTecladoVirtualClubeSmiles.rxrec">
+      <recordtableid>27c07d5b-74df-4c8f-a64b-822443f7990c</recordtableid>
+      <id>a7596989-ecb3-4503-87cb-636ce9707993</id>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="ClubeSmiles\ComprarSemTecladoVirtualClubeSmilesNew.rxrec">
+      <recordtableid>fa5b6e66-c6c6-4bb6-8bb6-6def1b931765</recordtableid>
+      <id>57babdbf-a48b-425b-9f0f-ebc21e63a3c9</id>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="ClubeSmiles\Configuracoes.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>3db100f2-3fef-431c-bdf5-3f2ba4ff509d</id>
+      <recordtableid>acd53e9a-0521-4caf-966d-4a068fbdf9da</recordtableid>
+    </None>
+    <None Include="ClubeSmiles\MenuClubeSmiles.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>ebe59d03-ae69-4a96-ac53-82669b9c3b28</id>
+      <recordtableid>74e9afe1-8933-44a7-b6c7-11b9a1d23b8d</recordtableid>
+    </None>
+    <None Include="ClubeSmiles\PreCadastro.rxrec">
+      <id>99e76bc4-18ad-4101-877d-e654c84d5f5e</id>
+      <recordtableid>9f45cb5d-eb4f-447c-b01b-3ebad74730a6</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Comprar\ComprarComTecladoVirtual.rxrec">
+      <id>2d0418e3-f4cf-40cd-a3a7-c442278dd5a6</id>
+      <recordtableid>bdeb274f-9cca-475e-ab87-d69a220d0117</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Comprar\ComprarComTecladoVirtualETaxas.rxrec">
+      <id>9a7cc4fb-28cf-4025-abe7-5fa052f02684</id>
+      <recordtableid>90de854c-65f3-4343-8a2f-0a75f97cfbd2</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Comprar\ComprarSemTecladoVirtual.rxrec">
+      <recordtableid>a3cb346c-fd6d-47e1-bcc4-f838c974345b</recordtableid>
+      <id>ccd541d0-eefb-4532-b0a1-116786e3f701</id>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Comprar\ConfirmarAlteracao.rxrec">
+      <id>d337a44d-9e51-476f-815c-5603ae0887ad</id>
+      <recordtableid>7d6e1883-0321-4054-af3f-d945a2b0b788</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Comprar\PagamentoComTecladoVirtual.rxrec">
+      <recordtableid>ce51cfc6-85f4-4df2-b40e-529739bab6d5</recordtableid>
+      <id>d01e6147-7d2e-4afa-bdaa-32fff27a5cd2</id>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Comprar\PagamentoSemTecladoVirtual.rxrec">
+      <recordtableid>30fccbd6-9ec3-4bc4-90fc-6ea01dcc7239</recordtableid>
+      <id>60890b41-f4dc-49bf-ab72-100435721d9e</id>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Compra_De_Milhas\ComprarMilhas.rxrec">
+      <id>05ff5cdb-c4b5-43f1-95b5-0b11ea46a02b</id>
+      <recordtableid>168d378a-c986-42b2-9cc8-5097b6c25462</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Compra_De_Milhas\ComprarMilhasNEW.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>20ec09d8-6875-497d-a776-9525f273c18c</id>
+      <recordtableid>558106bf-723b-4759-bc4e-61bce864b156</recordtableid>
+    </None>
+    <None Include="Dados_Do_Passageiro\InserirPassageiros.rxrec">
+      <id>7e70ea7d-0a52-490f-89e4-bc59506c4c74</id>
+      <recordtableid>66c3aad2-5b50-47e7-8ab2-ae7eb86bcf3b</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Dados_Do_Passageiro\InserirPassageirosGateway.rxrec">
+      <id>a624083e-e3ed-4f62-82b4-4263ed0116e4</id>
+      <recordtableid>a504df45-0c86-490a-a7e3-bfb0ffb61b93</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Emissao\EmissaoSemMilhas.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>beb5292e-cb28-4d85-a115-7fce47cd6dbe</id>
+      <recordtableid>f8e9cb62-2dec-42db-9675-a694d064890a</recordtableid>
+    </None>
+    <None Include="Escolher_Assentos\EscolherAssentos.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>50ebaf6d-402a-4308-9afa-a6937311fc53</id>
+      <recordtableid>e698639e-423e-4cc7-b785-e5dd44ec35de</recordtableid>
+    </None>
+    <None Include="EsqueciMeusDados\EsqueciMeuNumeroSmiles.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>6d82c6b2-9b5c-441b-9212-ecc8a94ab671</id>
+      <recordtableid>cc2a1626-14de-47b3-86d8-49f140e0530d</recordtableid>
+    </None>
+    <None Include="EsqueciMeusDados\EsqueciMinhaSenha.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>3ca38305-4248-49a3-ac45-50cacbd99b0c</id>
+      <recordtableid>192a468c-7bee-42cd-a754-ef80d8dd27db</recordtableid>
+    </None>
+    <None Include="Extrato\AcessarExtrato.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>20436810-562c-4c8f-b27b-092e34388098</id>
+      <recordtableid>c629e78b-daaa-4dce-9972-946ffebcfa7d</recordtableid>
+    </None>
+    <None Include="Favoritos\ExcluirFavorito.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>383a0d67-605b-4d32-bfbe-2c0b14bdfa08</id>
+      <recordtableid>d8159aa9-2a6a-4fd2-849e-24a768c3ecc4</recordtableid>
+    </None>
+    <None Include="Favoritos\InserirFavorito.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>2fb14d6c-be19-4254-a871-bc1a22c6c681</id>
+      <recordtableid>24176ead-42a4-4c17-99e8-689889be4c4d</recordtableid>
+    </None>
+    <None Include="Favoritos\EditarFavorito.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>3905527f-c7ed-433f-9ad2-90e3b39a14c0</id>
+      <recordtableid>78f9bb2a-0321-4b51-84b6-ca9c2c53af68</recordtableid>
+    </None>
+    <None Include="Favoritos\GerenciarFavoritos.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>ff839dda-6d16-4f05-a67b-c2517f50c262</id>
+      <recordtableid>f3619b29-403f-488f-b0d6-aa459370c38e</recordtableid>
+    </None>
+    <None Include="GIFT\BuscarEvento.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>7e3f8337-a5ef-4c7d-9f6a-fb8e0d75ca4b</id>
+      <recordtableid>9db471bf-35da-45f5-9f16-a1e0feb2dd86</recordtableid>
+    </None>
+    <None Include="GIFT\CriarEvento.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>ca2b9cdb-109a-4b93-bb2e-cd1407d6a113</id>
+      <recordtableid>b9882755-3b7a-4852-9df7-666225760309</recordtableid>
+    </None>
+    <None Include="GIFT\FinalizarEvento.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>7605f7ba-c913-4064-9770-e5cb78e04128</id>
+      <recordtableid>f2beff43-fb22-4615-b18d-7c7dc84c126e</recordtableid>
+    </None>
+    <None Include="GIFT\MenuGIFT.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>3ef1f96c-a59b-4363-ae32-274d98f1ee04</id>
+      <recordtableid>2d498fff-ede0-44d3-81b6-b030f0b1880f</recordtableid>
+    </None>
+    <None Include="GIFT\PresentearComprarMilhas.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>578d60b7-1cb7-4080-9cb1-7599c419458c</id>
+      <recordtableid>acc3286c-254c-499a-b010-e8c8a8921fef</recordtableid>
+    </None>
+    <None Include="GIFT\PresentearTransferirMilhas.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>507c472b-519b-4d68-ae09-4abae19e7355</id>
+      <recordtableid>43e17e26-a619-4aec-bedd-2af9a2e08439</recordtableid>
+    </None>
+    <None Include="ImprimirCartao\ImprimirCartaoSmiles.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>cc143e32-4976-4b12-8338-8080c65c1741</id>
+      <recordtableid>7d86676b-aa23-40bd-a0ef-219615fc13d1</recordtableid>
+    </None>
+    <None Include="IniciarDesktop.rxrec">
+      <id>e2c17d9c-5449-409e-ab86-52183b0bc952</id>
+      <recordtableid>a442b2c8-40ae-4fc3-8709-cb190794259c</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="InitSetup.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>52a98df5-3e85-46fc-b9b7-1e37d415c8d1</id>
+      <recordtableid>09bcc38b-7956-4db9-88d5-7784a741d635</recordtableid>
+    </None>
+    <None Include="ErrorInspector.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>88a08025-9978-4b2b-8762-b418354a9c83</id>
+      <recordtableid>ca6e8c5b-d768-4f6d-8606-4bf9abda3547</recordtableid>
+    </None>
+    <None Include="Links\NavegacaoLinksFooter.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>71826c78-f195-41ab-9bb2-329268872b36</id>
+      <recordtableid>242f777c-6abf-4efa-bfba-0a807dd2d504</recordtableid>
+    </None>
+    <None Include="Links\NavegacaoLinksPromocoes.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>e6692876-bb8d-4d96-a478-dbacf62e0b51</id>
+      <recordtableid>6c413b40-f7d7-43ae-bad9-a74e414c66b8</recordtableid>
+    </None>
+    <None Include="LoginHome.rxrec">
+      <id>693f86ab-ad7f-4c3a-8ae6-4696ca907d09</id>
+      <recordtableid>02991d76-c5cb-4e47-8c23-2c8acb229dc6</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Menu_Usuario\AlterarMeusDados.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>e6dba1ed-909d-43a0-8cfb-8a46a39570f6</id>
+      <recordtableid>b4b64d32-7124-4a13-992d-de4ab7c9bdab</recordtableid>
+    </None>
+    <None Include="Menu_Usuario\ComprarMilhas.rxrec">
+      <id>5172f4f0-a0ae-4369-b98b-3317dd5ed003</id>
+      <recordtableid>b4b50b45-18a8-4b6a-954f-7b4a820124e3</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Menu_Usuario\SolicitarMilhas.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>d030b6b8-2bf7-46df-b52d-3021dc9f07cf</id>
+      <recordtableid>a63e0fca-5347-4476-84ba-c7cdcfcb60b2</recordtableid>
+    </None>
+    <None Include="Menu_Usuario\TransferirMilhas.rxrec">
+      <id>cfb38a30-8aae-492c-950d-9a5311ebd3b9</id>
+      <recordtableid>d5cbe5d4-6dd1-483e-9574-d17bdd693c7a</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Menu_Usuario\Menu_ClubeSmiles.rxrec">
+      <id>6014c4d9-5ed5-45d5-a2af-d6dbe4dcbda9</id>
+      <recordtableid>c1829ed0-006e-4810-8c21-768418e549c7</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Menu_Usuario\MeusVoos.rxrec">
+      <id>5c3fcd0c-b07f-491b-9c67-d68ff01da7b1</id>
+      <recordtableid>5305de7e-bf57-438d-ae40-5b96c4fb8812</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Menu_Usuario\MinhaConta.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>ab781046-893c-482c-8fb6-ea0ff087bca7</id>
+      <recordtableid>0bd17d35-87be-4e04-b5cf-511148be64a3</recordtableid>
+    </None>
+    <None Include="Mobile\AppSmiles\BuscaDeVoos\BuscarVoos.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>307b4f23-f1f9-437c-a2ee-4273bde9fa09</id>
+      <recordtableid>d629dba3-45ab-4e29-b4aa-8fac2e4d9a49</recordtableid>
+    </None>
+    <None Include="Mobile\AppSmiles\BuscaDeVoos\SelecionarVoo.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>4ef5bfc7-2a7d-4395-9135-662f6fed8022</id>
+      <recordtableid>e4c2283a-9acb-4890-8d48-b8f00284129b</recordtableid>
+    </None>
+    <None Include="Mobile\AppSmiles\FinalizacaoApp\FinalizarAppSmiles.rxrec">
+      <BoundTo>c7ca2e1f-782d-40d7-9de1-96f07d7cdb20</BoundTo>
+      <id>ad6cfc8a-0d85-45c7-b6d1-c48ada3b2f84</id>
+      <recordtableid>fa3ffc68-bd27-4d31-8430-8c83c82eb836</recordtableid>
+    </None>
+    <None Include="Mobile\AppSmiles\InicializacaoApp\IniciarApp.rxrec">
+      <BoundTo>c7ca2e1f-782d-40d7-9de1-96f07d7cdb20</BoundTo>
+      <id>0ec77f4d-02df-44cc-a451-66102e95a7ba</id>
+      <recordtableid>85e1ed1a-cf73-4934-aba9-4f822521fd63</recordtableid>
+    </None>
+    <None Include="Mobile\AppSmiles\InicializacaoApp\Login.rxrec">
+      <BoundTo>c7ca2e1f-782d-40d7-9de1-96f07d7cdb20</BoundTo>
+      <id>254ba2d6-786c-41e9-b145-649cc9c63d99</id>
+      <recordtableid>091e241e-7d4d-4efd-9336-d83dea321746</recordtableid>
+    </None>
+    <None Include="Mobile\AppSmiles\MenuPrincipal\AcessarMenu.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>5310b7aa-83cc-4add-8902-b6b9997fe60f</id>
+      <recordtableid>3a199552-8304-4b1b-93a0-9b2e95ce30f8</recordtableid>
+    </None>
+    <None Include="Mobile\AppSmiles\MenuPrincipal\MenuBuscarVoos.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>2e95b37f-2f47-4efb-ab76-39c80baa7ec3</id>
+      <recordtableid>1055ba6b-aee1-4d82-8081-deb934f52659</recordtableid>
+    </None>
+    <None Include="Mobile\AppSmiles\Pagamento\Pagamento.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>639389aa-289d-4bc6-a164-292979371e8a</id>
+      <recordtableid>c990a323-5542-49f2-a764-001b2732b6d3</recordtableid>
+    </None>
+    <None Include="Mobile\AppSmiles\Passageiros\InserirPassageiros.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>99a1f6e4-6048-440a-b506-1af48a33d70d</id>
+      <recordtableid>0c2e7016-27b8-4dbe-85a0-9d61f0e9adb7</recordtableid>
+    </None>
+    <None Include="Mobile\RxBrowser\AdesaoClube\AdesaoPosSelecaoVoo.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>60f65cce-ee8e-4f3f-8819-cbfae1d2900a</id>
+      <recordtableid>28ae26c3-bf0a-4d36-aecb-ba359cb5a276</recordtableid>
+    </None>
+    <None Include="Mobile\RxBrowser\BuscarVoo\BuscarVoo.rxrec">
+      <id>bf86a648-7e02-4db6-b000-8442d1a3ecd1</id>
+      <recordtableid>5ac16ca9-879e-4f91-8571-2192030237af</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Mobile\RxBrowser\DadosPassageiros\InserirPassageiros.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>8ba49a3e-56a0-44cb-88e7-faaf16dfacc9</id>
+      <recordtableid>483fe99c-d542-481a-89c9-c88ded31416d</recordtableid>
+    </None>
+    <None Include="Mobile\RxBrowser\Emissao\EmissaoSemMilhas.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>50db7f6a-1c4b-49e1-a64f-a47997f0527e</id>
+      <recordtableid>c4a06207-7d6c-4297-ae49-2fdc5d44e04e</recordtableid>
+    </None>
+    <None Include="Mobile\RxBrowser\Emissao\ReservarVooComCobranca.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>01dc9499-4983-4f05-af2b-837065c4b777</id>
+      <recordtableid>1d62e290-07e7-4ef8-b2eb-b456849b506b</recordtableid>
+    </None>
+    <None Include="Mobile\RxBrowser\Emissao\ReservarVooSemCobranca.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>a87ed206-5d42-4ae2-9d8d-a70d4ab8af77</id>
+      <recordtableid>8dbf25c0-20d4-4ffe-aa9a-ec108c0155ff</recordtableid>
+    </None>
+    <None Include="Mobile\RxBrowser\Init\InitRxBrowser.rxrec">
+      <id>791652ae-141a-4f8c-852d-df89ac40f932</id>
+      <recordtableid>5a4f7138-5048-4f68-b6fb-9513b478b08c</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Mobile\RxBrowser\Login\LoginHeader.rxrec">
+      <id>f3797baf-5f6e-4ab4-a292-087cc9582c6a</id>
+      <recordtableid>5698c11e-b6ce-498e-bde2-3a8595e6b950</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Mobile\RxBrowser\Login\Logout.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>9f913d2e-51b4-41e8-8726-d4124ca41f06</id>
+      <recordtableid>cc22b8c1-5a5d-4097-924b-9d3212b161f9</recordtableid>
+    </None>
+    <None Include="Mobile\RxBrowser\MenusUsuarios\MeusVoos.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>709c101f-03fc-4c29-b625-6ac0b778a8fc</id>
+      <recordtableid>1d02723e-4028-4410-be74-4963aa71fddc</recordtableid>
+    </None>
+    <None Include="Mobile\RxBrowser\Meus_Voos\CapturarReembolsoCancelamento.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>f8afa3cd-67f2-4a3d-b694-6fc6c8ba9611</id>
+      <recordtableid>4ff31be7-c332-4972-bc06-25aad806ad67</recordtableid>
+    </None>
+    <None Include="Mobile\RxBrowser\Meus_Voos\EmissaoSemMilhas.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>f5d3003d-eddf-455f-8389-647ed69e329e</id>
+      <recordtableid>55916cfb-ee71-42fb-89f0-01a9fb34d574</recordtableid>
+    </None>
+    <None Include="Mobile\RxBrowser\Meus_Voos\ProximosVoos.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>7f94e03a-bafe-4b1c-a3fd-06ec1db070fb</id>
+      <recordtableid>5c90b074-c349-4f03-9aec-8293715bf19e</recordtableid>
+    </None>
+    <None Include="Mobile\RxBrowser\Meus_Voos\SelecionarVooAssento.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>2ae45269-f115-4319-83d1-bd7fb7d9b5bb</id>
+      <recordtableid>8a336ae8-66fc-4dc5-a522-0e2cfad83003</recordtableid>
+    </None>
+    <None Include="Mobile\RxBrowser\Meus_Voos\SelecionarVooCancelamentoEmissaoSemMilhas.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>4c471029-c071-487a-9d8b-38feb992ea2e</id>
+      <recordtableid>a222bf34-4699-42ed-8776-b741b1de2501</recordtableid>
+    </None>
+    <None Include="Mobile\RxBrowser\Meus_Voos\SelecionarVooCancelamentoG3.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>7a25b3bc-152d-4c06-9edf-538e1834f9b1</id>
+      <recordtableid>82294526-6385-4ba7-913d-d2614b5d3001</recordtableid>
+    </None>
+    <None Include="Mobile\RxBrowser\Meus_Voos\SelecionarVooCancelamentoYY.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>7f7d90b6-a887-45b5-8307-9c7c2ae2b548</id>
+      <recordtableid>1a9758b8-514f-4194-a36d-41aebb212f82</recordtableid>
+    </None>
+    <None Include="Mobile\RxBrowser\Pagamento\PagamentoComTecladoVirtual.rxrec">
+      <id>31224b98-0075-4e60-bd7f-226e18161caa</id>
+      <recordtableid>00ef9e6c-d5d1-43ea-ad53-48744e3dd79b</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Mobile\RxBrowser\Pagamento\PagamentoSemTecladoVirtual.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>efd566b5-c93a-4321-aaee-3bb9b9153eb4</id>
+      <recordtableid>d624f10f-b026-4de5-a32e-255ce2ca86fd</recordtableid>
+    </None>
+    <None Include="Mobile\RxBrowser\ResultadoEsperado\MensagemTela.rxrec">
+      <recordtableid>d17f5870-4b7f-43bf-805d-cf9cd43cd543</recordtableid>
+      <id>46ada10c-b6b0-4bcc-b5ac-8e8c5e4c63fc</id>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Mobile\RxBrowser\ResultadoEsperado\RP_BuscarVoo.rxrec">
+      <id>780446c5-5f3c-4010-bd7a-d338f5fdea09</id>
+      <recordtableid>e68812d7-382d-4e42-9afc-e75c186f0e32</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Mobile\RxBrowser\ResultadoEsperado\RP_CancelamentoVoo.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>8d3845b0-7395-45f1-a6a2-4fdf35049991</id>
+      <recordtableid>17c5f38b-4675-4b1e-965e-62499344c935</recordtableid>
+    </None>
+    <None Include="Mobile\RxBrowser\ResultadoEsperado\RP_Compra.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>0a0e3f97-4818-4e47-a8df-3026411dbd06</id>
+      <recordtableid>15af5180-ac1d-4666-a1f6-b6d4d5805bb7</recordtableid>
+    </None>
+    <None Include="Mobile\RxBrowser\ResultadoEsperado\RP_InserirPassageiros.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>8abf4c74-f53f-4774-a6b9-d90d0bec6cd5</id>
+      <recordtableid>df3c4543-01a0-4a6f-8f72-289cac22815a</recordtableid>
+    </None>
+    <None Include="Mobile\RxBrowser\ResultadoEsperado\RP_SelecionarVoo.rxrec">
+      <id>46e45a01-b611-441f-87f8-a3a40797e4c8</id>
+      <recordtableid>331c457b-aa3d-4a67-8b72-adc4067523c1</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Mobile\RxBrowser\SelecaoVoos\SelecionarVoo.rxrec">
+      <id>53e98511-c1a2-4e69-a19a-bc1a157afb0a</id>
+      <recordtableid>e2378493-89a7-44e3-9d76-91112fd0b8f6</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="RanorexUiConfig6.xml">
+      <id>522dc65e-84cf-41b0-b927-69fe10d0a43f</id>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Reativar_Milhas\Menu_ReativarMilhas.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>bdf30724-3b2d-4d61-95e3-b392d0521107</id>
+      <recordtableid>33e7d159-946f-4047-bff5-a36eb15c1e5d</recordtableid>
+    </None>
+    <None Include="Reativar_Milhas\ReativarMihas.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>c6945d6d-193e-4d16-883e-fbd2b8aac281</id>
+      <recordtableid>ef0142e5-4d01-4169-aa6c-9c26d79cac64</recordtableid>
+    </None>
+    <None Include="Recording1.rxrec">
+      <id>1e3a22d8-3d88-4459-8e33-9b819c308fd9</id>
+      <recordtableid>653e2242-3fb6-4dab-b178-e9620d146464</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Reserva_De_Voo\MeusVoosEmissaoSemMilhas.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>bfd24192-df00-4dcc-aac7-bcb320bc29af</id>
+      <recordtableid>aa5a0b42-edd0-4f75-976a-ddba1c8c3377</recordtableid>
+    </None>
+    <None Include="Reserva_De_Voo\ReservarVooComCobranca.rxrec">
+      <recordtableid>b54dad30-862c-4995-b9cd-4584e2fd80fe</recordtableid>
+      <id>fc61be60-2df3-45c5-ad4c-3c0e7cfbab93</id>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Reserva_De_Voo\ProximosVoos.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>7c736b48-6b1a-4a54-8885-5bb0234b2aed</id>
+      <recordtableid>2d125bb8-9a51-4956-bb0c-046f6cafd9a7</recordtableid>
+    </None>
+    <None Include="Reserva_De_Voo\ReservarVooComCobrancaGateway.rxrec">
+      <recordtableid>d8a6e18b-3ba9-4e17-9de4-2403c6a43721</recordtableid>
+      <id>b1a1152b-610b-4836-a16e-4fec5c6378b7</id>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Reserva_De_Voo\ReservarVooSemCobranca.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>64335dab-d598-47f6-9564-041d819a72b9</id>
+      <recordtableid>e14b988b-683d-4ff1-bf4a-60bd52295e1a</recordtableid>
+    </None>
+    <None Include="Reserva_De_Voo\ReservarVooSemCobrancaGateway.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>c34fce32-3f57-4018-a48d-3253e88e9caf</id>
+      <recordtableid>667df644-3726-4b2b-bfef-7d3f68c07ffc</recordtableid>
+    </None>
+    <None Include="Reserva_De_Voo\SelecionarVooAssento.rxrec">
+      <id>3c5fd8ac-1d9c-4c52-9511-e4bedf9acc19</id>
+      <recordtableid>5dbd4439-e806-4139-a789-1ad6310c1ea3</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Reserva_De_Voo\SelecionarVooCancelamento.rxrec">
+      <id>903ed3e4-1c8e-485c-87a5-3ab6955681fb</id>
+      <recordtableid>80ef3150-506c-4110-b770-86f72b27c96b</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Reserva_De_Voo\SelecionarVooCancelamentoEmissaoSemMilhas.rxrec">
+      <id>d8913d01-5c5b-4f28-bc1b-a0b1c2c0c42f</id>
+      <recordtableid>7b526758-a9b0-4d7b-b16f-c79d140ed954</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Reserva_De_Voo\SelecionarVooCancelamentoYY.rxrec">
+      <id>cc363994-9228-4e0b-9d66-d7424a99a889</id>
+      <recordtableid>7e118d7a-e4d9-4fa0-92e9-5676f6301d72</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Reserva_De_Voo\SelecionarVooReservado.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>99fbe488-8d4f-476d-9207-c272ba1e18c7</id>
+      <recordtableid>6be76cf7-db13-4dd6-93d4-f29ef86a2536</recordtableid>
+    </None>
+    <None Include="Reserva_De_Voo\VoosReservados.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>06078d99-258f-4508-8425-011e0f26e69c</id>
+      <recordtableid>b8f68838-2de1-4eed-8751-4d28b61a8ad4</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\CapturarMilhasLogin.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>85a764a6-3e7a-493f-940d-41d9bcd90cc3</id>
+      <recordtableid>69a86908-306c-4171-a0a8-0484b6bd1679</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\CapturarReembolsoCancelamento.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>45ff2291-d523-4424-8715-d9c5653d6bcd</id>
+      <recordtableid>fb43e690-c181-4b98-894b-250dca43704e</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_ComprarPassagemGateway.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>563c5afc-9904-48f1-8fc7-6b7bcc64d0f0</id>
+      <recordtableid>1b1ffba2-0ba2-415d-96ea-9d2fb8b8a4b6</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_EditarFavorito.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>82abe668-a776-4e4c-bba1-c6290cf42bd7</id>
+      <recordtableid>6e40a9d1-28ca-4f2f-9df4-eda14cc6c71c</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_ExcluirFavorito.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>91279ab6-de00-404e-964b-5f584075a705</id>
+      <recordtableid>13b14de8-a6bb-4e4e-82ee-920ea6f12ae9</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_Extrato.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>e9fb3216-3015-49d8-8b54-5bc18dc17df1</id>
+      <recordtableid>3f525151-6759-472b-b0b4-67cc0832d74c</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_InserirFavorito.rxrec">
+      <id>5d6a50b3-f747-4d68-8902-a1059e1fe9ba</id>
+      <recordtableid>88989017-694a-4db5-bb18-9972cab08140</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Resultado_Esperado\RN_ComprarMilhas.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>ecc66097-ef52-4bc0-a07e-502741fcd88e</id>
+      <recordtableid>c087faa4-5015-487b-9ed2-f9b43f9d5047</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RN_SolicitarMilhas.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>e9396a01-bd41-4f74-bc0f-5adca7090a94</id>
+      <recordtableid>a921d83f-1eac-4db6-a2e6-df80e93f1442</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RN_TransferirMilhas.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>117be5a7-f9f2-459d-9059-41ed39aeb2c6</id>
+      <recordtableid>cd0f2266-125d-4608-9bab-53d89cc2d582</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_AlteracaoFormaPagamentoClube.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>d934ff60-2e5c-46e6-bd1a-842cf86843dd</id>
+      <recordtableid>053dbe42-48d2-4d0f-b637-50dc8d1a84fe</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_AlterarAssentos.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>356723a6-c2e7-479b-93f5-7c0b7baa8a95</id>
+      <recordtableid>fe14a651-8b7b-44f9-8571-2df9691e6473</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_AlterarCadastro.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>f47b9bc8-c1d3-4e9d-a5c4-225fd501b0d7</id>
+      <recordtableid>6cdcae4e-a92d-4519-adc4-bfc1a0d91be1</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_AlterarPlano.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>78b55ffc-66d9-4d82-95f2-7db35772cc49</id>
+      <recordtableid>9ae273e1-bd0a-465b-a64d-7b56cd930a46</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_AlterarSenha.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>481e12cd-cc8e-478f-bcda-a6fea6401465</id>
+      <recordtableid>743b62d4-f5fe-4361-a42b-fc322b7150fb</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_CadastroUsuario.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>1ddd81aa-d539-4dfc-9103-fd10c5834aff</id>
+      <recordtableid>00fd5187-549e-48db-90de-9bbae3f86689</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_CancelamentoEmissaoSemMilhas.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>71514ebb-5c6b-42d7-a6c6-73064cdfd95b</id>
+      <recordtableid>f98a17b4-c7ef-48b3-bee6-f2e775df5e6a</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_CancelamentoVoo.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>66c98cf5-1713-4f31-a3b9-8b7513ca5d7d</id>
+      <recordtableid>3e89f8aa-b64f-4bae-be2d-f1123dd67f6e</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_CancelarAssinatura.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>d9a2808d-3d03-4937-aa24-ab56e27e4a17</id>
+      <recordtableid>1f39f47f-9a3c-4e6e-b872-ef5592661cbf</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_ClubePreCadastro.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>9899ddc0-5675-4eea-b856-d0d477ceb2f7</id>
+      <recordtableid>31604425-85aa-415f-bc23-b6a9c706923a</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_CriarEvento.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>442c1584-4f4d-4857-a8be-32b195157b55</id>
+      <recordtableid>a65d665b-d9d1-44b4-827b-08971a06d165</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_EmissaoSemMilhas.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>2bbb58bf-1aa3-4c6c-89ae-e85822a7e908</id>
+      <recordtableid>86202f25-3d4e-4bf7-9f25-ef5ee82dfe2d</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_EsqueciMeuNumeroSmiles.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>a60360ee-21d4-4dc5-8550-36c01c30e566</id>
+      <recordtableid>613e1064-22af-4ed5-b39f-1954e449dab1</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_EsqueciMinhaSenha.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>41a86349-563a-4dd1-aa19-1d7bfa8d5ff4</id>
+      <recordtableid>fe70d8e4-8e26-4f11-b126-76caa4b2879e</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_FinalizacaoReserva.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>7472f427-7316-4514-9c1c-ee45ce3d8217</id>
+      <recordtableid>5f79734f-e513-41ed-b964-94e4523c4491</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_FinalizarEvento.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>b7f2762b-efc4-4046-8deb-5ac7936dd293</id>
+      <recordtableid>f2e09fda-acd7-4937-99cc-2cdf736aaf1a</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_GIFTPresentear.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>d8da42ff-77a0-46df-8f36-214e71429cd1</id>
+      <recordtableid>d96714f5-f4b8-4919-b89b-1f4c96ad840b</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_GIFTPresentearTransferir.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>c6e99659-4659-450b-816b-db8dd9b0de42</id>
+      <recordtableid>c38926b8-19c4-45f8-954d-74daa6dded06</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_ImprimirCartao.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>16d4f6c6-1ceb-4745-8093-27ee58de6314</id>
+      <recordtableid>2b341843-25fd-408d-8c8b-1a6f9ce529b7</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_InserirPassageirosGateway.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>5af60844-7761-4a14-aa9a-0a7571d890cc</id>
+      <recordtableid>dd5211b0-fc3d-4cc0-88f6-721bf1f404cc</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_NavegacaoLinksFooter.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>496e299e-20fd-4cc0-b1c0-bbcf77d0e8e3</id>
+      <recordtableid>dcc432e2-6aa5-4649-ad54-ed16bfc27384</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_NavegacaoLinksPromocoes.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>f2312cac-019b-47c8-b7c2-fcde6d2ec883</id>
+      <recordtableid>1b8d417a-6691-4e96-b4b9-0ded9c987eb6</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_PainelMinhaConta.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>79ff3962-416f-4e84-92bf-02629fe5ed65</id>
+      <recordtableid>757f9cb7-883d-445a-8b91-0445728f1ba2</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_ReativarMilhas.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>99b841d3-096c-4f47-a4ef-f711982147b7</id>
+      <recordtableid>5d227a78-32b9-4525-85e5-8ac1fb6a712a</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_ReservaVoo.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>f17ed0c9-4343-4574-9c10-28f7a83e87f9</id>
+      <recordtableid>9768d08c-8aae-4d8c-a745-dea462bb3c8a</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_SelecionarAssentos.rxrec">
+      <id>b04fd804-09b9-455e-8a3f-1f52a590a918</id>
+      <recordtableid>85212d6e-0345-4d38-8fca-7d248bde824e</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Resultado_Esperado\RP_ShoppingSmiles.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>16a8ad73-7191-4f19-bc73-3ec59f45af71</id>
+      <recordtableid>97ad4d1f-6889-4eb6-ad6b-6e9c82fc558b</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_SolicitarMilhas.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>2d0138aa-4b6b-4884-b3b8-da1d067099ca</id>
+      <recordtableid>c65896d6-90f1-4fa0-afb2-d115333153a3</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_Tooltip.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>3f653623-8f14-4c3a-afaf-9c5574bd4917</id>
+      <recordtableid>d2ea5331-c8bf-4c8e-a025-cd3605f3bb6c</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_TransferirMilhas.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>a6aa468c-8b45-4837-bc9a-a25014bbf005</id>
+      <recordtableid>27f89b6c-25b3-48b8-988c-05464dc85dde</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_ValidacaoAdesaoAposEmissao.rxrec">
+      <id>6c01d6f0-299f-4ca6-8b31-f89dcce32583</id>
+      <recordtableid>dae2712c-e285-4bc4-b5a7-a58c72def780</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Resultado_Esperado\RP_ValidacaoCompraMilhas.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>77832253-01f0-41d2-b4d1-4006d043090a</id>
+      <recordtableid>c6744c92-5698-4356-b969-d1d73f2e845b</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_ValidacaoReembolso.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>16101503-cfc9-406f-ba15-0222933ef067</id>
+      <recordtableid>cb2ec744-ab13-4f8d-8e07-4868eeac95ff</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_ValidarAdesaoClube.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>33d78d40-8b9d-45b0-aa9d-057426804eaa</id>
+      <recordtableid>af78fd09-b99a-46f4-83c6-28012e16380e</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\SalvarAdesaoClube.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>7bb57898-c365-4eb3-b437-8111315eb4ba</id>
+      <recordtableid>a42d1e31-ab7d-471f-a9da-51f093d8fdc9</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\SalvarDadosCadastro.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>9bda51dc-4ded-4d0e-92fb-201a7172ac1d</id>
+      <recordtableid>f6efdb8a-5f63-4270-878f-d725376969b6</recordtableid>
+    </None>
+    <None Include="Selecao_De_Voos\AdesaoClubeSmiles.rxrec">
+      <recordtableid>af287c87-6d8c-4ccb-9ef3-0cdd9688dcfb</recordtableid>
+      <id>5e28b535-d49d-464f-a200-6cbce83a259e</id>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Selecao_De_Voos\SelecionarVooGateway.rxrec">
+      <id>fb84ebd9-5d03-4b63-b153-e58a3a29fe40</id>
+      <recordtableid>24f34366-37e3-47d8-9659-9c60cbe4c29b</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="ShoppingSmiles\MenuShoppingSmiles.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>2962fee6-9349-4719-810e-0c6ce7b001de</id>
+      <recordtableid>969ec661-1d3f-43c3-8ed3-4aa4664bb400</recordtableid>
+    </None>
+    <None Include="SmilesMobileRepository.rximg">
+      <DependentUpon>SmilesMobileRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>9ba049c9-d4c4-49a8-8a69-7e866946786e</id>
+      <BoundTo>c7ca2e1f-782d-40d7-9de1-96f07d7cdb20</BoundTo>
+    </None>
+    <None Include="SmilesMobileRepository.rxrep">
+      <id>c7ca2e1f-782d-40d7-9de1-96f07d7cdb20</id>
+      <repoid>64051c3f-04f9-4e62-8ba8-b823a0419f38</repoid>
+      <reporootid>347c7eda-786d-4277-984c-9b7d9daff825</reporootid>
+    </None>
+    <None Include="SmilesRepository.rximg">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <DependentUpon>SmilesRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>8ac0061f-5ccf-4581-927b-082b3cfb7e51</id>
+    </None>
+    <None Include="SmilesRepository.rxrep">
+      <id>c6a91086-7475-49db-9962-f8a21f28fd25</id>
+      <repoid>f8bb210d-8025-4309-a036-286794eed585</repoid>
+      <reporootid>2d08fe81-6727-4e90-82e1-ffba91f7633c</reporootid>
+    </None>
+    <None Include="ComprarMilhas.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>b186383d-bfd4-4b9a-8469-78098db2bb6d</id>
+      <recordtableid>ab4b173e-ac79-4db8-8256-d6a513f60c1e</recordtableid>
+    </None>
+    <None Include="OLD_ReservarVoo.rxrec">
+      <id>3f63698c-9757-4042-9733-abcada073f1e</id>
+      <recordtableid>4b98d912-a5c4-4472-a763-581630b0e88b</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Resultado_Esperado\MensagemTela.rxrec">
+      <recordtableid>b3ba7675-86b6-41c8-89f2-55ee6083f0c1</recordtableid>
+      <id>eb351055-ab76-4d89-aeac-677cd7dd079e</id>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Resultado_Esperado\RP_BuscarVoo.rxrec">
+      <recordtableid>f7ba645b-ea7f-4119-bd7f-4db5074b33a1</recordtableid>
+      <id>00095952-c077-4aee-aca8-f57259191dfa</id>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Resultado_Esperado\RP_ComprarPassagem.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>fdba8db9-308f-4dd3-b433-be09d2f19779</id>
+      <recordtableid>3d7c9930-f3e8-42a2-a2c5-843424025341</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_InserirPassageiros.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>33b8dd5c-eca3-4c89-9369-23708725500d</id>
+      <recordtableid>f9bd48f5-01e2-4b68-b984-14ef8f8578c4</recordtableid>
+    </None>
+    <None Include="Resultado_Esperado\RP_SelecionarVoo.rxrec">
+      <id>2ceb5dca-bc69-4755-ab48-cecd4212f5d8</id>
+      <recordtableid>97d81020-eacd-40a7-845f-b0391457f14f</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Resultado_Esperado\RP_ValidacaoEmissao.rxrec">
+      <id>56581eff-3fa2-4e30-add4-44ea721546ef</id>
+      <recordtableid>b63cf50e-1383-4586-8dae-f55af4ea5bd5</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Resultado_Esperado\SalvarDadosExcel.rxrec">
+      <id>a8cb470a-52dd-4674-83e4-0f6118b17cb9</id>
+      <recordtableid>5ce8aaaf-43fb-4512-bd6e-6c1198e5ed56</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Resultado_Esperado\SalvarReport.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>c4f4d542-f23d-4b2d-861c-09f74b36a4b9</id>
+      <recordtableid>84ead3b2-5d7e-4dcc-a7e1-0d8302eeee75</recordtableid>
+    </None>
+    <None Include="Selecao_De_Voos\SelecionarVoo.rxrec">
+      <id>71185a98-8a9c-4c0d-b59c-ffc7bf3c60ce</id>
+      <recordtableid>d34223c2-0df9-483a-abef-6f7cecb565bc</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Selecao_De_Voos\VC_Pedido.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>42517c95-cfd3-4526-88e7-57fbe0f571d8</id>
+      <recordtableid>523080ae-03e9-46cf-89b8-217b2cb4ee66</recordtableid>
+    </None>
+    <None Include="SolicitarMilhas\SolicitarMilhas.rxrec">
+      <id>1f799866-8212-45af-84dd-beaf6c79e325</id>
+      <recordtableid>86a915ea-bd22-40e0-8c75-c32abef77135</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Teste\ExecuteWithJekins.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>a282a741-600b-413f-a553-fe11ac53f78c</id>
+      <recordtableid>519140f6-d618-4db0-8e66-053ec9f9ec60</recordtableid>
+    </None>
+    <None Include="Teste\InserirMilhas.rxrec">
+      <id>b8454aeb-c6db-44e9-944c-1e72844740fe</id>
+      <recordtableid>c91b89f1-19f6-4a31-9a19-bc3cbebcc530</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Teste\Recording1.rxrec">
+      <id>6a443b0c-d943-4f04-9cc3-5e8c21bee756</id>
+      <recordtableid>f5c2e82a-02cb-4ef3-9165-0f1a216d3bc1</recordtableid>
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+    </None>
+    <None Include="Teste\TesteMobile.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>da57c2e2-648c-4aec-8955-dfc241b19478</id>
+      <recordtableid>311b10f4-e1fa-4db6-b80b-619561d853c9</recordtableid>
+    </None>
+    <None Include="Transferencia_De_Milhas\TransferirMilhas.rxrec">
+      <BoundTo>c6a91086-7475-49db-9962-f8a21f28fd25</BoundTo>
+      <id>104f2102-113d-49b5-b800-9717db79c075</id>
+      <recordtableid>3ea1fb1c-44bc-4aa3-a1cc-9e96cedfdc83</recordtableid>
+    </None>
+    <Content Include="Smiles.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>1166ba7b-6d05-44eb-adf3-a4034c4a0dc2</id>
+    </Content>
+    <Content Include="Smiles.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>9c1923c2-9a72-42c1-962a-9eb6813cf50f</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Busca_De_Voos">
+      <id>5563d20b-4e28-402b-9f31-18cedd94926a</id>
+    </Folder>
+    <Folder Include="Dados_Do_Passageiro">
+      <id>c768e0c6-593f-4028-b206-cfed53443716</id>
+    </Folder>
+    <Folder Include="Comprar">
+      <id>a28c718c-6fa8-45e0-b8da-cf135f767079</id>
+    </Folder>
+    <Folder Include="ClubeSmiles">
+      <id>58371fe5-103d-4f11-8928-08ca098df2f2</id>
+    </Folder>
+    <Folder Include="Cadastro">
+      <id>3140e7cc-f6e6-4950-ac08-94d3d77cade8</id>
+    </Folder>
+    <Folder Include="Compra_De_Milhas">
+      <id>7fa2e1e9-fc83-488e-afd9-e8ceba58f351</id>
+    </Folder>
+    <Folder Include="Escolher_Assentos">
+      <id>f90d3a44-a834-4213-a981-81fa6f8332c5</id>
+    </Folder>
+    <Folder Include="Base_Dados">
+      <id>e8eba48a-e187-4e24-8a24-64eae1318563</id>
+    </Folder>
+    <Folder Include="AtendimentoOnline">
+      <id>dd218925-cf7d-4579-b33e-f0b33c9b2246</id>
+    </Folder>
+    <Folder Include="Menu_Usuario">
+      <id>ff3c71d8-4d6f-42ea-be0e-10a008912649</id>
+    </Folder>
+    <Folder Include="EsqueciMeusDados">
+      <id>2e1e9ee3-f275-43da-bcea-f9cd68b3d401</id>
+    </Folder>
+    <Folder Include="Links">
+      <id>21f943c3-a35a-4cba-9920-6b280474f848</id>
+    </Folder>
+    <Folder Include="ImprimirCartao">
+      <id>f73127ce-1d95-4193-be31-3bd8b79da3dc</id>
+    </Folder>
+    <Folder Include="Emissao">
+      <id>5f9b0afc-bcd2-4f26-81da-f344826a04b2</id>
+    </Folder>
+    <Folder Include="GIFT">
+      <id>4cb3672c-03c4-46f1-87e1-f91905dcc1e0</id>
+    </Folder>
+    <Folder Include="Favoritos">
+      <id>37a1c381-1479-4cbd-bb03-c06802325cc7</id>
+    </Folder>
+    <Folder Include="Extrato">
+      <id>dc9caa23-e0a5-467e-9aa3-4323d1ed22d8</id>
+    </Folder>
+    <Folder Include="CustomReport">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>6b75d873-0360-485f-8b6b-dd101f0caba9</id>
+    </Folder>
+    <Folder Include="Mobile">
+      <id>b6a0696c-90eb-4865-8876-ee83d5e5d2eb</id>
+    </Folder>
+    <Folder Include="Mobile\AppSmiles">
+      <id>82486b1f-8d41-4e0e-9ab9-a6726e9a3768</id>
+    </Folder>
+    <Folder Include="Mobile\AppSmiles\BuscaDeVoos">
+      <id>27d39322-5b1f-4f3f-a307-263a749a897c</id>
+    </Folder>
+    <Folder Include="Mobile\AppSmiles\FinalizacaoApp">
+      <id>a6804880-fe31-4c0e-b02b-652e7ab921d3</id>
+    </Folder>
+    <Folder Include="Mobile\AppSmiles\InicializacaoApp">
+      <id>ab2d3f82-619a-4952-a97d-f9d217dc86f0</id>
+    </Folder>
+    <Folder Include="Mobile\AppSmiles\MenuPrincipal">
+      <id>3f7d16fe-b836-4336-9edf-5894e5c949d8</id>
+    </Folder>
+    <Folder Include="Mobile\AppSmiles\Pagamento">
+      <id>4714f644-a2d8-4580-8faf-f4c026b331ea</id>
+    </Folder>
+    <Folder Include="Mobile\AppSmiles\Passageiros">
+      <id>e503e03a-cab6-4894-a6f4-fd83d782cb27</id>
+    </Folder>
+    <Folder Include="Mobile\RxBrowser">
+      <id>f3f783b1-938b-45c3-b91b-82bb254b7711</id>
+    </Folder>
+    <Folder Include="Mobile\RxBrowser\BuscarVoo">
+      <id>4226d937-e357-473a-bd94-88897d289afd</id>
+    </Folder>
+    <Folder Include="Mobile\RxBrowser\Init">
+      <id>debd8395-6c6f-4c2d-8f6c-d94b7f7e330c</id>
+    </Folder>
+    <Folder Include="Mobile\RxBrowser\Login">
+      <id>ef078602-d402-4ffc-9674-2cb5ce941010</id>
+    </Folder>
+    <Folder Include="Mobile\RxBrowser\DadosPassageiros">
+      <id>56a73b1a-c751-41de-bc77-b9f51f2dd6d6</id>
+    </Folder>
+    <Folder Include="Mobile\RxBrowser\AdesaoClube">
+      <id>6bb3bbd7-15b3-476c-91e2-09a3017bc788</id>
+    </Folder>
+    <Folder Include="Mobile\RxBrowser\Emissao">
+      <id>34e99713-b466-4dd8-8336-dbacc5cd14aa</id>
+    </Folder>
+    <Folder Include="Mobile\RxBrowser\MenusUsuarios">
+      <id>9a3e21af-d28b-4d2c-99bd-f5a7aa0066ca</id>
+    </Folder>
+    <Folder Include="Mobile\RxBrowser\Meus_Voos">
+      <id>edecdc84-1fd6-47f8-b9b4-dc558651c0b5</id>
+    </Folder>
+    <Folder Include="Mobile\RxBrowser\Pagamento">
+      <id>7a84408e-c5fe-41db-96ec-df7f2dbadd93</id>
+    </Folder>
+    <Folder Include="Mobile\RxBrowser\SelecaoVoos">
+      <id>d6008434-5fdf-4f2f-aec3-7ae0fa05e5e1</id>
+    </Folder>
+    <Folder Include="Mobile\RxBrowser\ResultadoEsperado">
+      <id>ca6a5b43-6c25-4389-951a-27226feea626</id>
+    </Folder>
+    <Folder Include="Teste">
+      <id>3096d9b0-4606-4c77-92fd-656dd1ccf731</id>
+    </Folder>
+    <Folder Include="ShoppingSmiles">
+      <id>e0ac5551-b691-4195-91aa-9ddc9764345f</id>
+    </Folder>
+    <Folder Include="SolicitarMilhas">
+      <id>bd6e4b53-b182-4679-8a24-e2d92a1a66f5</id>
+    </Folder>
+    <Folder Include="Reativar_Milhas">
+      <id>a94d034e-02b8-4de4-8159-6caa8bc7b811</id>
+    </Folder>
+    <Folder Include="Transferencia_De_Milhas">
+      <id>70158eb2-e37c-40ad-bd60-8d8793ffaf24</id>
+    </Folder>
+    <Folder Include="Reserva_De_Voo">
+      <id>f98ac7b7-20da-4dea-b805-ea8ee0184480</id>
+    </Folder>
+    <Folder Include="Resultado_Esperado">
+      <id>c445b279-9864-470b-a798-40ca03ce56cf</id>
+    </Folder>
+    <Folder Include="Selecao_De_Voos">
+      <id>293bba1b-4ad6-4442-a8ce-12fd7e262f6e</id>
+    </Folder>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormProgress.resx">
+      <DependentUpon>FormProgress.cs</DependentUpon>
+      <id>d083a9c0-30d5-466f-b582-c6b1b53f9533</id>
+      <BoundTo>3426d2b6-9846-40cd-aa21-237e1bdff413</BoundTo>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

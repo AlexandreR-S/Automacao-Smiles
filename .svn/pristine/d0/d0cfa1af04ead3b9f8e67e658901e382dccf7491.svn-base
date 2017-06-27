@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.2"
+id="2483ff23-6b01-42dd-9d7e-5561351301f5"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		AindaNaoSouCliente
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AindaNaoSouCliente"
+	namespace="POCSmiles.AtendimentoOnline"/>
+	<variables/>
+	<recorditems>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="5a5098ab-eb03-452b-9051-fac34adac55d"
+		action="Click"
+		button="Left"
+		movetime="1ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="888fbc76-4d7e-4264-a9df-deb0adad6d31">
+				<path>
+					/dom[@pageurl~'.*'+$URL+'.*'][1]//u[@innertext='Ainda n&#227;o sou cliente :(']
+				</path>
+			</info>
+		</mouseitem>
+		<loggingrecorditem
+		enabled="True"
+		optional="False"
+		searchpropertyid="d807542c-b2ef-4e57-bb27-cd50ef634f2d"
+		action="Screenshot"
+		category="User"
+		message=""
+		reportlevel="Success;110">
+			<comment/>
+			<bindings/>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	name="SmilesRepository"
+	id="f8bb210d-8025-4309-a036-286794eed585"
+	rxversion="6.2"
+	relativepath="..\SmilesRepository.rxrep">
+		<codegen
+		classname="SmilesRepository"
+		namespace="POCSmiles"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="2d08fe81-6727-4e90-82e1-ffba91f7633c"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AindaNaoSouCliente.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

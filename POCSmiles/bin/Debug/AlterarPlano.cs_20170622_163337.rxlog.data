@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="InProgress">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="5cf325d66f71aef"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="RODRIGUES"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="22/06/2017 16:33:46"
+		timestampiso="2017-06-22T19:33:46"
+		timeoutfactor="1"
+		module="AlterarPlano">
+		<detail>
+			AlterarPlano
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.810"
+			timeRelativeToTestModuleStartTime="00:00.810"
+			timeWallClock="16:33:46"
+			time="00:00.810"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.ClubeSmiles_AlterarPlano' at 98;21.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//a[#'upgradeDowngrade']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.ClubeSmiles_AlterarPlano"
+				id="736b434d57d140d9abdb1215e569b020"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\ClubeSmiles\AlterarPlano.cs"
+				codeline="53"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.900"
+			timeRelativeToTestModuleStartTime="00:07.900"
+			timeWallClock="16:33:53"
+			time="00:07.900"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\ClubeSmiles\AlterarPlano.cs"
+				codeline="57"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.914"
+			timeRelativeToTestModuleStartTime="00:08.914"
+			timeWallClock="16:33:54"
+			time="00:08.914"
+			level="Info"
+			category="User">
+			<message>
+				Wainting system load
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="236"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.090"
+			timeRelativeToTestModuleStartTime="00:09.090"
+			timeWallClock="16:33:55"
+			time="00:09.090"
+			level="Success"
+			category="Validation">
+			<message>
+				/dom[@pageurl~'.smiles.com.br']
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs"
+				codeline="188"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.280"
+			timeRelativeToTestModuleStartTime="00:29.280"
+			timeWallClock="16:34:15"
+			time="00:29.280"
+			level="Info"
+			category="User">
+			<message>
+				System loaded
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="238"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.304"
+			timeRelativeToTestModuleStartTime="00:29.304"
+			timeWallClock="16:34:15"
+			time="00:29.304"
+			level="Info"
+			category="User">
+			<message>
+				Selecionando novo plano
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="689"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

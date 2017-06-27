@@ -1,0 +1,3453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.2"
+id="15d2c128-57c8-430a-a9ac-d1494b1ac2eb"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		CadastrarUsuario
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CadastrarUsuario"
+	namespace="POCSmiles.Cadastro"/>
+	<variables>
+		<var
+		name="Email"
+		id="5ee9d1db-0888-4cfc-a778-97bf639fa408">
+		</var>
+		<var
+		name="TipoDocumento"
+		id="1cc8d101-67de-4805-b230-8f7da7488fd7">
+			Portugu&#234;s
+		</var>
+		<var
+		name="Nacionalidade"
+		id="d8ff45d9-da05-4c59-8251-15a55aa9b278">
+			&#32;Brasileiro&#32;
+		</var>
+		<var
+		name="Nome"
+		id="6369466d-755d-453b-9f89-375619fbdca2">
+			ROBO
+		</var>
+		<var
+		name="Sobrenome"
+		id="7dd5e3da-3e33-40e1-818e-17cf2c3dd282">
+			TESTE
+		</var>
+		<var
+		name="Sexo"
+		id="045bd466-5183-4e35-a63d-cb5b0e4cfb0a">
+			Masculino
+		</var>
+		<var
+		name="DataNascimento"
+		id="678c8a8f-f565-4562-be0a-f0de5773c25a">
+			05121991
+		</var>
+		<var
+		name="ConfirmarEmail"
+		id="efa6c8c2-c2fb-402f-84ce-64e82960949f">
+			CONFIRMAR
+		</var>
+		<var
+		name="DDRes"
+		id="ada30d18-e950-492c-82f1-52c92638f4fb">
+			11
+		</var>
+		<var
+		name="NumRes"
+		id="5f27a44e-770e-4d2a-b3cd-ee5aaa184961">
+			44797418
+		</var>
+		<var
+		name="DDCel"
+		id="d9d66550-ce2a-457f-8b70-e678f6836c86">
+			11
+		</var>
+		<var
+		name="NumCel"
+		id="46500959-5a4d-4a83-9026-08ce15b03e00">
+			992500630
+		</var>
+		<var
+		name="EnderecoPais"
+		id="a3af8319-a79b-4cce-a4f2-cca40d8bf9ee">
+			&#32;Brasil&#32;
+		</var>
+		<var
+		name="EnderecoCEP"
+		id="15018854-1539-42f3-bbae-7dd42ef672d6">
+			09290190
+		</var>
+		<var
+		name="EnderecoRua"
+		id="5956197d-42ca-420a-b687-f01d0944ae2e">
+			Rua Sarambe
+		</var>
+		<var
+		name="EnderecoNum"
+		id="ec9b3907-f360-4489-9631-86382b5a4081">
+			617
+		</var>
+		<var
+		name="EnderecoUF"
+		id="87cf70ff-f11c-420d-a41e-1ac16d1052a3">
+			&#32;SP&#32;
+		</var>
+		<var
+		name="EnderecoCIdade"
+		id="5463be5b-e16c-4b36-8a44-84df12fbfb69">
+			Santo Andre
+		</var>
+		<var
+		name="Senha"
+		id="fa8c6722-f146-4db4-842a-825bccee13a6">
+			1010
+		</var>
+		<var
+		name="Idioma"
+		id="13dfe6bd-7615-41ac-9aab-6b2c0a5e9d2a">
+			Portugu&#234;s
+		</var>
+		<var
+		name="CPF"
+		id="09f35fe3-ad3a-4428-98ac-9dd3a9a8a398">
+		</var>
+		<var
+		name="Documento"
+		id="eefa0be4-2f09-44d8-bfd3-e8c8f33c5c8d">
+			480286565
+		</var>
+		<var
+		name="DDIRes"
+		id="628c9a0a-f1af-4cd9-b780-4992ea3fe110">
+			11
+		</var>
+		<var
+		name="DDICel"
+		id="d4cabf33-6071-419d-882d-78d7fa878ff2">
+			11
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="7cf7caf1-c870-4f39-99f1-7d9a9b3d63e8"
+		action="Click"
+		button="Left"
+		movetime="1ms"
+		sx="1120"
+		sy="96"
+		loc="LowerCenter">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="3c19e0a3-adf9-4158-8995-b91636cd039a">
+				<element
+				role="unknown"
+				prefcap="atag"
+				capabilities="webelement, atag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="1071,75,142,45"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						btn btn-link new cadastro
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Cadastre-se
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://portal-uat.smiles.com.br/home#
+					</attribute>
+					<dynamicattribute
+					name="onclick"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+				</element>
+				<path>
+					/dom[@domain='portal-uat.smiles.com.br']//body[#'wrapper']/div[@id='wrapper']/header/div[5]//a[@innertext='Cadastre-se']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="b8f9cd8b-85a1-45e4-8f37-dbe7f0d7b19b">
+				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
+ooAKKKKAP//Z
+			</helperscreenshot>
+		</mouseitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="693af398-c2e2-43de-9f7f-5bf273eca505"
+		action="Exists">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="1323cd3e-c8fa-4014-a516-40d031247ac5">
+				<path>
+					/dom[@pageurl~'.*'+$SmilesURL+'.*'][1]//input[#'_memberregisterportlet_WAR_smilesmemberportlet_firstname']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Vamos come&#231;ar pelas apresenta&#231;&#245;es? Quem &#233; voc&#234;?
+			</matchvalue>
+		</validationitem>
+		<keysequenceitem
+		enabled="True"
+		optional="False"
+		duration="1ms"
+		searchpropertyid="3dd8d697-cf7f-47aa-8466-807d3257e4b5"
+		KeySequence="wellington"
+		presstime="1ms">
+			<comment/>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="Nome"/>
+			</bindings>
+			<info
+			sourcename="Recorder"
+			id="1323cd3e-c8fa-4014-a516-40d031247ac5">
+				<element
+				role="unknown"
+				prefcap="inputtag"
+				capabilities="webelement, inputtag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="1"
+				rect="225,204,372,27"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						field width330 alpha transformUppercase
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						_memberregisterportlet_WAR_smilesmemberportlet_firstname
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						32
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						_memberregisterportlet_WAR_smilesmemberportlet_firstname
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						65
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='portal-uat.smiles.com.br']//input[#'_memberregisterportlet_WAR_smilesmemberportlet_firstname']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="b0567270-afd2-4186-86a3-dbb7d6f04710">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABKAfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoqKKK
+ACiiigAooooAKKKKAKQ1BSLkbPmgzxn7wqz50YKhnVWYZCk8ms+exmeGZkXEpkYryPmU1I9vLtnQ
+Rh/OAw2R8vGOfp7UAXDNErbWlQNnGCwzmlWWNkLLIpUdSDwKoyWkrJcjZuLsmCSOQMZp01rK5udo
+xvZGXkc460AXUdZF3IwZfUHIp1V7SJkMjOHBds/MQT+nAqxQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAU13CYznk4GATTqY/wDrIv8Ae/8AZTSY0Hmr/df/AL4b/CjzV/uv/wB8N/hUtFGoaEXm
+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
+284yEaMrhtuMg+2eKuCztwMCMY27Op5FAtIArrsJD43ZYnOOlAEL3MokZUKnacHETNzj60VKbOEk
+nDgnriRhn9aKegtSWiiikMKKKKACiiigAqOcEoMAnmpKKiceeLiNOzuQO29drwkimYlH3XnX8Qf5
+g1aoqOSf8/4Id12Kv7//AJ6z/kv/AMTR+/8A+es/5L/8TVqijkn/AD/gguuxV/f/APPWf8l/+Jo/
+f/8APWf8l/8AiatUUck/5/wQXXYq/v8A/nrP+S//ABNH7/8A56z/AJL/APE1aoo5J/z/AIILrsVf
+3/8Az1n/ACX/AOJo/f8A/PWf8l/+Jq1RRyT/AJ/wQXXYq/v/APnrP+S//E0fv/8AnrP+S/8AxNWq
+KOSf8/4ILrsVf3//AD1n/Jf/AImj9/8A89Z/yX/4mrVFHJP+f8EF12Kv7/8A56z/AJL/APE0fv8A
+/nrP+S//ABNWqKOSf8/4ILrsVf3/APz1n/Jf/iaP3/8Az1n/ACX/AOJq1RRyT/n/AAQXXYq/v/8A
+nrP+S/8AxNH7/wD56z/kv/xNWqKOSf8AP+CC67FX9/8A89Z/yX/4mj9//wA9Z/yX/wCJq1RRyT/n
+/BBddir+/wD+es/5L/8AE0fv/wDnrP8Akv8A8TVqijkn/P8AgguuxV/f/wDPWf8AJf8A4mj9/wD8
+9Z/yX/4mrVFHJP8An/BBddir+/8A+es/5L/8TR+//wCes/5L/wDE1aoo5J/z/gguuxV/f/8APWf8
+l/8AiaP3/wDz1n/Jf/iatUUck/5/wQXXYq/v/wDnrP8Akv8A8TR+/wD+es/5L/8AE1aoo5J/z/gg
+uuxV/f8A/PWf8l/+Jo/f/wDPWf8AJf8A4mrVFHJP+f8ABBddir+//wCes/5L/wDE0fv/APnrP+S/
+/E1aoo5J/wA/4ILrsVf3/wDz1n/Jf/iaP3//AD1n/Jf/AImrVFHJP+f8EF12Kv7/AP56z/kv/wAT
+R+//AOes/wCS/wDxNWqKOSf8/wCCC67FX9//AM9Z/wAl/wDiaP3/APz1n/Jf/iatUUck/wCf8EF1
+2Kv7/wD56z/kv/xNH7//AJ6z/kv/AMTVqijkn/P+CC67FX9//wA9Z/yX/wCJpVBDBmR3YdCxzj6V
+Zoo5J/z/AIILrsQSMzrjyyOanooqoQcW23e4m7hUcrBXiLEABupPsakoq2rgnYb58P8Az1T/AL6F
+Hnw/89U/76FOoo1DQb58P/PVP++hR58P/PVP++hTqKNQ0G+fD/z1T/voUU6ijUNAooopiCiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigD/2Q==
+			</helperscreenshot>
+		</keysequenceitem>
+		<keysequenceitem
+		enabled="True"
+		optional="False"
+		duration="1ms"
+		searchpropertyid="6629a34a-c57e-4044-a238-ad631b2db276"
+		KeySequence="TESTE"
+		presstime="1ms">
+			<comment/>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="Sobrenome"/>
+			</bindings>
+			<info
+			sourcename="Recorder"
+			id="25d9fd5a-900c-4eab-8023-516dc48e1ad8">
+				<element
+				role="unknown"
+				prefcap="inputtag"
+				capabilities="webelement, inputtag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="1"
+				rect="225,278,372,27"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						field width330 alpha transformUppercase
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						_memberregisterportlet_WAR_smilesmemberportlet_lastname
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						32
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						_memberregisterportlet_WAR_smilesmemberportlet_lastname
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						65
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					name="aria-required"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+				</element>
+				<path>
+					/dom[@domain='portal-uat.smiles.com.br']//input[#'_memberregisterportlet_WAR_smilesmemberportlet_lastname']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="b1b03e87-125c-460a-8a7e-d96ed06a3d2d">
+				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
+UUUUAf/Z
+			</helperscreenshot>
+		</keysequenceitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Cadastro"
+		classname="CadastrarUsuario"
+		methodname="SelectItemListBox"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="99b08533-e4ee-4fb4-bb86-91ca2fd9ecc0">
+				<argument
+				argname="selectTagElement"
+				id="76e72bcb-d3f5-491d-b439-bcdb1899100f">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						//select[@id&lt;'_selectNacionality']
+					</argvalue>
+				</argument>
+				<argument
+				variable="Nacionalidade"
+				argname="itemName"
+				id="4e3d47d1-e1ee-4c52-863d-dc813c8e0af8">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						Afeg&#227;o
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Cadastro"
+		classname="CadastrarUsuario"
+		methodname="SelectItemListBox"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="a7c3aa66-66c7-4b18-8ed9-aa1e768320be">
+				<argument
+				argname="selectTagElement"
+				id="e01bba03-43f1-40e7-ace7-0bb872ef70a4">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						//select[@id&lt;'_selectLanguage']
+					</argvalue>
+				</argument>
+				<argument
+				variable="Idioma"
+				argname="itemName"
+				id="afe01ccf-1574-492e-91bb-fd96a5460175">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						$Idioma
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Cadastro"
+		classname="CadastrarUsuario"
+		methodname="SeleclGenrerFlag"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="0a57887f-4d75-45b3-8af7-d5295729185a">
+				<argument
+				variable="Sexo"
+				argname="sexo"
+				id="e461cc12-25e4-4825-8b22-1f350b40a109">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						Masculino
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<explicitdelayitem
+		enabled="False"
+		optional="False"
+		duration="500ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<keysequenceitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="42ebc322-47a2-4ad4-b6ea-9c16a6df3ab3"
+		KeySequence="05/12/1991"
+		presstime="50ms">
+			<comment/>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="DataNascimento"/>
+			</bindings>
+			<info
+			sourcename="Recorder"
+			id="1fb084f4-211b-42eb-bba1-7891dbc2a891">
+				<element
+				role="unknown"
+				prefcap="inputtag"
+				capabilities="webelement, inputtag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="225,448,90,27"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						field width48 floatL numbersOnlyNoMask
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						_memberregisterportlet_WAR_smilesmemberportlet_birthDay
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						2
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						_memberregisterportlet_WAR_smilesmemberportlet_birthDay
+					</attribute>
+					<attribute
+					name="pattern"
+					type="System.String">
+						[0-9]*
+					</attribute>
+					<attribute
+					name="placeholder"
+					type="System.String">
+						DD
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						5
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						tel
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='portal-uat.smiles.com.br']//input[#'_memberregisterportlet_WAR_smilesmemberportlet_birthDay']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="f8841dde-3185-469d-9efe-d2b338ba7034">
+				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
+d38qT5pnDOpVF5VT1J9TQARffk+tLBxPOD1JDfhgD+hpIvvyfWldW3CSPG8cYPRh6VjQ+D7/AMyp
+bk1B6GoftUQ/1jeWe4fjH49KPtdt/wA/EX/fYrYkqJDJhV2NtK7jx3GcUpjkwrBG3JGpHHfNWvtd
+t/z8Rf8AfYo+123/AD8Rf99igCO0jaORsgjKjnHfvVqoftdt/wA/EX/fYo+123/PxF/32KAJqKh+
+123/AD8Rf99ij7Xbf8/EX/fYoAmoqH7Xbf8APxF/32KDcB+IBvPrjCj8f8KAEXm7mPYBV/Hk/wBR
+RTo08tcZyTySe5ooAfRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAEbxlmDBsYFJ5Tf89DUtFZOjBu9v
+zK5mReU3/PQ0eU3/AD0NS0UvYQ/psOZkXlN/z0NHlN/z0NS0Uewh/TYczIvKb/noaPKb/noaloo9
+hD+mw5mReU3/AD0NHlN/z0NS0Uewh/TYczIvKb/noaPKb/noaloo9hD+mw5mMjTZnnOafRRWkYqK
+shN3CiiiqEFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q==
+			</helperscreenshot>
+		</keysequenceitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Cadastro"
+		classname="CadastrarUsuario"
+		methodname="SelectItemListBox"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="a7c3aa66-66c7-4b18-8ed9-aa1e768320be">
+				<argument
+				argname="selectTagElement"
+				id="e01bba03-43f1-40e7-ace7-0bb872ef70a4">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						//select[@id&lt;'_documentType']
+					</argvalue>
+				</argument>
+				<argument
+				variable="TipoDocumento"
+				argname="itemName"
+				id="afe01ccf-1574-492e-91bb-fd96a5460175">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						RNE
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<keysequenceitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="4041f623-e81c-4b0b-994b-121db742ca58"
+		KeySequence="480286565"
+		presstime="1ms">
+			<comment/>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="Documento"/>
+			</bindings>
+			<info
+			sourcename="Recorder"
+			id="dd6b0a9f-1e91-4413-af22-3175d54a96f3">
+				<element
+				role="unknown"
+				prefcap="inputtag"
+				capabilities="webelement, inputtag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="1"
+				rect="225,517,372,27"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						field width330 transformUppercase
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						_memberregisterportlet_WAR_smilesmemberportlet_rg
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						_memberregisterportlet_WAR_smilesmemberportlet_rg
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					name="aria-required"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+				</element>
+				<path>
+					/dom[@domain='portal-uat.smiles.com.br']//input[#'_memberregisterportlet_WAR_smilesmemberportlet_rg']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="6e55ae8c-792a-47ad-b9b9-e487ef07f77b">
+				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
+5+Iv++xQBNRUP2u2/wCfiL/vsUfa7b/n4i/77FAE1FQ/a7b/AJ+Iv++xR9rtv+fiL/vsUATUVD9r
+tv8An4i/77FBuA/EA3n1xhR+P+FAEMvM8p7Dav48n+oq1UEieXCBnJLZJPc1PWMf4kvl+pT2QUUU
+VsSFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFMkTeuM45p9FKUVJWYJ2IvKb/AJ6Gjym/56GpaKy9
+hD+myuZkXlN/z0NHlN/z0NS0Uewh/TYczIvKb/noaPKb/noaloo9hD+mw5mReU3/AD0NHlN/z0NS
+0Uewh/TYczIvKb/noaPKb/noaloo9hD+mw5mReU3/PQ0eU3/AD0NS0Uewh/TYczIvKb/AJ6Gjym/
+56GpaKPYQ/psOZkXlN/z0NHlN/z0NS0Uewh/TYczIvKb/noaPKb/AJ6GpaKPYQ/psOZkXlN/z0NH
+lN/z0NS0Uewh/TYczIvKb/noaPKb/noaloo9hD+mw5mReU3/AD0NHlN/z0NS0Uewh/TYczIvKb/n
+oaPKb/noaloo9hD+mw5mReU3/PQ0eU3/AD0NS0Uewh/TYczIvKb/AJ6Gjym/56GpaKPYQ/psOZkX
+lN/z0NHlN/z0NS0Uewh/TYczIvKb/noaPKb/AJ6GpaKPYQ/psOZkXlN/z0NHlN/z0NS0Uewh/TYc
+zIvKb/noaPKb/noaloo9hD+mw5mReU3/AD0NHlN/z0NS0Uewh/TYczIvKb/noaPKb/noaloo9hD+
+mw5mReU3/PQ0eU3/AD0NS0Uewh/TYczIvKb/AJ6Gjym/56GpaKPYQ/psOZkJhJ6yE1NRRVwpxh8I
+m2woooqxBRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/9k=
+			</helperscreenshot>
+		</keysequenceitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Cadastro"
+		classname="CadastrarUsuario"
+		methodname="setCpf"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="76875e0c-eea0-40a6-aaed-683f00e59fc8">
+				<argument
+				variable="CPF"
+				argname="cpf"
+				id="50652359-c10b-4b1e-ae12-7126bdf5c48d">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue/>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Cadastro"
+		classname="CadastrarUsuario"
+		methodname="TypeKeys"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="798cbc49-e9df-4d00-87e0-f40fd22baccd">
+				<argument
+				argname="element"
+				id="433addf2-a2f5-4d48-aff2-b55028e1c0e0">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						//input[@id&lt;'_homePhoneDDI']
+					</argvalue>
+				</argument>
+				<argument
+				variable="DDIRes"
+				argname="text"
+				id="d4ce583e-1957-49d1-982d-d2dc9384dd30">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue/>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<keysequenceitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="7cb23ae9-1e0f-4d5d-a783-946442982b86"
+		KeySequence="11"
+		presstime="1ms">
+			<comment/>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="DDRes"/>
+			</bindings>
+			<info
+			sourcename="Recorder"
+			id="07d19d95-2090-4752-b95f-94a8515f4fe3">
+				<element
+				role="unknown"
+				prefcap="inputtag"
+				capabilities="webelement, inputtag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="317,243,90,27"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						field floatL width48 numbersOnlyNoMask
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						_memberregisterportlet_WAR_smilesmemberportlet_homePhoneDDD
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						3
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						_memberregisterportlet_WAR_smilesmemberportlet_homePhoneDDD
+					</attribute>
+					<attribute
+					name="placeholder"
+					type="System.String">
+						DDD
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						3
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						tel
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					name="aria-required"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+				</element>
+				<path>
+					/dom[@domain='portal-uat.smiles.com.br']//input[#'_memberregisterportlet_WAR_smilesmemberportlet_homePhoneDDD']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="952e5fe7-360f-43b8-987c-94c52e8dba92">
+				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
+			</helperscreenshot>
+		</keysequenceitem>
+		<keysequenceitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="c1085e93-763d-4433-be49-6e5cc8029ee4"
+		KeySequence="44797418"
+		presstime="1ms">
+			<comment/>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="NumRes"/>
+			</bindings>
+			<info
+			sourcename="Recorder"
+			id="e89375ed-329b-43e2-8ca8-8026c82ee662">
+				<element
+				role="unknown"
+				prefcap="inputtag"
+				capabilities="webelement, inputtag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="417,442,172,27"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						field floatL width130 numbersOnlyNoMask
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						_memberregisterportlet_WAR_smilesmemberportlet_homePhoneNumber
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						8
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						_memberregisterportlet_WAR_smilesmemberportlet_homePhoneNumber
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						2
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						tel
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					name="aria-required"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+				</element>
+				<path>
+					/dom[@domain='portal-uat.smiles.com.br']//input[#'_memberregisterportlet_WAR_smilesmemberportlet_homePhoneNumber']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="0462c7d8-a6b7-4a3e-82a1-89b79774f96e">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABFAZgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDUW+E8
+UuF27UY8P8wx7dv1oa5byNkakkQ72YtyOOPqalNlGSSzuxKlQSRkA++P50NZoQAHdfk8s4I5HvQB
+At+IoYw2GYRK7FnwT9PU1I99t80rFuSPaSd2Mg+2Kk+xoAux5EIQISpwSB/ntQ9pG4mBLfvcbufS
+gA+0O0rrFFvCEBjuwefSokudiSkAsfOKje/8uP0Gama2UyM6u6bsbgpxnH6/lSGzTqGdW8wyAgjI
+J/CgCFLkzz2rDcgYuGXPpV6q8dnHG0ZDOdhYjJ9etWKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigBqOrruQginVFOBE3nLxyA49R0z9RUtABUPnhv8AVxvIPVRwfxNKR50xjP3EALD+8T0F
+T0AQebJ/z6y/mn/xVHmyf8+sv5p/8VU9QRXcMryKjZEYyzdvzoAPNk/59ZfzT/4qjzZP+fWX80/+
+Kp1vcx3IYxZIVtuSOtS0AQebJ/z6y/mn/wAVR5sn/PrL+af/ABVT0UAQebJ/z6y/mn/xVHmyf8+s
+v5p/8VU9FAEKzKWCsGRj0DDGfpUlK6K6lWGQe1RQk5aNjlkOM+o7UAJIz+YFU4yKY7yJgFwWPRQM
+k/hiid/Lk34zhenrU0MflrluXb7zev8A9auaMOdybb37lt2sV/Mue0MhH/AR/M0b7r/nhJ+af41c
+pk8yQQtLIflUVfsV3f3i5itvuv8AnhJ+af40b7r/AJ4Sfmn+NSy3cUVss752tjA7nNE115LKGhkI
+ZgqkbeT+eaPYru/vDmIt91/zwk/NP8aN91/zwk/NP8aWW+VY5CingMFYj5WYDOPXtVuj2K7v7w5i
+nvuv+eEn5p/jRvuv+eEn5p/jVyij2K7v7w5invuv+eEn5p/jRvuv+eEn5p/jVyij2K7v7w5invuv
++eEn5p/jRvuv+eEn5p/jVyij2K7v7w5invuv+eEn5p/jRvuv+eEn5p/jVyij2K7v7w5invuv+eEn
+5p/jRvuv+eEn5p/jVyij2K7v7w5invuv+eEn5p/jRvuv+eEn5p/jVyij2K7v7w5in5lz3hkA/wCA
+n+RpyPI+QHAYdVIwR+GKtVHNH5i5Xh1+63p/9aj2K7v7w5iNS4lCswOamqBH8ySNwMZXp6danoo3
+95X6hLoFFFFbEhRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAEd5/wAekg7sNo+p4qSovmmcM6lUXlVP
+Un1NS0ARwcTzg9SQ34YA/oamqF1bcJI8bxxg9GHpR9qiH+sbyz3D8Y/HpQBNVWKLF9PlMRlFA44P
+XipPtdt/z8Rf99ij7Xbf8/EX/fYoAZZoyyXO5SAZcjI6jAqzUP2u2/5+Iv8AvsUfa7b/AJ+Iv++x
+QBNRUP2u2/5+Iv8AvsUfa7b/AJ+Iv++xQBNRUP2u2/5+Iv8AvsUfa7b/AJ+Iv++xQBNUC83cx7AK
+v48n+opTcB+IBvPrjCj8f8KWNPLXGck8knuaAILzqD2XDH6A5q5UDgGdQRkEf40K5gG1wzIPuuOc
+ex/xrGlvL1/yKl0J6p6hDLKnyKrIqsduTknHHbmpvtdt3njHsWAo+123/PxF/wB9itiTPuILl7NC
+0SnbGqqoJyDkZOMVc2vJfxl0wsceR6bj7/SpPtdt/wA/EX/fYo+123/PxF/32KAM+9h3RyLGsyqp
+d2DD5RweQe+frWtUD3NpIjI1xEVYYI8wdKX7Xbf8/EX/AH2KAJqKh+123/PxF/32KPtdt/z8Rf8A
+fYoAmoqH7Xbf8/EX/fYo+123/PxF/wB9igCaioftdt/z8Rf99ij7Xbf8/EX/AH2KAJqKh+123/Px
+F/32KPtdt/z8Rf8AfYoAmoqH7Xbf8/EX/fYo+123/PxF/wB9igCaioftdt/z8Rf99ij7Xbf8/EX/
+AH2KAJqKh+123aeM+wYGkZzONqBljP3nPGfYf40ARW/VD2bcw+hJNWqiIAnQAYAFS1jS3l6/5FS6
+BRRRWxIUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+RSR73XnGeOlH2b/b/SpD95fr/Q1QuLgHUINyzARylQPKfB+VsnOMH/8AXWTowbv/AJlKTLf2b/b/
+AEo+zf7f6VUgkS5vW82OT95GQUkiYADPTkYpVtY/IZ4bZNjvlokAXeoyAOw9+aXsIf02HMy19m/2
+/wBKPs3+3+lVBBDNZgSW8TEyFIg6htgJ7fTn8qJ5UW5gi2SqkLhUAibB465xj/Jo9hD+mw5mW/s3
++3+lH2b/AG/0qN9sVxcPlgPJDEg5PVqbp6GKR0KJGSittjOQevP1P+SaPYQ/psOZk32b/b/Sj7N/
+t/pU9FHsIf02HMyD7N/t/pR9m/2/0qeij2EP6bDmZB9m/wBv9KPs3+3+lT0Uewh/TYczIPs3+3+l
+H2b/AG/0qeij2EP6bDmZB9m/2/0o+zf7f6VPRR7CH9NhzMg+zf7f6UfZv9v9Knoo9hD+mw5mQfZv
+9v8ASj7N/t/pU9FHsIf02HMyCOLDBt2cEipaavQ/U/zp1XCEYK0RNt7hRRRViCiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigBD95fr/Q04qCQSASDkZHSi
+igA2jduwM4xmmvDE8XlPEjR/3SoI/KiigB2xfl+UfL93jp9KCoOMgHByM9qKKADaNxbAyRjOO1Ni
+hihBEUaRgnJCqBk0UUAPooooAKKKKACiiigAooooAKKKKACiiigAooooAjXofqf506iigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooA//9k=
+			</helperscreenshot>
+		</keysequenceitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Cadastro"
+		classname="CadastrarUsuario"
+		methodname="TypeKeys"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="798cbc49-e9df-4d00-87e0-f40fd22baccd">
+				<argument
+				argname="element"
+				id="433addf2-a2f5-4d48-aff2-b55028e1c0e0">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						//input[@id&lt;'_cellPhoneDDI']
+					</argvalue>
+				</argument>
+				<argument
+				variable="DDICel"
+				argname="text"
+				id="d4ce583e-1957-49d1-982d-d2dc9384dd30">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue/>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<keysequenceitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="db363655-02dc-4eec-9bf5-f629114322e0"
+		KeySequence="11"
+		presstime="1ms">
+			<comment/>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="DDCel"/>
+			</bindings>
+			<info
+			sourcename="Recorder"
+			id="2edc8e32-9300-476f-b471-142e831080aa">
+				<element
+				role="unknown"
+				prefcap="inputtag"
+				capabilities="webelement, inputtag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="317,312,90,27"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						field floatL width48 numbersOnlyNoMask
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						_memberregisterportlet_WAR_smilesmemberportlet_cellPhoneDDD
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						3
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						_memberregisterportlet_WAR_smilesmemberportlet_cellPhoneDDD
+					</attribute>
+					<attribute
+					name="placeholder"
+					type="System.String">
+						DDD
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						3
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						tel
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					name="aria-required"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+				</element>
+				<path>
+					/dom[@domain='portal-uat.smiles.com.br']//input[#'_memberregisterportlet_WAR_smilesmemberportlet_cellPhoneDDD']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="9af6c5ea-5755-43c7-a58d-45203a10da6b">
+				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
+UAFFFFABRRRQB//Z
+			</helperscreenshot>
+		</keysequenceitem>
+		<keysequenceitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="e123dc01-3985-48b2-a470-b157ae372bf8"
+		KeySequence="992500630"
+		presstime="1ms">
+			<comment/>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="NumCel"/>
+			</bindings>
+			<info
+			sourcename="Recorder"
+			id="8c9ba023-b858-4446-bc7f-01ed4ff83dc5">
+				<element
+				role="unknown"
+				prefcap="inputtag"
+				capabilities="webelement, inputtag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="417,312,172,27"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						field floatL width130 numbersOnlyNoMask
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						_memberregisterportlet_WAR_smilesmemberportlet_cellPhoneNumber
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						9
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						_memberregisterportlet_WAR_smilesmemberportlet_cellPhoneNumber
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						3
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						tel
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					name="aria-required"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+				</element>
+				<path>
+					/dom[@domain='portal-uat.smiles.com.br']//input[#'_memberregisterportlet_WAR_smilesmemberportlet_cellPhoneNumber']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="efbd8cfb-82f7-467a-bee5-d3f8cc969d9f">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABFAZgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDUs7hv
+KtkfLmXd8xPTFC3LTTWrjKK2/K54OKlWzRUiVXcGLO1sjPPXtQlnEgiALER7sZPXPXNAEa3+SwMY
+4QuMNnOO3TH5ZqzBI0sSuyBdwBABzxUK2EYAHmSEBCgBI4B/CrEaCONUGcKABmgB1FFFABRRRQAU
+UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUANR1ddyEEU6opwIm85eOQHHqOmfqKloAKh88N
+/q43kHqo4P4mlI86Yxn7iAFh/eJ6Cp6AIPNk/wCfWX80/wDiqPNk/wCfWX80/wDiqnqCK7hleRUb
+IjGWbt+dAB5sn/PrL+af/FUebJ/z6y/mn/xVOt7mO5DGLJCttyR1qWgCDzZP+fWX80/+Ko82T/n1
+l/NP/iqnooAg82T/AJ9ZfzT/AOKo82T/AJ9ZfzT/AOKqeigCFZlLBWDIx6BhjP0qSldFdSrDIPao
+oSctGxyyHGfUdqAEkZ/MCqcZFMd5EwC4LHooGSfwxRO/lyb8ZwvT1qaGPy1y3Lt95vX/AOtXNGHO
+5Nt79y27WK/mXPaGQj/gI/maN91/zwk/NP8AGrlRTXCxOqbWd2BIVeuB3q/Yru/vFzEG+6/54Sfm
+n+NG+6/54Sfmn+NSNexDBUM67Q5Kj7o9TSvdLG3zI+wEAyY+Xmj2K7v7w5iLfdf88JPzT/Gjfdf8
+8JPzT/GpkuA8rIsbkI21n4wD+eaal7E2c7lXaWDEcMB1Io9iu7+8OYj33X/PCT80/wAaN91/zwk/
+NP8AGpBeR7GZg6bQDhhyQemKd9oOzPkTbt23bt5/njH40exXd/eHMQ77r/nhJ+af40b7r/nhJ+af
+41Lb3InkbZ90KDyOc5YEfpU9HsV3f3hzFPfdf88JPzT/ABo33X/PCT80/wAauUUexXd/eHMU991/
+zwk/NP8AGjfdf88JPzT/ABq5RR7Fd394cxT33X/PCT80/wAaN91/zwk/NP8AGrlFHsV3f3hzFPfd
+f88JPzT/ABo33X/PCT80/wAauUUexXd/eHMU/Mue8MgH/AT/ACNOR5HyA4DDqpGCPwxVqo5o/MXK
+8Ov3W9P/AK1HsV3f3hzEalxKFZgc1NUCP5kkbgYyvT061PRRv7yv1CXQKKKK2JCiiigAooooAKKK
+KACiiigAooooAKKKKAI7z/j0kHdhtH1PFSVF80zhnUqi8qp6k+pqWgCODiecHqSG/DAH9DU1Qurb
+hJHjeOMHow9KPtUQ/wBY3lnuH4x+PSgCaqsUWL6fKYjKKBxwevFSfa7b/n4i/wC+xR9rtv8An4i/
+77FADLNGWS53KQDLkZHUYFWah+123/PxF/32KPtdt/z8Rf8AfYoAmoqH7Xbf8/EX/fYo+123/PxF
+/wB9igCaioftdt/z8Rf99ij7Xbf8/EX/AH2KAJqgXm7mPYBV/Hk/1FKbgPxAN59cYUfj/hSxp5a4
+zknkk9zQBBedQey4Y/QHNXKgcAzqCMgj/GhXMA2uGZB91xzj2P8AjWNLeXr/AJFS6E9VrtV3o+2b
+cAQGjGfwNP8Atdt3njHsWAo+123/AD8Rf99itiSibYx2wj2zCZotp2jKt7E9sZ9qdIHkuI4JFkWC
+LGSI2PmEfQdKufa7b/n4i/77FH2u2/5+Iv8AvsUAVnhVrhfIheOTzCXcjGRjnnv9Kh+zyywxxBGV
+ooWU5GASeBj1q/8Aa7b/AJ+Iv++xR9rtv+fiL/vsUAUZYZJ90io67UQYIwSQcnFWIXdFl3rO0JbC
+cEsBjn361N9rtv8An4i/77FH2u2/5+Iv++xQBX05GSSRWXaNi7QRg7dzYz71eqAXNoHL/aItxABP
+mDoM/wCJpftdt/z8Rf8AfYoAmoqH7Xbf8/EX/fYo+123/PxF/wB9igCaioftdt/z8Rf99ij7Xbf8
+/EX/AH2KAJqKh+123/PxF/32KPtdt/z8Rf8AfYoAmoqH7Xbf8/EX/fYo+123/PxF/wB9igCaioft
+dt2njPsGBpGczjagZYz95zxn2H+NAEVv1Q9m3MPoSTVqoiAJ0AGABUtY0t5ev+RUugUUUVsSFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAEbxlmDBsYFJ
+5Tf89DUtFZOjBu9vzK5mReU3/PQ0eU3/AD0NS0UvYQ/psOZkXlN/z0NHlN/z0NS0Uewh/TYczIvK
+b/noaPKb/noaloo9hD+mw5mReU3/AD0NHlN/z0NS0Uewh/TYczIvKb/noaPKb/noaloo9hD+mw5m
+ReU3/PQ0eU3/AD0NS0Uewh/TYczIvKb/AJ6Gjym/56GpaKPYQ/psOZkXlN/z0NHlN/z0NS0Uewh/
+TYczIvKb/noaPKb/AJ6GpaKPYQ/psOZkXlN/z0NHlN/z0NS0Uewh/TYczI1iIcMXJxUlFFXCEYK0
+RNt7hRRRViCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooA//Z
+			</helperscreenshot>
+		</keysequenceitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Cadastro"
+		classname="CadastrarUsuario"
+		methodname="setEmail"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="53bbe88a-3a46-43e3-9e64-88fefc6427d1">
+				<argument
+				variable="Email"
+				argname="email"
+				id="af493427-4fe5-4a2d-a167-02a31c2dbcad">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue/>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Cadastro"
+		classname="CadastrarUsuario"
+		methodname="setEmail"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="53bbe88a-3a46-43e3-9e64-88fefc6427d1">
+				<argument
+				variable="ConfirmarEmail"
+				argname="email"
+				id="af493427-4fe5-4a2d-a167-02a31c2dbcad">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						CONFIRMAR
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Cadastro"
+		classname="CadastrarUsuario"
+		methodname="SelectItemListBox"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="b4620f00-a915-4221-88f1-9306bff0165b">
+				<argument
+				argname="selectTagElement"
+				id="1cd690e9-c198-485e-adf7-8f3641f1f872">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						//select[@id&lt;'_selectCountry']
+					</argvalue>
+				</argument>
+				<argument
+				variable="EnderecoPais"
+				argname="itemName"
+				id="4384703e-7fb7-4184-9bf4-07c57ab5f2f8">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						&#32;Brasil&#32;
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<keysequenceitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="52c3d90e-d337-40b4-9d51-b0454d9083c8"
+		KeySequence="09290190"
+		presstime="1ms">
+			<comment/>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="EnderecoCEP"/>
+			</bindings>
+			<info
+			sourcename="Recorder"
+			id="2bef9865-f1ad-48be-9acc-3628a5a5644d">
+				<element
+				role="unknown"
+				prefcap="inputtag"
+				capabilities="webelement, inputtag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="1"
+				rect="225,289,172,27"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						field width130 numbersOnlyNoMask
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						_memberregisterportlet_WAR_smilesmemberportlet_zipcode
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						30
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						_memberregisterportlet_WAR_smilesmemberportlet_zipcode
+					</attribute>
+					<attribute
+					name="pattern"
+					type="System.String">
+						[0-9]*
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						9
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						tel
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					name="aria-required"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+				</element>
+				<path>
+					/dom[@domain='portal-uat.smiles.com.br']//input[#'_memberregisterportlet_WAR_smilesmemberportlet_zipcode']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="60512b82-10da-4833-89b3-bb5dbe73f8a4">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABFAZgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoqKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKAIrmQxW8kijJVSRTIYcKjmWQtjLfNkN+HT8qnYBlKsMg
+jBFRJb7CuJZCq/dUngf1P40AVbDdJFG7pOxJ++Zfl6+m7+lR7ncT7GnMwlITBbaOfyq5DbeSqqk8
+mxf4Tt/wqSKFYd+0k72LHPqaAHjpS0UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQBFIz+YFU4yKY7yJgFwWPRQMk/hiid/Lk34zhenrU0MflrluXb7zev/wBauaMOdybb37lt2sV/
+Mue0MhH/AAEfzNG+6/54Sfmn+NXKimnWEqNrOzZwq9cDrV+xXd/eLmIN91/zwk/NP8aN91/zwk/N
+P8aeb2IAFQzrtDkqPuj1NOe6WNvmR9gIBkx8vNHsV3f3hzEW+6/54Sfmn+NG+6/54Sfmn+NSpdxv
+JtAYAsVDkcEjqKI7yKQ45UEFlZuAwHU0exXd/eHMRb7r/nhJ+af40b7r/nhJ+af409b6F4nkXcVV
+tvT7x9qd9rQLkq+/ds2cZz/Kj2K7v7w5iLfdf88JPzT/ABo33X/PCT80/wAalguBPIwX7qqDz1By
+wIP5VPR7Fd394cxT33X/ADwk/NP8aN91/wA8JPzT/GrlFHsV3f3hzFPfdf8APCT80/xo33X/ADwk
+/NP8auUUexXd/eHMU991/wA8JPzT/Gjfdf8APCT80/xq5RR7Fd394cxT33X/ADwk/NP8aN91/wA8
+JPzT/GrlFHsV3f3hzFPzLnvDIB/wE/yNOR5HyA4DDqpGCPwxVqo5o/MXK8Ov3W9P/rUexXd/eHMR
+qXEoVmBzU1QI/mSRuBjK9PTrU9FG/vK/UJdAooorYkKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKAKt51B7Lhj9Ac1cqBwDOoIyCP8aFcwDa4ZkH3XHOPY
+/wCNY0t5ev8AkVLoT1VuQyXUU21mUKynaMkE9OKk+123eeMexYCj7Xbf8/EX/fYrYkom3ZLUR7Jh
+M0W07RlT7E9sZ9qdIHkuI4JFkWCLGSI2PmEfQdKufa7b/n4i/wC+xR9rtv8An4i/77FAFRoN86pE
+JlCyF2DDCjjqD7/WltYnL26PGwEMbK+4cEnj8atfa7b/AJ+Iv++xR9rtv+fiL/vsUAVhF8l15kch
+Uy7htHPbkVGIZBL9oxIy+cD8y/MRjGcVd+123/PxF/32KPtdt/z8Rf8AfYoAr6ejJcTlgVLgMAeo
+BZqvVALm0Dl/tEW4gAnzB0Gf8TS/a7b/AJ+Iv++xQBNRUP2u2/5+Iv8AvsUfa7b/AJ+Iv++xQBNR
+UP2u2/5+Iv8AvsUfa7b/AJ+Iv++xQBNRUP2u2/5+Iv8AvsUfa7b/AJ+Iv++xQBNRUP2u2/5+Iv8A
+vsUfa7b/AJ+Iv++xQBNRUP2u27Txn2DA0jOZxtQMsZ+854z7D/GgCK36oezbmH0JJq1URAE6ADAA
+qWsaW8vX/IqXQKKKK2JCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigCN4yzBg2MCk8pv8AnoalorJ0YN3t+ZXMyLym/wCeho8pv+ehqWil7CH9NhzMi8pv
++eho8pv+ehqWij2EP6bDmZF5Tf8APQ0eU3/PQ1LRR7CH9NhzMi8pv+eho8pv+ehqWij2EP6bDmZF
+5Tf89DR5Tf8APQ1LRR7CH9NhzMi8pv8AnoaPKb/noaloo9hD+mw5mReU3/PQ0eU3/PQ1LRR7CH9N
+hzMi8pv+eho8pv8Anoaloo9hD+mw5mReU3/PQ0eU3/PQ1LRR7CH9NhzMi8pv+eho8pv+ehqWij2E
+P6bDmZGsRDhi5OKkooq4QjBWiJtvcKKKKsQUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH//2Q==
+			</helperscreenshot>
+		</keysequenceitem>
+		<keysequenceitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="1df7b66a-6baf-4a36-8904-36f3f0e6ebee"
+		KeySequence="Rua Sarambe"
+		presstime="1ms">
+			<comment/>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="EnderecoRua"/>
+			</bindings>
+			<info
+			sourcename="Recorder"
+			id="8083da85-c3b6-4712-be14-adfc86316a40">
+				<element
+				role="unknown"
+				prefcap="inputtag"
+				capabilities="webelement, inputtag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="1"
+				rect="225,358,372,27"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						field width330 transformUppercase
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						_memberregisterportlet_WAR_smilesmemberportlet_street
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						200
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						_memberregisterportlet_WAR_smilesmemberportlet_street
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						65
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					name="aria-required"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+				</element>
+				<path>
+					/dom[@domain='portal-uat.smiles.com.br']//input[#'_memberregisterportlet_WAR_smilesmemberportlet_street']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="3498240a-baae-4522-94a5-93d2f9ac8aa2">
+				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
+BRRRQAUUUUAFFFFABRRRQAUyRN64zjmn0UpRUlZgnYi8pv8AnoaPKb/noalorL2EP6bK5mReU3/P
+Q0eU3/PQ1LRR7CH9NhzMi8pv+eho8pv+ehqWij2EP6bDmZF5Tf8APQ0eU3/PQ1LRR7CH9NhzMi8p
+v+eho8pv+ehqWij2EP6bDmZF5Tf89DR5Tf8APQ1LRR7CH9NhzMi8pv8AnoaPKb/noaloo9hD+mw5
+mReU3/PQ0eU3/PQ1LRR7CH9NhzMi8pv+eho8pv8Anoaloo9hD+mw5mReU3/PQ0eU3/PQ1LRR7CH9
+NhzMi8pv+eho8pv+ehqWij2EP6bDmZF5Tf8APQ0eU3/PQ1LRR7CH9NhzMi8pv+eho8pv+ehqWij2
+EP6bDmZF5Tf89DR5Tf8APQ1LRR7CH9NhzMi8pv8AnoaPKb/noaloo9hD+mw5mReU3/PQ0eU3/PQ1
+LRR7CH9NhzMi8pv+eho8pv8Anoaloo9hD+mw5mReU3/PQ0eU3/PQ1LRR7CH9NhzMi8pv+eho8pv+
+ehqWij2EP6bDmZF5Tf8APQ0eU3/PQ1LRR7CH9NhzMi8pv+eho8pv+ehqWij2EP6bDmZF5Tf89DR5
+Tf8APQ1LRR7CH9NhzMi8pv8AnoaPKb/noaloo9hD+mw5mQmEnrITU1FFXCnGHwibbCiiirEFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQB//2Q==
+			</helperscreenshot>
+		</keysequenceitem>
+		<keysequenceitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="40d6da43-9a6c-44a0-a3c7-b3d2ef497726"
+		KeySequence="617"
+		presstime="1ms">
+			<comment/>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="EnderecoNum"/>
+			</bindings>
+			<info
+			sourcename="Recorder"
+			id="0f5071af-1fd2-44f5-b6f8-86964de522e0">
+				<element
+				role="unknown"
+				prefcap="inputtag"
+				capabilities="webelement, inputtag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="1"
+				rect="225,427,107,27"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						field width65 transformUppercase numbersOnlyNoMask
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						_memberregisterportlet_WAR_smilesmemberportlet_streetNumber
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						30
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						_memberregisterportlet_WAR_smilesmemberportlet_streetNumber
+					</attribute>
+					<attribute
+					name="pattern"
+					type="System.String">
+						[0-9]*
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						3
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						tel
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					name="aria-required"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+				</element>
+				<path>
+					/dom[@domain='portal-uat.smiles.com.br']//input[#'_memberregisterportlet_WAR_smilesmemberportlet_streetNumber']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="ac40a901-76c6-423f-b960-53874dd94312">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABFAT4DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoqKKK
+ACiiigAooooAKKKKACiiigAooooAKz7qeSHUFYEmJY8uue2cZxWhUTQI0xlbJJTYR2xQBUt5zIiR
+FmPmu/zhuQAael6ziIJDkuGxl+mD9KeljHGkaozr5ZJU5Geeo6U6KzjiMe0sfLDAZPrQAyG98wx7
+o9qyKWB3Z6daYmoowJ2r9wuoD5PHY+lTR2kaeVgsfKBAz3z60LaKqFPMk2FSoXPCg/570ANW6dhG
+BEN8g3Ab+APc4qWCYTR7gCpBIIPYimm2XEe1mVoxhWGM4qSKJYYwiZx156k0APooooAKKKKACiii
+gAooooAKiuZDFbySKMlVJFS0jAMpVhkEYIoAgii2okhlkLYy3zZB/Dp+VNS8JEbNHtSXOw7sn8R2
+qRLcIVHmyFV6ITwP6n8aalpGpX5nKpnYpPC/596AIo76STysQAeapK5f09eKcLwuIPLiyZgeC2MY
+/CnpaRp5WC37oFVyfX1qJrQrJbLEWCRhstkZGaAE+0mSe2YbkHzh1z3A/WkGpIVLbVPyF1AfJ47H
+0qdbSNTGRu/d7sZPXPXNILNBG0fmSbCpULnhQf8APegCNr2Qbv3A+WPzPv8Ab8utLNqCRkYA+4HO
+5tpwew9TUrWkbFiS3zR+Wee1IbVcgq8iEKEJU4yBQBG99t80rFuSPaSd2Mg+2KVLh/tUyOFCJgDn
+1GfSnvaRuJgS373G7n0p32dRM0gLZcDI4xx3oAmooooAKKKKACiiigAooooAKKKKACiiigBGOEJH
+YVEvmsu7eAPepH+430NQxDziIz9xBlh/eJ6CsJrmqKN3sUtEN82Vv9WGkHqoGD+Jo33X/PCT80/x
+q5RT9iu7+8OYp77r/nhJ+af40b7r/nhJ+af4083m4AxxvtLKA5HykFgD/PvVmj2K7v7w5invuv8A
+nhJ+af40b7r/AJ4Sfmn+NXKKPYru/vDmKe+6/wCeEn5p/jRvuv8AnhJ+af41coo9iu7+8OYp77r/
+AJ4Sfmn+NG+6/wCeEn5p/jVyij2K7v7w5invuv8AnhJ+af40CWTID5jzx8w4/PpVyggMCCAQeoNH
+sV3f3hzFdvNVSSw4qVTlAT3FQN+73w5yAAy/TPSpk+4v0FKC5ajjd7A9UOoopkr+XGz4zgdPWtyQ
+eVUwDkseigZJ/Cm+bJ2tpSP+Aj+Zp8MflrluXb7zev8A9apKAIPNk/59ZfzT/wCKo82T/n1l/NP/
+AIqp6KAIPNk/59ZfzT/4qjzZP+fWX80/+KqeigCDzZP+fWX80/8AiqPNk/59ZfzT/wCKqeigCDzZ
+P+fWX80/+Ko82T/n1l/NP/iqnooAbRRRQAUUUUAFFFFABRRRQAUUUUAFFFFADX+430NQ2XDTA9SQ
+34Yx/Q1M/wBxvoaiVW2pJHjeMjB6MPSsX/FXp+pX2SzSMMqR6iovtUQ/1jeWe4fjH49KPtdt/wA/
+EX/fYrYkz0SWNYExIApQSBs7c7xjH/1q1qge5tHGGuIiMg/6wdQcil+123/PxF/32KAJqKh+123/
+AD8Rf99ij7Xbf8/EX/fYoAmoqH7Xbf8APxF/32KPtdt/z8Rf99igCaioftdt/wA/EX/fYo+123/P
+xF/32KAJqKh+123/AD8Rf99ij7SjcQ5lbtt6fn0oAjuObjj+GM5/EjH8jUyfcX6Co2QrE7Mcuxyx
+/pUifcX6CsV/Ffp+pX2R1Q3X+oJ7KVY/QEGpqQgEEEZBrYkfRUCuYBtcMyD7rjnHsf8AGl+123ee
+MexYCgCaioftdt/z8Rf99ij7Xbf8/EX/AH2KAJqKh+123/PxF/32KPtdt/z8Rf8AfYoAmoqH7Xbf
+8/EX/fYo+123/PxF/wB9igCaioftdt/z8Rf99ij7Xbf8/EX/AH2KAJKKKKACiiigAooooAKKKKAC
+iiigAooooARhlSPUVGImAwJCKlorOVOM3djTaIvKb/noaPKb/noaloqfYQ/psfMyLym/56Gjym/5
+6GpaKPYQ/psOZkXlN/z0NHlN/wA9DUtFHsIf02HMyLym/wCeho8pv+ehqWij2EP6bDmZF5Tf89DR
+5Tf89DUtFHsIf02HMyLym/56Gjym/wCehqWij2EP6bDmZEYmIwZCakUYUD0FLRVRpxg7oTbYUUUV
+oIKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/9k=
+			</helperscreenshot>
+		</keysequenceitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Cadastro"
+		classname="CadastrarUsuario"
+		methodname="SelectItemListBox"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="04483eab-e7d5-425b-ba3c-d43e393f8437">
+				<argument
+				argname="selectTagElement"
+				id="361c16b9-2145-4cab-b19a-5643bc1e67b5">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						//select[@id&lt;'_stateBrazilian']
+					</argvalue>
+				</argument>
+				<argument
+				variable="EnderecoUF"
+				argname="itemName"
+				id="0a6eea7b-977d-4134-b6d8-82adf72f1a8f">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						&#32;SP&#32;
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<keysequenceitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="076acd43-7b2b-4467-bbf8-d4563fd9f594"
+		KeySequence="Santo Andre"
+		presstime="1ms">
+			<comment/>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="EnderecoCIdade"/>
+			</bindings>
+			<info
+			sourcename="Recorder"
+			id="6f6d451a-22d8-4b9e-b864-6f374da5f2d3">
+				<element
+				role="unknown"
+				prefcap="inputtag"
+				capabilities="webelement, inputtag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="1"
+				rect="225,567,372,27"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						field width330 transformUppercase
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						_memberregisterportlet_WAR_smilesmemberportlet_city
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						50
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						_memberregisterportlet_WAR_smilesmemberportlet_city
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						65
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					name="aria-required"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+				</element>
+				<path>
+					/dom[@domain='portal-uat.smiles.com.br']//input[#'_memberregisterportlet_WAR_smilesmemberportlet_city']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="935d773c-8f0e-4cc2-9826-3ec73b0390d5">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABFAfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoqKKK
+ACiiigAooooAKKKKAKkKm5EkjySKd5VdrEbQD6dD+NNNx5MtwTvcqUABbgkjt6VMbYbmKSSRhzlg
+pAyf5j8KRrSNvNyW/eYzz0x0xQBCtxIk900g+4Ewu/gZ9zTlviwwIv3nmbAueOmc5x/SnmyRvMLP
+IzPtJYkZBHTtQLJOT5km4uH3ZGQfyoAgjuzEJTJ94zlVDPgDj19Kt2063EW9exIODnke9RizjAOH
+fdv8wNkZBqaNPLTbuZvdjkmgB9FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAFFFFABUczFUBU45qSorj7g+tZVm1TbRUdxrmRF3PIoFM8y4P3YpG/AD+eKl
+gHmnzm55IQeg6Z+pqel7Fd394cxT33X/ADwk/NP8aN91/wA8JPzT/GrbusaM7HCqMk1HDP53/LOR
+OAwLDgj6ij2K7v7w5iDfdf8APCT80/xo33X/ADwk/NP8algu455ZI03ZjODkdfpTEv4ZIPOUNjeE
+IxyDmj2K7v7w5hu+6/54Sfmn+NG+6/54Sfmn+NSfaj5/k+RLvxu/h6dM9aVrpQX2o7qnDsoGB+vP
+4UexXd/eHMRb7r/nhJ+af40b7r/nhJ+af41bVg6hlOVIyDUMF3HPLJGm7MZwcjr9KPYru/vDmIt9
+1/zwk/NP8aN91/zwk/NP8acl/DJB5yhsbwhGOQc0v21fnPlSbI2Ks+BgY/HP6UexXd/eHMM33X/P
+CT80/wAaN91/zwk/NP8AGpDdjzHRIpJPLALFcY5Ge5oF4jOqxRvIWTeNuBx+JFHsV3f3hzEe+6/5
+4Sfmn+NG+6/54Sfmn+NTxys8zIyFQEVsHryT6fSpaPYru/vDmKe+6/54Sfmn+NG+6/54Sfmn+NXK
+KPYru/vDmKe+6/54Sfmn+NG+6/54Sfmn+NXKKPYru/vDmKe+6/54Sfmn+NG+6/54Sfmn+NXKKPYr
+u/vDmKe+6/54Sfmn+NG+6/54Sfmn+NXKKPYru/vDmKe+6/54Sfmn+NG+6/54Sfmn+NXKKPYru/vD
+mKe+6/54Sfmn+NG+6/54Sfmn+NXKKPYru/vDmKe+6/54Sfmn+NG+6/54Sfmn+NXKKPYru/vDmKe+
+6/54Sfmn+NG+6/54Sfmn+NXKKPYru/vDmKe+6/54Sfmn+NG+6/54Sfmn+NXKKPYru/vDmKe+6/54
+Sfmn+NG+6/54Sfmn+NXKKPYru/vDmKe+6/54Sfmn+NG+6/54Sfmn+NXKKPYru/vDmKe+6/54Sfmn
++NG+6/54Sfmn+NXKKPYru/vDmKe+6/54Sfmn+NG+6/54Sfmn+NXKKPYru/vDmKe+6/54Sfmn+NG+
+6/54Sfmn+NXKKPYru/vDmKe+6/54Sfmn+NKskhYKxKMegYYz9Kt0jorqVYZB7UexXd/eHMV3MqDJ
+YVPVZidjRscsjYz6jHFWaVNWnJX7A9kFFFFbkhRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABUVx9wf
+WpaiuPuD61jX/hsqO4tn/wAekY7qNp+o4qaoPmhcsilkbllHUH1FL9rt/wCKVV9nO3+dbEkkoBiY
+FC4IOVHes+ES24l8gTNCI8qrqchvQVc+123/AD8Rf99ij7Xbf8/EX/fYoAqQwzW8tsTGMbSjlSWP
+POTxxzVZbWZIIGSNvnYCVdvPDZBrU+123/PxF/32KPtdt/z8Rf8AfYoAZtb+1N+07fJxnHGc1HEW
+to5YmidmLMUKqSGz79vxqf7Xbf8APxF/32KPtdt/z8Rf99igBiLJa6aFALSInAUZ5qvDDNby2xMY
+xtKOVJY885PHHNW/tdt/z8Rf99ij7Xbf8/EX/fYoAy1tZkggZI2+dgJV288NkGrK7lhu4vKkLySP
+tGw4Oe+elW/tdt/z8Rf99ij7Xbf8/EX/AH2KAKQt7hWuBE7KwRAOBh8LzyRQiL9oiYxTxxiAKAoc
+EHPQ4q79rtv+fiL/AL7FH2u2/wCfiL/vsUANtypuX27seWmN+c9W9easVALm0Dl/tEW4gAnzB0Gf
+8TS/a7b/AJ+Iv++xQBNRUP2u2/5+Iv8AvsUfa7b/AJ+Iv++xQBNRUP2u2/5+Iv8AvsUfa7b/AJ+I
+v++xQBNRUP2u2/5+Iv8AvsUfa7b/AJ+Iv++xQBNRUP2u2/5+Iv8AvsUfa7b/AJ+Iv++xQBNRUP2u
+2/5+Iv8AvsUfa7b/AJ+Iv++xQBNRUP2u2/5+Iv8AvsUfa7b/AJ+Iv++xQBNRUP2u2/5+Iv8AvsUf
+a7b/AJ+Iv++xQBNRUP2u2/5+Iv8AvsUfa7b/AJ+Iv++xQBNRUP2u2/5+Iv8AvsUfa7b/AJ+Iv++x
+QBNRUP2u2/5+Iv8AvsUfa7b/AJ+Iv++xQBNRUP2u2/5+Iv8AvsUfa7b/AJ+Iv++xQBNRUP2u2/5+
+Iv8AvsUfa7b/AJ+Iv++xQBNRUP2u2/5+Iv8AvsUfa7b/AJ+Iv++xQBNRUP2u2/5+Iv8AvsUfa7b/
+AJ+Iv++xQBNRUP2u2/5+Iv8AvsUG4D8QDefXGFH4/wCFAEMvM8p7Dav48n+oq1UEieXCBnJLZJPc
+1PWMf4kvl+pT2QUUUVsSFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFMkTeuM45p9FKUVJWYJ2IvKb
+/noaPKb/AJ6GpaKy9hD+myuZkXlN/wA9DR5Tf89DUtFHsIf02HMyLym/56Gjym/56GpaKPYQ/psO
+ZkXlN/z0NHlN/wA9DUtFHsIf02HMyLym/wCeho8pv+ehqWij2EP6bDmZF5Tf89DR5Tf89DUtFHsI
+f02HMyLym/56Gjym/wCehqWij2EP6bDmZF5Tf89DR5Tf89DUtFHsIf02HMyLym/56Gjym/56GpaK
+PYQ/psOZkXlN/wA9DR5Tf89DUtFHsIf02HMyLym/56Gjym/56GpaKPYQ/psOZkXlN/z0NHlN/wA9
+DUtFHsIf02HMyLym/wCeho8pv+ehqWij2EP6bDmZF5Tf89DR5Tf89DUtFHsIf02HMyLym/56Gjym
+/wCehqWij2EP6bDmZF5Tf89DR5Tf89DUtFHsIf02HMyLym/56Gjym/56GpaKPYQ/psOZkXlN/wA9
+DR5Tf89DUtFHsIf02HMyLym/56Gjym/56GpaKPYQ/psOZkXlN/z0NHlN/wA9DUtFHsIf02HMyLym
+/wCeho8pv+ehqWij2EP6bDmZF5Tf89DR5Tf89DUtFHsIf02HMyLym/56Gjym/wCehqWij2EP6bDm
+ZCYSeshNTUUVcKcYfCJtsKKKKsQUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAU
+UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH//2Q==
+			</helperscreenshot>
+		</keysequenceitem>
+		<keysequenceitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="fb0143f7-ca5b-4cdd-80b9-7ba51d49a98d"
+		KeySequence="1010"
+		presstime="1ms">
+			<comment/>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="Senha"/>
+			</bindings>
+			<info
+			sourcename="Recorder"
+			id="f3b249ae-c18d-42b6-86e4-1c54925ae7e9">
+				<element
+				role="unknown"
+				prefcap="inputtag"
+				capabilities="webelement, inputtag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="1"
+				rect="225,304,107,27"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						field width65
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						_memberregisterportlet_WAR_smilesmemberportlet_password
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						4
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						_memberregisterportlet_WAR_smilesmemberportlet_password
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						65
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						password
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					name="aria-required"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+				</element>
+				<path>
+					/dom[@domain='portal-uat.smiles.com.br']//input[#'_memberregisterportlet_WAR_smilesmemberportlet_password']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="97fe677d-f065-4cac-b0f0-ec86644a6d1e">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABFAT4DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoqKKK
+ACiiigAooooAKKKKACiiigAooooAKqsTLemIsyoiBsKxBJJ9RVqopIQ7hwzI4GNy46enNAEbyNA8
+UKgymTOC7Yxj8KiW7ESuTkkzFBvfgfjjgVYFsoeNy7s0ecEnOc037JHg4ZgTIZAwIyCaAHW063EW
+9exIODnke9RR3u9YD5ePN3fxdMVYjTYm3cze7HJNQpZRoyEO+IydoJGBn8KAI476STysQAeapK5f
+09eKcb39xHIsYJcE4LY6fTJP5U9LSNPKwW/dAquT6+tILKMJGqu67FKggjJB69qAHrOGtROFOCu7
+b3qBNQUwNKVXAxja+evr6VZjhWOAQgttAwDnB/SovsUZ3F2dmYAbjjIx06CgCMX4IG1FZvMCHa+R
+z3Bps1y7pHtBR1uAjKG4P4+lWDbKwXfJIxVw+Se4/pSfZI85y3+t83r3/wAKAGfbD5TEoA6yeWQX
+4z9e/wCVS284ng8zaV5II+lNNmmSQzq3meYCCOD09KfBAsEZjUsQST8x9aAKTTynT8qx82UM+c/d
+H+eKtxyiOxWWQk4jDE9zxUcVmhtvKnjUlcqGwCcdiKmWCNbfyAvybduPWgCM3EixGSSEKMAj94Mc
+9j6VGL8leIvm80R43cc9+n9KkNmrJsaWVhxjJHy46dqBZIDku7HzBJkkdR+FADZL0xShGjB5AbDZ
+wT+H88U9LiSQkxwhkDFd27ByO+PSkkskd2be67mDEAjGR36U5bZVfcruFLbtgPGf50AVor9vIjMo
+j3vkjL7RgfhUqXvmyIsceVaPzCS2MDOPSnLZIgUJJIpXO0jGQD1HSnrbosokyxOzZyc5FAEEeoo/
+8IOVLKFbJ47EdjUtpdfaQSAoxj7r5/8AriljtVjG0SSbcYC7sBR7Yphs8Bykj+YwA3k4IAPsKAJb
+mbyIGlKltvYVALzzIRtUF3bYu1wR0657flVqRN6FdzL7qcEVALKMAnc28tu38A5/LFADraTcrRkE
+NGdrZbd+Oe9QSX7orsIAyrIY/v4zj8KtRQrEGwSSxyzHqTUTWcbIyFnwzlzz3oY1Ys0UUUCCiiig
+AooooAKKKKACiiigAooooARjhCR2FRL5rLu3gD3qR/uN9DUMQ84iM/cQZYf3iegrCa5qijd7FLRD
+fNlb/VhpB6qBg/iaN91/zwk/NP8AGrlFP2K7v7w5invuv+eEn5p/jRvuv+eEn5p/jVyij2K7v7w5
+invuv+eEn5p/jRvuv+eEn5p/jVhXJuHj4wqKw/En/CpKPYru/vDmKe+6/wCeEn5p/jRvuv8AnhJ+
+af41coo9iu7+8OYp77r/AJ4Sfmn+NG+6/wCeEn5p/jVyij2K7v7w5invuv8AnhJ+af40CWTID5jz
+x8w4/PpVyggMCCAQeoNHsV3f3hzFdvNVSSw4qVTlAT3FQN+73w5yAAy/TPSpk+4v0FKC5ajjd7A9
+UOooorckKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigBr/cb6GobL
+hpgepIb8MY/oamf7jfQ1EqttSSPG8ZGD0YelYv8Air0/Ur7JZoIyCOmah+1RD/WN5Z7h+Mfj0o+1
+23/PxF/32K2JKv8AZf8Aooh+0PxJvzipGsN008nnOPNTbj0qb7Xbf8/EX/fYo+123/PxF/32KAIr
+KD7NK0W8vtiTk/Vqt1ALm0Dl/tEW4gAnzB0Gf8TS/a7b/n4i/wC+xQBNRUP2u2/5+Iv++xR9rtv+
+fiL/AL7FAE1FQ/a7b/n4i/77FH2u2/5+Iv8AvsUATUVD9rtv+fiL/vsUfaUbiHMrdtvT8+lAEdxz
+ccfwxnP4kY/kamT7i/QVGyFYnZjl2OWP9KkT7i/QViv4r9P1K+yOooorYkKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigBGGVI9RUYiYDAkIqWis5U4zd2NNoi8pv+eho
+8pv+ehqWip9hD+mx8zIvKb/noaPKb/noaloo9hD+mw5mReU3/PQ0eU3/AD0NS0Uewh/TYczIvKb/
+AJ6Gjym/56GpaKPYQ/psOZkXlN/z0NHlN/z0NS0Uewh/TYczIvKb/noaPKb/AJ6GpaKPYQ/psOZk
+RiYjBkJqRRhQPQUtFVGnGDuhNthRRRWggooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooA//2Q==
+			</helperscreenshot>
+		</keysequenceitem>
+		<keysequenceitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="85cd2f15-664d-441c-958c-2b98797c4bf7"
+		KeySequence="1010"
+		presstime="1ms">
+			<comment/>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="Senha"/>
+			</bindings>
+			<info
+			sourcename="Recorder"
+			id="e3d88508-4a6a-492f-859f-f5eb9253be30">
+				<element
+				role="unknown"
+				prefcap="inputtag"
+				capabilities="webelement, inputtag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="1"
+				rect="225,373,107,27"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						field width65
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						_memberregisterportlet_WAR_smilesmemberportlet_passwordConfirm
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						4
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						_memberregisterportlet_WAR_smilesmemberportlet_passwordConfirm
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						65
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						password
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					name="aria-required"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+				</element>
+				<path>
+					/dom[@domain='portal-uat.smiles.com.br']//input[#'_memberregisterportlet_WAR_smilesmemberportlet_passwordConfirm']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="22a18a66-480d-40e0-9803-83bcc35495b4">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABFAT4DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoqKKK
+ACiiigAooooAKKKKACiiigAooooAKqsTLemIsyoiBsKxBJJ9RVqopIQ7hwzI4GNy46enNADDIYWS
+BMyu2SN7YwB74pgvSxiVIss5YEFsbSKkNsp2kSSB1zh85PPXrQtrGjRsu7Mecc9SeuaAKz3D3D2p
+QFVctuG8jke4p0F0wit1RC7S7sF36Y9TipktI08rBb90WIyfWiO0jj8naW/dZ25Pr60ARC+c4xCM
+GQxj5+/5dKeLz9zv2AMHKEFuM/Xv+VOFpGAoy3yyeYOe9H2NMcM4IkMgYEZBP4UARpfNJ5QSL5pC
+wwWxjH4VNdiU2z+R/rMcYNNjs442jIZzsLEZPr1qWRPMQruZfdTgigCnFdxR28j5lypAMcjcqT7n
+tThfggbUVm8wIdr5HPcGpfskZV97MzOQSxxnjp0pTbKwXfJIxVw+Se4/pQBXmuXdI9oKOtwEZQ3B
+/H0qT7YfKYlAHWTyyC/Gfr3/ACp/2SPOct/rfN69/wDCg2aZJDOreZ5gII4PT0oAdbzieDzNpXkg
+j6VV3Tvp6Spvcs+91U4O3PQfpVuCBYIzGpYgkn5j61FBbstssTM6GNjtZT1Hb/JoAZHcp9mURNI7
+SMUAc8qfc+341NbSblaMghoztbLbvxz3pPskezGW3b9+/PO719KkihWINgkljlmPUmgCD7acsTFi
+NZfLLbufrjFAu2KzP5ahY2KZL4yabDaEtIZSwBmLhcjB9DUptIzG6Zb5335zyD7UALa3Hnh8rtKN
+g8//AFhVdb51DmVU/wBaUX5sAY9TirUEAhLkMzFzklvWmGzTcxDuCX3jGPlPtxQBGt95hiWOMMzl
+h9/gEe+Oannm8rYAu53baozikFsoeNy7s0ecFjnOfWnTQrKFySCp3Kw6g0AQS3hi2rJGqO2eGkAG
+B70JeGWRFhjB3R78s2Mc4x0p5tQdp82TeM/Pnnn9KetuqyiQFiwTZyc8UAVIr9vIjMoj3vkjL7Rg
+fhTptQEcEcwRSkg4y5B/LBqVbJEChJJFK52kYyAeo6UklikjqzSSZVdozhv5g0AWqKKKACiiigAo
+oooAKKKKACiiigAooooARjhCR2FRL5rLu3gD3qR/uN9DUMQ84iM/cQZYf3iegrCa5qijd7FLRDfN
+lb/VhpB6qBg/iaN91/zwk/NP8auUU/Yru/vDmKe+6/54Sfmn+NG+6/54Sfmn+NXKKPYru/vDmKe+
+6/54Sfmn+NG+6/54Sfmn+NWFcm4ePjCorD8Sf8Kko9iu7+8OYp77r/nhJ+af40b7r/nhJ+af41co
+o9iu7+8OYp77r/nhJ+af40b7r/nhJ+af41coo9iu7+8OYp77r/nhJ+af40CWTID5jzx8w4/PpVyg
+gMCCAQeoNHsV3f3hzFdvNVSSw4qVTlAT3FQN+73w5yAAy/TPSpk+4v0FKC5ajjd7A9UOooorckKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigBr/cb6GobLhpgepIb8MY
+/oamf7jfQ1EqttSSPG8ZGD0YelYv+KvT9SvslmgjII6ZqH7VEP8AWN5Z7h+Mfj0o+123/PxF/wB9
+itiSr/Zf+iiH7Q/Em/OKkaw3TTyec481NuPSpvtdt/z8Rf8AfYo+123/AD8Rf99igCKyg+zStFvL
+7Yk5P1ardQC5tA5f7RFuIAJ8wdBn/E0v2u2/5+Iv++xQBNRUP2u2/wCfiL/vsUfa7b/n4i/77FAE
+1FQ/a7b/AJ+Iv++xR9rtv+fiL/vsUATUVD9rtv8An4i/77FH2lG4hzK3bb0/PpQBHcc3HH8MZz+J
+GP5Gpk+4v0FRshWJ2Y5djlj/AEqRPuL9BWK/iv0/Ur7I6iiitiQooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKAEYZUj1FRiJgMCQipaKzlTjN3Y02iLym/wCeho8pv+eh
+qWip9hD+mx8zIvKb/noaPKb/AJ6GpaKPYQ/psOZkXlN/z0NHlN/z0NS0Uewh/TYczIvKb/noaPKb
+/noaloo9hD+mw5mReU3/AD0NHlN/z0NS0Uewh/TYczIvKb/noaPKb/noaloo9hD+mw5mRGJiMGQm
+pFGFA9BS0VUacYO6E22FFFFaCCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigD/2Q==
+			</helperscreenshot>
+		</keysequenceitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Cadastro"
+		classname="CadastrarUsuario"
+		methodname="SelectCheckBox"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="a0467f66-19ba-4e1e-88cc-dd9e076e5b30">
+				<argument
+				argname="checkBoxPath"
+				id="60d60155-030e-4db1-a96e-6a00d9a9ba01">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						//input[@id&lt;'_acceptTermsCheckbox']
+					</argvalue>
+				</argument>
+				<argument
+				argname="check"
+				id="b6d8257e-b33f-4b87-a35e-fb701a0fe770">
+					<argvaluetype>
+						System.Boolean
+					</argvaluetype>
+					<argvalue>
+						True
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="46902b1e-22e0-47a2-953b-a4a8022cf6b4"
+		action="Click"
+		button="Left"
+		movetime="1ms"
+		sx="1035"
+		sy="454"
+		loc="84;12">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="ed5edc43-d34f-449c-a8b7-1f96f53da045">
+				<element
+				role="unknown"
+				prefcap="buttontag"
+				capabilities="webelement, buttontag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="2"
+				rect="951,442,174,45"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						btn btStandard01 btn-primary
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						_memberregisterportlet_WAR_smilesmemberportlet_saveButton
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						&#32;Finalizar Cadastro&#32;
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						submit
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='portal-uat.smiles.com.br']//button[#'_memberregisterportlet_WAR_smilesmemberportlet_saveButton']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="8ec42df6-5034-43ac-aff8-ee7e26e5f9c4">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABXAfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoqKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAxrSTU7uI
+yR3KABtvzKP8KmMOrAZN1CB9B/8AE0miMEsJGY4AkOfyFNuLhp29F7CudyUY3e53yv7RxSVl5Ebz
+agpx9sib6L/9jTPtOo/8/C/98j/ClorH2kjRcvZfchPtOo/8/C/98j/Cj7TqP/Pwv/fI/wAKWil7
+SXcfu/yr7hPtOo/8/C/98j/Cj7TqP/Pwv/fI/wAKWij2ku4e7/KvuE+06j/z8L/3yP8ACj7TqP8A
+z8L/AN8j/Cloo9pLuHu/yr7hPtOo/wDPwv8A3yP8KPtOo/8APwv/AHyP8KWij2ku4e7/ACr7hPtO
+o/8APwv/AHyP8KPtOo/8/C/98j/Cloo9pLuHu/yr7hPtOo/8/C/98j/Cj7TqP/Pwv/fI/wAKWij2
+ku4e7/KvuE+06j/z8L/3yP8ACj7TqP8Az8L/AN8j/Cloo9pLuHu/yr7hPtOo/wDPwv8A3yP8KUXO
+on/l5Qf8BH+FFFP2ku4e7/KvuJo/7Sl+5eQn2x/9jT/J1b/n6i/L/wCxqsCQcg4IrSs7nzRsf74/
+Wtac1LRmNRuKukvuRWsZrr+0ZLe5lD7EzwBjPHt71p1mQf8AIwXH/XMf+y1p1vHYwr2uml0QUUUV
+RgFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFAGBZSYsDGO8hJ/IU+oLP8A1B/3j/IVPXnyd2erNWkwpVUscKCS
+ewpKs2AHnl26IpNEVd2M5OyuQmGUdY3H1U0wgqcMCCOxq7G0c0yKHmYZywkORT4xGBEPKQmVieR0
+GatU77Mj2jW6M+lCsQSFJA6kDpV+GEb2YIhUuQAV3Y/wo2KFkVBgSShMD0HX+tCpMPaooMrKcMpB
+9CKStFFG+V/IQxg4ACZJPTilgiBwzRR4ck42ZwPr2o9lcXtUjLdd5RCSA0iKcHBwWANRGaKB3idn
+GJHVSwJ4DEdfyq35yPHEEtnwblQJSBjiQehz271eew3xOvmD5kmXp/fbP6VtGknGzMpVWpXRmKQy
+hlIKnoR0NLVqKEC9uVjWMRo+dm3OPkXsKsNDH5w/dqWWPcVAxk/SsnSdzVVlbUztrbd207emccUl
+aLIXSFPLRGYl2XHHHtSSxp+5JhySSSETHH0/Kk6QKqZ9BBU4IIPoa0jGBcwkRx7STj5Np/Kmu6hH
+lkiTcZNq7lo9n5j9r5GfRWlJGg81TCqxqmQ+Oc1m1Eo8pUJ8wU6NzG6sOoOabRUllm3IOvXBHQxD
++S1p1k2X/IZlz/zxX+S1rV3w2OOvuvRBRRRVmAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAYNlGW04uP4ZDn
+6YFOqzoQBsZARkGQ/wAhRc2jREsgLJ/KuOcHbmR6Mqi9pKLK1KGZQQrEA8HB60lFYlCqzKcqxB9j
+S+Y4IIdvl6c9KbRTuFhyySKMK7DPPBo8yTj524Oevem0UXYrIeJpVGBI4HsxoEsijAkcD0DGmUUX
+YWQW9wbGffj/AEdzmUD+E/3gP51stdW6w+aZoxHjO7cMVjVGLeFSCIYwRyCFFbQrWVmYTo8zuh6X
+DSzTXKFkEr5XGQduAB/LNP8ANk3bt7bsYznmm0VlKTbubRikrDjLIWDF2yOhz0oMshIJkYkdDnpT
+aKV2OyHGWQsGLsWHQ55oZ3YYZ2I68mm0UXYWQ4yOV2l2K+hPFNoopDCnxRmWVUHc0iI0jbUUk+1a
+VrbCBcnlz1PpWlODk/IzqVFFeZUtxjX7gD/nmP8A2WtOsyD/AJGC4/65j/2WtOuyPU56269EFFFF
+UYBRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAFFFFABRRRQBjWkep2kRjjtkILbvmYf41N52rf8APrF+f/2VadFQo26nRKvz
+O7iv6+ZkONRc5aygz9f/ALKmeTf/APPlF/33/wDZVtUUvZpgsQ19lfj/AJmL5N//AM+UX/ff/wBl
+R5N//wA+UX/ff/2VbVFHsoj+svsvx/zMXyb/AP58ov8Avv8A+yo8m/8A+fKL/vv/AOyraoo9lEPr
+L7L8f8zF8m//AOfKL/vv/wCyo8m//wCfKL/vv/7Ktqij2UQ+svsvx/zMXyb/AP58ov8Avv8A+yo8
+m/8A+fKL/vv/AOyraoo9lEPrL7L8f8zF8m//AOfKL/vv/wCyo8m//wCfKL/vv/7Ktqij2UQ+svsv
+x/zMXyb/AP58ov8Avv8A+yo8m/8A+fKL/vv/AOyraoo9lEPrL7L8f8zF8m//AOfKL/vv/wCyo8m/
+/wCfKL/vv/7Ktqij2UQ+svsvx/zMXyb/AP58ov8Avv8A+ypRFfj/AJcYf++v/sq2aKPZRD6y+y/H
+/My1k1RBhbSAD2I/+KpfO1b/AJ9Yvz/+yrToquXzJ9sv5V+P+ZmWMN1/aMlxcxBN6Y4Ixnj39q06
+KKaVjOc3N3YUUUUyAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKAP/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<loggingrecorditem
+		enabled="True"
+		optional="False"
+		searchpropertyid="bc0a3ffd-70f9-4a1f-895b-d17f6a1ab4e3"
+		action="Screenshot"
+		category="User"
+		message=""
+		reportlevel="Success;110">
+			<comment/>
+			<bindings/>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	name="SmilesRepository"
+	id="f8bb210d-8025-4309-a036-286794eed585"
+	rxversion="6.2"
+	relativepath="..\SmilesRepository.rxrep">
+		<codegen
+		classname="SmilesRepository"
+		namespace="POCSmiles"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="2d08fe81-6727-4e90-82e1-ffba91f7633c"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CadastrarUsuario.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

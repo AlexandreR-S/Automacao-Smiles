@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="InProgress">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="5a7b02f03741424"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="RODRIGUES"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="23/06/2017 15:08:44"
+		timestampiso="2017-06-23T18:08:44"
+		timeoutfactor="1"
+		module="SelecionarVooAssento">
+		<detail>
+			SelecionarVooAssento
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.685"
+			timeRelativeToTestModuleStartTime="00:00.685"
+			timeWallClock="15:08:45"
+			time="00:00.685"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>IdentificacaoVoo, TipoAssento, TipoPagamentoAssento
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="05:09.585"
+			timeRelativeToTestModuleStartTime="05:09.585"
+			timeWallClock="15:13:53"
+			time="05:09.585"
+			level="Info"
+			category="User">
+			<message>
+				Searching fly 'BFME2M'
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="718"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="25:59.021"
+			timeRelativeToTestModuleStartTime="25:59.021"
+			timeWallClock="15:34:43"
+			time="25:59.021"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Reserva_De_Voo\SelecionarVooAssento.cs"
+				codeline="85"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="26:03.635"
+			timeRelativeToTestModuleStartTime="26:03.635"
+			timeWallClock="15:34:47"
+			time="26:03.635"
+			level="Info"
+			category="User">
+			<message>
+				Waiting Smiles' loading GIF
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="212"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="26:04.490"
+			timeRelativeToTestModuleStartTime="26:04.491"
+			timeWallClock="15:34:48"
+			time="26:04.490"
+			level="None"
+			category="Validation">
+			<message>
+				/dom[@pageurl~'.smiles.com.br']//div[#'loginLoad']/img[@src='https://portal-uat.smiles.com.br/smiles-default-theme/img/loading.gif']
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs"
+				codeline="188"
+				loglvl="None"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="26:04.969"
+			timeRelativeToTestModuleStartTime="26:04.969"
+			timeWallClock="15:34:49"
+			time="26:04.969"
+			level="None"
+			category="Validation">
+			<message>
+				/dom[@pageurl~'.smiles.com.br']//div[#'p_load']
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs"
+				codeline="188"
+				loglvl="None"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="26:05.469"
+			timeRelativeToTestModuleStartTime="26:05.469"
+			timeWallClock="15:34:49"
+			time="26:05.469"
+			level="None"
+			category="Validation">
+			<message>
+				/dom[@pageurl~'.smiles.com.br']//p[@innertext='Aguarde......' and @visible='True']
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs"
+				codeline="188"
+				loglvl="None"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="26:05.496"
+			timeRelativeToTestModuleStartTime="26:05.496"
+			timeWallClock="15:34:49"
+			time="26:05.496"
+			level="Info"
+			category="User">
+			<message>
+				Smiles' loading GIF desapeared
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="214"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="26:28.243"
+			timeRelativeToTestModuleStartTime="26:28.243"
+			timeWallClock="15:35:12"
+			time="26:28.243"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'SmilesOMelhorProgramaDeMilhasS1.FinalizarSelecaoDeAssentos'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//button[@innertext~'^Finalizar\ seleção\ de\ asse']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.FinalizarSelecaoDeAssentos"
+				id="0cc09f192a984cb18927a59427d908fc"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Reserva_De_Voo\SelecionarVooAssento.cs"
+				codeline="95"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="f8bf4d75c3f8293"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="13/06/2017 18:13:10"
+		timestampiso="2017-06-13T21:13:10"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="673ms"
+			durationms="673"
+			type="test suite"
+			rid="1c19c114244a60d0"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="Smiles"
+			runconfigname="Regressivo"
+			runlabel=""
+			maxchildren="1">
+			<params>
+				<param
+					name="PMR_URL">
+					C:\Automacao - Smiles\lib\PNR\PNR_Smiles.xlsx
+				</param>
+				<param
+					name="Cadastro_CadastroUsuarios">
+					C:\Automacao - Smiles\lib\PNR\Cadastro_Usuarios.xlsx
+				</param>
+				<param
+					name="Database_Location">
+					C:\Automacao - Smiles\lib\PNR\SmilesDB.accdb
+				</param>
+				<param
+					name="MAX_COMPRA_MILHAS">
+					40000
+				</param>
+				<param
+					name="MIN_MILHAS">
+					60000
+				</param>
+				<param
+					name="MAX_RESERVAS_ISENTO">
+					5
+				</param>
+				<param
+					name="MAX_VALOR_REEMBOLSO">
+					150
+				</param>
+				<param
+					name="AMBIENTE_TESTE">
+				</param>
+				<param
+					name="BROWSER">
+				</param>
+				<param
+					name="AGENDAR">
+				</param>
+				<param
+					name="JIRA_USERNAME">
+					admin
+				</param>
+				<param
+					name="JIRA_PASSWORD">
+					admin
+				</param>
+				<param
+					name="JIRA_SERVERURL">
+					http://localhost:8080/
+				</param>
+				<param
+					name="MIN_DATE_RANGE">
+					30
+				</param>
+				<param
+					name="MAX_DATE_RANGE">
+					45
+				</param>
+				<param
+					name="INCOGNITION_MODE">
+					FALSE
+				</param>
+			</params>
+			<detail>
+				Su&#237;te de teste que contempla os fluxos do portal Smiles
+			</detail>
+			<activity
+				result="Success"
+				duration="409ms"
+				durationms="409"
+				type="test case"
+				rid="cc5cf6b7793b886"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="INIT_SMILES"
+				testcaseid="093cd198-e9ac-4b89-a4e8-268e9fc1747b"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="0ms"
+					durationms="0"
+					type="test module"
+					rid="313ef454e49ae6a"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="SelecaoBrowser"
+					moduleid="4c6606ea-da59-4c60-9a6d-fc1914891ed1"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+				</activity>
+				<activity
+					result="Success"
+					duration="0ms"
+					durationms="0"
+					type="test module"
+					rid="1065bc7c056d32a"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="VerificarAgenda"
+					moduleid="b7cd24ba-16f8-4b5c-8704-632f179a0555"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+				</activity>
+				<item
+					timeRelativeToTestSuiteStartTime="00:01.155"
+					timeRelativeToTestModuleStartTime="00:00.146"
+					timeWallClock="18:13:11"
+					time="00:01.155"
+					level="Info"
+					category="User">
+					<message>
+						Initiazing test estimation
+					</message>
+					<metainfo
+						codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\IniciarEstimativa.cs"
+						codeline="35"
+						loglvl="Info"/>
+				</item>
+				<item
+					timeRelativeToTestSuiteStartTime="00:01.340"
+					timeRelativeToTestModuleStartTime="00:00.331"
+					timeWallClock="18:13:11"
+					time="00:01.340"
+					level="Info"
+					category="User">
+					<message>
+						Test estimation finished
+					</message>
+					<metainfo
+						codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\IniciarEstimativa.cs"
+						codeline="37"
+						loglvl="Info"/>
+				</item>
+				<activity
+					result="Success"
+					duration="15ms"
+					durationms="15"
+					type="test module"
+					rid="14220797989c0038"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="IniciarEstimativa"
+					moduleid="d666c2a7-acfc-46f2-b030-013bc7625c88"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

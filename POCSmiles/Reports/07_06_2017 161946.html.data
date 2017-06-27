@@ -1,0 +1,671 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1d40384ad1f73ef0"
+		totalerrorcount="3"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="3"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="07/06/2017 16:19:46"
+		timestampiso="2017-06-07T19:19:46"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="1.7m"
+			durationms="102572"
+			type="test suite"
+			rid="1d070cac516d7d46"
+			totalerrorcount="3"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="3"
+			totalblockedcount="0"
+			testsuitename="Smiles"
+			runconfigname="Regressivo"
+			runlabel=""
+			maxchildren="1">
+			<params>
+				<param
+					name="PMR_URL">
+					C:\Automacao - Smiles\lib\PNR\PNR_Smiles.xlsx
+				</param>
+				<param
+					name="Cadastro_CadastroUsuarios">
+					C:\Automacao - Smiles\lib\PNR\Cadastro_Usuarios.xlsx
+				</param>
+				<param
+					name="Database_Location">
+					C:\Automacao - Smiles\lib\PNR\SmilesDB.accdb
+				</param>
+				<param
+					name="MAX_COMPRA_MILHAS">
+					40000
+				</param>
+				<param
+					name="MIN_MILHAS">
+					60000
+				</param>
+				<param
+					name="MAX_RESERVAS_ISENTO">
+					5
+				</param>
+				<param
+					name="MAX_VALOR_REEMBOLSO">
+					150
+				</param>
+				<param
+					name="AMBIENTE_TESTE">
+				</param>
+				<param
+					name="BROWSER">
+				</param>
+				<param
+					name="AGENDAR">
+				</param>
+				<param
+					name="JIRA_USERNAME">
+					admin
+				</param>
+				<param
+					name="JIRA_PASSWORD">
+					admin
+				</param>
+				<param
+					name="JIRA_SERVERURL">
+					http://localhost:8080/
+				</param>
+				<param
+					name="MIN_DATE_RANGE">
+					30
+				</param>
+				<param
+					name="MAX_DATE_RANGE">
+					45
+				</param>
+				<param
+					name="INCOGNITION_MODE">
+					FALSE
+				</param>
+			</params>
+			<detail>
+				Su&#237;te de teste que contempla os fluxos do portal Smiles
+			</detail>
+			<activity
+				result="Failed"
+				duration="1.7m"
+				durationms="102507"
+				type="folder"
+				rid="1bd0b859b7b0774"
+				totalerrorcount="3"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="3"
+				totalblockedcount="0"
+				foldername="Atomic">
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="1.7m"
+					durationms="102507"
+					type="folder"
+					rid="4cee85521ff218a"
+					totalerrorcount="3"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="3"
+					totalblockedcount="0"
+					foldername="D_HOMOLOGACAO1">
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="1.7m"
+						durationms="102504"
+						type="folder"
+						rid="2cbe56da7b21909d"
+						totalerrorcount="3"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="3"
+						totalblockedcount="0"
+						foldername="DH_POSITIVO1">
+						<detail>
+						</detail>
+						<activity
+							result="Failed"
+							duration="1.7m"
+							durationms="99668"
+							type="test case"
+							rid="514c34dc20ab660"
+							totalerrorcount="3"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="3"
+							totalblockedcount="0"
+							testcasename="Navegacao_Links_Promocoes"
+							testcaseid="700b693d-7580-4643-8610-4f29051fe224"
+							datasource="S_Smiles_NavegacaoLinksPromocoes"
+							iterationcount="3"
+							maxchildren="0">
+							<params>
+								<param
+									name="Country">
+									Brasil
+								</param>
+								<param
+									name="Dataset_Version">
+									1
+								</param>
+								<param
+									name="Company_Code">
+									Chrome
+								</param>
+							</params>
+							<detail>
+								&lt;P&gt;Teste com objetivo de acionar links de promo&#231;&#245;es&lt;/P&gt;
+							</detail>
+							<activity
+								result="Failed"
+								duration="35.57s"
+								durationms="35567"
+								type="test case iteration"
+								rid="5126a10f0041169"
+								totalerrorcount="1"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								testcasename="Navegacao_Links_Promocoes"
+								iteration="1">
+								<datarow>
+									<field
+										name="Browser">
+										Chrome
+									</field>
+									<field
+										name="URL">
+										portal-uat.smiles.com.br
+									</field>
+									<field
+										name="Links">
+										&#32;
+									</field>
+									<field
+										name="IdentificacaoCaso">
+										Homologa&#231;&#227;o - Links de promo&#231;&#245;es (header)
+									</field>
+								</datarow>
+								<detail>
+								</detail>
+								<activity
+									result="Success"
+									duration="6.77s"
+									durationms="6771"
+									type="test module"
+									rid="c081e7fa260cd58"
+									totalerrorcount="0"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="StartScript"
+									moduleid="13ec580c-0a06-47da-a998-b3cbd4eb5338"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<varbindings/>
+								</activity>
+								<activity
+									result="Success"
+									duration="871ms"
+									durationms="871"
+									type="test module"
+									rid="151f5b2cab428120"
+									totalerrorcount="0"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="IniciarDesktop"
+									moduleid="50e42e85-06f5-4206-9cb7-80b8e8db2d4a"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<varbindings/>
+								</activity>
+								<activity
+									result="Failed"
+									duration="27.83s"
+									durationms="27831"
+									type="test module"
+									rid="716066c3c5b7f80"
+									totalerrorcount="1"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="NavegacaoLinksPromocoes"
+									moduleid="f40af05a-2ca9-4a7f-abf4-93458fd26cb5"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<errmsg>
+										No element found for path '/dom[@pageurl~'uat3.smiles.com.br']//.[@innertext~'COW PARADE S&#195;O PAULO 2017'][1]' within 10s.
+									</errmsg>
+									<varbindings/>
+									<item
+										timeRelativeToTestSuiteStartTime="00:16.684"
+										timeRelativeToTestModuleStartTime="00:00.325"
+										timeWallClock="16:20:03"
+										time="00:16.684"
+										level="Info"
+										category="Mouse"
+										errimg="images_07_06_20_14b3742b\07_06_20_14b3742b_53423672_trace.jpg"
+										errthumb="images_07_06_20_14b3742b\07_06_20_14b3742b_53423672_trace_thumb.jpg">
+										<message>
+											Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.Promocoes_LinkPromocoes' at 41;8.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//ul//span[@innertext='Promoções']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Promocoes_LinkPromocoes"
+											id="9e14884f273f41e580c768e7768365e8"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Links\NavegacaoLinksPromocoes.cs"
+											codeline="79"
+											itemindex="0"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="00:27.849"
+										timeRelativeToTestModuleStartTime="00:11.490"
+										timeWallClock="16:20:14"
+										time="00:27.849"
+										level="Info"
+										category="Mouse"
+										errimg="images_07_06_20_14b3742b\07_06_20_14b3742b_b4bd00bc_trace.jpg"
+										errthumb="images_07_06_20_14b3742b\07_06_20_14b3742b_b4bd00bc_trace_thumb.jpg">
+										<message>
+											Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.Navegacao_ProgramaSmiles' at Center.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//p[@innertext~'' and @visible='true'][1]"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Navegacao_ProgramaSmiles"
+											id="5d8c5d85e91244eaa85bf988e1b933fb"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Links\NavegacaoLinksPromocoes.cs"
+											codeline="83"
+											itemindex="1"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="00:43.941"
+										timeRelativeToTestModuleStartTime="00:27.582"
+										timeWallClock="16:20:30"
+										time="00:43.941"
+										level="Error"
+										category="Module"
+										errimg="images_07_06_20_14b3742b\07_06_20_14b3742b_44bb61ee_trace.jpg"
+										errthumb="images_07_06_20_14b3742b\07_06_20_14b3742b_44bb61ee_trace_thumb.jpg">
+										<message>
+											No element found for path '/dom[@pageurl~'uat3.smiles.com.br']//.[@innertext~'COW PARADE S&#195;O PAULO 2017'][1]' within 10s.
+										</message>
+										<metainfo
+											stacktrace="   em Ranorex.Core.Element.FindSingle(RxPath path, Duration timeout)
+   em Ranorex.Core.Element.FromPath(String path)
+   em Ranorex.WebElement.op_Implicit(String path)
+   em POCSmiles.Utils.ClickElement(String webElement, String property, String value, String index) na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs:linha 103
+   em POCSmiles.Smiles_Componentes.Links.NavegacaoLinksPromocoes.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Links\NavegacaoLinksPromocoes.cs:linha 84
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+											codefile="2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs"
+											codeline="103"
+											loglvl="Error"/>
+									</item>
+								</activity>
+							</activity>
+							<activity
+								result="Failed"
+								duration="31.48s"
+								durationms="31476"
+								type="test case iteration"
+								rid="1fdb94946cc9d98"
+								totalerrorcount="1"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								testcasename="Navegacao_Links_Promocoes"
+								iteration="2">
+								<datarow>
+									<field
+										name="Browser">
+										IE
+									</field>
+									<field
+										name="URL">
+										portal-uat.smiles.com.br
+									</field>
+									<field
+										name="Links">
+										&#32;
+									</field>
+									<field
+										name="IdentificacaoCaso">
+										Homologa&#231;&#227;o - Links de promo&#231;&#245;es (header)
+									</field>
+								</datarow>
+								<detail>
+								</detail>
+								<activity
+									result="Success"
+									duration="3.23s"
+									durationms="3225"
+									type="test module"
+									rid="f3ac4bf9248148e"
+									totalerrorcount="0"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="StartScript"
+									moduleid="13ec580c-0a06-47da-a998-b3cbd4eb5338"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<varbindings/>
+								</activity>
+								<activity
+									result="Success"
+									duration="1.07s"
+									durationms="1069"
+									type="test module"
+									rid="7fbb4cb8fc9778"
+									totalerrorcount="0"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="IniciarDesktop"
+									moduleid="50e42e85-06f5-4206-9cb7-80b8e8db2d4a"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<varbindings/>
+								</activity>
+								<activity
+									result="Failed"
+									duration="27.16s"
+									durationms="27157"
+									type="test module"
+									rid="9f4cfa4535b2c9e"
+									totalerrorcount="1"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="NavegacaoLinksPromocoes"
+									moduleid="f40af05a-2ca9-4a7f-abf4-93458fd26cb5"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<errmsg>
+										No element found for path '/dom[@pageurl~'uat3.smiles.com.br']//.[@innertext~'COW PARADE S&#195;O PAULO 2017'][1]' within 10s.
+									</errmsg>
+									<varbindings/>
+									<item
+										timeRelativeToTestSuiteStartTime="00:48.845"
+										timeRelativeToTestModuleStartTime="00:00.337"
+										timeWallClock="16:20:35"
+										time="00:48.845"
+										level="Info"
+										category="Mouse"
+										errimg="images_07_06_20_14b3742b\07_06_20_14b3742b_1e796e0e_trace.jpg"
+										errthumb="images_07_06_20_14b3742b\07_06_20_14b3742b_1e796e0e_trace_thumb.jpg">
+										<message>
+											Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.Promocoes_LinkPromocoes' at 41;8.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//ul//span[@innertext='Promoções']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Promocoes_LinkPromocoes"
+											id="9e14884f273f41e580c768e7768365e8"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Links\NavegacaoLinksPromocoes.cs"
+											codeline="79"
+											itemindex="0"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="01:05.259"
+										timeRelativeToTestModuleStartTime="00:16.751"
+										timeWallClock="16:20:51"
+										time="01:05.259"
+										level="Info"
+										category="Mouse"
+										errimg="images_07_06_20_14b3742b\07_06_20_14b3742b_44a57f3a_trace.jpg"
+										errthumb="images_07_06_20_14b3742b\07_06_20_14b3742b_44a57f3a_trace_thumb.jpg">
+										<message>
+											Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.Navegacao_ProgramaSmiles' at Center.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//p[@innertext~'' and @visible='true'][1]"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Navegacao_ProgramaSmiles"
+											id="5d8c5d85e91244eaa85bf988e1b933fb"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Links\NavegacaoLinksPromocoes.cs"
+											codeline="83"
+											itemindex="1"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="01:15.430"
+										timeRelativeToTestModuleStartTime="00:26.922"
+										timeWallClock="16:21:01"
+										time="01:15.430"
+										level="Error"
+										category="Module"
+										errimg="images_07_06_20_14b3742b\07_06_20_14b3742b_0733a38b_trace.jpg"
+										errthumb="images_07_06_20_14b3742b\07_06_20_14b3742b_0733a38b_trace_thumb.jpg">
+										<message>
+											No element found for path '/dom[@pageurl~'uat3.smiles.com.br']//.[@innertext~'COW PARADE S&#195;O PAULO 2017'][1]' within 10s.
+										</message>
+										<metainfo
+											stacktrace="   em Ranorex.Core.Element.FindSingle(RxPath path, Duration timeout)
+   em Ranorex.Core.Element.FromPath(String path)
+   em Ranorex.WebElement.op_Implicit(String path)
+   em POCSmiles.Utils.ClickElement(String webElement, String property, String value, String index) na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs:linha 103
+   em POCSmiles.Smiles_Componentes.Links.NavegacaoLinksPromocoes.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Links\NavegacaoLinksPromocoes.cs:linha 84
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+											codefile="2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs"
+											codeline="103"
+											loglvl="Error"/>
+									</item>
+								</activity>
+							</activity>
+							<activity
+								result="Failed"
+								duration="32.57s"
+								durationms="32567"
+								type="test case iteration"
+								rid="1a5b7efc8729861a"
+								totalerrorcount="1"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								testcasename="Navegacao_Links_Promocoes"
+								iteration="3">
+								<datarow>
+									<field
+										name="Browser">
+										Firefox
+									</field>
+									<field
+										name="URL">
+										portal-uat.smiles.com.br
+									</field>
+									<field
+										name="Links">
+										&#32;
+									</field>
+									<field
+										name="IdentificacaoCaso">
+										Homologa&#231;&#227;o - Links de promo&#231;&#245;es (header)
+									</field>
+								</datarow>
+								<detail>
+								</detail>
+								<activity
+									result="Success"
+									duration="3.1s"
+									durationms="3095"
+									type="test module"
+									rid="4d93059eac79220"
+									totalerrorcount="0"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="StartScript"
+									moduleid="13ec580c-0a06-47da-a998-b3cbd4eb5338"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<varbindings/>
+								</activity>
+								<activity
+									result="Success"
+									duration="854ms"
+									durationms="854"
+									type="test module"
+									rid="2e93ab98ed4946a4"
+									totalerrorcount="0"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="IniciarDesktop"
+									moduleid="50e42e85-06f5-4206-9cb7-80b8e8db2d4a"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<varbindings/>
+								</activity>
+								<activity
+									result="Failed"
+									duration="28.61s"
+									durationms="28613"
+									type="test module"
+									rid="ee42c025dd2fb88"
+									totalerrorcount="1"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="NavegacaoLinksPromocoes"
+									moduleid="f40af05a-2ca9-4a7f-abf4-93458fd26cb5"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<errmsg>
+										No element found for path '/dom[@pageurl~'uat3.smiles.com.br']//.[@innertext~'COW PARADE S&#195;O PAULO 2017'][1]' within 10s.
+									</errmsg>
+									<varbindings/>
+									<item
+										timeRelativeToTestSuiteStartTime="01:19.997"
+										timeRelativeToTestModuleStartTime="00:00.374"
+										timeWallClock="16:21:06"
+										time="01:19.997"
+										level="Info"
+										category="Mouse"
+										errimg="images_07_06_20_14b3742b\07_06_20_14b3742b_612122a6_trace.jpg"
+										errthumb="images_07_06_20_14b3742b\07_06_20_14b3742b_612122a6_trace_thumb.jpg">
+										<message>
+											Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.Promocoes_LinkPromocoes' at 41;8.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//ul//span[@innertext='Promoções']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Promocoes_LinkPromocoes"
+											id="9e14884f273f41e580c768e7768365e8"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Links\NavegacaoLinksPromocoes.cs"
+											codeline="79"
+											itemindex="0"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="01:37.575"
+										timeRelativeToTestModuleStartTime="00:17.951"
+										timeWallClock="16:21:23"
+										time="01:37.575"
+										level="Info"
+										category="Mouse"
+										errimg="images_07_06_20_14b3742b\07_06_20_14b3742b_c8f92717_trace.jpg"
+										errthumb="images_07_06_20_14b3742b\07_06_20_14b3742b_c8f92717_trace_thumb.jpg">
+										<message>
+											Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.Navegacao_ProgramaSmiles' at Center.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//p[@innertext~'' and @visible='true'][1]"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Navegacao_ProgramaSmiles"
+											id="5d8c5d85e91244eaa85bf988e1b933fb"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Links\NavegacaoLinksPromocoes.cs"
+											codeline="83"
+											itemindex="1"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="01:48.008"
+										timeRelativeToTestModuleStartTime="00:28.384"
+										timeWallClock="16:21:34"
+										time="01:48.008"
+										level="Error"
+										category="Module"
+										errimg="images_07_06_20_14b3742b\07_06_20_14b3742b_e027e8e8_trace.jpg"
+										errthumb="images_07_06_20_14b3742b\07_06_20_14b3742b_e027e8e8_trace_thumb.jpg">
+										<message>
+											No element found for path '/dom[@pageurl~'uat3.smiles.com.br']//.[@innertext~'COW PARADE S&#195;O PAULO 2017'][1]' within 10s.
+										</message>
+										<metainfo
+											stacktrace="   em Ranorex.Core.Element.FindSingle(RxPath path, Duration timeout)
+   em Ranorex.Core.Element.FromPath(String path)
+   em Ranorex.WebElement.op_Implicit(String path)
+   em POCSmiles.Utils.ClickElement(String webElement, String property, String value, String index) na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs:linha 103
+   em POCSmiles.Smiles_Componentes.Links.NavegacaoLinksPromocoes.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Links\NavegacaoLinksPromocoes.cs:linha 84
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+											codefile="2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs"
+											codeline="103"
+											loglvl="Error"/>
+									</item>
+								</activity>
+							</activity>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

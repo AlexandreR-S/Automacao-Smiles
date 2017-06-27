@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="213131498c47fcbc"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="15/06/2017 18:51:29"
+		timestampiso="2017-06-15T21:51:29"
+		timeoutfactor="1"
+		module="RP_AtendimentoEmilia">
+		<detail>
+			RP_AtendimentoEmilia
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.586"
+			timeRelativeToTestModuleStartTime="00:01.587"
+			timeWallClock="18:51:30"
+			time="00:01.586"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'Emilia.OlaEmilia'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='gol.inbenta.com']//div[#'inbenta']//div[@innertext~'^\ \ \ Olá!\ Eu\ sou\ a\ Emília,\ ']"
+				fullname="SmilesRepository.Emilia.OlaEmilia"
+				id="86db1c04705241ea9b96b4d8461b4183"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\AtendimentoOnline\RP_AtendimentoEmilia.cs"
+				codeline="52"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.751"
+			timeRelativeToTestModuleStartTime="00:03.752"
+			timeWallClock="18:51:33"
+			time="00:03.751"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Emilia' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^gol\.inbenta\.com/smiles/\ -']/element[@class='Intermediate D3D Window']"
+				fullname="SmilesRepository.EmiliaInbenta.Emilia"
+				id="2051d8db58e84f9ba41a0ed26a6db740"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\AtendimentoOnline\RP_AtendimentoEmilia.cs"
+				codeline="53"
+				loglvl="Success"
+				itemindex="0"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.869"
+			timeRelativeToTestModuleStartTime="00:03.870"
+			timeWallClock="18:51:33"
+			time="00:03.869"
+			level="Success"
+			category="User">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\RP_Atend_279c0f89_rxlog.jpg"><img src=".\RP_Atend_279c0f89_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\AtendimentoOnline\RP_AtendimentoEmilia.cs"
+				codeline="56"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.873"
+			timeRelativeToTestModuleStartTime="00:03.874"
+			timeWallClock="18:51:33"
+			time="00:03.873"
+			level="Info"
+			category="Application">
+			<message>
+				Closing application containing item 'Emilia'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^gol\.inbenta\.com/smiles/\ -']"
+				fullname="SmilesRepository.EmiliaInbenta.Self"
+				id="7c196cc7046e4e61ac50374e15e5623e"
+				timeout="30000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="615"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.061"
+			timeRelativeToTestModuleStartTime="00:04.061"
+			timeWallClock="18:51:33"
+			time="00:04.061"
+			level="Success"
+			category="Validation">
+			<message>
+				/form[@title~'^gol\.inbenta\.com/smiles/\ -']
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs"
+				codeline="188"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.586"
+			timeRelativeToTestModuleStartTime="00:04.586"
+			timeWallClock="18:51:33"
+			time="00:04.586"
+			level="Info"
+			category="Application">
+			<message>
+				Closing application containing item 'Emilia'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^gol\.inbenta\.com/smiles/\ -']"
+				fullname="SmilesRepository.EmiliaInbenta.Self"
+				id="7c196cc7046e4e61ac50374e15e5623e"
+				timeout="30000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="615"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.766"
+			timeRelativeToTestModuleStartTime="00:04.766"
+			timeWallClock="18:51:34"
+			time="00:04.766"
+			level="Success"
+			category="Validation">
+			<message>
+				/form[@title~'^gol\.inbenta\.com/smiles/\ -']
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs"
+				codeline="188"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.104"
+			timeRelativeToTestModuleStartTime="00:05.104"
+			timeWallClock="18:51:34"
+			time="00:05.104"
+			level="Info"
+			category="Application">
+			<message>
+				Closing application containing item 'Emilia'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^gol\.inbenta\.com/smiles/\ -']"
+				fullname="SmilesRepository.EmiliaInbenta.Self"
+				id="7c196cc7046e4e61ac50374e15e5623e"
+				timeout="30000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="615"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.231"
+			timeRelativeToTestModuleStartTime="00:05.232"
+			timeWallClock="18:51:34"
+			time="00:05.231"
+			level="Success"
+			category="Validation">
+			<message>
+				/form[@title~'^gol\.inbenta\.com/smiles/\ -']
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs"
+				codeline="188"
+				loglvl="Success"/>
+		</item>
+	</activity>
+</report>

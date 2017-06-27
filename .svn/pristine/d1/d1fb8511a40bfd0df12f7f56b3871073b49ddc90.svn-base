@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="091e241e-7d4d-4efd-9336-d83dea321746"
+embeddedrepository="False"
+mode="Mobile">
+	<name>
+		Login
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Login"
+	namespace="POCSmiles.Mobile.AppSmiles.InicializacaoApp"/>
+	<variables>
+		<var
+		name="Dispositivo"
+		id="6a0e3889-23e6-48bf-8d6f-38d6269b6287">
+			A5
+		</var>
+		<var
+		name="CPFSmilesID"
+		id="6c765fe4-7b96-4dab-9103-c3b46e485bf1">
+		</var>
+		<var
+		name="Senha"
+		id="ae725ec2-b0bc-41ad-9080-5e75902cbcef">
+		</var>
+	</variables>
+	<recorditems>
+		<setvaluerecorditem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="57dbeb5f-7465-4b01-9f26-94dec3f4a6c3"
+		attrname="Text">
+			<comment/>
+			<bindings>
+				<binding
+				target="AttributeValue"
+				variable="CPFSmilesID"/>
+			</bindings>
+			<info
+			sourcename="RemoteRecorder"
+			id="3251298a-9d81-447f-9320-8ab90cef11d1">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="1"
+				rect="186,722,819,57"
+				snapElem="">
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						11
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						41031322809
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.support.v7.widget.AppCompatEditText
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						101919625
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.pontomobi.smileshmg']/form[@title='LoginActivity']/androidelement[@rid='content']//container[@containertype='Linear']/container[@containertype='Linear']/androidelement[1]/container[@containertype='Linear']/container[@containertype='Relative']/container[@containertype='Relative']/container/text[2]
+				</path>
+			</info>
+			<helperscreenshot
+			guid="07f0d554-a585-4e14-afb7-685351cf57f3">
+				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
+			</helperscreenshot>
+			<AttributeValue>
+				41031322809
+			</AttributeValue>
+		</setvaluerecorditem>
+		<setvaluerecorditem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="621e1f99-a629-4503-aa79-9c19fd2b4e93"
+		attrname="Text">
+			<comment/>
+			<bindings>
+				<binding
+				target="AttributeValue"
+				variable="Senha"/>
+			</bindings>
+			<info
+			sourcename="RepositoryEditor"
+			id="b7f8ad92-b471-4d21-a9ea-d547b6207a68">
+				<path>
+					/mobileapp[@title='com.pontomobi.smileshmg']/form[@title='LoginActivity']//text[@platformclass&lt;'EditText'][2]
+				</path>
+			</info>
+			<AttributeValue>
+				1010
+			</AttributeValue>
+		</setvaluerecorditem>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="a4e9885f-df77-4651-b98b-72fef1c861f2"
+		imagerect="0,955,1080,240"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="b71c8fa0-1842-4a0c-afa0-bbe4edca1990">
+				<path>
+					/mobileapp[@title='com.pontomobi.smileshmg']/form[@title='LoginActivity']//text[@text='ENTRAR']
+				</path>
+			</info>
+		</touchrecorditem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="0f00baa2-196e-4145-b950-e5b480071fd0"
+		action="Exists">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="43ed5b00-0ba6-4b24-b092-08d1ba8b3eee">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="45,267,97,53"
+				snapElem="">
+					<attribute
+					name="text"
+					type="System.String">
+						OL&#193;,
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.support.v7.widget.AppCompatTextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						106894132
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.pontomobi.smileshmg']/form[@title='HomeActivity']/androidelement/androidelement/container[1]/container[2]/text[1]
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				OL&#193;,
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		enabled="True"
+		optional="False"
+		searchpropertyid="98b0c37a-b745-47ce-9883-6cbd16d7d7f8"
+		action="Screenshot"
+		category="User"
+		message=""
+		reportlevel="Info;20">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="fab9c381-2fb8-4141-8c91-b21445788b9b">
+				<path>
+					/mobileapp[@title='com.pontomobi.smileshmg']
+				</path>
+			</info>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	name="SmilesMobileRepository"
+	id="64051c3f-04f9-4e62-8ba8-b823a0419f38"
+	rxversion="6.1"
+	relativepath="..\..\..\SmilesMobileRepository.rxrep">
+		<codegen
+		classname="SmilesMobileRepository"
+		namespace="POCSmiles"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="347c7eda-786d-4277-984c-9b7d9daff825"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Login.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

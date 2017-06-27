@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="InProgress">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2306dc5f8bb6c02e"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="RODRIGUES"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="20/06/2017 15:40:11"
+		timestampiso="2017-06-20T18:40:11"
+		timeoutfactor="1"
+		module="PreCadastro">
+		<detail>
+			PreCadastro
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.817"
+			timeRelativeToTestModuleStartTime="00:00.818"
+			timeWallClock="15:40:12"
+			time="00:00.817"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>CPF, Nome, Sobrenome, DataNascimentoDia, DataNascimentoMes, DataNascimentoAno, DocumentoIdentidade, Email, CEP, ConfirmarEmail, Sexo
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+	</activity>
+</report>

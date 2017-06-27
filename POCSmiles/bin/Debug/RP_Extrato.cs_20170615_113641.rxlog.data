@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="InProgress">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3384908dfd7c310"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="15/06/2017 11:36:58"
+		timestampiso="2017-06-15T14:36:58"
+		timeoutfactor="1"
+		module="RP_Extrato">
+		<detail>
+			RP_Extrato
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.042"
+			timeRelativeToTestModuleStartTime="00:02.057"
+			timeWallClock="11:37:00"
+			time="00:02.042"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'SmilesOMelhorProgramaDeMilhasS1.Validacao_Extrato'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//div[@class='boxGrayFull' and @visible='True']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Validacao_Extrato"
+				id="ff76fb48b0734123b2c6964e9443795f"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Resultado_Esperado\RP_Extrato.cs"
+				codeline="57"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

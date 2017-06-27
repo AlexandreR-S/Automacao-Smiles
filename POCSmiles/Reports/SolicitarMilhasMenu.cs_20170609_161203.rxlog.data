@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="13f1666f6fb358e4"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="09/06/2017 16:12:32"
+		timestampiso="2017-06-09T19:12:32"
+		timeoutfactor="1"
+		module="SolicitarMilhasMenu">
+		<detail>
+			SolicitarMilhasMenu
+		</detail>
+		<errmsg>
+			Failed to find item 'SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.MenuUsuario_Milhas'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.591"
+			timeRelativeToTestModuleStartTime="00:01.591"
+			timeWallClock="16:12:33"
+			time="00:01.591"
+			level="Info"
+			category="Mouse"
+			errimg=".\Solicita_359b3303_76477298_trace.jpg"
+			errthumb=".\Solicita_359b3303_76477298_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.MenuUsuario_Milhas' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'uat3.smiles.com.br']//div[#'p_p_id_smilesloginportlet_WAR_smilesloginportlet_']/div/div[2]/div[1]/?/?/div/?/?/span[@innertext~'^.*?\d? milhas$']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.MenuUsuario_Milhas"
+				id="22290a0283474249ae4b0939d2abf06a"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Menu_Usuario\SolicitarMilhasMenu.cs"
+				codeline="52"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:08.193"
+			timeRelativeToTestModuleStartTime="01:08.193"
+			timeWallClock="16:13:40"
+			time="01:08.193"
+			level="Error"
+			category="Module"
+			errimg=".\Solicita_359b3303_eda1eceb_trace.jpg"
+			errthumb=".\Solicita_359b3303_eda1eceb_trace_thumb.jpg">
+			<message>
+				Failed to find item 'SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.MenuUsuario_Milhas'.<br/>No element found for path '/dom[@pageurl~'uat3.smiles.com.br']//div[#'p_p_id_smilesloginportlet_WAR_smilesloginportlet_']/div/div[2]/div[1]/?/?/div/?/?/span[@innertext~'^.*?\d? milhas$']' within 1m.
+			</message>
+			<metainfo
+				stacktrace="   em Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   em Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   em Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   em POCSmiles.SmilesRepositoryFolders.SmilesOMelhorProgramaDeMilhasS1AppFolder.get_MenuUsuario_Milhas() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\SmilesRepository.cs:linha 3101
+   em POCSmiles.Smiles_Componentes.Menu_Usuario.SolicitarMilhasMenu.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Menu_Usuario\SolicitarMilhasMenu.cs:linha 53
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Menu_Usuario\SolicitarMilhasMenu.cs"
+				codeline="53"
+				type="repoitem"
+				path="/dom[@pageurl~'uat3.smiles.com.br']//div[#'p_p_id_smilesloginportlet_WAR_smilesloginportlet_']/div/div[2]/div[1]/?/?/div/?/?/span[@innertext~'^.*?\d? milhas$']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.MenuUsuario_Milhas"
+				id="22290a0283474249ae4b0939d2abf06a"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="0"/>
+		</item>
+	</activity>
+</report>

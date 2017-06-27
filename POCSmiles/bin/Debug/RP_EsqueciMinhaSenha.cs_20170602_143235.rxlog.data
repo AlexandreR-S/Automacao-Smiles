@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="6.6m"
+		durationms="397890"
+		type="root"
+		rid="4d928f8faa59376"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="02/06/2017 14:33:11"
+		timestampiso="2017-06-02T17:33:11"
+		timeoutfactor="1"
+		module="RP_EsqueciMinhaSenhaNew">
+		<detail>
+			RP_EsqueciMinhaSenhaNew
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.438"
+			timeRelativeToTestModuleStartTime="00:00.438"
+			timeWallClock="14:33:11"
+			time="00:00.438"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>CPF, URL
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="06:37.889"
+			timeRelativeToTestModuleStartTime="06:37.889"
+			timeWallClock="14:39:48"
+			time="06:37.889"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

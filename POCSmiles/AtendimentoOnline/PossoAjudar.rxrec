@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.2"
+id="a4a7b7b0-546b-4e76-b7f3-af37e404f563"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		PossoAjudar
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="PossoAjudar"
+	namespace="POCSmiles.AtendimentoOnline"/>
+	<variables/>
+	<recorditems>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="61cdd64c-326f-4564-8c40-d7042a35687f"
+		action="Click"
+		button="Left"
+		movetime="1ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="e31dc694-63e6-4cb3-bccc-f70f4fdb6310">
+				<path>
+					/dom[@pageurl~'.*'+$URL+'.*'][1]//div[#'grp_helpTag1511']/?/?/div[@innertext='Posso ajudar?']
+				</path>
+			</info>
+		</mouseitem>
+		<loggingrecorditem
+		enabled="True"
+		optional="False"
+		searchpropertyid="bc0a3ffd-70f9-4a1f-895b-d17f6a1ab4e3"
+		action="Screenshot"
+		category="User"
+		message=""
+		reportlevel="Success;110">
+			<comment/>
+			<bindings/>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	name="SmilesRepository"
+	id="f8bb210d-8025-4309-a036-286794eed585"
+	rxversion="6.2"
+	relativepath="..\SmilesRepository.rxrep">
+		<codegen
+		classname="SmilesRepository"
+		namespace="POCSmiles"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="2d08fe81-6727-4e90-82e1-ffba91f7633c"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		PossoAjudar.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

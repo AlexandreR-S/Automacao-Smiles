@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.5m"
+		durationms="90801"
+		type="root"
+		rid="c51081cf726fa6b"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="08/06/2017 11:22:42"
+		timestampiso="2017-06-08T14:22:42"
+		timeoutfactor="1"
+		module="NBV_BuscarVoos">
+		<detail>
+			NBV_BuscarVoos
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.029"
+			timeRelativeToTestModuleStartTime="00:01.030"
+			timeWallClock="11:22:43"
+			time="00:01.029"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>De1, Para1, TipoTrajeto, De2, Para2, DataPartida1, DataRetorno1, DataPartida2, QuantidadeBebes, QuantidadeCriancas, QuantidadeAdultos
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:17.091"
+			timeRelativeToTestModuleStartTime="01:17.092"
+			timeWallClock="11:23:59"
+			time="01:17.091"
+			level="Success"
+			category="Validation">
+			<message>
+				/dom[@domain='portal-uat3.smiles.com.br']//button[#'yui_patched_v3_11_0_1_1496931453355_2486']
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs"
+				codeline="181"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:25.720"
+			timeRelativeToTestModuleStartTime="01:25.721"
+			timeWallClock="11:24:08"
+			time="01:25.720"
+			level="Info"
+			category="Passed">
+			<message>
+				Objeto encontrado e clicado
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="259"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:30.801"
+			timeRelativeToTestModuleStartTime="01:30.802"
+			timeWallClock="11:24:13"
+			time="01:30.801"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

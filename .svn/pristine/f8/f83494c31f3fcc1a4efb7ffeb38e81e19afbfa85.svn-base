@@ -1,0 +1,660 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.2"
+id="ce51cfc6-85f4-4df2-b40e-529739bab6d5"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		PagamentoComTecladoVirtual
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="PagamentoComTecladoVirtual"
+	namespace="POCSmiles.Comprar"/>
+	<variables>
+		<var
+		name="NomeTitular"
+		id="fc16fb03-5156-4007-b730-647942f38c09">
+			WELLINGTON SANTANA
+		</var>
+		<var
+		name="NumeroCartao"
+		id="a6916ecb-effc-4712-99c4-a25af4b5b359">
+			4111111111111111
+		</var>
+		<var
+		name="MesVencimento"
+		id="f802c138-811f-4a8a-9712-1a29c1e2544a">
+			6
+		</var>
+		<var
+		name="AnoVencimento"
+		id="12c3b37f-9ff4-449f-af58-c8921599d2ff">
+			2016
+		</var>
+		<var
+		name="CodigoSeguranca"
+		id="b6b4c220-e203-400a-9aca-08f83502a1aa">
+			737
+		</var>
+		<var
+		name="Parcelas"
+		id="5f00993e-ef31-4245-bbbe-8f8ab9604bd8">
+			&#224; vista
+		</var>
+		<var
+		name="TecladoVirtual"
+		id="876f5bc4-e78f-4930-a337-e5706a44e943">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Comprar"
+		classname="PagamentoComTecladoVirtual"
+		methodname="TypeKeys"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="30aa68ae-47d4-4798-8a71-4c8a547bc147">
+				<argument
+				argname="element"
+				id="6c68c3ee-ef63-41c5-87f3-9bc336a12542">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						//input[@id='creditCardNumber' or @id='cardNumber']
+					</argvalue>
+				</argument>
+				<argument
+				variable="NumeroCartao"
+				argname="text"
+				id="b031bd95-42b3-4946-acb0-b79ca57431cf">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue/>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Comprar"
+		classname="PagamentoComTecladoVirtual"
+		methodname="TypeKeys"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="36c83f13-81bb-4ffc-895d-b6f3ec1b8523">
+				<argument
+				argname="element"
+				id="0ac04aad-cb9c-474a-8a22-80f4dd4860e4">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						//input[@id='cardHolderName' or @id='creditCardHolderName']
+					</argvalue>
+				</argument>
+				<argument
+				variable="NomeTitular"
+				argname="text"
+				id="b03a77ac-b044-461b-ab5c-858007ea2cff">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue/>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Comprar"
+		classname="PagamentoComTecladoVirtual"
+		methodname="SelectItemListBox"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="b2318c6a-3d2e-406a-ae2b-f05d24456bab">
+				<argument
+				argname="selectTagElement"
+				id="cb6b36e1-adc2-447d-b7da-5cde34bbddfb">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						//select[@id='cardDataMonth' or @id='expirationMonth']/../
+					</argvalue>
+				</argument>
+				<argument
+				variable="MesVencimento"
+				argname="itemName"
+				id="de5e1f12-0e3a-4881-a81c-01c575a436bd">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						08
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Comprar"
+		classname="PagamentoComTecladoVirtual"
+		methodname="SelectItemListBox"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="4fc4074e-68d9-4a10-a17a-018b4b8cfd7b">
+				<argument
+				argname="selectTagElement"
+				id="7e8c4b19-4be4-47d6-b9a2-27f1180063f7">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						//select[@id='cardDataYear' or @id='expirationYear']/../
+					</argvalue>
+				</argument>
+				<argument
+				variable="AnoVencimento"
+				argname="itemName"
+				id="af21c449-3796-4903-8015-ae46ac7f6060">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						2018
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Comprar"
+		classname="PagamentoComTecladoVirtual"
+		methodname="TypeKeys"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="03f6fd6e-84d2-4591-a08d-4380bb12bc3a">
+				<argument
+				argname="element"
+				id="94e70f99-fd60-4d06-a605-6517dd8ba6da">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						//input[@id='cardCvc' or @id='secureCode']
+					</argvalue>
+				</argument>
+				<argument
+				variable="CodigoSeguranca"
+				argname="text"
+				id="98ca5dc9-64a7-4ca5-a8f6-9d589c1a27d3">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue/>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Comprar"
+		classname="PagamentoComTecladoVirtual"
+		methodname="SelectItemListBox"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="4fc4074e-68d9-4a10-a17a-018b4b8cfd7b">
+				<argument
+				argname="selectTagElement"
+				id="7e8c4b19-4be4-47d6-b9a2-27f1180063f7">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						//select[@id='installmentSelect' or @id='installmentSelector']/../
+					</argvalue>
+				</argument>
+				<argument
+				variable="Parcelas"
+				argname="itemName"
+				id="af21c449-3796-4903-8015-ae46ac7f6060">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						&#224; vista
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Comprar"
+		classname="PagamentoComTecladoVirtual"
+		methodname="InserirTecladoVirtual"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="c209b7d7-4e2d-43c6-8441-e739d96d865e">
+				<argument
+				variable="TecladoVirtual"
+				argname="senha"
+				id="506067e7-56d1-45ac-bb63-abd7c2e1a1b6">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						1010
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Comprar"
+		classname="PagamentoComTecladoVirtual"
+		methodname="ClickIfExist"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="8939f823-74f7-4a65-a739-7bba5e4d9b98"/>
+		</userrecorditem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="3f3a7204-e424-4544-9410-9e0ca3c5d173"
+		action="Click"
+		button="Left"
+		movetime="1ms"
+		sx="1214"
+		sy="525"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="d8c8868d-d6a4-4b89-8853-20d9b203ce0d">
+				<element
+				role="unknown"
+				prefcap="buttontag"
+				capabilities="webelement, buttontag"
+				flavor="web"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="852,370,270,50"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						smls-btn smls-btn-block  smls-button-orange
+					</attribute>
+					<attribute
+					name="contenteditable"
+					type="System.String">
+						inherit
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						btnCheckout
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						&#10;						Confirmar pagamento
+				&#9;
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						submit
+					</attribute>
+					<dynamicattribute
+					name="accesskey"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-activedescendant"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-atomic"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-autocomplete"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-busy"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-checked"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-controls"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-describedby"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-disabled"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-dropeffect"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-expanded"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-flowto"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-grabbed"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-haspopup"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-hidden"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-invalid"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-label"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-labelledby"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-level"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-live"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-multiline"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-multiselectable"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-orientation"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-owns"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-posinset"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-pressed"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-readonly"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-relevant"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-required"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-secret"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-selected"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-setsize"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-sort"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-valuemax"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-valuemin"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-valuenow"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-valuetext"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="dir"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="hidefocus"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="implementation"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="lang"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="language"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="required"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="role"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="spellcheck"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="tabindex"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="x-ms-acceleratorkey"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="x-ms-aria-flowfrom"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+				</element>
+				<path>
+					/dom[@pageurl~'.*'+$SmilesURL+'.*'][1]//button[#'btnCheckout']
+				</path>
+			</info>
+		</mouseitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Comprar"
+		classname="PagamentoComTecladoVirtual"
+		methodname="WaitLoad"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="3f4d056b-6d88-4123-9fcb-22c23d8b5ce4"/>
+		</userrecorditem>
+		<loggingrecorditem
+		enabled="True"
+		optional="False"
+		searchpropertyid="bc0a3ffd-70f9-4a1f-895b-d17f6a1ab4e3"
+		action="Screenshot"
+		category="User"
+		message=""
+		reportlevel="Success;110">
+			<comment/>
+			<bindings/>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	name="SmilesRepository"
+	id="f8bb210d-8025-4309-a036-286794eed585"
+	rxversion="6.2"
+	relativepath="..\SmilesRepository.rxrep">
+		<codegen
+		classname="SmilesRepository"
+		namespace="POCSmiles"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="2d08fe81-6727-4e90-82e1-ffba91f7633c"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		PagamentoComTecladoVirtual.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

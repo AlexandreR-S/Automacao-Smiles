@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1398e03b768d9f2e"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="RODRIGUES"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="23/06/2017 14:27:56"
+		timestampiso="2017-06-23T17:27:56"
+		timeoutfactor="1"
+		module="MeusVoos">
+		<detail>
+			MeusVoos
+		</detail>
+		<errmsg>
+			Element for item 'MeusVoos_ProximosVoos' does not exist (Failed to find item 'SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.MeusVoos_ProximosVoos'. No element found for path '/dom[@pageurl~'.smiles.com.br']//p[@innertext='Pr&#243;ximos Voos']' within 1m.).
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.258"
+			timeRelativeToTestModuleStartTime="00:01.258"
+			timeWallClock="14:27:57"
+			time="00:01.258"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.MenuUsuario_DadosUsuario' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//div[#'p_p_id_smilesloginportlet_WAR_smilesloginportlet_']/div/div[2]/div[1]/div/div/a"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.MenuUsuario_DadosUsuario"
+				id="458060163bf140a688d31a13827e9f7c"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Menu_Usuario\MeusVoos.cs"
+				codeline="52"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.295"
+			timeRelativeToTestModuleStartTime="00:07.295"
+			timeWallClock="14:28:03"
+			time="00:07.295"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Menu_Usuario\MeusVoos.cs"
+				codeline="56"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.310"
+			timeRelativeToTestModuleStartTime="00:08.310"
+			timeWallClock="14:28:04"
+			time="00:08.310"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.MenuUsuario_MeusVoos' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//div[#'p_p_id_smilesloginportlet_WAR_smilesloginportlet_']//a[@innertext='Meus voos']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.MenuUsuario_MeusVoos"
+				id="27a074c24b7641eeabd3d69407c84ea3"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Menu_Usuario\MeusVoos.cs"
+				codeline="59"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.766"
+			timeRelativeToTestModuleStartTime="00:09.766"
+			timeWallClock="14:28:06"
+			time="00:09.766"
+			level="Info"
+			category="Validation"
+			errimg=".\MeusVoos_f63de792_9cfed9de_trace.jpg"
+			errthumb=".\MeusVoos_f63de792_9cfed9de_trace_thumb.jpg">
+			<message>
+				Validating Exists on item 'SmilesOMelhorProgramaDeMilhasS1.MeusVoos_ProximosVoos'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//p[@innertext='Próximos Voos']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.MeusVoos_ProximosVoos"
+				id="32268fbfc43c4143823a4999022621ad"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Menu_Usuario\MeusVoos.cs"
+				codeline="63"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:12.977"
+			timeRelativeToTestModuleStartTime="01:12.977"
+			timeWallClock="14:29:09"
+			time="01:12.977"
+			level="Failure"
+			category="Validation"
+			errimg=".\MeusVoos_f63de792_6c74776a_trace.jpg"
+			errthumb=".\MeusVoos_f63de792_6c74776a_trace_thumb.jpg">
+			<message>
+				Element for item 'MeusVoos_ProximosVoos' does not exist (Failed to find item 'SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.MeusVoos_ProximosVoos'. No element found for path '/dom[@pageurl~'.smiles.com.br']//p[@innertext='Pr&#243;ximos Voos']' within 1m.).
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//p[@innertext='Próximos Voos']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.MeusVoos_ProximosVoos"
+				id="32268fbfc43c4143823a4999022621ad"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Menu_Usuario\MeusVoos.cs"
+				codeline="64"
+				loglvl="Failure"
+				itemindex="3"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:13.014"
+			timeRelativeToTestModuleStartTime="01:13.014"
+			timeWallClock="14:29:09"
+			time="01:13.014"
+			level="Error"
+			category="Module"
+			errimg=".\MeusVoos_f63de792_6c74776a_trace.jpg"
+			errthumb=".\MeusVoos_f63de792_6c74776a_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Element for item 'MeusVoos_ProximosVoos' does not exist (Failed to find item 'SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.MeusVoos_ProximosVoos'. No element found for path '/dom[@pageurl~'.smiles.com.br']//p[@innertext='Pr&#243;ximos Voos']' within 1m.).
+			</message>
+			<metainfo
+				stacktrace="   em Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   em Ranorex.Validate.Exists(RepoItemInfo itemInfo, String message, Options options)
+   em Ranorex.Validate.Exists(RepoItemInfo itemInfo)
+   em POCSmiles.Smiles_Componentes.Menu_Usuario.MeusVoos.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Menu_Usuario\MeusVoos.cs:linha 64
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Menu_Usuario\MeusVoos.cs"
+				codeline="64"
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//p[@innertext='Próximos Voos']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.MeusVoos_ProximosVoos"
+				id="32268fbfc43c4143823a4999022621ad"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="3"/>
+		</item>
+	</activity>
+</report>

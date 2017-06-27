@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.2"
+id="fb43e690-c181-4b98-894b-250dca43704e"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		CapturarReembolsoCancelamento
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CapturarReembolsoCancelamento"
+	namespace="POCSmiles.Resultado_Esperado"/>
+	<variables/>
+	<recorditems>
+		<userrecorditem
+		enabled="False"
+		optional="False"
+		namespace="POCSmiles.Resultado_Esperado"
+		classname="CapturarReembolsoCancelamento"
+		methodname="CapturarDadosReembolso"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="e1a1907b-72fc-4743-8752-4604d50296e5"/>
+		</userrecorditem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="f51c8d93-82eb-4e0a-a1c8-e347d2b7a652"
+		action="Click"
+		button="Left"
+		movetime="1ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="55dac655-2b8d-4870-8e19-6c4b9bf3eb0d">
+				<path>
+					/dom[@pageurl~'.*'+$URL+'.*'][1]//button[#'btnProcessCheckout']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	name="SmilesRepository"
+	id="f8bb210d-8025-4309-a036-286794eed585"
+	rxversion="6.2"
+	relativepath="..\SmilesRepository.rxrep">
+		<codegen
+		classname="SmilesRepository"
+		namespace="POCSmiles"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="2d08fe81-6727-4e90-82e1-ffba91f7633c"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CapturarReembolsoCancelamento.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

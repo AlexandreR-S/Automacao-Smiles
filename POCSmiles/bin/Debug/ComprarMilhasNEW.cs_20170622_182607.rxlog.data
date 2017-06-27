@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="20.75s"
+		durationms="20752"
+		type="root"
+		rid="1b58a598632a294"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="RODRIGUES"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="22/06/2017 18:26:23"
+		timestampiso="2017-06-22T21:26:23"
+		timeoutfactor="1"
+		module="ComprarMilhasNEW">
+		<detail>
+			ComprarMilhasNEW
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.894"
+			timeRelativeToTestModuleStartTime="00:00.894"
+			timeWallClock="18:26:24"
+			time="00:00.894"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Voucher, Milhas
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.927"
+			timeRelativeToTestModuleStartTime="00:01.927"
+			timeWallClock="18:26:25"
+			time="00:01.927"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Compra_De_Milhas\ComprarMilhasNEW.cs"
+				codeline="81"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.935"
+			timeRelativeToTestModuleStartTime="00:02.935"
+			timeWallClock="18:26:26"
+			time="00:02.935"
+			level="Info"
+			category="User">
+			<message>
+				Waiting Smiles' loading GIF
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="212"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.739"
+			timeRelativeToTestModuleStartTime="00:03.739"
+			timeWallClock="18:26:26"
+			time="00:03.739"
+			level="None"
+			category="Validation">
+			<message>
+				/dom[@pageurl~'.smiles.com.br']//div[#'loginLoad']/img[@src='https://portal-uat.smiles.com.br/smiles-default-theme/img/loading.gif']
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs"
+				codeline="188"
+				loglvl="None"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.510"
+			timeRelativeToTestModuleStartTime="00:04.510"
+			timeWallClock="18:26:27"
+			time="00:04.510"
+			level="None"
+			category="Validation">
+			<message>
+				/dom[@pageurl~'.smiles.com.br']//div[#'p_load']
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs"
+				codeline="188"
+				loglvl="None"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.957"
+			timeRelativeToTestModuleStartTime="00:04.957"
+			timeWallClock="18:26:28"
+			time="00:04.957"
+			level="None"
+			category="Validation">
+			<message>
+				/dom[@pageurl~'.smiles.com.br']//p[@innertext='Aguarde......' and @visible='True']
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs"
+				codeline="188"
+				loglvl="None"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.988"
+			timeRelativeToTestModuleStartTime="00:04.988"
+			timeWallClock="18:26:28"
+			time="00:04.988"
+			level="Info"
+			category="User">
+			<message>
+				Smiles' loading GIF desapeared
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="214"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.006"
+			timeRelativeToTestModuleStartTime="00:05.006"
+			timeWallClock="18:26:28"
+			time="00:05.006"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{END}'.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Compra_De_Milhas\ComprarMilhasNEW.cs"
+				codeline="87"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.281"
+			timeRelativeToTestModuleStartTime="00:05.281"
+			timeWallClock="18:26:28"
+			time="00:05.281"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{TAB}{NEXT}'.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Compra_De_Milhas\ComprarMilhasNEW.cs"
+				codeline="95"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.644"
+			timeRelativeToTestModuleStartTime="00:05.644"
+			timeWallClock="18:26:28"
+			time="00:05.644"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.ComprarMilhas_Comprar' at UpperCenter.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//button[#'buyMilesBtn']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.ComprarMilhas_Comprar"
+				id="860e8ced636b4409bd60aa3014107a11"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Compra_De_Milhas\ComprarMilhasNEW.cs"
+				codeline="99"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.752"
+			timeRelativeToTestModuleStartTime="00:20.752"
+			timeWallClock="18:26:43"
+			time="00:20.752"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

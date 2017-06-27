@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="2.8m"
+		durationms="166681"
+		type="root"
+		rid="13d65da700d6baf1"
+		totalerrorcount="2"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="12/06/2017 14:49:20"
+		timestampiso="2017-06-12T17:49:20"
+		timeoutfactor="1"
+		module="SolicitarMilhas">
+		<detail>
+			SolicitarMilhas
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.134"
+			timeRelativeToTestModuleStartTime="00:01.134"
+			timeWallClock="14:49:22"
+			time="00:01.134"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>NumeroVoo, LocalizadorVoo, DataVoo, CabineViagem, ClasseReserva, NomePassageiro, SobrenomePassageiro, AeroportoOrigem, AeroportoDestino, BilheteEletronico, AnexarBilheteEletronico, AnexarCartaoEmbarque, CompanhiaAerea, URL
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.819"
+			timeRelativeToTestModuleStartTime="00:06.819"
+			timeWallClock="14:49:27"
+			time="00:06.819"
+			level="Info"
+			category="User">
+			<message>
+				Selecting item 'Delta'
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="273"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:46.681"
+			timeRelativeToTestModuleStartTime="02:46.681"
+			timeWallClock="14:52:07"
+			time="02:46.681"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:46.360"
+			timeRelativeToTestModuleStartTime="02:46.360"
+			timeWallClock="14:52:07"
+			time="02:46.360"
+			level="Error"
+			category="User">
+			<message>
+				- Error launched trying to select item 'Delta' on element '//select[#'_smilescreditrequestportlet_WAR_smilesmemberportlet_airlines']'
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="278"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

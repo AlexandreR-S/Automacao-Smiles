@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.9m"
+		durationms="112223"
+		type="root"
+		rid="1c4f084fde8b64e"
+		totalerrorcount="2"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="2"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="19/06/2017 11:53:42"
+		timestampiso="2017-06-19T14:53:42"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="1.8m"
+			durationms="106362"
+			type="test suite"
+			rid="115a34f08c8249af"
+			totalerrorcount="2"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="2"
+			totalblockedcount="0"
+			testsuitename="Smiles"
+			runconfigname="Regressivo"
+			runlabel=""
+			maxchildren="1">
+			<params>
+				<param
+					name="PMR_URL">
+					C:\Automacao - Smiles\lib\PNR\PNR_Smiles.xlsx
+				</param>
+				<param
+					name="Cadastro_CadastroUsuarios">
+					C:\Automacao - Smiles\lib\PNR\Cadastro_Usuarios.xlsx
+				</param>
+				<param
+					name="Database_Location">
+					C:\Automacao - Smiles\lib\PNR\SmilesDB.accdb
+				</param>
+				<param
+					name="MAX_COMPRA_MILHAS">
+					40000
+				</param>
+				<param
+					name="MIN_MILHAS">
+					60000
+				</param>
+				<param
+					name="MAX_RESERVAS_ISENTO">
+					5
+				</param>
+				<param
+					name="MAX_VALOR_REEMBOLSO">
+					150
+				</param>
+				<param
+					name="AMBIENTE_TESTE">
+				</param>
+				<param
+					name="BROWSER">
+				</param>
+				<param
+					name="AGENDAR">
+				</param>
+				<param
+					name="JIRA_USERNAME">
+					admin
+				</param>
+				<param
+					name="JIRA_PASSWORD">
+					admin
+				</param>
+				<param
+					name="JIRA_SERVERURL">
+					http://localhost:8080/
+				</param>
+				<param
+					name="MIN_DATE_RANGE">
+					30
+				</param>
+				<param
+					name="MAX_DATE_RANGE">
+					45
+				</param>
+				<param
+					name="INCOGNITION_MODE">
+					FALSE
+				</param>
+			</params>
+			<detail>
+				Su&#237;te de teste que contempla os fluxos do portal Smiles
+			</detail>
+			<activity
+				result="Failed"
+				duration="1.8m"
+				durationms="106293"
+				type="folder"
+				rid="7c8db2159e43fe2"
+				totalerrorcount="2"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="2"
+				totalblockedcount="0"
+				foldername="Atomic">
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="1.8m"
+					durationms="106293"
+					type="folder"
+					rid="1a93e5b260a8cf1c"
+					totalerrorcount="2"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="2"
+					totalblockedcount="0"
+					foldername="D_HOMOLOGACAO1">
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="1.8m"
+						durationms="106293"
+						type="folder"
+						rid="8dd4908d0eea202"
+						totalerrorcount="2"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="2"
+						totalblockedcount="0"
+						foldername="DH_POSITIVO1">
+						<detail>
+						</detail>
+						<activity
+							result="Failed"
+							duration="1.7m"
+							durationms="103297"
+							type="test case"
+							rid="17637e53635fed6c"
+							totalerrorcount="2"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="2"
+							totalblockedcount="0"
+							testcasename="Atendimento_Online_Nao_Sou_Cliente"
+							testcaseid="f1c7aa6e-2e0b-4fa3-bb3a-70b6e5852d6d"
+							datasource="S_Smiles_AindaNaoSouCliente"
+							iterationcount="3"
+							maxchildren="0">
+							<params>
+								<param
+									name="Country">
+									Brasil
+								</param>
+								<param
+									name="Dataset_Version">
+									1
+								</param>
+								<param
+									name="Company_Code">
+									Chrome
+								</param>
+							</params>
+							<detail>
+								&lt;P&gt;Teste com o objetivo de&amp;nbsp;validar inicio do chat atendimento online com 
+usu&#225;rio j&#225; logado.&lt;/P&gt;
+							</detail>
+							<activity
+								result="Failed"
+								duration="1.2m"
+								durationms="74992"
+								type="test case iteration"
+								rid="4a232e0d739ad3"
+								totalerrorcount="1"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								testcasename="Atendimento_Online_Nao_Sou_Cliente"
+								iteration="1">
+								<datarow>
+									<field
+										name="Browser">
+										Chrome
+									</field>
+									<field
+										name="URL">
+										portal-uat.smiles.com.br
+									</field>
+									<field
+										name="IdentificacaoCaso">
+										Homologa&#231;&#227;o - Atendimento Online (Em&#237;lia) N&#227;o sou cliente
+									</field>
+								</datarow>
+								<detail>
+								</detail>
+								<activity
+									result="Success"
+									duration="3.86s"
+									durationms="3864"
+									type="test module"
+									rid="2fc05154c1d3ac28"
+									totalerrorcount="0"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="StartScript"
+									moduleid="13ec580c-0a06-47da-a998-b3cbd4eb5338"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<varbindings/>
+								</activity>
+								<activity
+									result="Success"
+									duration="838ms"
+									durationms="838"
+									type="test module"
+									rid="2cc65137cc5dc288"
+									totalerrorcount="0"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="IniciarDesktop"
+									moduleid="50e42e85-06f5-4206-9cb7-80b8e8db2d4a"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<varbindings/>
+								</activity>
+								<activity
+									result="Failed"
+									duration="1.2m"
+									durationms="69945"
+									type="test module"
+									rid="3641fea14aa9e41e"
+									totalerrorcount="1"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="AcessarAtendimentoOnline"
+									moduleid="ee33a4ab-f731-4fc7-a544-251e7e11c654"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<errmsg>
+										Element for item 'Atendimento_AtendimentoOnline' does not exist (Failed to find item 'SmilesRepository.AtendimentoOnlineHomologacao.Atendimento_AtendimentoOnline'. No element found for path '/dom[@pageurl='https://smiles--tst1.custhelp.com/app/answers/list_pesquisa_site/kw/Emilia']//a[@innertext~'.*Atendimento Online.*']' within 1m.).
+									</errmsg>
+									<varbindings/>
+									<item
+										timeRelativeToTestSuiteStartTime="00:14.171"
+										timeRelativeToTestModuleStartTime="00:00.198"
+										timeWallClock="11:53:56"
+										time="00:14.171"
+										level="Info"
+										category="Mouse">
+										<message>
+											Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.PossoAjudar' at Center.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'.smiles.com.br']//div[#'grp_helpTag1511']/?/?/div[@innertext='Posso ajudar?']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.PossoAjudar"
+											id="e31dc69463e64cb3bcccf70f4fdb6310"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\AtendimentoOnline\AcessarAtendimentoOnline.cs"
+											codeline="61"
+											itemindex="0"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="00:22.732"
+										timeRelativeToTestModuleStartTime="00:08.759"
+										timeWallClock="11:54:04"
+										time="00:22.732"
+										level="Info"
+										category="Validation"
+										errimg="images_19_06_20_dc01de24\19_06_20_dc01de24_14336561_trace.jpg"
+										errthumb="images_19_06_20_dc01de24\19_06_20_dc01de24_14336561_trace_thumb.jpg">
+										<message>
+											Validating Exists on item 'AtendimentoOnlineHomologacao.Atendimento_AtendimentoOnline'.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl='https://smiles--tst1.custhelp.com/app/answers/list_pesquisa_site/kw/Emilia']//a[@innertext~'.*Atendimento Online.*']"
+											fullname="SmilesRepository.AtendimentoOnlineHomologacao.Atendimento_AtendimentoOnline"
+											id="5d4b52474c124186be3efcf229cfbd26"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\AtendimentoOnline\AcessarAtendimentoOnline.cs"
+											codeline="73"
+											itemindex="3"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="01:23.493"
+										timeRelativeToTestModuleStartTime="01:09.520"
+										timeWallClock="11:55:05"
+										time="01:23.493"
+										level="Failure"
+										category="Validation"
+										errimg="images_19_06_20_dc01de24\19_06_20_dc01de24_2dbc2ae9_trace.jpg"
+										errthumb="images_19_06_20_dc01de24\19_06_20_dc01de24_2dbc2ae9_trace_thumb.jpg">
+										<message>
+											Element for item 'Atendimento_AtendimentoOnline' does not exist (Failed to find item 'SmilesRepository.AtendimentoOnlineHomologacao.Atendimento_AtendimentoOnline'. No element found for path '/dom[@pageurl='https://smiles--tst1.custhelp.com/app/answers/list_pesquisa_site/kw/Emilia']//a[@innertext~'.*Atendimento Online.*']' within 1m.).
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl='https://smiles--tst1.custhelp.com/app/answers/list_pesquisa_site/kw/Emilia']//a[@innertext~'.*Atendimento Online.*']"
+											fullname="SmilesRepository.AtendimentoOnlineHomologacao.Atendimento_AtendimentoOnline"
+											id="5d4b52474c124186be3efcf229cfbd26"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\AtendimentoOnline\AcessarAtendimentoOnline.cs"
+											codeline="74"
+											loglvl="Failure"
+											itemindex="3"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="01:23.708"
+										timeRelativeToTestModuleStartTime="01:09.734"
+										timeWallClock="11:55:05"
+										time="01:23.708"
+										level="Error"
+										category="Module"
+										errimg="images_19_06_20_dc01de24\19_06_20_dc01de24_9c43e692_trace.jpg"
+										errthumb="images_19_06_20_dc01de24\19_06_20_dc01de24_9c43e692_trace_thumb.jpg">
+										<message>
+											Module execution was aborted because a validation step has failed. Element for item 'Atendimento_AtendimentoOnline' does not exist (Failed to find item 'SmilesRepository.AtendimentoOnlineHomologacao.Atendimento_AtendimentoOnline'. No element found for path '/dom[@pageurl='https://smiles--tst1.custhelp.com/app/answers/list_pesquisa_site/kw/Emilia']//a[@innertext~'.*Atendimento Online.*']' within 1m.).
+										</message>
+										<metainfo
+											stacktrace="   em Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   em Ranorex.Validate.Exists(RepoItemInfo itemInfo, String message, Options options)
+   em Ranorex.Validate.Exists(RepoItemInfo itemInfo)
+   em POCSmiles.Smiles_Componentes.AtendimentoOnline.AcessarAtendimentoOnline.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\AtendimentoOnline\AcessarAtendimentoOnline.cs:linha 74
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\AtendimentoOnline\AcessarAtendimentoOnline.cs"
+											codeline="74"
+											type="repoitem"
+											path="/dom[@pageurl='https://smiles--tst1.custhelp.com/app/answers/list_pesquisa_site/kw/Emilia']//a[@innertext~'.*Atendimento Online.*']"
+											fullname="SmilesRepository.AtendimentoOnlineHomologacao.Atendimento_AtendimentoOnline"
+											id="5d4b52474c124186be3efcf229cfbd26"
+											timeout="60000"
+											loglvl="Error"
+											itemindex="3"/>
+									</item>
+								</activity>
+							</activity>
+							<activity
+								result="Failed"
+								duration="28.3s"
+								durationms="28301"
+								type="test case iteration"
+								rid="4bdd4457622d2dc"
+								totalerrorcount="1"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								testcasename="Atendimento_Online_Nao_Sou_Cliente"
+								iteration="2">
+								<datarow>
+									<field
+										name="Browser">
+										IE
+									</field>
+									<field
+										name="URL">
+										portal-uat.smiles.com.br
+									</field>
+									<field
+										name="IdentificacaoCaso">
+										Homologa&#231;&#227;o - Atendimento Online (Em&#237;lia) N&#227;o sou cliente
+									</field>
+								</datarow>
+								<detail>
+								</detail>
+								<activity
+									result="Success"
+									duration="3.18s"
+									durationms="3178"
+									type="test module"
+									rid="e1ba9c1505b451e"
+									totalerrorcount="0"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="StartScript"
+									moduleid="13ec580c-0a06-47da-a998-b3cbd4eb5338"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<varbindings/>
+								</activity>
+								<activity
+									result="Success"
+									duration="819ms"
+									durationms="819"
+									type="test module"
+									rid="111a97ff43f31e90"
+									totalerrorcount="0"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="IniciarDesktop"
+									moduleid="50e42e85-06f5-4206-9cb7-80b8e8db2d4a"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<varbindings/>
+								</activity>
+								<activity
+									result="Failed"
+									duration="24.3s"
+									durationms="24299"
+									type="test module"
+									rid="252ed113c6ee08"
+									totalerrorcount="1"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="AcessarAtendimentoOnline"
+									moduleid="ee33a4ab-f731-4fc7-a544-251e7e11c654"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<varbindings/>
+									<item
+										timeRelativeToTestSuiteStartTime="01:28.092"
+										timeRelativeToTestModuleStartTime="00:00.168"
+										timeWallClock="11:55:10"
+										time="01:28.092"
+										level="Info"
+										category="Mouse">
+										<message>
+											Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.PossoAjudar' at Center.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'.smiles.com.br']//div[#'grp_helpTag1511']/?/?/div[@innertext='Posso ajudar?']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.PossoAjudar"
+											id="e31dc69463e64cb3bcccf70f4fdb6310"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\AtendimentoOnline\AcessarAtendimentoOnline.cs"
+											codeline="61"
+											itemindex="0"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="01:34.784"
+										timeRelativeToTestModuleStartTime="00:06.860"
+										timeWallClock="11:55:16"
+										time="01:34.784"
+										level="Info"
+										category="Validation">
+										<message>
+											Validating Exists on item 'AtendimentoOnlineHomologacao.Atendimento_AtendimentoOnline'.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl='https://smiles--tst1.custhelp.com/app/answers/list_pesquisa_site/kw/Emilia']//a[@innertext~'.*Atendimento Online.*']"
+											fullname="SmilesRepository.AtendimentoOnlineHomologacao.Atendimento_AtendimentoOnline"
+											id="5d4b52474c124186be3efcf229cfbd26"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\AtendimentoOnline\AcessarAtendimentoOnline.cs"
+											codeline="73"
+											itemindex="3"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="01:52.223"
+										timeRelativeToTestModuleStartTime="00:24.299"
+										timeWallClock="11:55:34"
+										time="01:52.223"
+										level="Error"
+										category="Module">
+										<message>
+											The test run has been aborted by the user.
+										</message>
+										<metainfo
+											loglvl="Error"/>
+									</item>
+								</activity>
+							</activity>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

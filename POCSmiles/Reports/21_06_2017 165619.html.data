@@ -1,0 +1,670 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="13763288e4940b1"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="RODRIGUES"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="21/06/2017 16:56:19"
+		timestampiso="2017-06-21T19:56:19"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="1.9m"
+			durationms="116967"
+			type="test suite"
+			rid="221106928e3708f8"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="Smiles"
+			runconfigname="Regressivo"
+			runlabel=""
+			maxchildren="1">
+			<params>
+				<param
+					name="PMR_URL">
+					C:\Automacao - Smiles\lib\PNR\PNR_Smiles.xlsx
+				</param>
+				<param
+					name="Cadastro_CadastroUsuarios">
+					C:\Automacao - Smiles\lib\PNR\Cadastro_Usuarios.xlsx
+				</param>
+				<param
+					name="Database_Location">
+					C:\Automacao - Smiles\lib\PNR\SmilesDB.accdb
+				</param>
+				<param
+					name="MAX_COMPRA_MILHAS">
+					40000
+				</param>
+				<param
+					name="MIN_MILHAS">
+					60000
+				</param>
+				<param
+					name="MAX_RESERVAS_ISENTO">
+					5
+				</param>
+				<param
+					name="MAX_VALOR_REEMBOLSO">
+					150
+				</param>
+				<param
+					name="AMBIENTE_TESTE">
+				</param>
+				<param
+					name="BROWSER">
+				</param>
+				<param
+					name="AGENDAR">
+				</param>
+				<param
+					name="JIRA_USERNAME">
+					admin
+				</param>
+				<param
+					name="JIRA_PASSWORD">
+					admin
+				</param>
+				<param
+					name="JIRA_SERVERURL">
+					http://localhost:8080/
+				</param>
+				<param
+					name="MIN_DATE_RANGE">
+					30
+				</param>
+				<param
+					name="MAX_DATE_RANGE">
+					45
+				</param>
+				<param
+					name="INCOGNITION_MODE">
+					FALSE
+				</param>
+			</params>
+			<detail>
+				Su&#237;te de teste que contempla os fluxos do portal Smiles
+			</detail>
+			<activity
+				result="Failed"
+				duration="1.9m"
+				durationms="116895"
+				type="folder"
+				rid="8a4edccf27c0944"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				foldername="Atomic">
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="1.9m"
+					durationms="116895"
+					type="folder"
+					rid="202e75cfed9c48"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					foldername="D_HOMOLOGACAO1">
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="1.9m"
+						durationms="116895"
+						type="folder"
+						rid="5aa92ef64b4ba33"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="1"
+						totalblockedcount="0"
+						foldername="DH_POSITIVO1">
+						<detail>
+						</detail>
+						<activity
+							result="Failed"
+							duration="1.9m"
+							durationms="114403"
+							type="test case"
+							rid="63d2984c39c6d82"
+							totalerrorcount="1"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="1"
+							totalblockedcount="0"
+							testcasename="Compra_De_Milhas"
+							testcaseid="b5168536-fc34-49a4-beef-efe252500623"
+							datasource="S_Smiles_Comprar_Milhas"
+							iterationcount="6"
+							maxchildren="0">
+							<params>
+								<param
+									name="Country">
+									Brasil
+								</param>
+								<param
+									name="Dataset_Version">
+									1
+								</param>
+								<param
+									name="Company_Code">
+									Chrome
+								</param>
+							</params>
+							<detail>
+								&lt;P&gt;Teste com o objetivo de comprar milhas&lt;/P&gt;
+							</detail>
+							<activity
+								result="Failed"
+								duration="1.9m"
+								durationms="114401"
+								type="test case iteration"
+								rid="174ff210e4f96d52"
+								totalerrorcount="1"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								testcasename="Compra_De_Milhas"
+								iteration="1">
+								<datarow>
+									<field
+										name="Browser">
+										Chrome
+									</field>
+									<field
+										name="URL">
+										portal-uat.smiles.com.br
+									</field>
+									<field
+										name="CPFSmilesID">
+										PERFIL_SALDO_DE_COMPRA_DE_MILHAS
+									</field>
+									<field
+										name="Senha">
+									</field>
+									<field
+										name="Milhas">
+										3000
+									</field>
+									<field
+										name="Voucher">
+										N/A
+									</field>
+									<field
+										name="NomeTitular">
+										Tio Sam
+									</field>
+									<field
+										name="NumeroCartao">
+										4111111111111111
+									</field>
+									<field
+										name="MesVencimento">
+										08
+									</field>
+									<field
+										name="AnoVencimento">
+										2018
+									</field>
+									<field
+										name="Parcelas">
+										&#224; vista
+									</field>
+									<field
+										name="CodigoSeguranca">
+										737
+									</field>
+									<field
+										name="IdentificacaoCaso">
+										Homologa&#231;&#227;o - Compra de milhas sem Voucher
+									</field>
+								</datarow>
+								<detail>
+								</detail>
+								<activity
+									result="Success"
+									duration="2.64s"
+									durationms="2635"
+									type="test module"
+									rid="10e35b7996ce766a"
+									totalerrorcount="0"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="StartScript"
+									moduleid="13ec580c-0a06-47da-a998-b3cbd4eb5338"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<varbindings/>
+								</activity>
+								<activity
+									result="Success"
+									duration="766ms"
+									durationms="766"
+									type="test module"
+									rid="55756dbb5191d58"
+									totalerrorcount="0"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="IniciarDesktop"
+									moduleid="50e42e85-06f5-4206-9cb7-80b8e8db2d4a"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<varbindings/>
+								</activity>
+								<activity
+									result="Success"
+									duration="34.28s"
+									durationms="34276"
+									type="test module"
+									rid="4c672d71c9f1c94"
+									totalerrorcount="0"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="LoginHome"
+									moduleid="090b16bb-891d-4abb-81d1-98b7d7bb1aab"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<varbindings/>
+									<item
+										timeRelativeToTestSuiteStartTime="00:12.127"
+										timeRelativeToTestModuleStartTime="00:00.612"
+										timeWallClock="16:56:31"
+										time="00:12.127"
+										level="Info"
+										category="User">
+										<message>
+											Wainting system load
+										</message>
+										<metainfo
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+											codeline="236"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="00:15.363"
+										timeRelativeToTestModuleStartTime="00:03.849"
+										timeWallClock="16:56:34"
+										time="00:15.363"
+										level="Success"
+										category="Validation">
+										<message>
+											/dom[@pageurl~'.smiles.com.br']
+										</message>
+										<metainfo
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs"
+											codeline="188"
+											loglvl="Success"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="00:19.023"
+										timeRelativeToTestModuleStartTime="00:07.508"
+										timeWallClock="16:56:38"
+										time="00:19.023"
+										level="Info"
+										category="User">
+										<message>
+											System loaded
+										</message>
+										<metainfo
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+											codeline="238"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="00:19.381"
+										timeRelativeToTestModuleStartTime="00:07.867"
+										timeWallClock="16:56:38"
+										time="00:19.381"
+										level="Info"
+										category="Mouse">
+										<message>
+											Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.BrandWrapperHiddenPhone' at LowerCenter.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'.smiles.com.br']//a[@innertext='Entrar']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.BrandWrapperHiddenPhone"
+											id="ebee8f6198fa4ee39f777eb5e18be2ac"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Generico\LoginHome.cs"
+											codeline="112"
+											itemindex="6"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="00:25.113"
+										timeRelativeToTestModuleStartTime="00:13.599"
+										timeWallClock="16:56:44"
+										time="00:25.113"
+										level="Info"
+										category="Delay">
+										<message>
+											Waiting for 1s.
+										</message>
+										<metainfo
+											itemindex="7"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Generico\LoginHome.cs"
+											codeline="116"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="00:26.369"
+										timeRelativeToTestModuleStartTime="00:14.854"
+										timeWallClock="16:56:45"
+										time="00:26.369"
+										level="Info"
+										category="Keyboard">
+										<message>
+											Key sequence from variable '$CPFSmilesID' with focus on 'SmilesOMelhorProgramaDeMilhasS1.Login_CPFNumeroSmiles2'.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'.smiles.com.br']//input[#'_smilesloginportlet_WAR_smilesloginportlet_login_idscreenName']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Login_CPFNumeroSmiles2"
+											id="7f64b63096484348ac6f7317acd47c10"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Generico\LoginHome.cs"
+											codeline="119"
+											itemindex="8"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="00:29.696"
+										timeRelativeToTestModuleStartTime="00:18.182"
+										timeWallClock="16:56:48"
+										time="00:29.696"
+										level="Info"
+										category="Keyboard">
+										<message>
+											Key sequence from variable '$Senha' with focus on 'SmilesOMelhorProgramaDeMilhasS1.Login_Senha2'.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'.smiles.com.br']//input[#'_smilesloginportlet_WAR_smilesloginportlet_password']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Login_Senha2"
+											id="67419d5985d1463cadc3dd378c475a08"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Generico\LoginHome.cs"
+											codeline="123"
+											itemindex="9"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="00:31.547"
+										timeRelativeToTestModuleStartTime="00:20.033"
+										timeWallClock="16:56:50"
+										time="00:31.547"
+										level="Info"
+										category="Mouse">
+										<message>
+											Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.Login_Entrar2' at Center.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'.smiles.com.br']//button[#'buttonSubmitLogin']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Login_Entrar2"
+											id="21a45164fe9b421092cf747d10b79e4d"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Generico\LoginHome.cs"
+											codeline="127"
+											itemindex="10"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="00:32.510"
+										timeRelativeToTestModuleStartTime="00:20.996"
+										timeWallClock="16:56:51"
+										time="00:32.510"
+										level="Info"
+										category="Validation">
+										<message>
+											Validating Exists on item 'SmilesOMelhorProgramaDeMilhasS1.MenuUsuario_ExpandirOpcoesUsuario'.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'.smiles.com.br']//div[#'p_p_id_smilesloginportlet_WAR_smilesloginportlet_']/div/div[2]/div[1]/?/?/div/a/span[1]"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.MenuUsuario_ExpandirOpcoesUsuario"
+											id="7c5cb3f7200d4d2687c64dc5e71880d2"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Generico\LoginHome.cs"
+											codeline="131"
+											itemindex="11"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="00:45.020"
+										timeRelativeToTestModuleStartTime="00:33.505"
+										timeWallClock="16:57:04"
+										time="00:45.020"
+										level="Success"
+										category="Validation">
+										<message>
+											Element for item 'MenuUsuario_ExpandirOpcoesUsuario' does exist.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'.smiles.com.br']//div[#'p_p_id_smilesloginportlet_WAR_smilesloginportlet_']/div/div[2]/div[1]/?/?/div/a/span[1]"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.MenuUsuario_ExpandirOpcoesUsuario"
+											id="7c5cb3f7200d4d2687c64dc5e71880d2"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Generico\LoginHome.cs"
+											codeline="132"
+											loglvl="Success"
+											itemindex="11"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="00:45.188"
+										timeRelativeToTestModuleStartTime="00:33.673"
+										timeWallClock="16:57:04"
+										time="00:45.188"
+										level="Success"
+										category="User">
+										<message>
+											<a class="thickbox" style="padding-right:8px" rel="module" href="images_21_06_20_656aa4e8\21_06_20_65b26d17_rxlog.jpg"><img src="images_21_06_20_656aa4e8\21_06_20_65b26d17_rxlog_thumb.jpg" alt="Screenshot"/></a>
+										</message>
+										<metainfo
+											itemindex="15"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Generico\LoginHome.cs"
+											codeline="135"
+											loglvl="Success"/>
+									</item>
+								</activity>
+								<activity
+									result="Failed"
+									duration="1.3m"
+									durationms="76465"
+									type="test module"
+									rid="5dfa94de5846e18"
+									totalerrorcount="1"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="ComprarMilhas"
+									moduleid="54cbb879-3517-42a6-86c5-2e71c06c77cf"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<errmsg>
+										Element for item 'Validacao_EscolhaQuantidadeMilhas' does not exist (Failed to find item 'SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Validacao_EscolhaQuantidadeMilhas'. No element found for path '/dom[@pageurl~'.smiles.com.br']//.[@innertext~'deseja comprar']' within 1m.).
+									</errmsg>
+									<varbindings/>
+									<item
+										timeRelativeToTestSuiteStartTime="00:46.136"
+										timeRelativeToTestModuleStartTime="00:00.189"
+										timeWallClock="16:57:05"
+										time="00:46.136"
+										level="Info"
+										category="Mouse">
+										<message>
+											Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.MenuUsuario_Milhas' at Center.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'.smiles.com.br']//div[#'p_p_id_smilesloginportlet_WAR_smilesloginportlet_']/div/div[2]/div[1]/?/?/div/?/?/span[@innertext~'^.*?\d? milhas$']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.MenuUsuario_Milhas"
+											id="22290a0283474249ae4b0939d2abf06a"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Menu_Usuario\ComprarMilhas.cs"
+											codeline="58"
+											itemindex="0"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="00:49.767"
+										timeRelativeToTestModuleStartTime="00:03.820"
+										timeWallClock="16:57:08"
+										time="00:49.767"
+										level="Info"
+										category="Delay">
+										<message>
+											Waiting for 1s.
+										</message>
+										<metainfo
+											itemindex="1"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Menu_Usuario\ComprarMilhas.cs"
+											codeline="62"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="00:50.832"
+										timeRelativeToTestModuleStartTime="00:04.885"
+										timeWallClock="16:57:09"
+										time="00:50.832"
+										level="Info"
+										category="Mouse">
+										<message>
+											Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.MenuUsuario_ComprarMilhas' at 87;14.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'.smiles.com.br']//div[#'p_p_id_smilesloginportlet_WAR_smilesloginportlet_']//ul/li/a[@innertext='Comprar milhas']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.MenuUsuario_ComprarMilhas"
+											id="cfc5e0a264224a2b81bf2090e6884950"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Menu_Usuario\ComprarMilhas.cs"
+											codeline="65"
+											itemindex="2"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="00:52.191"
+										timeRelativeToTestModuleStartTime="00:06.245"
+										timeWallClock="16:57:11"
+										time="00:52.191"
+										level="Info"
+										category="Validation"
+										errimg="images_21_06_20_656aa4e8\21_06_20_656aa4e8_d3fa3d7e_trace.jpg"
+										errthumb="images_21_06_20_656aa4e8\21_06_20_656aa4e8_d3fa3d7e_trace_thumb.jpg">
+										<message>
+											Validating Exists on item 'SmilesOMelhorProgramaDeMilhasS1.Validacao_EscolhaQuantidadeMilhas'.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'.smiles.com.br']//.[@innertext~'deseja comprar']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Validacao_EscolhaQuantidadeMilhas"
+											id="861422c4f1f046bcb27bcb309b6e0a0f"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Menu_Usuario\ComprarMilhas.cs"
+											codeline="69"
+											itemindex="3"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="02:02.082"
+										timeRelativeToTestModuleStartTime="01:16.136"
+										timeWallClock="16:58:21"
+										time="02:02.082"
+										level="Failure"
+										category="Validation"
+										errimg="images_21_06_20_656aa4e8\21_06_20_656aa4e8_e1a85959_trace.jpg"
+										errthumb="images_21_06_20_656aa4e8\21_06_20_656aa4e8_e1a85959_trace_thumb.jpg">
+										<message>
+											Element for item 'Validacao_EscolhaQuantidadeMilhas' does not exist (Failed to find item 'SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Validacao_EscolhaQuantidadeMilhas'. No element found for path '/dom[@pageurl~'.smiles.com.br']//.[@innertext~'deseja comprar']' within 1m.).
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'.smiles.com.br']//.[@innertext~'deseja comprar']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Validacao_EscolhaQuantidadeMilhas"
+											id="861422c4f1f046bcb27bcb309b6e0a0f"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Menu_Usuario\ComprarMilhas.cs"
+											codeline="70"
+											loglvl="Failure"
+											itemindex="3"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="02:02.162"
+										timeRelativeToTestModuleStartTime="01:16.216"
+										timeWallClock="16:58:21"
+										time="02:02.162"
+										level="Error"
+										category="Module"
+										errimg="images_21_06_20_656aa4e8\21_06_20_656aa4e8_3c3b56dd_trace.jpg"
+										errthumb="images_21_06_20_656aa4e8\21_06_20_656aa4e8_3c3b56dd_trace_thumb.jpg">
+										<message>
+											Module execution was aborted because a validation step has failed. Element for item 'Validacao_EscolhaQuantidadeMilhas' does not exist (Failed to find item 'SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Validacao_EscolhaQuantidadeMilhas'. No element found for path '/dom[@pageurl~'.smiles.com.br']//.[@innertext~'deseja comprar']' within 1m.).
+										</message>
+										<metainfo
+											stacktrace="   em Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   em Ranorex.Validate.Exists(RepoItemInfo itemInfo, String message, Options options)
+   em Ranorex.Validate.Exists(RepoItemInfo itemInfo)
+   em POCSmiles.Smiles_Componentes.Menu_Usuario.ComprarMilhas.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Menu_Usuario\ComprarMilhas.cs:linha 70
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Menu_Usuario\ComprarMilhas.cs"
+											codeline="70"
+											type="repoitem"
+											path="/dom[@pageurl~'.smiles.com.br']//.[@innertext~'deseja comprar']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Validacao_EscolhaQuantidadeMilhas"
+											id="861422c4f1f046bcb27bcb309b6e0a0f"
+											timeout="60000"
+											loglvl="Error"
+											itemindex="3"/>
+									</item>
+								</activity>
+							</activity>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

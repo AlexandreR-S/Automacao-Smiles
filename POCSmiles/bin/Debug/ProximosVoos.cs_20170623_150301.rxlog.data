@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="b6672ccc0513420"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="RODRIGUES"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="23/06/2017 15:06:15"
+		timestampiso="2017-06-23T18:06:15"
+		timeoutfactor="1"
+		module="ProximosVoos">
+		<detail>
+			ProximosVoos
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.853"
+			timeRelativeToTestModuleStartTime="00:00.853"
+			timeWallClock="15:06:16"
+			time="00:00.853"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.MeusVoos_ProximosVoos' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//p[@innertext='Próximos voos']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.MeusVoos_ProximosVoos"
+				id="32268fbfc43c4143823a4999022621ad"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Reserva_De_Voo\ProximosVoos.cs"
+				codeline="53"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.351"
+			timeRelativeToTestModuleStartTime="00:05.351"
+			timeWallClock="15:06:21"
+			time="00:05.351"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'SmilesOMelhorProgramaDeMilhasS1.MeusVoos_CancelarVoo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//span[#'pageMyFlightsFutures']//button[@innertext~'Cancelar Voo'][1]"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.MeusVoos_CancelarVoo"
+				id="e69c7fe1fff94b6e953de2b73e5e3120"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Reserva_De_Voo\ProximosVoos.cs"
+				codeline="57"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.381"
+			timeRelativeToTestModuleStartTime="00:06.381"
+			timeWallClock="15:06:22"
+			time="00:06.381"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'MeusVoos_CancelarVoo' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//span[#'pageMyFlightsFutures']//button[@innertext~'Cancelar Voo'][1]"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.MeusVoos_CancelarVoo"
+				id="e69c7fe1fff94b6e953de2b73e5e3120"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Reserva_De_Voo\ProximosVoos.cs"
+				codeline="58"
+				loglvl="Success"
+				itemindex="1"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.503"
+			timeRelativeToTestModuleStartTime="00:06.503"
+			timeWallClock="15:06:22"
+			time="00:06.503"
+			level="Success"
+			category="User">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\Proximos_9e4ebf7f_rxlog.jpg"><img src=".\Proximos_9e4ebf7f_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Reserva_De_Voo\ProximosVoos.cs"
+				codeline="61"
+				loglvl="Success"/>
+		</item>
+	</activity>
+</report>

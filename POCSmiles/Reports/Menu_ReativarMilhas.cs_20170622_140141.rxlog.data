@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="18a6bf3ad85eafaa"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="RODRIGUES"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="22/06/2017 14:01:50"
+		timestampiso="2017-06-22T17:01:50"
+		timeoutfactor="1"
+		module="Menu_ReativarMilhas">
+		<detail>
+			Menu_ReativarMilhas
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.263"
+			timeRelativeToTestModuleStartTime="00:03.264"
+			timeWallClock="14:01:54"
+			time="00:03.263"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.ReativarMilhas_JuntarEUsarMilhas' at 72;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//span[@innertext='Juntar e Usar Milhas ']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.ReativarMilhas_JuntarEUsarMilhas"
+				id="a255fb0864484dd5a9dab7648d250403"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\ReativarMilhas\Menu_ReativarMilhas.cs"
+				codeline="52"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.376"
+			timeRelativeToTestModuleStartTime="00:08.377"
+			timeWallClock="14:01:59"
+			time="00:08.376"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\ReativarMilhas\Menu_ReativarMilhas.cs"
+				codeline="56"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.383"
+			timeRelativeToTestModuleStartTime="00:09.385"
+			timeWallClock="14:02:00"
+			time="00:09.383"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.ReativarMilhas_TelaReativarMilhas' at 143;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//a[@innertext='Reativar Milhas' and @visible='True'][1]"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.ReativarMilhas_TelaReativarMilhas"
+				id="3f38797f457b4014b118d3844774c692"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\ReativarMilhas\Menu_ReativarMilhas.cs"
+				codeline="59"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.341"
+			timeRelativeToTestModuleStartTime="00:15.343"
+			timeWallClock="14:02:06"
+			time="00:15.341"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'SmilesOMelhorProgramaDeMilhasS1.ReativarMilhas_BotaoReativarMilhas'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//button[@innertext='Reativar milhas'][1]"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.ReativarMilhas_BotaoReativarMilhas"
+				id="067556281c374f3490816779a0ddf583"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\ReativarMilhas\Menu_ReativarMilhas.cs"
+				codeline="63"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.667"
+			timeRelativeToTestModuleStartTime="00:25.668"
+			timeWallClock="14:02:16"
+			time="00:25.667"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'ReativarMilhas_BotaoReativarMilhas' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//button[@innertext='Reativar milhas'][1]"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.ReativarMilhas_BotaoReativarMilhas"
+				id="067556281c374f3490816779a0ddf583"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\ReativarMilhas\Menu_ReativarMilhas.cs"
+				codeline="64"
+				loglvl="Success"
+				itemindex="3"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.880"
+			timeRelativeToTestModuleStartTime="00:25.881"
+			timeWallClock="14:02:16"
+			time="00:25.880"
+			level="Success"
+			category="User">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\Menu_Rea_f71ca7c_rxlog.jpg"><img src=".\Menu_Rea_f71ca7c_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\ReativarMilhas\Menu_ReativarMilhas.cs"
+				codeline="67"
+				loglvl="Success"/>
+		</item>
+	</activity>
+</report>

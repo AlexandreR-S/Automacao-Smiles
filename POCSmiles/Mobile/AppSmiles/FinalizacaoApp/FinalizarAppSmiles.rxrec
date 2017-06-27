@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="fa3ffc68-bd27-4d31-8430-8c83c82eb836"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		FinalizarAppSmiles
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="FinalizarAppSmiles"
+	namespace="POCSmiles.Mobile.AppSmiles.FinalizacaoApp"/>
+	<variables/>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		optional="False"
+		searchpropertyid="ee84ea9a-efd6-4e2d-843c-80dc61915498"
+		method="CloseWindow"
+		graceperiod="0ms">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="fab9c381-2fb8-4141-8c91-b21445788b9b">
+				<element
+				role="unknown"
+				prefcap="mobileapp"
+				capabilities="mobileapp, androidapp"
+				flavor="mobile"
+				visible="True"
+				valid="False"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="5"
+				rect="0,0,1080,1920"
+				snapElem="">
+					<attribute
+					name="devicename"
+					type="System.String">
+						A5
+					</attribute>
+					<attribute
+					name="deviceorientation"
+					type="Ranorex.Core.Remoting.DeviceOrientation, Ranorex.Core, Culture=neutral, PublicKeyToken=b798506b574ebc9a">
+						Portrait
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Smiles
+					</attribute>
+					<attribute
+					name="osversion"
+					type="System.String">
+						Android 6.0.1
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						com.pontomobi.smileshmg
+					</attribute>
+					<attribute
+					name="versioncode"
+					type="System.String">
+						10501
+					</attribute>
+					<attribute
+					name="versionname"
+					type="System.String">
+						2.45
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.pontomobi.smileshmg']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	name="SmilesMobileRepository"
+	id="64051c3f-04f9-4e62-8ba8-b823a0419f38"
+	rxversion="6.1"
+	relativepath="..\..\..\SmilesMobileRepository.rxrep">
+		<codegen
+		classname="SmilesMobileRepository"
+		namespace="POCSmiles"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="347c7eda-786d-4277-984c-9b7d9daff825"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		FinalizarAppSmiles.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

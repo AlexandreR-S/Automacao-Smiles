@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="12d2fc5aeaf12c6"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="15/06/2017 18:38:32"
+		timestampiso="2017-06-15T21:38:32"
+		timeoutfactor="1"
+		module="AindaNaoSouCliente">
+		<detail>
+			AindaNaoSouCliente
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.978"
+			timeRelativeToTestModuleStartTime="00:00.978"
+			timeWallClock="18:38:33"
+			time="00:00.978"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.Atendimento_AindaNaoSouCliente' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//u[@innertext='Ainda não sou cliente :(']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Atendimento_AindaNaoSouCliente"
+				id="888fbc764d7e4264a9dfdeb0adad6d31"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\AtendimentoOnline\AindaNaoSouCliente.cs"
+				codeline="52"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.403"
+			timeRelativeToTestModuleStartTime="00:15.403"
+			timeWallClock="18:38:48"
+			time="00:15.403"
+			level="Success"
+			category="User">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\AindaNao_f602f505_rxlog.jpg"><img src=".\AindaNao_f602f505_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\AtendimentoOnline\AindaNaoSouCliente.cs"
+				codeline="56"
+				loglvl="Success"/>
+		</item>
+	</activity>
+</report>

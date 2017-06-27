@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3d9b4b87816c5fa"
+		totalerrorcount="2"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="12/06/2017 17:53:31"
+		timestampiso="2017-06-12T20:53:31"
+		timeoutfactor="1"
+		module="SolicitarMilhas">
+		<detail>
+			SolicitarMilhas
+		</detail>
+		<errmsg>
+			SolicitarMilhas.SetCalendarDate
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.117"
+			timeRelativeToTestModuleStartTime="00:01.119"
+			timeWallClock="17:53:33"
+			time="00:01.117"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>NumeroVoo, LocalizadorVoo, DataVoo, CabineViagem, ClasseReserva, NomePassageiro, SobrenomePassageiro, AeroportoOrigem, AeroportoDestino, BilheteEletronico, AnexarBilheteEletronico, AnexarCartaoEmbarque, CompanhiaAerea, URL
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.468"
+			timeRelativeToTestModuleStartTime="00:01.470"
+			timeWallClock="17:53:33"
+			time="00:01.468"
+			level="Info"
+			category="User">
+			<message>
+				Selecting item 'Delta'
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="279"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.504"
+			timeRelativeToTestModuleStartTime="00:04.506"
+			timeWallClock="17:53:36"
+			time="00:04.504"
+			level="Info"
+			category="User">
+			<message>
+				Item 'Delta' selected
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="281"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.644"
+			timeRelativeToTestModuleStartTime="00:04.646"
+			timeWallClock="17:53:36"
+			time="00:04.644"
+			level="Info"
+			category="User"
+			errimg=".\Solicita_ebde99e_c60b469f_trace.jpg"
+			errthumb=".\Solicita_ebde99e_c60b469f_trace_thumb.jpg">
+			<message>
+				Selectiong date on calendar with date: 26/05/2017
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="548"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.132"
+			timeRelativeToTestModuleStartTime="00:23.134"
+			timeWallClock="17:53:55"
+			time="00:23.132"
+			level="Error"
+			category="User"
+			errimg=".\Solicita_ebde99e_a9fe50fa_trace.jpg"
+			errthumb=".\Solicita_ebde99e_a9fe50fa_trace_thumb.jpg">
+			<message>
+				SolicitarMilhas - Error launched trying to select date 26/05/2017
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="556"
+				loglvl="Error"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.158"
+			timeRelativeToTestModuleStartTime="00:23.160"
+			timeWallClock="17:53:55"
+			time="00:23.158"
+			level="Error"
+			category="Module"
+			errimg=".\Solicita_ebde99e_a9fe50fa_trace.jpg"
+			errthumb=".\Solicita_ebde99e_a9fe50fa_trace_thumb.jpg">
+			<message>
+				SolicitarMilhas.SetCalendarDate
+			</message>
+			<metainfo
+				stacktrace="   em POCSmiles.Program.SetCalendarDate2(String calendarIcon, String date) na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs:linha 557
+   em POCSmiles.Smiles_Componentes.SolicitarMilhas.SolicitarMilhas.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\SolicitarMilhas\SolicitarMilhas.cs:linha 240
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="557"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="259104f072333ba0"
+		totalerrorcount="2"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="RODRIGUES"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="22/06/2017 15:41:55"
+		timestampiso="2017-06-22T18:41:55"
+		timeoutfactor="1"
+		module="PagamentoSemTecladoVirtual">
+		<detail>
+			PagamentoSemTecladoVirtual
+		</detail>
+		<errmsg>
+			CadastrarUsuario.SeletItemListBox
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.757"
+			timeRelativeToTestModuleStartTime="00:00.757"
+			timeWallClock="15:41:56"
+			time="00:00.757"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>NumeroCartao, NomeTitular, MesVencimento, AnoVencimento, CodigoSeguranca, Parcelas
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.998"
+			timeRelativeToTestModuleStartTime="00:27.998"
+			timeWallClock="15:42:23"
+			time="00:27.998"
+			level="Info"
+			category="User"
+			errimg=".\Pagament_a7885d7_6d8cf4a5_trace.jpg"
+			errthumb=".\Pagament_a7885d7_6d8cf4a5_trace_thumb.jpg">
+			<message>
+				Selecting item '2019'
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="261"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.304"
+			timeRelativeToTestModuleStartTime="00:36.304"
+			timeWallClock="15:42:31"
+			time="00:36.304"
+			level="Error"
+			category="User"
+			errimg=".\Pagament_a7885d7_b1e5b5df_trace.jpg"
+			errthumb=".\Pagament_a7885d7_b1e5b5df_trace_thumb.jpg">
+			<message>
+				- Error launched trying to select item '2019' on element '//.[@id='cardDataYearDiv']/div/div/'
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="266"
+				loglvl="Error"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.320"
+			timeRelativeToTestModuleStartTime="00:36.320"
+			timeWallClock="15:42:31"
+			time="00:36.320"
+			level="Error"
+			category="Module"
+			errimg=".\Pagament_a7885d7_b1e5b5df_trace.jpg"
+			errthumb=".\Pagament_a7885d7_b1e5b5df_trace_thumb.jpg">
+			<message>
+				CadastrarUsuario.SeletItemListBox
+			</message>
+			<metainfo
+				stacktrace="   em POCSmiles.Program.SelectItemListBox(String selectTagElement, String itemName) na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs:linha 267
+   em POCSmiles.Smiles_Componentes.Comprar.PagamentoSemTecladoVirtual.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Comprar\PagamentoSemTecladoVirtual.cs:linha 101
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="267"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

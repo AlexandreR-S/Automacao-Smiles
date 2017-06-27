@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dictionary>
+  <item>
+    <key>
+      <string>DeploymentPadConfig</string>
+    </key>
+    <value>
+      <string>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;string&gt;{"ConfiguredAgents":[{"Location":"http://leticia:8081/api/","Name":"Leticia","DisplayName":"AgentLe"},{"Location":"http://cibele:8081/api/","Name":"cibele","DisplayName":"Gian (PC Cibele)"},{"Location":"http://chazan:8081/api/","Name":"CHAZAN","DisplayName":"Chazan"}],"DiscoveryTimeout":"00:00:10","ApiPort":8081,"MessengerPort":29189,"DiscoveryPort":10000,"BaseAddress":"api/","UserIdFormat":"UserName"}&lt;/string&gt;</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>SpyForm[SpyForm]</string>
+    </key>
+    <value>
+      <string>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;string&gt;{"map":{"panelTreeProps":{"SplitContainer":[{"Key":"SplitterDistance","Value":453}]},"panelTreeAndPluginControls":{"SplitContainer":[{"Key":"SplitterDistance","Value":326}]},"splitContainerTabSc":{"SplitContainer":[{"Key":"SplitterDistance","Value":200}]},"tabsElement":{"TabControl":[{"Key":"SelectedIndex","Value":0}]},"splitContainer":{"SplitContainer":[{"Key":"SplitterDistance","Value":616}]},"tabControlRepo":{"TabControl":[{"Key":"SelectedIndex","Value":1}]}}}&lt;/string&gt;</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>NewRecordingModelData</string>
+    </key>
+    <value>
+      <string>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ModelData&gt;
+  &lt;Applications /&gt;
+  &lt;Urls /&gt;
+&lt;/ModelData&gt;</string>
+    </value>
+  </item>
+</dictionary>

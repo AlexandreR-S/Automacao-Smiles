@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2bfa878d4817709e"
+		totalerrorcount="2"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="02/06/2017 11:45:58"
+		timestampiso="2017-06-02T14:45:58"
+		timeoutfactor="1"
+		module="RP_EsqueciMinhaSenha">
+		<detail>
+			RP_EsqueciMinhaSenha
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.880"
+			timeRelativeToTestModuleStartTime="00:00.880"
+			timeWallClock="11:45:59"
+			time="00:00.880"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>CPF, URL
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.003"
+			timeRelativeToTestModuleStartTime="00:01.003"
+			timeWallClock="11:45:59"
+			time="00:01.003"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'SmilesOMelhorProgramaDeMilhasS1.Esqueci_EnviarEmail'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'3.smiles.com.br'][1]//button[@id='btnSubmitSendEmail' and @visible='True']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Esqueci_EnviarEmail"
+				id="bc08105aa10f41868ead3d50a1f6f167"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Resultado_Esperado\RP_EsqueciMinhaSenha.cs"
+				codeline="106"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.977"
+			timeRelativeToTestModuleStartTime="00:05.977"
+			timeWallClock="11:46:04"
+			time="00:05.977"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Esqueci_EnviarEmail' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'3.smiles.com.br'][1]//button[@id='btnSubmitSendEmail' and @visible='True']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Esqueci_EnviarEmail"
+				id="bc08105aa10f41868ead3d50a1f6f167"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Resultado_Esperado\RP_EsqueciMinhaSenha.cs"
+				codeline="107"
+				loglvl="Success"
+				itemindex="0"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.296"
+			timeRelativeToTestModuleStartTime="00:06.296"
+			timeWallClock="11:46:04"
+			time="00:06.296"
+			level="Info"
+			category="User">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\RP_Esque_37386d67_rxlog.jpg"><img src=".\RP_Esque_37386d67_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Resultado_Esperado\RP_EsqueciMinhaSenha.cs"
+				codeline="110"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.299"
+			timeRelativeToTestModuleStartTime="00:06.299"
+			timeWallClock="11:46:04"
+			time="00:06.299"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.Esqueci_EnviarEmail' at 125;34.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'3.smiles.com.br'][1]//button[@id='btnSubmitSendEmail' and @visible='True']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Esqueci_EnviarEmail"
+				id="bc08105aa10f41868ead3d50a1f6f167"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Resultado_Esperado\RP_EsqueciMinhaSenha.cs"
+				codeline="112"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.068"
+			timeRelativeToTestModuleStartTime="00:09.068"
+			timeWallClock="11:46:07"
+			time="00:09.068"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'SmilesOMelhorProgramaDeMilhasS1.Validacao_NovaSenhaFoiEnviadaPara'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'3.smiles.com.br'][1]//div[#'formContentEmailSent']/?/?/p[@innertext~'^Nova\ senha\ foi\ enviada\ pa' and @visible='True']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Validacao_NovaSenhaFoiEnviadaPara"
+				id="25440b38304b4e9eac3e68448db59633"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Resultado_Esperado\RP_EsqueciMinhaSenha.cs"
+				codeline="116"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.276"
+			timeRelativeToTestModuleStartTime="00:14.276"
+			timeWallClock="11:46:12"
+			time="00:14.276"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Validacao_NovaSenhaFoiEnviadaPara' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'3.smiles.com.br'][1]//div[#'formContentEmailSent']/?/?/p[@innertext~'^Nova\ senha\ foi\ enviada\ pa' and @visible='True']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Validacao_NovaSenhaFoiEnviadaPara"
+				id="25440b38304b4e9eac3e68448db59633"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Resultado_Esperado\RP_EsqueciMinhaSenha.cs"
+				codeline="117"
+				loglvl="Success"
+				itemindex="3"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.459"
+			timeRelativeToTestModuleStartTime="00:14.459"
+			timeWallClock="11:46:12"
+			time="00:14.459"
+			level="Info"
+			category="User">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\RP_Esque_37386d68_rxlog.jpg"><img src=".\RP_Esque_37386d68_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Resultado_Esperado\RP_EsqueciMinhaSenha.cs"
+				codeline="120"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.484"
+			timeRelativeToTestModuleStartTime="00:14.484"
+			timeWallClock="11:46:12"
+			time="00:14.484"
+			level="Info"
+			category="User">
+			<message>
+				Updating data base
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Resultado_Esperado\RP_EsqueciMinhaSenha.UserCode.cs"
+				codeline="40"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.129"
+			timeRelativeToTestModuleStartTime="00:15.129"
+			timeWallClock="11:46:13"
+			time="00:15.129"
+			level="Error"
+			category="User"
+			errimg=".\RP_Esque_20063aff_19bba0fc_trace.jpg"
+			errthumb=".\RP_Esque_20063aff_19bba0fc_trace_thumb.jpg">
+			<message>
+				Database connection  exception- Error databa connecting
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Base_Dados\UtilsDB.cs"
+				codeline="54"
+				loglvl="Error"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.204"
+			timeRelativeToTestModuleStartTime="00:15.204"
+			timeWallClock="11:46:13"
+			time="00:15.204"
+			level="Failure"
+			category="User"
+			errimg=".\RP_Esque_20063aff_ca9d976b_trace.jpg"
+			errthumb=".\RP_Esque_20063aff_ca9d976b_trace_thumb.jpg">
+			<message>
+				Error trying to update data base
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Resultado_Esperado\RP_EsqueciMinhaSenha.UserCode.cs"
+				codeline="43"
+				loglvl="Failure"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.224"
+			timeRelativeToTestModuleStartTime="00:15.224"
+			timeWallClock="11:46:13"
+			time="00:15.224"
+			level="Error"
+			category="Module"
+			errimg=".\RP_Esque_20063aff_ca9d976b_trace.jpg"
+			errthumb=".\RP_Esque_20063aff_ca9d976b_trace_thumb.jpg">
+			<message>
+				The module has failed because one or more actions have failed.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

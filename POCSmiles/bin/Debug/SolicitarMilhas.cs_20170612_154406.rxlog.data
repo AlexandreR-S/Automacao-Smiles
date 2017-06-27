@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="652df43056bd473"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="12/06/2017 15:44:15"
+		timestampiso="2017-06-12T18:44:15"
+		timeoutfactor="1"
+		module="SolicitarMilhas">
+		<detail>
+			SolicitarMilhas
+		</detail>
+		<errmsg>
+			Unmatched escape character '{' found at '{DOWN'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.655"
+			timeRelativeToTestModuleStartTime="00:00.656"
+			timeWallClock="15:44:16"
+			time="00:00.655"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>NumeroVoo, LocalizadorVoo, DataVoo, CabineViagem, ClasseReserva, NomePassageiro, SobrenomePassageiro, AeroportoOrigem, AeroportoDestino, BilheteEletronico, AnexarBilheteEletronico, AnexarCartaoEmbarque, CompanhiaAerea, URL
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:40.790"
+			timeRelativeToTestModuleStartTime="00:40.791"
+			timeWallClock="15:44:56"
+			time="00:40.790"
+			level="Info"
+			category="User">
+			<message>
+				Selecting item 'Delta'
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="272"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:43.055"
+			timeRelativeToTestModuleStartTime="00:43.056"
+			timeWallClock="15:44:59"
+			time="00:43.055"
+			level="Info"
+			category="User">
+			<message>
+				Item 'Delta' selected
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="274"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:45.510"
+			timeRelativeToTestModuleStartTime="00:45.511"
+			timeWallClock="15:45:01"
+			time="00:45.510"
+			level="Info"
+			category="User">
+			<message>
+				Selectiong date on calendar with date: 26/05/2017
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="541"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:53.275"
+			timeRelativeToTestModuleStartTime="00:53.276"
+			timeWallClock="15:45:09"
+			time="00:53.275"
+			level="Success"
+			category="Validation">
+			<message>
+				/dom[@pageurl~'uat3.smiles.com.br']//div[#'ui-datepicker-div']/div[1]/div//.[@innertext~'Maio']
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs"
+				codeline="157"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:54.891"
+			timeRelativeToTestModuleStartTime="00:54.892"
+			timeWallClock="15:45:10"
+			time="00:54.891"
+			level="Info"
+			category="User">
+			<message>
+				Date: 26/05/2017 selected
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="547"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="05:24.334"
+			timeRelativeToTestModuleStartTime="05:24.335"
+			timeWallClock="15:49:40"
+			time="05:24.334"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'uat3.smiles.com.br']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Self"
+				id="e521a4ca40a440339dff7636708858c3"
+				timeout="30000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\SolicitarMilhas\SolicitarMilhas.cs"
+				codeline="243"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="05:39.852"
+			timeRelativeToTestModuleStartTime="05:39.853"
+			timeWallClock="15:49:55"
+			time="05:39.852"
+			level="None"
+			category="Validation">
+			<message>
+				/dom[@pageurl~'uat3.smiles.com.br']//input[@name='_smilescreditrequestportlet_WAR_smilesmemberportlet_flightNumber' and @visible='True']
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs"
+				codeline="181"
+				loglvl="None"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="05:42.177"
+			timeRelativeToTestModuleStartTime="05:42.178"
+			timeWallClock="15:49:58"
+			time="05:42.177"
+			level="None"
+			category="Validation">
+			<message>
+				/dom[@pageurl~'uat3.smiles.com.br']//input[@name~'_smilescreditrequestportlet_WAR_smilesmemberportlet_trackingNumber' and @visible='True']
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs"
+				codeline="181"
+				loglvl="None"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="05:44.300"
+			timeRelativeToTestModuleStartTime="05:44.301"
+			timeWallClock="15:50:00"
+			time="05:44.300"
+			level="None"
+			category="Validation"
+			errimg=".\Solicita_6cbf5e3b_84986a9b_trace.jpg"
+			errthumb=".\Solicita_6cbf5e3b_84986a9b_trace_thumb.jpg">
+			<message>
+				/dom[@pageurl~'uat3.smiles.com.br']//input[@name='_smilescreditrequestportlet_WAR_smilesmemberportlet_flightNumber' and @visible='True']
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs"
+				codeline="181"
+				loglvl="None"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="05:46.393"
+			timeRelativeToTestModuleStartTime="05:46.394"
+			timeWallClock="15:50:02"
+			time="05:46.393"
+			level="None"
+			category="Validation"
+			errimg=".\Solicita_6cbf5e3b_54f7de8f_trace.jpg"
+			errthumb=".\Solicita_6cbf5e3b_54f7de8f_trace_thumb.jpg">
+			<message>
+				/dom[@pageurl~'uat3.smiles.com.br']//input[@name~'_smilescreditrequestportlet_WAR_smilesmemberportlet_trackingNumberG31' and @visible='True']
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs"
+				codeline="181"
+				loglvl="None"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="05:46.491"
+			timeRelativeToTestModuleStartTime="05:46.492"
+			timeWallClock="15:50:02"
+			time="05:46.491"
+			level="Error"
+			category="Module"
+			errimg=".\Solicita_6cbf5e3b_54f7de8f_trace.jpg"
+			errthumb=".\Solicita_6cbf5e3b_54f7de8f_trace_thumb.jpg">
+			<message>
+				Unmatched escape character '{' found at '{DOWN'.
+			</message>
+			<metainfo
+				stacktrace="   em Ranorex.Keyboard.HandleEscapeGroup(String characters, Int32&amp; index)&#13;&#10;   em Ranorex.Keyboard.Parse(String sequence)&#13;&#10;   em Ranorex.Keyboard.Press(String sequence)&#13;&#10;   em POCSmiles.Program.CheckVisible() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs:linha 571&#13;&#10;   em POCSmiles.Smiles_Componentes.SolicitarMilhas.SolicitarMilhas.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\SolicitarMilhas\SolicitarMilhas.cs:linha 247&#13;&#10;   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="571"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

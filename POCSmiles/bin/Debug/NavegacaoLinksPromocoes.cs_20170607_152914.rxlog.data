@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="InProgress">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="11c4e1f8a4cb525"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="07/06/2017 15:29:32"
+		timestampiso="2017-06-07T18:29:32"
+		timeoutfactor="1"
+		module="NavegacaoLinksPromocoes">
+		<detail>
+			NavegacaoLinksPromocoes
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.922"
+			timeRelativeToTestModuleStartTime="00:01.922"
+			timeWallClock="15:29:34"
+			time="00:01.922"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Links
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+	</activity>
+</report>

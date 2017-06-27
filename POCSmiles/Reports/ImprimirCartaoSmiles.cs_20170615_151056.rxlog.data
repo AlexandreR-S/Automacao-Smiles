@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="a633c33cd8e16d8"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="15/06/2017 15:11:58"
+		timestampiso="2017-06-15T18:11:58"
+		timeoutfactor="1"
+		module="ImprimirCartaoSmiles">
+		<detail>
+			ImprimirCartaoSmiles
+		</detail>
+		<errmsg>
+			Failed to find item 'SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.MinhaConta_BotaoImprimirCartao'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.105"
+			timeRelativeToTestModuleStartTime="00:01.107"
+			timeWallClock="15:11:59"
+			time="00:01.105"
+			level="Info"
+			category="Mouse"
+			errimg=".\Imprimir_6041ca08_f8f060f1_trace.jpg"
+			errthumb=".\Imprimir_6041ca08_f8f060f1_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.MinhaConta_BotaoImprimirCartao' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//.[#'printMyCardButton']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.MinhaConta_BotaoImprimirCartao"
+				id="355d51ab96f24d58b6bf61aee1d272e1"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\ImprimirCartao\ImprimirCartaoSmiles.cs"
+				codeline="52"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:09.473"
+			timeRelativeToTestModuleStartTime="01:09.475"
+			timeWallClock="15:13:08"
+			time="01:09.473"
+			level="Error"
+			category="Module"
+			errimg=".\Imprimir_6041ca08_5841e5f7_trace.jpg"
+			errthumb=".\Imprimir_6041ca08_5841e5f7_trace_thumb.jpg">
+			<message>
+				Failed to find item 'SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.MinhaConta_BotaoImprimirCartao'.<br/>No element found for path '/dom[@pageurl~'.smiles.com.br']//.[#'printMyCardButton']' within 1m.
+			</message>
+			<metainfo
+				stacktrace="   em Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   em Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   em Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   em POCSmiles.SmilesRepositoryFolders.SmilesOMelhorProgramaDeMilhasS1AppFolder.get_MinhaConta_BotaoImprimirCartao() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\SmilesRepository.cs:linha 7925
+   em POCSmiles.Smiles_Componentes.ImprimirCartao.ImprimirCartaoSmiles.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\ImprimirCartao\ImprimirCartaoSmiles.cs:linha 53
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\ImprimirCartao\ImprimirCartaoSmiles.cs"
+				codeline="53"
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//.[#'printMyCardButton']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.MinhaConta_BotaoImprimirCartao"
+				id="355d51ab96f24d58b6bf61aee1d272e1"
+				timeout="60000"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,526 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="2.2m"
+		durationms="130672"
+		type="root"
+		rid="2e7b580207bc141"
+		totalerrorcount="2"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="2"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="06/06/2017 11:53:46"
+		timestampiso="2017-06-06T14:53:46"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="2m"
+			durationms="121900"
+			type="test suite"
+			rid="11cc4c9c8fe72657"
+			totalerrorcount="2"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="2"
+			totalblockedcount="0"
+			testsuitename="Smiles"
+			runconfigname="Regressivo"
+			runlabel=""
+			maxchildren="1">
+			<params>
+				<param
+					name="PMR_URL">
+					C:\Automacao - Smiles\lib\PNR\PNR_Smiles.xlsx
+				</param>
+				<param
+					name="Cadastro_CadastroUsuarios">
+					C:\Automacao - Smiles\lib\PNR\Cadastro_Usuarios.xlsx
+				</param>
+				<param
+					name="Database_Location">
+					C:\Automacao - Smiles\lib\PNR\SmilesDB.accdb
+				</param>
+				<param
+					name="MAX_COMPRA_MILHAS">
+					40000
+				</param>
+				<param
+					name="MIN_MILHAS">
+					60000
+				</param>
+				<param
+					name="MAX_RESERVAS_ISENTO">
+					5
+				</param>
+				<param
+					name="MAX_VALOR_REEMBOLSO">
+					150
+				</param>
+				<param
+					name="AMBIENTE_TESTE">
+				</param>
+				<param
+					name="BROWSER">
+				</param>
+				<param
+					name="AGENDAR">
+				</param>
+				<param
+					name="JIRA_USERNAME">
+					admin
+				</param>
+				<param
+					name="JIRA_PASSWORD">
+					admin
+				</param>
+				<param
+					name="JIRA_SERVERURL">
+					http://localhost:8080/
+				</param>
+				<param
+					name="MIN_DATE_RANGE">
+					30
+				</param>
+				<param
+					name="MAX_DATE_RANGE">
+					45
+				</param>
+				<param
+					name="INCOGNITION_MODE">
+					FALSE
+				</param>
+			</params>
+			<detail>
+				Su&#237;te de teste que contempla os fluxos do portal Smiles
+			</detail>
+			<activity
+				result="Failed"
+				duration="2m"
+				durationms="121841"
+				type="folder"
+				rid="8194c1e8e3ec050"
+				totalerrorcount="2"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="2"
+				totalblockedcount="0"
+				foldername="Atomic">
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="2m"
+					durationms="121841"
+					type="folder"
+					rid="1efa6aba4a797307"
+					totalerrorcount="2"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="2"
+					totalblockedcount="0"
+					foldername="D_HOMOLOGACAO1">
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="2m"
+						durationms="121841"
+						type="folder"
+						rid="286444f0070a6ae"
+						totalerrorcount="2"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="2"
+						totalblockedcount="0"
+						foldername="DH_POSITIVO1">
+						<detail>
+						</detail>
+						<activity
+							result="Failed"
+							duration="2m"
+							durationms="119836"
+							type="test case"
+							rid="2f8417aff3bf77d0"
+							totalerrorcount="2"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="2"
+							totalblockedcount="0"
+							testcasename="DHP_Navegacao_Links_Promocoes1"
+							testcaseid="700b693d-7580-4643-8610-4f29051fe224"
+							datasource="S_Smiles_NavegacaoLinksPromocoes"
+							iterationcount="3"
+							maxchildren="0">
+							<params/>
+							<detail>
+								&lt;P&gt;Teste com objetivo de acionar links de promo&#231;&#245;es&lt;/P&gt;
+							</detail>
+							<activity
+								result="Failed"
+								duration="1.8m"
+								durationms="107610"
+								type="test case iteration"
+								rid="119ffffad7710880"
+								totalerrorcount="1"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								testcasename="DHP_Navegacao_Links_Promocoes1"
+								iteration="1">
+								<datarow>
+									<field
+										name="Browser">
+										Chrome
+									</field>
+									<field
+										name="URL">
+										portal-uat.smiles.com.br
+									</field>
+									<field
+										name="Links">
+										&#32;
+									</field>
+									<field
+										name="IdentificacaoCaso">
+										Homologa&#231;&#227;o - Links de promo&#231;&#245;es (header)
+									</field>
+								</datarow>
+								<detail>
+								</detail>
+								<activity
+									result="Success"
+									duration="790ms"
+									durationms="790"
+									type="test module"
+									rid="33f71e2b7ae938e"
+									totalerrorcount="0"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="IniciarDesktop"
+									moduleid="50e42e85-06f5-4206-9cb7-80b8e8db2d4a"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<varbindings/>
+								</activity>
+								<activity
+									result="Success"
+									duration="29.26s"
+									durationms="29264"
+									type="test module"
+									rid="2af18c6b316b3670"
+									totalerrorcount="0"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="NavegacaoLinksPromocoes"
+									moduleid="f40af05a-2ca9-4a7f-abf4-93458fd26cb5"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<varbindings/>
+									<item
+										timeRelativeToTestSuiteStartTime="00:11.870"
+										timeRelativeToTestModuleStartTime="00:00.113"
+										timeWallClock="11:53:57"
+										time="00:11.870"
+										level="Info"
+										category="Mouse">
+										<message>
+											Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.Promocoes_LinkPromocoes' at 41;8.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//ul//span[@innertext='Promoções']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Promocoes_LinkPromocoes"
+											id="9e14884f273f41e580c768e7768365e8"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Links\NavegacaoLinksPromocoes.cs"
+											codeline="54"
+											itemindex="0"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="00:17.982"
+										timeRelativeToTestModuleStartTime="00:06.225"
+										timeWallClock="11:54:04"
+										time="00:17.982"
+										level="Info"
+										category="Mouse">
+										<message>
+											Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.Navegacao_ProgramaSmiles' at Center.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//p[@innertext~'.*(?i)'+''+'(?-i).*' and @visible='true'][1]"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Navegacao_ProgramaSmiles"
+											id="5d8c5d85e91244eaa85bf988e1b933fb"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Links\NavegacaoLinksPromocoes.cs"
+											codeline="58"
+											itemindex="1"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="00:41.018"
+										timeRelativeToTestModuleStartTime="00:29.261"
+										timeWallClock="11:54:27"
+										time="00:41.018"
+										level="Success"
+										category="User">
+										<message>
+											<a class="thickbox" style="padding-right:8px" rel="module" href="images_06_06_20_89ebe5a2\06_06_20_69412211_rxlog.jpg"><img src="images_06_06_20_89ebe5a2\06_06_20_69412211_rxlog_thumb.jpg" alt="Screenshot"/></a>
+										</message>
+										<metainfo
+											itemindex="2"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Links\NavegacaoLinksPromocoes.cs"
+											codeline="62"
+											loglvl="Success"/>
+									</item>
+								</activity>
+								<activity
+									result="Failed"
+									duration="1.3m"
+									durationms="77453"
+									type="test module"
+									rid="112c6f5d9ff9d685"
+									totalerrorcount="1"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="RP_NavegacaoLinksPromocoes"
+									moduleid="4e120dfa-7113-46c3-a086-6252b0135919"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<errmsg>
+										Element for item 'Validacao_LeiaOsTermosECondicoesNaIntegra' does not exist (Failed to find item 'SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Validacao_LeiaOsTermosECondicoesNaIntegra'. No element found for path '/dom[@pageurl~'uat3.smiles.com.br']//.[@innertext~'(?i)termos\ e\ condi&#231;&#245;e(?-i)'][1]' within 1m.).
+									</errmsg>
+									<varbindings/>
+									<item
+										timeRelativeToTestSuiteStartTime="00:41.054"
+										timeRelativeToTestModuleStartTime="00:00.029"
+										timeWallClock="11:54:27"
+										time="00:41.054"
+										level="Info"
+										category="Validation"
+										errimg="images_06_06_20_89ebe5a2\06_06_20_89ebe5a2_50f01fe9_trace.jpg"
+										errthumb="images_06_06_20_89ebe5a2\06_06_20_89ebe5a2_50f01fe9_trace_thumb.jpg">
+										<message>
+											Validating Exists on item 'SmilesOMelhorProgramaDeMilhasS1.Validacao_LeiaOsTermosECondicoesNaIntegra'.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//.[@innertext~'(?i)termos\ e\ condiçõe(?-i)'][1]"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Validacao_LeiaOsTermosECondicoesNaIntegra"
+											id="6a1f86d91c144f2e91d7bd427c31dd02"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Resultado_Esperado\RP_NavegacaoLinksPromocoes.cs"
+											codeline="54"
+											itemindex="0"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="01:58.137"
+										timeRelativeToTestModuleStartTime="01:17.112"
+										timeWallClock="11:55:44"
+										time="01:58.137"
+										level="Failure"
+										category="Validation"
+										errimg="images_06_06_20_89ebe5a2\06_06_20_89ebe5a2_6a3b93c2_trace.jpg"
+										errthumb="images_06_06_20_89ebe5a2\06_06_20_89ebe5a2_6a3b93c2_trace_thumb.jpg">
+										<message>
+											Element for item 'Validacao_LeiaOsTermosECondicoesNaIntegra' does not exist (Failed to find item 'SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Validacao_LeiaOsTermosECondicoesNaIntegra'. No element found for path '/dom[@pageurl~'uat3.smiles.com.br']//.[@innertext~'(?i)termos\ e\ condi&#231;&#245;e(?-i)'][1]' within 1m.).
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//.[@innertext~'(?i)termos\ e\ condiçõe(?-i)'][1]"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Validacao_LeiaOsTermosECondicoesNaIntegra"
+											id="6a1f86d91c144f2e91d7bd427c31dd02"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Resultado_Esperado\RP_NavegacaoLinksPromocoes.cs"
+											codeline="55"
+											loglvl="Failure"
+											itemindex="0"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="01:58.201"
+										timeRelativeToTestModuleStartTime="01:17.176"
+										timeWallClock="11:55:44"
+										time="01:58.201"
+										level="Error"
+										category="Module"
+										errimg="images_06_06_20_89ebe5a2\06_06_20_89ebe5a2_b2a892b4_trace.jpg"
+										errthumb="images_06_06_20_89ebe5a2\06_06_20_89ebe5a2_b2a892b4_trace_thumb.jpg">
+										<message>
+											Module execution was aborted because a validation step has failed. Element for item 'Validacao_LeiaOsTermosECondicoesNaIntegra' does not exist (Failed to find item 'SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Validacao_LeiaOsTermosECondicoesNaIntegra'. No element found for path '/dom[@pageurl~'uat3.smiles.com.br']//.[@innertext~'(?i)termos\ e\ condi&#231;&#245;e(?-i)'][1]' within 1m.).
+										</message>
+										<metainfo
+											stacktrace="   em Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   em Ranorex.Validate.Exists(RepoItemInfo itemInfo, String message, Options options)
+   em Ranorex.Validate.Exists(RepoItemInfo itemInfo)
+   em POCSmiles.Smiles_Componentes.Resultado_Esperado.RP_NavegacaoLinksPromocoes.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Resultado_Esperado\RP_NavegacaoLinksPromocoes.cs:linha 55
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Resultado_Esperado\RP_NavegacaoLinksPromocoes.cs"
+											codeline="55"
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//.[@innertext~'(?i)termos\ e\ condiçõe(?-i)'][1]"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Validacao_LeiaOsTermosECondicoesNaIntegra"
+											id="6a1f86d91c144f2e91d7bd427c31dd02"
+											timeout="60000"
+											loglvl="Error"
+											itemindex="0"/>
+									</item>
+								</activity>
+							</activity>
+							<activity
+								result="Failed"
+								duration="12.19s"
+								durationms="12190"
+								type="test case iteration"
+								rid="1a288e41f370c3e7"
+								totalerrorcount="1"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								testcasename="DHP_Navegacao_Links_Promocoes1"
+								iteration="2">
+								<datarow>
+									<field
+										name="Browser">
+										IE
+									</field>
+									<field
+										name="URL">
+										portal-uat.smiles.com.br
+									</field>
+									<field
+										name="Links">
+										&#32;
+									</field>
+									<field
+										name="IdentificacaoCaso">
+										Homologa&#231;&#227;o - Links de promo&#231;&#245;es (header)
+									</field>
+								</datarow>
+								<detail>
+								</detail>
+								<activity
+									result="Success"
+									duration="37ms"
+									durationms="37"
+									type="test module"
+									rid="1c6b2e2daa863a94"
+									totalerrorcount="0"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="IniciarDesktop"
+									moduleid="50e42e85-06f5-4206-9cb7-80b8e8db2d4a"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<varbindings/>
+								</activity>
+								<activity
+									result="Failed"
+									duration="12.15s"
+									durationms="12151"
+									type="test module"
+									rid="35502959e419000"
+									totalerrorcount="1"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="NavegacaoLinksPromocoes"
+									moduleid="f40af05a-2ca9-4a7f-abf4-93458fd26cb5"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<varbindings/>
+									<item
+										timeRelativeToTestSuiteStartTime="01:58.520"
+										timeRelativeToTestModuleStartTime="00:00.000"
+										timeWallClock="11:55:44"
+										time="01:58.520"
+										level="Info"
+										category="Mouse">
+										<message>
+											Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.Promocoes_LinkPromocoes' at 41;8.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//ul//span[@innertext='Promoções']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Promocoes_LinkPromocoes"
+											id="9e14884f273f41e580c768e7768365e8"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Links\NavegacaoLinksPromocoes.cs"
+											codeline="54"
+											itemindex="0"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="02:03.668"
+										timeRelativeToTestModuleStartTime="00:05.147"
+										timeWallClock="11:55:49"
+										time="02:03.668"
+										level="Info"
+										category="Mouse">
+										<message>
+											Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.Navegacao_ProgramaSmiles' at Center.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//p[@innertext~'.*(?i)'+''+'(?-i).*' and @visible='true'][1]"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Navegacao_ProgramaSmiles"
+											id="5d8c5d85e91244eaa85bf988e1b933fb"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Links\NavegacaoLinksPromocoes.cs"
+											codeline="58"
+											itemindex="1"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="02:10.672"
+										timeRelativeToTestModuleStartTime="00:12.151"
+										timeWallClock="11:55:56"
+										time="02:10.672"
+										level="Error"
+										category="Module">
+										<message>
+											The test run has been aborted by the user.
+										</message>
+										<metainfo
+											loglvl="Error"/>
+									</item>
+								</activity>
+							</activity>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

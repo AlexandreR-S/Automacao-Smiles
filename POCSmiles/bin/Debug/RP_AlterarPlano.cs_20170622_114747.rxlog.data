@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="87c3e28c3a5480"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="RODRIGUES"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="22/06/2017 11:48:04"
+		timestampiso="2017-06-22T14:48:04"
+		timeoutfactor="1"
+		module="RP_AlterarPlano">
+		<detail>
+			RP_AlterarPlano
+		</detail>
+		<errmsg>
+			Element for item 'Validacao_AlterarPlano' does not exist (Failed to find item 'SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Validacao_AlterarPlano'. No element found for path '/dom[@pageurl~'.smiles.com.br']//.[@innertext~'Parab&#233;ns o seu']' within 1m.).
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.639"
+			timeRelativeToTestModuleStartTime="00:02.639"
+			timeWallClock="11:48:07"
+			time="00:02.639"
+			level="Info"
+			category="Validation"
+			errimg=".\RP_Alter_2e5388f4_f2b5aaca_trace.jpg"
+			errthumb=".\RP_Alter_2e5388f4_f2b5aaca_trace_thumb.jpg">
+			<message>
+				Validating Exists on item 'SmilesOMelhorProgramaDeMilhasS1.Validacao_AlterarPlano'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//.[@innertext~'Parabéns o seu']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Validacao_AlterarPlano"
+				id="6f542df84ec04458a14d066258f88489"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Resultado_Esperado\RP_AlterarPlano.cs"
+				codeline="53"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:06.777"
+			timeRelativeToTestModuleStartTime="02:06.777"
+			timeWallClock="11:50:11"
+			time="02:06.777"
+			level="Failure"
+			category="Validation"
+			errimg=".\RP_Alter_2e5388f4_57a12863_trace.jpg"
+			errthumb=".\RP_Alter_2e5388f4_57a12863_trace_thumb.jpg">
+			<message>
+				Element for item 'Validacao_AlterarPlano' does not exist (Failed to find item 'SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Validacao_AlterarPlano'. No element found for path '/dom[@pageurl~'.smiles.com.br']//.[@innertext~'Parab&#233;ns o seu']' within 1m.).
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//.[@innertext~'Parabéns o seu']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Validacao_AlterarPlano"
+				id="6f542df84ec04458a14d066258f88489"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Resultado_Esperado\RP_AlterarPlano.cs"
+				codeline="54"
+				loglvl="Failure"
+				itemindex="0"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:06.810"
+			timeRelativeToTestModuleStartTime="02:06.810"
+			timeWallClock="11:50:11"
+			time="02:06.810"
+			level="Error"
+			category="Module"
+			errimg=".\RP_Alter_2e5388f4_57a12863_trace.jpg"
+			errthumb=".\RP_Alter_2e5388f4_57a12863_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Element for item 'Validacao_AlterarPlano' does not exist (Failed to find item 'SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Validacao_AlterarPlano'. No element found for path '/dom[@pageurl~'.smiles.com.br']//.[@innertext~'Parab&#233;ns o seu']' within 1m.).
+			</message>
+			<metainfo
+				stacktrace="   em Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   em Ranorex.Validate.Exists(RepoItemInfo itemInfo, String message, Options options)
+   em Ranorex.Validate.Exists(RepoItemInfo itemInfo)
+   em POCSmiles.Smiles_Componentes.Resultado_Esperado.RP_AlterarPlano.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Resultado_Esperado\RP_AlterarPlano.cs:linha 54
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Resultado_Esperado\RP_AlterarPlano.cs"
+				codeline="54"
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//.[@innertext~'Parabéns o seu']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Validacao_AlterarPlano"
+				id="6f542df84ec04458a14d066258f88489"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="0"/>
+		</item>
+	</activity>
+</report>

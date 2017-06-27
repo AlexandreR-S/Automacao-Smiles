@@ -1,0 +1,350 @@
+﻿<repository
+name="Emilia"
+id="cf80d4cb-a5cc-4530-8f79-b1f26dd75246"
+rxversion="6.2">
+	<codegen
+	classname="Emilia"
+	namespace="POCSmiles.AtendimentoOnline"/>
+	<rootfolder
+	name="Root"
+	id="e9cf99ba-57ca-4958-aa91-b5118b846492"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="RxBrowser"
+		id="aebb0893-29d3-4fa6-bc4c-cbeaaf10bf38"
+		searchtimeout="10000ms"
+		capname="mobileapp"
+		isrooted="True"
+		usecache="False">
+			<appfolder
+			name="Dom"
+			id="896b282b-52c3-44de-a91c-6d52560ab526"
+			searchtimeout="10000ms"
+			capname="webdocument"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="Home_MenuPrincipal"
+				id="94e5852e-d1cd-4827-b49e-e22bc21b98eb"
+				searchtimeout="30000ms"
+				capname="divtag"
+				refpath="/mobileapp[@title='ranorex.RxBrowser']/form/container[@caption='' and @containertype='']/dom[@accessibilitylabel='WebContent']//div[#'showMenu']"
+				addcaps="unknown,divtag,webelement,mobileuielement"
+				refimgid="5e91c00d-d7b6-4a5c-aa36-53f7fddbbe3c">
+					/mobileapp[@title='ranorex.RxBrowser']//dom//div[#'showMenu']
+				</item>
+				<item
+				name="MenuPrincipal_BuscarVoo"
+				id="9f250258-9f4f-48a7-9d26-06bd5472465c"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,spantag,webelement,mobileuielement"
+				refimgid="6c7c769f-cb19-498c-9be4-dc33b0331975">
+					/mobileapp[@title='ranorex.RxBrowser']//dom//span[@innertext='Buscar Voo' and @visible='True']
+				</item>
+				<item
+				name="BuscarVoo_Origem"
+				id="15aed139-0246-42f9-a0e7-51077f23ce68"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,inputtag,webelement,mobileuielement"
+				refimgid="ce10c1ac-fdd8-4f13-84d9-31e2d23b7736">
+					/mobileapp[@title='ranorex.RxBrowser']//dom//input[#'inputOrigin']
+				</item>
+				<item
+				name="BuscarVoo_Origem2"
+				id="dfa5ac69-1575-4e49-995a-55e7a53ff950"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,inputtag,webelement,mobileuielement"
+				refimgid="9bd95d5c-9a08-4615-8bfe-a57bdc069920">
+					/mobileapp[@title='ranorex.RxBrowser']//dom//input[#'inputOriginMs2']
+				</item>
+				<item
+				name="BuscarVoo_Destino"
+				id="62d094c6-52d0-4bbb-98ce-2310bf80b3dd"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,inputtag,webelement,mobileuielement"
+				refimgid="76d53c9c-8400-47a6-a203-5d1da8f6639a">
+					/mobileapp[@title='ranorex.RxBrowser']//dom//input[#'inputDestination']
+				</item>
+				<item
+				name="BuscarVoo_Destino2"
+				id="9247b6d7-fda6-46d1-9000-0f9b81fc1c2f"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,inputtag,webelement,mobileuielement"
+				refimgid="7ce38b3a-f830-4e8f-bc62-7d6f5e08d8db">
+					/mobileapp[@title='ranorex.RxBrowser']//dom//input[#'inputDestinationMs2']
+				</item>
+				<item
+				name="CheckBox_SomenteIda"
+				id="bbca9307-79a9-4f1c-8108-158049694b0b"
+				searchtimeout="30000ms"
+				capname="divtag"
+				refpath="/mobileapp[@title='ranorex.RxBrowser']/form/container[@caption='' and @containertype='']/dom[@accessibilitylabel='WebContent']//div[#'_smilesflightsearchportlet_WAR_smilesbookingportlet_single-leg']"
+				addcaps="unknown,divtag,webelement,mobileuielement"
+				refimgid="ce4da665-c066-4b42-8154-0a040314076a">
+					/mobileapp[@title='ranorex.RxBrowser']//dom//div[#'_smilesflightsearchportlet_WAR_smilesbookingportlet_single-leg']
+				</item>
+				<item
+				name="Calendar_Data1"
+				id="f06ae651-5275-41f0-965f-079afa6922d6"
+				searchtimeout="30000ms"
+				capname="inputtag">
+					/mobileapp[@title='ranorex.RxBrowser']//dom//input[@id&lt;'departure_date' or @id&lt;'ms1_date']
+				</item>
+				<item
+				name="Calendar_Data2"
+				id="33e07ccc-575e-4704-bbae-aeb2d60c9ee3"
+				searchtimeout="30000ms"
+				capname="inputtag">
+					/mobileapp[@title='ranorex.RxBrowser']//dom//input[@id&lt;'return_date' or @id&lt;'ms2_date']
+				</item>
+				<item
+				name="Button_BuscarVoo"
+				id="8610f0de-182b-4a94-ad71-b2db886c23bf"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				refpath="/mobileapp[@title='ranorex.RxBrowser']/form[@title='RxBrowserActivity']/container[@rid='content']/container[@containertype='Linear']/dom[@accessibilityid='WebContent']//button[#'submitFlightSearch']"
+				addcaps="unknown,buttontag,webelement,mobileuielement"
+				refimgid="381b5314-a9ad-4b9d-b271-07e9b29fb0aa">
+					/mobileapp[@title='ranorex.RxBrowser']//dom//button[#'submitFlightSearch']
+				</item>
+				<item
+				name="Button_AdicionarTrecho"
+				id="362306d2-75f2-4735-ae80-8cd3e5a4ddee"
+				searchtimeout="30000ms"
+				capname="atag"
+				refpath="/mobileapp[@title='ranorex.RxBrowser']/form[@title='RxBrowserActivity']/container[@rid='content']/container[@containertype='Linear']/dom[@accessibilityid='WebContent']//a[#'button-add-new-leg']"
+				addcaps="unknown,atag,webelement,mobileuielement"
+				refimgid="78d44e5a-7113-4679-b658-7c43fbc916b6">
+					/mobileapp[@title='ranorex.RxBrowser']//dom//a[#'button-add-new-leg']
+				</item>
+				<item
+				name="Button_AddAdulto"
+				id="9b85b36c-33f0-4693-a6ef-d13fe0a0c09e"
+				searchtimeout="30000ms"
+				capname="smalltag"
+				addcaps="unknown,atag,webelement,mobileuielement"
+				refimgid="67c794ea-a441-4e19-86f8-af40196c261d">
+					/mobileapp[@title='ranorex.RxBrowser']//dom//small[@class~'control-range add-passenger'][1]
+				</item>
+				<item
+				name="Button_AddCrianca"
+				id="0e8c16d0-bbeb-432c-9a23-7c6aaca5e011"
+				searchtimeout="30000ms"
+				capname="smalltag"
+				addcaps="unknown,atag,webelement,mobileuielement"
+				refimgid="dc4d5676-345a-4617-9b4e-e93b1e082405">
+					/mobileapp[@title='ranorex.RxBrowser']//dom//small[@class~'control-range add-passenger'][2]
+				</item>
+				<item
+				name="Button_AddBebe"
+				id="7e1c42d7-76a6-4f20-a386-e539c13620a0"
+				searchtimeout="30000ms"
+				capname="smalltag"
+				addcaps="unknown,atag,webelement,mobileuielement"
+				refimgid="5db43305-3b38-4d2b-9ec0-8fce35f872ee">
+					/mobileapp[@title='ranorex.RxBrowser']//dom//small[@class~'control-range add-passenger'][3]
+				</item>
+				<item
+				name="Button_Entrar"
+				id="65ac6490-fb7a-4631-909f-6d5ff8a88d9a"
+				searchtimeout="30000ms"
+				capname="divtag"
+				addcaps="unknown,divtag,webelement,mobileuielement"
+				refimgid="0871e1ea-076a-4307-9a84-03b954dc186a">
+					/mobileapp[@title='ranorex.RxBrowser']//dom//div[#'showModalMobile']
+				</item>
+				<item
+				name="Input_Usuario"
+				id="77ea176e-be1e-4564-b06e-31dfe7eebbf7"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,inputtag,webelement,mobileuielement"
+				refimgid="a56a7275-28aa-4c75-9386-253f2840d0bc">
+					/mobileapp[@title='ranorex.RxBrowser']//dom//input[@id&lt;'idscreenName']
+				</item>
+				<item
+				name="Input_Senha"
+				id="8c1e293e-9ec8-4b5b-9f96-5dd446b11242"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,inputtag,webelement,mobileuielement"
+				refimgid="0fde493e-dd84-45db-b9e6-45df7936d14f">
+					/mobileapp[@title='ranorex.RxBrowser']//dom//input[@id&lt;'password']
+				</item>
+				<item
+				name="Button_SubmeterLogin"
+				id="645a3f24-59a0-4af6-9d2f-3100a6cc638b"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				refpath="/mobileapp[@title='ranorex.RxBrowser']/form[@title='RxBrowserActivity']/container[@rid='content']/container[@containertype='Linear']/dom[@domain='portal-uat1.smiles.com.br']//button[#'buttonSubmitLogin']"
+				addcaps="unknown,buttontag,webelement,mobileuielement"
+				refimgid="109a8ff0-418a-4928-b25d-22705597a2e7">
+					/mobileapp[@title='ranorex.RxBrowser']//dom//button[#'buttonSubmitLogin']
+				</item>
+				<item
+				name="Span_SaldoMilhasLogin"
+				id="f3dd12e8-3e0f-45ff-9d68-394f456a8245"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,buttontag,webelement,mobileuielement"
+				refimgid="8a1f820a-02a2-42f5-b264-64dafeae2273">
+					/mobileapp[@title='ranorex.RxBrowser']//dom//span[@innertext&lt;' milhas' and @class~'user-miles'][1]
+				</item>
+				<item
+				name="Home_Entrar"
+				id="20d17b2e-cc47-4a04-a69d-6fcbaa38473e"
+				searchtimeout="30000ms"
+				capname="divtag"
+				addcaps="unknown,divtag,webelement,mobileuielement">
+					/mobileapp[@title='ranorex.RxBrowser']//dom//div[@innertext='Entrar']
+				</item>
+				<item
+				name="A_Sair"
+				id="052918df-6277-40f2-885d-cfa4326e0818"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,litag,webelement,mobileuielement"
+				refimgid="54ca8028-656a-44e5-b2bd-da229dfebb9c">
+					/mobileapp[@title='ranorex.RxBrowser']//dom//ul/li/a[#'logout']
+				</item>
+				<item
+				name="Button_RefazerBusca"
+				id="318d3801-9959-4088-9234-5625a6abfaae"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				addcaps="unknown,buttontag,webelement,mobileuielement"
+				refimgid="ce7d7c2a-4881-40d3-a711-86384470c859">
+					/mobileapp[@title='ranorex.RxBrowser']//dom//button[#'btnShowFlightSearch']
+				</item>
+				<item
+				name="Input_TaxasDinhero"
+				id="990925f4-2b67-490a-9e0d-8ede9b64c975"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,buttontag,webelement,mobileuielement">
+					/mobileapp[@title='ranorex.RxBrowser']//dom//div[@class~'search-container-payment-method']//p//input[@id='paymentTaxesOption0'][1]
+				</item>
+				<item
+				name="Input_TaxasMilhas"
+				id="31dc4c9f-40a6-4fbc-8d18-b34bdf9b436a"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,buttontag,webelement,mobileuielement">
+					/mobileapp[@title='ranorex.RxBrowser']//dom//div[@class~'search-container-payment-method']//p//input[@id='paymentTaxesOption0'][2]
+				</item>
+				<basepath>
+					/mobileapp[@title='ranorex.RxBrowser']//dom
+				</basepath>
+				<icon>
+					iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAlFJREFUOE+lk+tLk2EYh/eX9CGipCIyCKLo4HHlzA8SVoR9KogkkKDM
+CKRCCwQtKUjtIJSdrKggqQ+CFZmHHGlzzrU552HqNnWbO7zHXT3bBLXQoG74fXvv63c9z8tj+O9p
+aDFz55WDmuYBqpp+cLnRzJnqTk5UdlNc8YWic60Ulr6koOTJshw8/RjjkXIMdc9tNLVrNLZp3GqV
+qX4dofJZkIpHs5Q3+Tl710fJ7UlO1o5zvNrN0SoXh644yS8zsyZtB4baZjN1bwLcfBvm4oMpTt1w
+U3zdybFrDg5ftVNYYaPg0iCmcisHLgxgLLOQe95CRmk369KNGGoaXuAPxAhHNeZFQhGVYFghIDIb
+SsUbUPDMyLi9Mg6PhHVMosvqYePW7QJQ38JqE4+DokJEijMX0ZkKaoz6VSwuLxs2b8Nw/+n7hU//
+HE0HSYkzH9OZmdeYnNNw+xR+Tir0DP0FoItmWSwnm8M606J5TDQ7pxSs4zKd1tUACW1NLMtxglEd
+X0hjYlbD5VWwTSj0j8h8tgjAphUAi+pxZsRySl3FLtQtozK9wxLtfSsAkupqQl1PqQdS6o6kusJ3
+l0yXQ6LNnACkLwckb1yDqDh3YKn6dEq9zy3R45TosMX40PsbQOyiLqiHhLo/eesqIwl1z6L6V3uM
+T9Yo73q8rE8A7i0xEOVI4p+HYggATMyByxdnyKPRP6rxbVilw67wcVBOAtambRFvof4hufvzyTGa
+yBbJEskUycg1sS/HxN7sPPaI7M7KY1dmKjszUsnJL2LhTf7rGAy/AP7X5rYY5FLEAAAAAElFTkSu
+QmCC
+				</icon>
+			</appfolder>
+			<item
+			name="UIDatePicker"
+			id="bf317859-b149-471f-87b5-2e994d2cfd7e"
+			searchtimeout="30000ms"
+			capname="datetime"
+			addcaps="datetime,ioselement,mobileuielement"
+			refimgid="d96a44c4-50b9-452d-a8f3-90cc8911f889">
+				/mobileapp[@title='ranorex.RxBrowser']/datetime[@platformclass='UIDatePicker']
+			</item>
+			<basepath>
+				/mobileapp[@title='ranorex.RxBrowser']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAlFJREFUOE+lk+tLk2EYh/eX9CGipCIyCKLo4HHlzA8SVoR9KogkkKDM
+CKRCCwQtKUjtIJSdrKggqQ+CFZmHHGlzzrU552HqNnWbO7zHXT3bBLXQoG74fXvv63c9z8tj+O9p
+aDFz55WDmuYBqpp+cLnRzJnqTk5UdlNc8YWic60Ulr6koOTJshw8/RjjkXIMdc9tNLVrNLZp3GqV
+qX4dofJZkIpHs5Q3+Tl710fJ7UlO1o5zvNrN0SoXh644yS8zsyZtB4baZjN1bwLcfBvm4oMpTt1w
+U3zdybFrDg5ftVNYYaPg0iCmcisHLgxgLLOQe95CRmk369KNGGoaXuAPxAhHNeZFQhGVYFghIDIb
+SsUbUPDMyLi9Mg6PhHVMosvqYePW7QJQ38JqE4+DokJEijMX0ZkKaoz6VSwuLxs2b8Nw/+n7hU//
+HE0HSYkzH9OZmdeYnNNw+xR+Tir0DP0FoItmWSwnm8M606J5TDQ7pxSs4zKd1tUACW1NLMtxglEd
+X0hjYlbD5VWwTSj0j8h8tgjAphUAi+pxZsRySl3FLtQtozK9wxLtfSsAkupqQl1PqQdS6o6kusJ3
+l0yXQ6LNnACkLwckb1yDqDh3YKn6dEq9zy3R45TosMX40PsbQOyiLqiHhLo/eesqIwl1z6L6V3uM
+T9Yo73q8rE8A7i0xEOVI4p+HYggATMyByxdnyKPRP6rxbVilw67wcVBOAtambRFvof4hufvzyTGa
+yBbJEskUycg1sS/HxN7sPPaI7M7KY1dmKjszUsnJL2LhTf7rGAy/AP7X5rYY5FLEAAAAAElFTkSu
+QmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		name="SmilesOMelhorProgramaDeMilhasS1"
+		id="9bb164db-b0c4-4d27-bbb8-ffab30fc4aaf"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		refimgid="2e8d8601-245c-4bae-a18b-53da340e5bac"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="Mensagem_BotaoFecharErros"
+			id="a392d21a-28bb-440d-b207-5ba12d9dd782"
+			searchtimeout="30000ms"
+			capname="unknown">
+				/dom[@pageurl~$URL][1]//.[@class~'.*btn.*\ close\-content.*' and @visible='True'][1]
+			</item>
+			<item
+			name="SelecionarVoo_TaxasDinhero"
+			id="4f0aa5c5-0adf-4992-b19c-2bb77be3d418"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="d553d752-8dce-4fc7-94eb-6b7044a716af">
+				/dom[@pageurl~$URL][1]//div[@class~'search-container-payment-method']//input[@name~'.*paymentTaxesOption'][1]
+			</item>
+			<item
+			name="SelecionarVoo_TaxasMilhas"
+			id="2936727c-cae4-4292-b914-bfd231537021"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="a254a0b8-d770-4c60-9843-45b0fe784b05">
+				/dom[@pageurl~$URL][1]//div[@class~'search-container-payment-method']//input[@name~'.*paymentTaxesOption'][2]
+			</item>
+			<basepath>
+				/dom[@pageurl~$URL][1]
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables>
+		<var
+		name="URL"
+		id="ee0efb26-0aef-4036-b5f6-c912bb3637d9">
+		</var>
+	</variables>
+</repository>

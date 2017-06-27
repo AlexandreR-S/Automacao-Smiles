@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.3m"
+		durationms="76049"
+		type="root"
+		rid="2e7ba2397f8357e"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="07/06/2017 15:59:48"
+		timestampiso="2017-06-07T18:59:48"
+		timeoutfactor="1"
+		module="NavegacaoLinksPromocoes">
+		<detail>
+			NavegacaoLinksPromocoes
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.733"
+			timeRelativeToTestModuleStartTime="00:00.733"
+			timeWallClock="15:59:49"
+			time="00:00.733"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Links
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.834"
+			timeRelativeToTestModuleStartTime="00:00.834"
+			timeWallClock="15:59:49"
+			time="00:00.834"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.Promocoes_LinkPromocoes' at 41;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'uat3.smiles.com.br']//ul//span[@innertext='Promoções']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Promocoes_LinkPromocoes"
+				id="9e14884f273f41e580c768e7768365e8"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Links\NavegacaoLinksPromocoes.cs"
+				codeline="65"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.863"
+			timeRelativeToTestModuleStartTime="00:04.864"
+			timeWallClock="15:59:53"
+			time="00:04.863"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.Navegacao_ProgramaSmiles' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'uat3.smiles.com.br']//p[@innertext~'' and @visible='true'][1]"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.Navegacao_ProgramaSmiles"
+				id="5d8c5d85e91244eaa85bf988e1b933fb"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Links\NavegacaoLinksPromocoes.cs"
+				codeline="69"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:16.049"
+			timeRelativeToTestModuleStartTime="01:16.049"
+			timeWallClock="16:01:05"
+			time="01:16.049"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

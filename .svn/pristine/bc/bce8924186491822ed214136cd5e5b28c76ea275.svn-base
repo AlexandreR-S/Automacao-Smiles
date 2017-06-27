@@ -1,0 +1,40 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{551BD582-6B87-460D-9D7F-87D70B4528F0}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>5563d20b-4e28-402b-9f31-18cedd94926a</string>
+      <string>3140e7cc-f6e6-4950-ac08-94d3d77cade8</string>
+      <string>58371fe5-103d-4f11-8928-08ca098df2f2</string>
+      <string>7fa2e1e9-fc83-488e-afd9-e8ceba58f351</string>
+      <string>a28c718c-6fa8-45e0-b8da-cf135f767079</string>
+      <string>c768e0c6-593f-4028-b206-cfed53443716</string>
+      <string>5f9b0afc-bcd2-4f26-81da-f344826a04b2</string>
+      <string>Ranorex_JiraIntegration, Version=1.0.6099.18611, Culture=neutral, PublicKeyToken=null</string>
+      <string>ff3c71d8-4d6f-42ea-be0e-10a008912649</string>
+      <string>b6a0696c-90eb-4865-8876-ee83d5e5d2eb</string>
+      <string>f3f783b1-938b-45c3-b91b-82bb254b7711</string>
+      <string>6bb3bbd7-15b3-476c-91e2-09a3017bc788</string>
+      <string>4226d937-e357-473a-bd94-88897d289afd</string>
+      <string>56a73b1a-c751-41de-bc77-b9f51f2dd6d6</string>
+      <string>34e99713-b466-4dd8-8336-dbacc5cd14aa</string>
+      <string>debd8395-6c6f-4c2d-8f6c-d94b7f7e330c</string>
+      <string>ef078602-d402-4ffc-9674-2cb5ce941010</string>
+      <string>9a3e21af-d28b-4d2c-99bd-f5a7aa0066ca</string>
+      <string>edecdc84-1fd6-47f8-b9b4-dc558651c0b5</string>
+      <string>7a84408e-c5fe-41db-96ec-df7f2dbadd93</string>
+      <string>d624f10f-b026-4de5-a32e-255ce2ca86fd</string>
+      <string>2fa86925-40fc-499b-9307-5763a2394d36</string>
+      <string>ca6a5b43-6c25-4389-951a-27226feea626</string>
+      <string>d6008434-5fdf-4f2f-aec3-7ae0fa05e5e1</string>
+      <string>f98ac7b7-20da-4dea-b805-ea8ee0184480</string>
+      <string>c445b279-9864-470b-a798-40ca03ce56cf</string>
+      <string>293bba1b-4ad6-4442-a8ce-12fd7e262f6e</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution Smiles[Smiles[AtendimentoOnline[]Base_Dados[]Busca_De_Voos[]Cadastro[]ClubeSmiles[]Compra_De_Milhas[]Comprar[]CustomReport[]Dados_Do_Passageiro[]Emissao[]Escolher_Assentos[]EsqueciMeusDados[]Extrato[]Favoritos[]GIFT[]ImprimirCartao[]Links[]Menu_Usuario[]Mobile[RxBrowser[AdesaoClube[]BuscarVoo[]DadosPassageiros[]Emissao[]Init[]Login[]MenusUsuarios[]Meus_Voos[]Pagamento[]ResultadoEsperado[]SelecaoVoos[]]]Reativar_Milhas[]Reserva_De_Voo[]Resultado_Esperado[]Selecao_De_Voos[]ShoppingSmiles[]Teste[]Transferencia_De_Milhas[]ComprarMilhas.rxrec[]FormProgress.cs[]]]]&#xD;&#xA;Solution Smiles\Smiles\Smiles.rxtst&#xD;&#xA;Solution Smiles\Smiles\app.config" />
+  <StartupProject value="{551BD582-6B87-460D-9D7F-87D70B4528F0}" />
+</Properties>

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="232fc97450b3ab8"
+		totalerrorcount="2"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="13/06/2017 12:55:09"
+		timestampiso="2017-06-13T15:55:09"
+		timeoutfactor="1"
+		module="SolicitarMilhas">
+		<detail>
+			SolicitarMilhas
+		</detail>
+		<errmsg>
+			CadastrarUsuario.SeletItemListBox
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.250"
+			timeRelativeToTestModuleStartTime="00:01.250"
+			timeWallClock="12:55:10"
+			time="00:01.250"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>NumeroVoo, LocalizadorVoo, DataVoo, CabineViagem, ClasseReserva, NomePassageiro, SobrenomePassageiro, AeroportoOrigem, AeroportoDestino, BilheteEletronico, AnexarBilheteEletronico, AnexarCartaoEmbarque, CompanhiaAerea, URL
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.472"
+			timeRelativeToTestModuleStartTime="00:01.472"
+			timeWallClock="12:55:11"
+			time="00:01.472"
+			level="Info"
+			category="User"
+			errimg=".\Solicita_6d94a41e_fcd1fb53_trace.jpg"
+			errthumb=".\Solicita_6d94a41e_fcd1fb53_trace_thumb.jpg">
+			<message>
+				Selecting item 'Delta'
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="279"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.398"
+			timeRelativeToTestModuleStartTime="00:13.398"
+			timeWallClock="12:55:23"
+			time="00:13.398"
+			level="Error"
+			category="User"
+			errimg=".\Solicita_6d94a41e_70f0d674_trace.jpg"
+			errthumb=".\Solicita_6d94a41e_70f0d674_trace_thumb.jpg">
+			<message>
+				- Error launched trying to select item 'Delta' on element '//select[#'_smilescreditrequestportlet_WAR_smilesmemberportlet_airlines']'
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="284"
+				loglvl="Error"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.449"
+			timeRelativeToTestModuleStartTime="00:13.449"
+			timeWallClock="12:55:23"
+			time="00:13.449"
+			level="Error"
+			category="Module"
+			errimg=".\Solicita_6d94a41e_33042c69_trace.jpg"
+			errthumb=".\Solicita_6d94a41e_33042c69_trace_thumb.jpg">
+			<message>
+				CadastrarUsuario.SeletItemListBox
+			</message>
+			<metainfo
+				stacktrace="   em POCSmiles.Program.SelectItemListBox(String selectTagElement, String itemName) na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Program.cs:linha 285
+   em POCSmiles.Smiles_Componentes.SolicitarMilhas.SolicitarMilhas.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\SolicitarMilhas\SolicitarMilhas.cs:linha 238
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="2\Desktop\Automacao - Smiles\POCSmiles\Program.cs"
+				codeline="285"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

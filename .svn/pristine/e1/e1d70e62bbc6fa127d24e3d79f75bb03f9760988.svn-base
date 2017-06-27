@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.2"
+id="55916cfb-ee71-42fb-89f0-01a9fb34d574"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		EmissaoSemMilhas
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="EmissaoSemMilhas"
+	namespace="POCSmiles.Mobile.RxBrowser.Meus_Voos"/>
+	<variables/>
+	<recorditems>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		screenshotname=""
+		searchpropertyid="ef97d384-d23d-4fd3-964d-0fb5b16f2375"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="False"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="212a280a-815c-40eb-8af7-d55f62b0a16c">
+				<path>
+					/mobileapp[@title='ranorex.RxBrowser' and @devicename=$Dispositivo]//dom//p[@innertext='Emiss&#227;o sem milhas']
+				</path>
+			</info>
+		</touchrecorditem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="94055a3d-d7b8-4701-a4db-d900eaae1b20"
+		action="Exists">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="3b01e8bf-bf28-47f5-a0a3-25d667510476">
+				<path>
+					/mobileapp[@title='ranorex.RxBrowser' and @devicename=$Dispositivo]//dom//button[@innertext='Cancelar'][1]
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				yourtext
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		enabled="True"
+		optional="False"
+		searchpropertyid="bc0a3ffd-70f9-4a1f-895b-d17f6a1ab4e3"
+		action="Screenshot"
+		category="User"
+		message=""
+		reportlevel="Success;110">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="aebb0893-29d3-4fa6-bc4c-cbeaaf10bf38">
+				<path>
+					/mobileapp[@title='ranorex.RxBrowser' and @devicename=$Dispositivo]
+				</path>
+			</info>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	name="SmilesRepository"
+	id="f8bb210d-8025-4309-a036-286794eed585"
+	rxversion="6.2"
+	relativepath="..\..\..\SmilesRepository.rxrep">
+		<codegen
+		classname="SmilesRepository"
+		namespace="POCSmiles"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="2d08fe81-6727-4e90-82e1-ffba91f7633c"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		EmissaoSemMilhas.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

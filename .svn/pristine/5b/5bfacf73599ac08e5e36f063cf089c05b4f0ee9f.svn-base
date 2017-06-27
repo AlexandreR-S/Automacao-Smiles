@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.2"
+id="ca6e8c5b-d768-4f6d-8606-4bf9abda3547"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		ErrorInspector
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ErrorInspector"
+	namespace="POCSmiles"/>
+	<variables/>
+	<recorditems>
+		<userrecorditem
+		enabled="False"
+		optional="False"
+		namespace="POCSmiles"
+		classname="ErrorInspector"
+		methodname="StartErrorVerifier"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="88f19a4a-453a-4218-a9f3-2b7b5212015c"/>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="SmilesRepository"
+	id="f8bb210d-8025-4309-a036-286794eed585"
+	rxversion="6.2"
+	relativepath="SmilesRepository.rxrep">
+		<codegen
+		classname="SmilesRepository"
+		namespace="POCSmiles"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="2d08fe81-6727-4e90-82e1-ffba91f7633c"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ErrorInspector.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

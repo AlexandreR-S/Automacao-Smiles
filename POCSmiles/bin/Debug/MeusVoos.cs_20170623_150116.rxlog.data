@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="eee2c1424f05fed"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="RODRIGUES"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="23/06/2017 15:01:32"
+		timestampiso="2017-06-23T18:01:32"
+		timeoutfactor="1"
+		module="MeusVoos">
+		<detail>
+			MeusVoos
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.781"
+			timeRelativeToTestModuleStartTime="00:00.781"
+			timeWallClock="15:01:33"
+			time="00:00.781"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.MenuUsuario_DadosUsuario' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//div[#'p_p_id_smilesloginportlet_WAR_smilesloginportlet_']/div/div[2]/div[1]/div/div/a"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.MenuUsuario_DadosUsuario"
+				id="458060163bf140a688d31a13827e9f7c"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Menu_Usuario\MeusVoos.cs"
+				codeline="52"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.612"
+			timeRelativeToTestModuleStartTime="00:02.612"
+			timeWallClock="15:01:35"
+			time="00:02.612"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Menu_Usuario\MeusVoos.cs"
+				codeline="56"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.627"
+			timeRelativeToTestModuleStartTime="00:03.627"
+			timeWallClock="15:01:36"
+			time="00:03.627"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.MenuUsuario_MeusVoos' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//div[#'p_p_id_smilesloginportlet_WAR_smilesloginportlet_']//a[@innertext='Meus voos']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.MenuUsuario_MeusVoos"
+				id="27a074c24b7641eeabd3d69407c84ea3"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Menu_Usuario\MeusVoos.cs"
+				codeline="59"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.353"
+			timeRelativeToTestModuleStartTime="00:05.353"
+			timeWallClock="15:01:38"
+			time="00:05.353"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'SmilesOMelhorProgramaDeMilhasS1.MeusVoos_ProximosVoos'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//p[@innertext='Próximos voos']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.MeusVoos_ProximosVoos"
+				id="32268fbfc43c4143823a4999022621ad"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Menu_Usuario\MeusVoos.cs"
+				codeline="63"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.184"
+			timeRelativeToTestModuleStartTime="00:18.184"
+			timeWallClock="15:01:50"
+			time="00:18.184"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'MeusVoos_ProximosVoos' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//p[@innertext='Próximos voos']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.MeusVoos_ProximosVoos"
+				id="32268fbfc43c4143823a4999022621ad"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Menu_Usuario\MeusVoos.cs"
+				codeline="64"
+				loglvl="Success"
+				itemindex="3"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.284"
+			timeRelativeToTestModuleStartTime="00:18.284"
+			timeWallClock="15:01:51"
+			time="00:18.284"
+			level="Success"
+			category="User">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\MeusVoos_1950a522_rxlog.jpg"><img src=".\MeusVoos_1950a522_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Menu_Usuario\MeusVoos.cs"
+				codeline="67"
+				loglvl="Success"/>
+		</item>
+	</activity>
+</report>

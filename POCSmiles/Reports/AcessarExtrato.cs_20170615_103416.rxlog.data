@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="16ddd89019c44e10"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="15/06/2017 10:34:32"
+		timestampiso="2017-06-15T13:34:32"
+		timeoutfactor="1"
+		module="AcessarExtrato">
+		<detail>
+			AcessarExtrato
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.288"
+			timeRelativeToTestModuleStartTime="00:01.288"
+			timeWallClock="10:34:33"
+			time="00:01.288"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.MinhaConta_Extrato' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//.[@innertext~'Ver .*xtrato .*ompleto']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.MinhaConta_Extrato"
+				id="248f7b3b3b834ca8a0f3c44fb193cbb8"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Extrato\AcessarExtrato.cs"
+				codeline="56"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.102"
+			timeRelativeToTestModuleStartTime="00:14.102"
+			timeWallClock="10:34:46"
+			time="00:14.102"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'SmilesOMelhorProgramaDeMilhasS1.SolicitarMilhas_BtnTransctions'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//button[#'btnTransctions']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.SolicitarMilhas_BtnTransctions"
+				id="45d6064821dc4c5ca5b0400544128f9d"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Extrato\AcessarExtrato.cs"
+				codeline="60"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.110"
+			timeRelativeToTestModuleStartTime="00:19.110"
+			timeWallClock="10:34:51"
+			time="00:19.110"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'SolicitarMilhas_BtnTransctions' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//button[#'btnTransctions']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.SolicitarMilhas_BtnTransctions"
+				id="45d6064821dc4c5ca5b0400544128f9d"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Extrato\AcessarExtrato.cs"
+				codeline="61"
+				loglvl="Success"
+				itemindex="1"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.358"
+			timeRelativeToTestModuleStartTime="00:19.358"
+			timeWallClock="10:34:51"
+			time="00:19.358"
+			level="Success"
+			category="User">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\AcessarE_6831a75_rxlog.jpg"><img src=".\AcessarE_6831a75_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Extrato\AcessarExtrato.cs"
+				codeline="64"
+				loglvl="Success"/>
+		</item>
+	</activity>
+</report>

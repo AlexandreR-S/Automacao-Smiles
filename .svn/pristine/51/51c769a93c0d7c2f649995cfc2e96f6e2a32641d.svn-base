@@ -1,0 +1,24 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Smiles.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="Smiles.rxtst" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <fileNames value="" />
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="POCSmiles.Mobile.RxBrowser.Init.InitRxBrowser.WaitForDocumentLoad()" />
+      <Element value="POCSmiles.Mobile.RxBrowser.Init.InitRxBrowser.CheckDomState()" />
+      <Element value="POCSmiles.Mobile.RxBrowser.Pagamento.PagamentoComTecladoVirtual.selectList(String text, String element)" />
+      <Element value="POCSmiles.Mobile.RxBrowser.SelecaoVoos.SelecionarVoo.Teste()" />
+      <Element value="POCSmiles.Mobile.RxBrowser.SelecaoVoos.SelecionarVoo.Teste(String Dispositivo)" />
+      <Element value="POCSmiles.Mobile.RxBrowser.Init.InitRxBrowser.StartDom()" />
+    </Array>
+    <Properties name="watchVars" />
+  </Properties>
+</Properties>

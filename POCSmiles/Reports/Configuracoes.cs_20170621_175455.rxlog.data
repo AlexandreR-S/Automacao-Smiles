@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="12033280795483b3"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="RODRIGUES"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="21/06/2017 17:55:03"
+		timestampiso="2017-06-21T20:55:03"
+		timeoutfactor="1"
+		module="Configuracoes">
+		<detail>
+			Configuracoes
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.865"
+			timeRelativeToTestModuleStartTime="00:00.865"
+			timeWallClock="17:55:04"
+			time="00:00.865"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.ClubeSmiles_Configuracoes' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//.[@innertext~'Configurações'][1]"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.ClubeSmiles_Configuracoes"
+				id="d4e0cd37a5d14f70ae7fbbe38a87938b"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\ClubeSmiles\Configuracoes.cs"
+				codeline="52"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:51.129"
+			timeRelativeToTestModuleStartTime="00:51.129"
+			timeWallClock="17:55:54"
+			time="00:51.129"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'SmilesOMelhorProgramaDeMilhasS1.ClubeSmiles_AlterarPlano'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//a[#'upgradeDowngrade']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.ClubeSmiles_AlterarPlano"
+				id="736b434d57d140d9abdb1215e569b020"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\ClubeSmiles\Configuracoes.cs"
+				codeline="56"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:55.322"
+			timeRelativeToTestModuleStartTime="00:55.322"
+			timeWallClock="17:55:59"
+			time="00:55.322"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'AlterarPlano_ConhecerOutrosPlanos' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//a[@innertext='Conhecer outros planos']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.AlterarPlano_ConhecerOutrosPlanos"
+				id="4c1a43bcf3234e7a8cff9764a1f0aaae"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\ClubeSmiles\Configuracoes.cs"
+				codeline="58"
+				loglvl="Success"
+				itemindex="1"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:55.556"
+			timeRelativeToTestModuleStartTime="00:55.556"
+			timeWallClock="17:55:59"
+			time="00:55.556"
+			level="Success"
+			category="User">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\Configur_d1a1fdaf_rxlog.jpg"><img src=".\Configur_d1a1fdaf_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\ClubeSmiles\Configuracoes.cs"
+				codeline="61"
+				loglvl="Success"/>
+		</item>
+	</activity>
+</report>

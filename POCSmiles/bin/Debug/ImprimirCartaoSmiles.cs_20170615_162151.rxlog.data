@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="6f602333176b3a6"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="15/06/2017 16:22:23"
+		timestampiso="2017-06-15T19:22:23"
+		timeoutfactor="1"
+		module="ImprimirCartaoSmiles">
+		<detail>
+			ImprimirCartaoSmiles
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.969"
+			timeRelativeToTestModuleStartTime="00:01.969"
+			timeWallClock="16:22:25"
+			time="00:01.969"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.MinhaConta_BotaoImprimirCartao' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@pageurl~'.smiles.com.br']//.[#'printMyCardButton']"
+				fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.MinhaConta_BotaoImprimirCartao"
+				id="355d51ab96f24d58b6bf61aee1d272e1"
+				timeout="60000"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\ImprimirCartao\ImprimirCartaoSmiles.cs"
+				codeline="52"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.056"
+			timeRelativeToTestModuleStartTime="00:37.056"
+			timeWallClock="16:23:00"
+			time="00:37.056"
+			level="Success"
+			category="User">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\Imprimir_59d973a3_rxlog.jpg"><img src=".\Imprimir_59d973a3_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\ImprimirCartao\ImprimirCartaoSmiles.cs"
+				codeline="58"
+				loglvl="Success"/>
+		</item>
+	</activity>
+</report>

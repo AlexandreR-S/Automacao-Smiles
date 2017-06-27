@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.7m"
+		durationms="104218"
+		type="root"
+		rid="75e65acc66fc15d"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="08/06/2017 12:09:30"
+		timestampiso="2017-06-08T15:09:30"
+		timeoutfactor="1"
+		module="NBV_BuscarVoos">
+		<detail>
+			NBV_BuscarVoos
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.011"
+			timeRelativeToTestModuleStartTime="00:01.011"
+			timeWallClock="12:09:31"
+			time="00:01.011"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>De1, Para1, TipoTrajeto, De2, Para2, DataPartida1, DataRetorno1, DataPartida2, QuantidadeBebes, QuantidadeCriancas, QuantidadeAdultos
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.049"
+			timeRelativeToTestModuleStartTime="00:22.049"
+			timeWallClock="12:09:52"
+			time="00:22.049"
+			level="Success"
+			category="Validation">
+			<message>
+				/dom[@domain='portal-uat3.smiles.com.br']//div[#'handlebars-generated-message-details']/p[@innertext~'^A\ data\ de\ hoje\ foi\ seleci']
+			</message>
+			<metainfo
+				codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Utils.cs"
+				codeline="181"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:44.218"
+			timeRelativeToTestModuleStartTime="01:44.218"
+			timeWallClock="12:11:14"
+			time="01:44.218"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

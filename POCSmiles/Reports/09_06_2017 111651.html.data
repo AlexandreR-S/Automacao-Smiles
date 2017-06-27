@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2b080bc7c1855035"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="CARREFOUR2"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="09/06/2017 11:16:51"
+		timestampiso="2017-06-09T14:16:51"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="3.5m"
+			durationms="208953"
+			type="test suite"
+			rid="9ab60ca1bff8274"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="Smiles"
+			runconfigname="Regressivo"
+			runlabel=""
+			maxchildren="1">
+			<params>
+				<param
+					name="PMR_URL">
+					C:\Automacao - Smiles\lib\PNR\PNR_Smiles.xlsx
+				</param>
+				<param
+					name="Cadastro_CadastroUsuarios">
+					C:\Automacao - Smiles\lib\PNR\Cadastro_Usuarios.xlsx
+				</param>
+				<param
+					name="Database_Location">
+					C:\Automacao - Smiles\lib\PNR\SmilesDB.accdb
+				</param>
+				<param
+					name="MAX_COMPRA_MILHAS">
+					40000
+				</param>
+				<param
+					name="MIN_MILHAS">
+					60000
+				</param>
+				<param
+					name="MAX_RESERVAS_ISENTO">
+					5
+				</param>
+				<param
+					name="MAX_VALOR_REEMBOLSO">
+					150
+				</param>
+				<param
+					name="AMBIENTE_TESTE">
+				</param>
+				<param
+					name="BROWSER">
+				</param>
+				<param
+					name="AGENDAR">
+				</param>
+				<param
+					name="JIRA_USERNAME">
+					admin
+				</param>
+				<param
+					name="JIRA_PASSWORD">
+					admin
+				</param>
+				<param
+					name="JIRA_SERVERURL">
+					http://localhost:8080/
+				</param>
+				<param
+					name="MIN_DATE_RANGE">
+					30
+				</param>
+				<param
+					name="MAX_DATE_RANGE">
+					45
+				</param>
+				<param
+					name="INCOGNITION_MODE">
+					FALSE
+				</param>
+			</params>
+			<detail>
+				Su&#237;te de teste que contempla os fluxos do portal Smiles
+			</detail>
+			<activity
+				result="Failed"
+				duration="3.5m"
+				durationms="208878"
+				type="folder"
+				rid="c72e702e3170a54"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				foldername="Atomic">
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="3.5m"
+					durationms="208735"
+					type="folder"
+					rid="f6d44fc8203690b"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					foldername="D_HOMOLOGACAO1">
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="3.5m"
+						durationms="208734"
+						type="folder"
+						rid="b7753ad39181b06"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="1"
+						totalblockedcount="0"
+						foldername="DH_POSITIVO1">
+						<detail>
+						</detail>
+						<activity
+							result="Failed"
+							duration="3.4m"
+							durationms="203270"
+							type="test case"
+							rid="68231c13b6ae13e"
+							totalerrorcount="1"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="1"
+							totalblockedcount="0"
+							testcasename="Shopping_Smiles"
+							testcaseid="5baaaad7-4501-4d95-8733-8eca593b18df"
+							datasource="S_Smiles_ShoppingSmiles"
+							iterationcount="3"
+							maxchildren="0">
+							<params>
+								<param
+									name="Dataset_Version">
+									1
+								</param>
+								<param
+									name="Country">
+									Brasil
+								</param>
+								<param
+									name="Company_Code">
+									Chrome
+								</param>
+							</params>
+							<detail>
+								&lt;P&gt;Teste com objetivo de acionar shopping smiles&lt;/P&gt;
+							</detail>
+							<activity
+								result="Failed"
+								duration="3.4m"
+								durationms="203068"
+								type="test case iteration"
+								rid="24da01dcac6f7ac"
+								totalerrorcount="1"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								testcasename="Shopping_Smiles"
+								iteration="1">
+								<datarow>
+									<field
+										name="Browser">
+										Chrome
+									</field>
+									<field
+										name="URL">
+										portal-uat.smiles.com.br
+									</field>
+									<field
+										name="IdentificacaoCaso">
+										Homologa&#231;&#227;o - Shopping Smiles
+									</field>
+								</datarow>
+								<detail>
+								</detail>
+								<activity
+									result="Success"
+									duration="29.16s"
+									durationms="29157"
+									type="test module"
+									rid="feb6ffc4cbc4d29"
+									totalerrorcount="0"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="StartScript"
+									moduleid="13ec580c-0a06-47da-a998-b3cbd4eb5338"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<varbindings/>
+								</activity>
+								<activity
+									result="Success"
+									duration="2.03s"
+									durationms="2034"
+									type="test module"
+									rid="a8435b842720da8"
+									totalerrorcount="0"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="IniciarDesktop"
+									moduleid="50e42e85-06f5-4206-9cb7-80b8e8db2d4a"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<varbindings/>
+								</activity>
+								<activity
+									result="Success"
+									duration="24.46s"
+									durationms="24459"
+									type="test module"
+									rid="c88d3fcaf994d77"
+									totalerrorcount="0"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="MenuShoppingSmiles"
+									moduleid="c6fdbb5e-7ca3-4ecc-967c-a1d37968be09"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<varbindings/>
+									<item
+										timeRelativeToTestSuiteStartTime="00:44.722"
+										timeRelativeToTestModuleStartTime="00:00.387"
+										timeWallClock="11:17:36"
+										time="00:44.722"
+										level="Info"
+										category="Mouse">
+										<message>
+											Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.ShoppingSmiles_MenuShoppingSmiles' at 32;10.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'uat3.smiles.com.br']//body[#'wrapper']/div[@id='wrapper']//nav/ul//span[@innertext='Shopping Smiles']"
+											fullname="SmilesRepository.SmilesOMelhorProgramaDeMilhasS1.ShoppingSmiles_MenuShoppingSmiles"
+											id="24cdf18ea3b94fe581df7016f5147793"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\ShoppingSmiles\MenuShoppingSmiles.cs"
+											codeline="56"
+											itemindex="0"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="01:07.704"
+										timeRelativeToTestModuleStartTime="00:23.368"
+										timeWallClock="11:17:59"
+										time="01:07.704"
+										level="Success"
+										category="User">
+										<message>
+											<a class="thickbox" style="padding-right:8px" rel="module" href="images_09_06_20_3ad6a85f\09_06_20_889e708e_rxlog.jpg"><img src="images_09_06_20_3ad6a85f\09_06_20_889e708e_rxlog_thumb.jpg" alt="Screenshot"/></a>
+										</message>
+										<metainfo
+											itemindex="1"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\ShoppingSmiles\MenuShoppingSmiles.cs"
+											codeline="60"
+											loglvl="Success"/>
+									</item>
+								</activity>
+								<activity
+									result="Failed"
+									duration="2.4m"
+									durationms="145786"
+									type="test module"
+									rid="23452afb8fb5926"
+									totalerrorcount="1"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="RP_ShoppingSmiles"
+									moduleid="f37ff61c-be61-4b81-8714-83594b5af22f"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<errmsg>
+										Element for item 'Buscar' does not exist (Failed to find item 'SmilesRepository.ShoppingSmiles.Buscar'. No element found for path '/dom[@pageurl~'shoppingsmiles|gopointsportal'][1]//input[@placeholder~'Buscar produtos e servi&#231;os']' within 1m.).
+									</errmsg>
+									<varbindings/>
+									<item
+										timeRelativeToTestSuiteStartTime="01:09.858"
+										timeRelativeToTestModuleStartTime="00:00.137"
+										timeWallClock="11:18:01"
+										time="01:09.858"
+										level="Info"
+										category="Validation"
+										errimg="images_09_06_20_3ad6a85f\09_06_20_3ad6a85f_9153e2b1_trace.jpg"
+										errthumb="images_09_06_20_3ad6a85f\09_06_20_3ad6a85f_9153e2b1_trace_thumb.jpg">
+										<message>
+											Validating Exists on item 'ShoppingSmiles.Buscar'.
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'shoppingsmiles|gopointsportal'][1]//input[@placeholder~'Buscar produtos e serviços']"
+											fullname="SmilesRepository.ShoppingSmiles.Buscar"
+											id="64c725e71b6044f4b7eb345a987a5d2e"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Resultado_Esperado\RP_ShoppingSmiles.cs"
+											codeline="52"
+											itemindex="0"
+											loglvl="Info"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="03:35.084"
+										timeRelativeToTestModuleStartTime="02:25.363"
+										timeWallClock="11:20:26"
+										time="03:35.084"
+										level="Failure"
+										category="Validation"
+										errimg="images_09_06_20_3ad6a85f\09_06_20_3ad6a85f_e166d7cb_trace.jpg"
+										errthumb="images_09_06_20_3ad6a85f\09_06_20_3ad6a85f_e166d7cb_trace_thumb.jpg">
+										<message>
+											Element for item 'Buscar' does not exist (Failed to find item 'SmilesRepository.ShoppingSmiles.Buscar'. No element found for path '/dom[@pageurl~'shoppingsmiles|gopointsportal'][1]//input[@placeholder~'Buscar produtos e servi&#231;os']' within 1m.).
+										</message>
+										<metainfo
+											type="repoitem"
+											path="/dom[@pageurl~'shoppingsmiles|gopointsportal'][1]//input[@placeholder~'Buscar produtos e serviços']"
+											fullname="SmilesRepository.ShoppingSmiles.Buscar"
+											id="64c725e71b6044f4b7eb345a987a5d2e"
+											timeout="60000"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Resultado_Esperado\RP_ShoppingSmiles.cs"
+											codeline="53"
+											loglvl="Failure"
+											itemindex="0"/>
+									</item>
+									<item
+										timeRelativeToTestSuiteStartTime="03:35.222"
+										timeRelativeToTestModuleStartTime="02:25.501"
+										timeWallClock="11:20:26"
+										time="03:35.222"
+										level="Error"
+										category="Module"
+										errimg="images_09_06_20_3ad6a85f\09_06_20_3ad6a85f_360751be_trace.jpg"
+										errthumb="images_09_06_20_3ad6a85f\09_06_20_3ad6a85f_360751be_trace_thumb.jpg">
+										<message>
+											Module execution was aborted because a validation step has failed. Element for item 'Buscar' does not exist (Failed to find item 'SmilesRepository.ShoppingSmiles.Buscar'. No element found for path '/dom[@pageurl~'shoppingsmiles|gopointsportal'][1]//input[@placeholder~'Buscar produtos e servi&#231;os']' within 1m.).
+										</message>
+										<metainfo
+											stacktrace="   em Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   em Ranorex.Validate.Exists(RepoItemInfo itemInfo, String message, Options options)
+   em Ranorex.Validate.Exists(RepoItemInfo itemInfo)
+   em POCSmiles.Smiles_Componentes.Resultado_Esperado.RP_ShoppingSmiles.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Resultado_Esperado\RP_ShoppingSmiles.cs:linha 53
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+											codefile="c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Resultado_Esperado\RP_ShoppingSmiles.cs"
+											codeline="53"
+											type="repoitem"
+											path="/dom[@pageurl~'shoppingsmiles|gopointsportal'][1]//input[@placeholder~'Buscar produtos e serviços']"
+											fullname="SmilesRepository.ShoppingSmiles.Buscar"
+											id="64c725e71b6044f4b7eb345a987a5d2e"
+											timeout="60000"
+											loglvl="Error"
+											itemindex="0"/>
+									</item>
+								</activity>
+							</activity>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

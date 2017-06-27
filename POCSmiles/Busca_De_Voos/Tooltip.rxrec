@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.2"
+id="393ae41a-2ec7-413e-b088-4d5d2f16f715"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		Tooltip
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Tooltip"
+	namespace="POCSmiles.Busca_De_Voos"/>
+	<variables/>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="POCSmiles.Busca_De_Voos"
+		classname="Tooltip"
+		methodname="SelectFlyPayment"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="d804ac13-b841-486e-9e6e-b63925f4835b">
+				<argument
+				argname="type"
+				id="6132803c-643e-46dc-9663-8381ea4d4c63">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						Tooltip
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<loggingrecorditem
+		enabled="True"
+		optional="False"
+		searchpropertyid="fef613cd-5406-461a-a020-3013a70631c0"
+		action="Screenshot"
+		category="User"
+		message=""
+		reportlevel="Success;110">
+			<comment/>
+			<bindings/>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	name="SmilesRepository"
+	id="f8bb210d-8025-4309-a036-286794eed585"
+	rxversion="6.2"
+	relativepath="..\SmilesRepository.rxrep">
+		<codegen
+		classname="SmilesRepository"
+		namespace="POCSmiles"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="2d08fe81-6727-4e90-82e1-ffba91f7633c"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Tooltip.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

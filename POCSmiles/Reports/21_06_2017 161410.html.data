@@ -1,0 +1,847 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="f9fbe87c2eb7664"
+		totalerrorcount="6"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="6"
+		totalblockedcount="0"
+		user="CARREFOUR 2"
+		host="RODRIGUES"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="21/06/2017 16:14:10"
+		timestampiso="2017-06-21T19:14:10"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="3.78s"
+			durationms="3775"
+			type="test suite"
+			rid="67ad6955633020"
+			totalerrorcount="6"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="6"
+			totalblockedcount="0"
+			testsuitename="Smiles"
+			runconfigname="Regressivo"
+			runlabel=""
+			maxchildren="1">
+			<params>
+				<param
+					name="PMR_URL">
+					C:\Automacao - Smiles\lib\PNR\PNR_Smiles.xlsx
+				</param>
+				<param
+					name="Cadastro_CadastroUsuarios">
+					C:\Automacao - Smiles\lib\PNR\Cadastro_Usuarios.xlsx
+				</param>
+				<param
+					name="Database_Location">
+					C:\Automacao - Smiles\lib\PNR\SmilesDB.accdb
+				</param>
+				<param
+					name="MAX_COMPRA_MILHAS">
+					40000
+				</param>
+				<param
+					name="MIN_MILHAS">
+					60000
+				</param>
+				<param
+					name="MAX_RESERVAS_ISENTO">
+					5
+				</param>
+				<param
+					name="MAX_VALOR_REEMBOLSO">
+					150
+				</param>
+				<param
+					name="AMBIENTE_TESTE">
+				</param>
+				<param
+					name="BROWSER">
+				</param>
+				<param
+					name="AGENDAR">
+				</param>
+				<param
+					name="JIRA_USERNAME">
+					admin
+				</param>
+				<param
+					name="JIRA_PASSWORD">
+					admin
+				</param>
+				<param
+					name="JIRA_SERVERURL">
+					http://localhost:8080/
+				</param>
+				<param
+					name="MIN_DATE_RANGE">
+					30
+				</param>
+				<param
+					name="MAX_DATE_RANGE">
+					45
+				</param>
+				<param
+					name="INCOGNITION_MODE">
+					FALSE
+				</param>
+			</params>
+			<detail>
+				Su&#237;te de teste que contempla os fluxos do portal Smiles
+			</detail>
+			<activity
+				result="Failed"
+				duration="3.67s"
+				durationms="3673"
+				type="folder"
+				rid="101638f5ecd438"
+				totalerrorcount="6"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="6"
+				totalblockedcount="0"
+				foldername="Atomic">
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="3.67s"
+					durationms="3673"
+					type="folder"
+					rid="1c7d26178c983c61"
+					totalerrorcount="6"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="6"
+					totalblockedcount="0"
+					foldername="D_HOMOLOGACAO1">
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="3.67s"
+						durationms="3673"
+						type="folder"
+						rid="1471128d745b384e"
+						totalerrorcount="6"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="6"
+						totalblockedcount="0"
+						foldername="DH_POSITIVO1">
+						<detail>
+						</detail>
+						<activity
+							result="Failed"
+							duration="1.39s"
+							durationms="1394"
+							type="test case"
+							rid="3d7021b789852e0"
+							totalerrorcount="6"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="6"
+							totalblockedcount="0"
+							testcasename="Compra_De_Milhas"
+							testcaseid="b5168536-fc34-49a4-beef-efe252500623"
+							datasource="S_Smiles_Comprar_Milhas"
+							iterationcount="6"
+							maxchildren="0">
+							<params/>
+							<detail>
+								&lt;P&gt;Teste com o objetivo de comprar milhas&lt;/P&gt;
+							</detail>
+							<activity
+								result="Failed"
+								duration="544ms"
+								durationms="544"
+								type="test case iteration"
+								rid="284510f36ca8dd0"
+								totalerrorcount="1"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								testcasename="Compra_De_Milhas"
+								iteration="1">
+								<datarow>
+									<field
+										name="Browser">
+										Chrome
+									</field>
+									<field
+										name="URL">
+										portal-uat.smiles.com.br
+									</field>
+									<field
+										name="CPFSmilesID">
+										PERFIL_SALDO_DE_COMPRA_DE_MILHAS
+									</field>
+									<field
+										name="Senha">
+									</field>
+									<field
+										name="Milhas">
+										3000
+									</field>
+									<field
+										name="Voucher">
+										N/A
+									</field>
+									<field
+										name="NomeTitular">
+										Tio Sam
+									</field>
+									<field
+										name="NumeroCartao">
+										4111111111111111
+									</field>
+									<field
+										name="MesVencimento">
+										08
+									</field>
+									<field
+										name="AnoVencimento">
+										2018
+									</field>
+									<field
+										name="Parcelas">
+										&#224; vista
+									</field>
+									<field
+										name="CodigoSeguranca">
+										737
+									</field>
+									<field
+										name="IdentificacaoCaso">
+										Homologa&#231;&#227;o - Compra de milhas sem Voucher
+									</field>
+								</datarow>
+								<detail>
+								</detail>
+								<activity
+									result="Failed"
+									duration="469ms"
+									durationms="469"
+									type="test module"
+									rid="1e87becc7db16090"
+									totalerrorcount="1"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="StartScript"
+									moduleid="13ec580c-0a06-47da-a998-b3cbd4eb5338"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<errmsg>
+										A chave fornecida n&#227;o estava presente no dicion&#225;rio.
+									</errmsg>
+									<varbindings/>
+									<item
+										timeRelativeToTestSuiteStartTime="00:11.045"
+										timeRelativeToTestModuleStartTime="00:00.215"
+										timeWallClock="16:14:21"
+										time="00:11.045"
+										level="Error"
+										category="Module"
+										errimg="images_21_06_20_ab3d8e15\21_06_20_ab3d8e15_7b9c4735_trace.jpg"
+										errthumb="images_21_06_20_ab3d8e15\21_06_20_ab3d8e15_7b9c4735_trace_thumb.jpg">
+										<message>
+											A chave fornecida n&#227;o estava presente no dicion&#225;rio.
+										</message>
+										<metainfo
+											stacktrace="   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Ranorex.Core.IndexedDictionary`2.get_Item(TKey key)
+   em POCSmiles.Smiles_Componentes.Generico.StartScript.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Generico\StartScript.cs:linha 59
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+											codefile="2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Generico\StartScript.cs"
+											codeline="59"
+											loglvl="Error"/>
+									</item>
+								</activity>
+							</activity>
+							<activity
+								result="Failed"
+								duration="100ms"
+								durationms="100"
+								type="test case iteration"
+								rid="26069a1cfd52e42"
+								totalerrorcount="1"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								testcasename="Compra_De_Milhas"
+								iteration="2">
+								<datarow>
+									<field
+										name="Browser">
+										IE
+									</field>
+									<field
+										name="URL">
+										portal-uat.smiles.com.br
+									</field>
+									<field
+										name="CPFSmilesID">
+										PERFIL_SALDO_DE_COMPRA_DE_MILHAS
+									</field>
+									<field
+										name="Senha">
+									</field>
+									<field
+										name="Milhas">
+										1000
+									</field>
+									<field
+										name="Voucher">
+										N/A
+									</field>
+									<field
+										name="NomeTitular">
+										Tio Sam
+									</field>
+									<field
+										name="NumeroCartao">
+										4111111111111111
+									</field>
+									<field
+										name="MesVencimento">
+										08
+									</field>
+									<field
+										name="AnoVencimento">
+										2018
+									</field>
+									<field
+										name="Parcelas">
+										&#224; vista
+									</field>
+									<field
+										name="CodigoSeguranca">
+										737
+									</field>
+									<field
+										name="IdentificacaoCaso">
+										Homologa&#231;&#227;o - Compra de milhas sem Voucher
+									</field>
+								</datarow>
+								<detail>
+								</detail>
+								<activity
+									result="Failed"
+									duration="100ms"
+									durationms="100"
+									type="test module"
+									rid="4c14405e343617a"
+									totalerrorcount="1"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="StartScript"
+									moduleid="13ec580c-0a06-47da-a998-b3cbd4eb5338"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<errmsg>
+										A chave fornecida n&#227;o estava presente no dicion&#225;rio.
+									</errmsg>
+									<varbindings/>
+									<item
+										timeRelativeToTestSuiteStartTime="00:11.315"
+										timeRelativeToTestModuleStartTime="00:00.015"
+										timeWallClock="16:14:21"
+										time="00:11.315"
+										level="Error"
+										category="Module"
+										errimg="images_21_06_20_ab3d8e15\21_06_20_ab3d8e15_e693f63c_trace.jpg"
+										errthumb="images_21_06_20_ab3d8e15\21_06_20_ab3d8e15_e693f63c_trace_thumb.jpg">
+										<message>
+											A chave fornecida n&#227;o estava presente no dicion&#225;rio.
+										</message>
+										<metainfo
+											stacktrace="   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Ranorex.Core.IndexedDictionary`2.get_Item(TKey key)
+   em POCSmiles.Smiles_Componentes.Generico.StartScript.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Generico\StartScript.cs:linha 59
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+											codefile="2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Generico\StartScript.cs"
+											codeline="59"
+											loglvl="Error"/>
+									</item>
+								</activity>
+							</activity>
+							<activity
+								result="Failed"
+								duration="131ms"
+								durationms="131"
+								type="test case iteration"
+								rid="11b664c0b2efac00"
+								totalerrorcount="1"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								testcasename="Compra_De_Milhas"
+								iteration="3">
+								<datarow>
+									<field
+										name="Browser">
+										Firefox
+									</field>
+									<field
+										name="URL">
+										portal-uat.smiles.com.br
+									</field>
+									<field
+										name="CPFSmilesID">
+										PERFIL_SALDO_DE_COMPRA_DE_MILHAS
+									</field>
+									<field
+										name="Senha">
+									</field>
+									<field
+										name="Milhas">
+										2000
+									</field>
+									<field
+										name="Voucher">
+										N/A
+									</field>
+									<field
+										name="NomeTitular">
+										Tio Sam
+									</field>
+									<field
+										name="NumeroCartao">
+										4111111111111111
+									</field>
+									<field
+										name="MesVencimento">
+										08
+									</field>
+									<field
+										name="AnoVencimento">
+										2018
+									</field>
+									<field
+										name="Parcelas">
+										&#224; vista
+									</field>
+									<field
+										name="CodigoSeguranca">
+										737
+									</field>
+									<field
+										name="IdentificacaoCaso">
+										Homologa&#231;&#227;o - Compra de milhas sem Voucher
+									</field>
+								</datarow>
+								<detail>
+								</detail>
+								<activity
+									result="Failed"
+									duration="131ms"
+									durationms="131"
+									type="test module"
+									rid="1324e1df34305d4"
+									totalerrorcount="1"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="StartScript"
+									moduleid="13ec580c-0a06-47da-a998-b3cbd4eb5338"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<errmsg>
+										A chave fornecida n&#227;o estava presente no dicion&#225;rio.
+									</errmsg>
+									<varbindings/>
+									<item
+										timeRelativeToTestSuiteStartTime="00:11.415"
+										timeRelativeToTestModuleStartTime="00:00.015"
+										timeWallClock="16:14:21"
+										time="00:11.415"
+										level="Error"
+										category="Module"
+										errimg="images_21_06_20_ab3d8e15\21_06_20_ab3d8e15_dd1f444a_trace.jpg"
+										errthumb="images_21_06_20_ab3d8e15\21_06_20_ab3d8e15_dd1f444a_trace_thumb.jpg">
+										<message>
+											A chave fornecida n&#227;o estava presente no dicion&#225;rio.
+										</message>
+										<metainfo
+											stacktrace="   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Ranorex.Core.IndexedDictionary`2.get_Item(TKey key)
+   em POCSmiles.Smiles_Componentes.Generico.StartScript.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Generico\StartScript.cs:linha 59
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+											codefile="2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Generico\StartScript.cs"
+											codeline="59"
+											loglvl="Error"/>
+									</item>
+								</activity>
+							</activity>
+							<activity
+								result="Failed"
+								duration="263ms"
+								durationms="263"
+								type="test case iteration"
+								rid="23b7ded00b3ec2"
+								totalerrorcount="1"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								testcasename="Compra_De_Milhas"
+								iteration="4">
+								<datarow>
+									<field
+										name="Browser">
+										Chrome
+									</field>
+									<field
+										name="URL">
+										portal-uat.smiles.com.br
+									</field>
+									<field
+										name="CPFSmilesID">
+										425499395
+									</field>
+									<field
+										name="Senha">
+										1010
+									</field>
+									<field
+										name="Milhas">
+										1000
+									</field>
+									<field
+										name="Voucher">
+										1-32619578920
+									</field>
+									<field
+										name="NomeTitular">
+										Tio Sam
+									</field>
+									<field
+										name="NumeroCartao">
+										4111111111111111
+									</field>
+									<field
+										name="MesVencimento">
+										08
+									</field>
+									<field
+										name="AnoVencimento">
+										2018
+									</field>
+									<field
+										name="Parcelas">
+										&#224; vista
+									</field>
+									<field
+										name="CodigoSeguranca">
+										737
+									</field>
+									<field
+										name="IdentificacaoCaso">
+										Homologa&#231;&#227;o - Compra de milhas com Voucher
+									</field>
+								</datarow>
+								<detail>
+								</detail>
+								<activity
+									result="Failed"
+									duration="211ms"
+									durationms="211"
+									type="test module"
+									rid="124928dae14b64a8"
+									totalerrorcount="1"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="StartScript"
+									moduleid="13ec580c-0a06-47da-a998-b3cbd4eb5338"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<errmsg>
+										A chave fornecida n&#227;o estava presente no dicion&#225;rio.
+									</errmsg>
+									<varbindings/>
+									<item
+										timeRelativeToTestSuiteStartTime="00:11.600"
+										timeRelativeToTestModuleStartTime="00:00.052"
+										timeWallClock="16:14:21"
+										time="00:11.600"
+										level="Error"
+										category="Module"
+										errimg="images_21_06_20_ab3d8e15\21_06_20_ab3d8e15_76724540_trace.jpg"
+										errthumb="images_21_06_20_ab3d8e15\21_06_20_ab3d8e15_76724540_trace_thumb.jpg">
+										<message>
+											A chave fornecida n&#227;o estava presente no dicion&#225;rio.
+										</message>
+										<metainfo
+											stacktrace="   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Ranorex.Core.IndexedDictionary`2.get_Item(TKey key)
+   em POCSmiles.Smiles_Componentes.Generico.StartScript.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Generico\StartScript.cs:linha 59
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+											codefile="2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Generico\StartScript.cs"
+											codeline="59"
+											loglvl="Error"/>
+									</item>
+								</activity>
+							</activity>
+							<activity
+								result="Failed"
+								duration="149ms"
+								durationms="149"
+								type="test case iteration"
+								rid="8b688af7583adb8"
+								totalerrorcount="1"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								testcasename="Compra_De_Milhas"
+								iteration="5">
+								<datarow>
+									<field
+										name="Browser">
+										IE
+									</field>
+									<field
+										name="URL">
+										portal-uat.smiles.com.br
+									</field>
+									<field
+										name="CPFSmilesID">
+										425499395
+									</field>
+									<field
+										name="Senha">
+										1010
+									</field>
+									<field
+										name="Milhas">
+										1000
+									</field>
+									<field
+										name="Voucher">
+										1-32619578920
+									</field>
+									<field
+										name="NomeTitular">
+										Tio Sam
+									</field>
+									<field
+										name="NumeroCartao">
+										4111111111111111
+									</field>
+									<field
+										name="MesVencimento">
+										08
+									</field>
+									<field
+										name="AnoVencimento">
+										2018
+									</field>
+									<field
+										name="Parcelas">
+										&#224; vista
+									</field>
+									<field
+										name="CodigoSeguranca">
+										737
+									</field>
+									<field
+										name="IdentificacaoCaso">
+										Homologa&#231;&#227;o - Compra de milhas com Voucher
+									</field>
+								</datarow>
+								<detail>
+								</detail>
+								<activity
+									result="Failed"
+									duration="139ms"
+									durationms="139"
+									type="test module"
+									rid="b7a01f0cd1f430d"
+									totalerrorcount="1"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="StartScript"
+									moduleid="13ec580c-0a06-47da-a998-b3cbd4eb5338"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<errmsg>
+										A chave fornecida n&#227;o estava presente no dicion&#225;rio.
+									</errmsg>
+									<varbindings/>
+									<item
+										timeRelativeToTestSuiteStartTime="00:11.817"
+										timeRelativeToTestModuleStartTime="00:00.019"
+										timeWallClock="16:14:22"
+										time="00:11.817"
+										level="Error"
+										category="Module"
+										errimg="images_21_06_20_ab3d8e15\21_06_20_ab3d8e15_09cac56a_trace.jpg"
+										errthumb="images_21_06_20_ab3d8e15\21_06_20_ab3d8e15_09cac56a_trace_thumb.jpg">
+										<message>
+											A chave fornecida n&#227;o estava presente no dicion&#225;rio.
+										</message>
+										<metainfo
+											stacktrace="   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Ranorex.Core.IndexedDictionary`2.get_Item(TKey key)
+   em POCSmiles.Smiles_Componentes.Generico.StartScript.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Generico\StartScript.cs:linha 59
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+											codefile="2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Generico\StartScript.cs"
+											codeline="59"
+											loglvl="Error"/>
+									</item>
+								</activity>
+							</activity>
+							<activity
+								result="Failed"
+								duration="168ms"
+								durationms="168"
+								type="test case iteration"
+								rid="fded1fe44f231f0"
+								totalerrorcount="1"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								testcasename="Compra_De_Milhas"
+								iteration="6">
+								<datarow>
+									<field
+										name="Browser">
+										Firefox
+									</field>
+									<field
+										name="URL">
+										portal-uat.smiles.com.br
+									</field>
+									<field
+										name="CPFSmilesID">
+										425499395
+									</field>
+									<field
+										name="Senha">
+										1010
+									</field>
+									<field
+										name="Milhas">
+										1000
+									</field>
+									<field
+										name="Voucher">
+										1-32619578920
+									</field>
+									<field
+										name="NomeTitular">
+										Tio Sam
+									</field>
+									<field
+										name="NumeroCartao">
+										4111111111111111
+									</field>
+									<field
+										name="MesVencimento">
+										08
+									</field>
+									<field
+										name="AnoVencimento">
+										2018
+									</field>
+									<field
+										name="Parcelas">
+										&#224; vista
+									</field>
+									<field
+										name="CodigoSeguranca">
+										737
+									</field>
+									<field
+										name="IdentificacaoCaso">
+										Homologa&#231;&#227;o - Compra de milhas com Voucher
+									</field>
+								</datarow>
+								<detail>
+								</detail>
+								<activity
+									result="Failed"
+									duration="112ms"
+									durationms="112"
+									type="test module"
+									rid="1934193d47198531"
+									totalerrorcount="1"
+									totalwarningcount="0"
+									totalsuccesscount="0"
+									totalfailedcount="0"
+									totalblockedcount="0"
+									modulename="StartScript"
+									moduleid="13ec580c-0a06-47da-a998-b3cbd4eb5338"
+									moduletype="UserCode">
+									<detail>
+									</detail>
+									<errmsg>
+										A chave fornecida n&#227;o estava presente no dicion&#225;rio.
+									</errmsg>
+									<varbindings/>
+									<item
+										timeRelativeToTestSuiteStartTime="00:12.044"
+										timeRelativeToTestModuleStartTime="00:00.017"
+										timeWallClock="16:14:22"
+										time="00:12.044"
+										level="Error"
+										category="Module"
+										errimg="images_21_06_20_ab3d8e15\21_06_20_ab3d8e15_472d43e9_trace.jpg"
+										errthumb="images_21_06_20_ab3d8e15\21_06_20_ab3d8e15_472d43e9_trace_thumb.jpg">
+										<message>
+											A chave fornecida n&#227;o estava presente no dicion&#225;rio.
+										</message>
+										<metainfo
+											stacktrace="   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Ranorex.Core.IndexedDictionary`2.get_Item(TKey key)
+   em POCSmiles.Smiles_Componentes.Generico.StartScript.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\CARREFOUR 2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Generico\StartScript.cs:linha 59
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+											codefile="2\Desktop\Automacao - Smiles\POCSmiles\Smiles_Componentes\Generico\StartScript.cs"
+											codeline="59"
+											loglvl="Error"/>
+									</item>
+								</activity>
+							</activity>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>
