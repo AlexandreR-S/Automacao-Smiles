@@ -2789,6 +2789,11 @@ smiles</P>]]>
 			ref="ca6e8c5b-d768-4f6d-8606-4bf9abda3547"
 			type="Recording"/>
 			<testmodule
+			name="TransferirMilhas"
+			id="0634aab9-85a0-4226-8233-e3da7d10a26c"
+			ref="84969d14-2166-4f44-8877-6f3422934e2c"
+			type="UserCode"/>
+			<testmodule
 			name="SalvarReport"
 			id="063c16db-f771-47c9-a0cf-a58bfbe60610"
 			ref="84ead3b2-5d7e-4dcc-a7e1-0d8302eeee75"
@@ -7228,44 +7233,6 @@ reservado]]>
 			type="Recording"/>
 			<testmodule
 			name="PagamentoSemTecladoVirtual"
-			id="13e37f2b-5573-4e87-b70e-59701842bf3a"
-			ref="30fccbd6-9ec3-4bc4-90fc-6ea01dcc7239"
-			type="Recording">
-				<databinding>
-					<var
-					variablename="CodigoSeguranca"
-					variableid="5725f962-866f-48a4-b155-58d0fc8590bc"
-					dataname="CodigoSeguranca"
-					datasourceid="836ef30a-5557-446e-beba-a818fa810b3b"/>
-					<var
-					variablename="Parcelas"
-					variableid="15da86d7-dd12-4cd3-b7c4-24952f8bb226"
-					dataname="Parcelas"
-					datasourceid="836ef30a-5557-446e-beba-a818fa810b3b"/>
-					<var
-					variablename="AnoVencimento"
-					variableid="5bdece8a-acfd-4796-8f67-fdcf3a3d1a20"
-					dataname="AnoVencimento"
-					datasourceid="836ef30a-5557-446e-beba-a818fa810b3b"/>
-					<var
-					variablename="MesVencimento"
-					variableid="1f00f5d2-f930-47e7-8e63-044fab113357"
-					dataname="MesVencimento"
-					datasourceid="836ef30a-5557-446e-beba-a818fa810b3b"/>
-					<var
-					variablename="NumeroCartao"
-					variableid="976b896e-438b-4927-940f-d2e34195c0a0"
-					dataname="NumeroCartao"
-					datasourceid="836ef30a-5557-446e-beba-a818fa810b3b"/>
-					<var
-					variablename="NomeTitular"
-					variableid="2d9ffbf8-0712-4fc7-a838-e8e94f69fabc"
-					dataname="NomeTitular"
-					datasourceid="836ef30a-5557-446e-beba-a818fa810b3b"/>
-				</databinding>
-			</testmodule>
-			<testmodule
-			name="PagamentoSemTecladoVirtual"
 			id="1434b984-2c28-43b3-abe7-0194eeeea0c2"
 			ref="30fccbd6-9ec3-4bc4-90fc-6ea01dcc7239"
 			type="Recording">
@@ -8987,6 +8954,11 @@ selecionar os dados de voo</P>]]>
 				</databinding>
 			</testmodule>
 			<testmodule
+			name="RP_TransferirMilhas"
+			id="1bb49ee8-cc70-43da-8b9d-9c4636207a8a"
+			ref="a58578ba-0053-44af-a57a-ec430e1ff05a"
+			type="UserCode"/>
+			<testmodule
 			name="MeusVoos"
 			id="1bc8a8f0-288e-4001-b15a-ac2e25baae01"
 			ref="1d02723e-4028-4410-be74-4963aa71fddc"
@@ -9950,6 +9922,11 @@ selecionar os dados de voo</P>]]>
 			id="2402f353-6df0-48fe-b8f1-702d2c531461"
 			ref="97d81020-eacd-40a7-845f-b0391457f14f"
 			type="Recording"/>
+			<testmodule
+			name="TransferirMilhasUsuario"
+			id="241be2ad-ea45-41d7-8341-496653d34664"
+			ref="5c367f02-cf99-476e-a3cd-0df7d7882b34"
+			type="UserCode"/>
 			<testmodule
 			name="RP_ValidarAdesaoClube"
 			id="2466f269-48ca-4ce2-97cd-f8e2885fcb18"
@@ -11296,9 +11273,7 @@ usuário já logado.</P>]]>
 			id="26cba5e6-42b1-4260-86ca-25e74d1d0408"
 			errorbehavior="ContinueNextIteration"
 			minrange="0"
-			maxrange="0"
-			datarangeactive="True"
-			datasource="S_Smiles_Assentos_Alterar">
+			maxrange="0">
 				<description>
 					<![CDATA[<P>Caso de teste com o objetivo de&nbsp;selecionar&nbsp;assento(s) com resultado 
 esperado positivo</P>]]>
@@ -20841,11 +20816,6 @@ compra&nbsp;com resultado esperado positivo</P>]]>
 				</databinding>
 			</testmodule>
 			<testmodule
-			name="LoginHome"
-			id="4a30aa71-eae7-43a9-8219-d308376eba77"
-			ref="02991d76-c5cb-4e47-8c23-2c8acb229dc6"
-			type="Recording"/>
-			<testmodule
 			name="CadastrarUsuario"
 			id="4a5d9eb3-d043-4da3-926d-f5038658cea2"
 			ref="15d2c128-57c8-430a-a9ac-d1494b1ac2eb"
@@ -24448,6 +24418,11 @@ negativo</P>]]>
 			<setup
 			name="setup"
 			id="56a4fe36-3269-4bd7-9fb5-1b2ad7005c1f"/>
+			<testmodule
+			name="IniciarDesktop"
+			id="56c904bf-be00-4eac-82c1-0c4dd91949a5"
+			ref="50e42e85-06f5-4206-9cb7-80b8e8db2d4a"
+			type="UserCode"/>
 			<testcase
 			name="MRPN_Emissao_Sem_Milhas"
 			id="56c95e2e-9bdd-433c-8934-b20f04837d30"
@@ -29104,6 +29079,11 @@ Smiles</P>]]>
 					datasourceid="7c73549f-090c-48a9-ba68-e2d0c29d1285"/>
 				</databinding>
 			</modulegroup>
+			<testmodule
+			name="PagamentoSemTecladoVirtual"
+			id="687350c7-c6c4-4135-9fcf-ae06488402cf"
+			ref="9154188d-731b-40de-81ad-e10709ff6340"
+			type="UserCode"/>
 			<setup
 			name="setup"
 			id="68841695-6511-4be5-b521-bece7f3a0a95"/>
@@ -35952,11 +35932,6 @@ tarifa clube com adesao]]>
 				</databinding>
 			</testmodule>
 			<testmodule
-			name="ErrorInspector"
-			id="800a7ace-3396-4028-a738-d0a07101249b"
-			ref="ca6e8c5b-d768-4f6d-8606-4bf9abda3547"
-			type="Recording"/>
-			<testmodule
 			name="SalvarReport"
 			id="804a737c-b5ca-40a8-a248-aa770a946f92"
 			ref="84ead3b2-5d7e-4dcc-a7e1-0d8302eeee75"
@@ -35989,6 +35964,11 @@ tarifa clube com adesao]]>
 			id="807e74ac-243a-4d96-908c-484b6ec6d7ea"
 			ref="02991d76-c5cb-4e47-8c23-2c8acb229dc6"
 			type="Recording"/>
+			<testmodule
+			name="StartScript"
+			id="80ad382b-c961-423d-b0bb-88687b7deeff"
+			ref="13ec580c-0a06-47da-a998-b3cbd4eb5338"
+			type="UserCode"/>
 			<testmodule
 			name="IniciarDesktop"
 			id="80bb8651-a1d3-4a17-905b-c7b2b7010d84"
@@ -49285,29 +49265,6 @@ selecionar os dados de voo</P>]]>
 				</databinding>
 			</modulegroup>
 			<testmodule
-			name="TransferirMilhas"
-			id="9fef7412-d62c-4326-9fdd-b65dfecee838"
-			ref="3ea1fb1c-44bc-4aa3-a1cc-9e96cedfdc83"
-			type="Recording">
-				<databinding>
-					<var
-					variablename="Milhas"
-					variableid="0b3f5518-4870-4d74-af0f-01780a3cc1e2"
-					dataname="Milhas"
-					datasourceid="836ef30a-5557-446e-beba-a818fa810b3b"/>
-					<var
-					variablename="CPF"
-					variableid="a79b09ba-a912-4639-aea7-f3cf6e2f4fdd"
-					dataname="CPF"
-					datasourceid="836ef30a-5557-446e-beba-a818fa810b3b"/>
-					<var
-					variablename="NumSmiles"
-					variableid="18d1f9a4-3dab-4ac6-8bef-488cfe65cf2b"
-					dataname="NumSmiles"
-					datasourceid="836ef30a-5557-446e-beba-a818fa810b3b"/>
-				</databinding>
-			</testmodule>
-			<testmodule
 			name="MeusVoos"
 			id="9ff98f45-9822-4167-a713-0af7506ce521"
 			ref="5305de7e-bf57-438d-ae40-5b96c4fb8812"
@@ -49734,19 +49691,6 @@ esperado positivo</P>]]>
 			id="a2579abf-78ab-4cb2-8238-8755a1e43663"
 			ref="ca6e8c5b-d768-4f6d-8606-4bf9abda3547"
 			type="Recording"/>
-			<testmodule
-			name="IniciarDesktop"
-			id="a2700013-81c7-4e11-ab16-07e93d564ae2"
-			ref="a442b2c8-40ae-4fc3-8709-cb190794259c"
-			type="Recording">
-				<databinding>
-					<var
-					variablename="Browser"
-					variableid="b6d41b4e-1796-403b-a99c-aac8f822969b"
-					dataname="Browser"
-					datasourceid="836ef30a-5557-446e-beba-a818fa810b3b"/>
-				</databinding>
-			</testmodule>
 			<testmodule
 			name="ErrorInspector"
 			id="a2d826e4-04d9-4aaf-9122-6b041d67da3e"
@@ -52949,15 +52893,25 @@ esperado positivo</P>]]>
 			ref="27f89b6c-25b3-48b8-988c-05464dc85dde"
 			type="Recording"/>
 			<testcase
-			name="DHP_Transferencia_De_Milhas1"
+			name="Transferencia_De_Milhas"
 			id="addaeaaf-f06e-4c96-b8e0-c41295c0940a"
 			errorbehavior="ContinueNextIteration"
 			minrange="2"
-			maxrange="2"
-			datasource="S_Smiles_Transferir_Milhas">
+			maxrange="2">
 				<description>
 					<![CDATA[<P>Teste com o objetivo de transferir milhas</P>]]>
 				</description>
+				<parameters>
+					<param
+					name="Country"
+					value="Brasil"/>
+					<param
+					name="Dataset_Version"
+					value="1"/>
+					<param
+					name="Company_Code"
+					value="Chrome"/>
+				</parameters>
 			</testcase>
 			<setup
 			name="setup"
@@ -54431,9 +54385,7 @@ voo</P>]]>
 			id="b1ef03d7-2c3e-48c6-a62a-c376e90f1f1e"
 			errorbehavior="ContinueNextIteration"
 			minrange="0"
-			maxrange="0"
-			datarangeactive="True"
-			datasource="S_Smiles_Extrato">
+			maxrange="0">
 				<description>
 					<![CDATA[Teste com o bjetivo de adicionar passageiro favorito]]>
 				</description>
@@ -56273,11 +56225,6 @@ Smiles</P>]]>
 					datasourceid="4acc25f1-f533-4d75-a266-9c7c0ead35d6"/>
 				</databinding>
 			</testmodule>
-			<testmodule
-			name="TransferirMilhas"
-			id="b82ee024-fa03-44b6-b0a1-9d27fbbf07d7"
-			ref="d5cbe5d4-6dd1-483e-9574-d17bdd693c7a"
-			type="Recording"/>
 			<teardown
 			name="teardown"
 			id="b843f2d0-2844-428b-b933-451ed0ac206b"/>
@@ -60552,9 +60499,6 @@ esperado negativo</P>]]>
 			id="c2136643-97a8-41a6-9de7-890210e045a7"
 			ref="ca6e8c5b-d768-4f6d-8606-4bf9abda3547"
 			type="Recording"/>
-			<teardown
-			name="teardown"
-			id="c21b0e45-638f-469a-a090-09696d4cca71"/>
 			<testmodule
 			name="ErrorInspector"
 			id="c229ae15-e644-4a75-98cd-a5fea34ff1d6"
@@ -65089,28 +65033,6 @@ Smiles</P>]]>
 					datasourceid="be524d5e-5dd1-4cec-822a-081971dedef8"/>
 				</databinding>
 			</testmodule>
-			<modulegroup
-			name="SetupGroup"
-			id="d0faca39-d68a-4768-88c8-7b356336a317"
-			ref="09a4ae9e-70b6-4c5d-832b-6f0b9c38b49c">
-				<databinding>
-					<var
-					variablename="URL"
-					variableid="fd09c60c-0486-4533-a2e6-ac3f7a486b66"
-					dataname="URL"
-					datasourceid="836ef30a-5557-446e-beba-a818fa810b3b"/>
-					<var
-					variablename="CPFSmilesID"
-					variableid="99532783-4d8a-4945-8dc8-f9f7ea7d274d"
-					dataname="CPFSmilesID"
-					datasourceid="836ef30a-5557-446e-beba-a818fa810b3b"/>
-					<var
-					variablename="Senha"
-					variableid="d58875bd-2cfb-458a-9fa5-1c92e346e42e"
-					dataname="Senha"
-					datasourceid="836ef30a-5557-446e-beba-a818fa810b3b"/>
-				</databinding>
-			</modulegroup>
 			<teardown
 			name="teardown"
 			id="d10bdc2d-90c4-4c9c-95db-af94a53b4385"/>
@@ -66949,11 +66871,6 @@ smiles</P>]]>
 					datasourceid="be524d5e-5dd1-4cec-822a-081971dedef8"/>
 				</databinding>
 			</testmodule>
-			<testmodule
-			name="RP_TransferirMilhas"
-			id="d7874662-d670-46b0-b22b-82482a4b9fc6"
-			ref="27f89b6c-25b3-48b8-988c-05464dc85dde"
-			type="Recording"/>
 			<testmodule
 			name="MensagemTela"
 			id="d78d2736-1918-4b71-9f45-422614673f93"
@@ -72683,34 +72600,6 @@ smiles</P>]]>
 			id="eb20a02e-e15f-4d62-b248-242a4c412bbc"/>
 			<testmodule
 			name="SalvarReport"
-			id="eb22d221-9402-463d-b4f3-4d03f39c313a"
-			ref="84ead3b2-5d7e-4dcc-a7e1-0d8302eeee75"
-			type="Recording">
-				<databinding>
-					<var
-					variablename="CPFSmilesID"
-					variableid="357c077b-bff8-4545-be32-26e05d8ee77b"
-					dataname="CPFSmilesID"
-					datasourceid="836ef30a-5557-446e-beba-a818fa810b3b"/>
-					<var
-					variablename="URL"
-					variableid="aca5bb12-9af5-4b08-893b-74cf8db51160"
-					dataname="URL"
-					datasourceid="836ef30a-5557-446e-beba-a818fa810b3b"/>
-					<var
-					variablename="Browser"
-					variableid="ad0666d5-0470-448a-97d4-7758e7b9fa80"
-					dataname="Browser"
-					datasourceid="836ef30a-5557-446e-beba-a818fa810b3b"/>
-					<var
-					variablename="IdentificacaoCaso"
-					variableid="d4d3132d-fe45-43c6-8cb4-973b4464ece1"
-					dataname="IdentificacaoCaso"
-					datasourceid="836ef30a-5557-446e-beba-a818fa810b3b"/>
-				</databinding>
-			</testmodule>
-			<testmodule
-			name="SalvarReport"
 			id="eb22f270-74f8-4067-aa91-08a277492a49"
 			ref="84ead3b2-5d7e-4dcc-a7e1-0d8302eeee75"
 			type="Recording">
@@ -76733,6 +76622,11 @@ voo</P>]]>
 					datasourceid="d91d9b94-389f-41b8-a756-caa53324d049"/>
 				</databinding>
 			</testmodule>
+			<testmodule
+			name="LoginHome"
+			id="f5d84914-29bf-4db9-9c2f-461e5dec07c3"
+			ref="090b16bb-891d-4abb-81d1-98b7d7bb1aab"
+			type="UserCode"/>
 			<teardown
 			name="teardown"
 			id="f5e9bfe9-ae8a-4930-be0a-77e6cc1006bd"/>
@@ -78129,9 +78023,6 @@ compra&nbsp;com resultado esperado positivo</P>]]>
 			id="ff5d3cb4-82c1-4b07-819e-afed5db3de81"
 			ref="2d498fff-ede0-44d3-81b6-b030f0b1880f"
 			type="Recording"/>
-			<setup
-			name="setup"
-			id="ff616e8c-b542-4763-91f4-90331a3a77cf"/>
 			<testmodule
 			name="RP_EmissaoSemMilhas"
 			id="ff714099-eedb-4835-9f45-da4243cae9a5"
@@ -85653,43 +85544,29 @@ compra&nbsp;com resultado esperado positivo</P>]]>
 									id="45daa7b0-5385-48fa-aa5c-c194fd45768d"/>
 								</testcase>
 								<testcase
-								name="DHP_Transferencia_De_Milhas1"
+								name="Transferencia_De_Milhas"
 								id="addaeaaf-f06e-4c96-b8e0-c41295c0940a">
-									<setup
-									name="setup"
-									id="ff616e8c-b542-4763-91f4-90331a3a77cf">
-										<modulegroup
-										name="SetupGroup"
-										id="d0faca39-d68a-4768-88c8-7b356336a317"/>
-									</setup>
+									<testmodule
+									name="StartScript"
+									id="80ad382b-c961-423d-b0bb-88687b7deeff"/>
 									<testmodule
 									name="IniciarDesktop"
-									id="a2700013-81c7-4e11-ab16-07e93d564ae2"/>
-									<testmodule
-									name="ErrorInspector"
-									id="800a7ace-3396-4028-a738-d0a07101249b"/>
+									id="56c904bf-be00-4eac-82c1-0c4dd91949a5"/>
 									<testmodule
 									name="LoginHome"
-									id="4a30aa71-eae7-43a9-8219-d308376eba77"/>
+									id="f5d84914-29bf-4db9-9c2f-461e5dec07c3"/>
+									<testmodule
+									name="TransferirMilhasUsuario"
+									id="241be2ad-ea45-41d7-8341-496653d34664"/>
 									<testmodule
 									name="TransferirMilhas"
-									id="b82ee024-fa03-44b6-b0a1-9d27fbbf07d7"/>
-									<testmodule
-									name="TransferirMilhas"
-									id="9fef7412-d62c-4326-9fdd-b65dfecee838"/>
+									id="0634aab9-85a0-4226-8233-e3da7d10a26c"/>
 									<testmodule
 									name="PagamentoSemTecladoVirtual"
-									id="13e37f2b-5573-4e87-b70e-59701842bf3a"/>
+									id="687350c7-c6c4-4135-9fcf-ae06488402cf"/>
 									<testmodule
 									name="RP_TransferirMilhas"
-									id="d7874662-d670-46b0-b22b-82482a4b9fc6"/>
-									<teardown
-									name="teardown"
-									id="c21b0e45-638f-469a-a090-09696d4cca71">
-										<testmodule
-										name="SalvarReport"
-										id="eb22d221-9402-463d-b4f3-4d03f39c313a"/>
-									</teardown>
+									id="1bb49ee8-cc70-43da-8b9d-9c4636207a8a"/>
 								</testcase>
 								<testcase
 								name="Adicionar_Favorito"
@@ -111903,11 +111780,11 @@ compra&nbsp;com resultado esperado positivo</P>]]>
 			<testcase
 			id="34bdc58d-e2b3-486c-9932-bdbbe3afb3f2"/>
 			<testcase
-			id="534bccc7-f0e3-4afb-9645-741acf76ce5a"/>
-			<testcase
-			id="74ba43df-9a19-4c5c-9e3b-dc33938728f7"/>
+			id="3fde8275-065d-435a-9dbd-f5c05f213a98"/>
 			<testcase
 			id="9402f278-83d5-43d2-97c9-a60d1a11247d"/>
+			<testcase
+			id="bbb2f11c-0e65-40f1-b407-312830b7300d"/>
 		</testconfiguration>
 	</testconfigurations>
 	<references>

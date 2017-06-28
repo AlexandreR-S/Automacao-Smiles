@@ -2204,15 +2204,6 @@ rxversion="6.2">
 				/dom[@pageurl~'.smiles.com.br']//input[@name='_smilescreditrequestportlet_WAR_smilesmemberportlet_fileBoardingPass' and @type='file' and @visible='True']
 			</item>
 			<item
-			name="SolicitarMilhas_SolicitarMilhasDeVoo"
-			id="1a2e2f9c-5efe-4f41-8411-1d2176d28443"
-			searchtimeout="30000ms"
-			capname="unknown"
-			addcaps="unknown,webelement,inputtag"
-			refimgid="6f48122c-40a5-4117-9fb9-bf1b7132e58b">
-				/dom[@pageurl~'.smiles.com.br']//.[@id~'btnRequestMiles' and @visible='True']
-			</item>
-			<item
 			name="CabineDeViagem"
 			id="994497f4-6453-4a1a-ad91-81d73fe8b27c"
 			searchtimeout="30000ms"
@@ -2256,6 +2247,15 @@ rxversion="6.2">
 			addcaps="unknown,webelement,buttontag"
 			refimgid="130433af-771f-4d47-8645-d9a9d6723a5e">
 				/dom[@pageurl~'.smiles.com.br']//button[@innertext~'Fechar']
+			</item>
+			<item
+			name="SolicitarMilhas_SolicitarMilhasDeVoo"
+			id="e14e6a66-57ae-45f7-9c5d-c3be6ebb9995"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			addcaps="unknown,webelement,buttontag"
+			refimgid="130433af-771f-4d47-8645-d9a9d6723a5e">
+				/dom[@pageurl~'.smiles.com.br']//button[@innertext='Enviar solicita&#231;&#227;o']
 			</item>
 			<item
 			name="SolicitarMilhas_ButtonTagVerMeuExtrato"

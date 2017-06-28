@@ -670,9 +670,9 @@ mode="Global">
 			<bindings/>
 			<info
 			sourcename="RepositoryEditor"
-			id="1a2e2f9c-5efe-4f41-8411-1d2176d28443">
+			id="e14e6a66-57ae-45f7-9c5d-c3be6ebb9995">
 				<path>
-					/dom[@pageurl~'.*'+$URL+'.*'][1]//.[#'btnRequestMilesManual']
+					/dom[@pageurl~'.smiles.com.br']//button[@innertext='Enviar solicita&#231;&#227;o']
 				</path>
 			</info>
 		</mouseitem>

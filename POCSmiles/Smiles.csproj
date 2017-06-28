@@ -2383,6 +2383,9 @@
     <Compile Include="Smiles_Componentes\Menu_Usuario\SolicitarMilhasUsuario.cs">
       <id>1948b83d-41cc-42d0-86a5-f422a8168307</id>
     </Compile>
+    <Compile Include="Smiles_Componentes\Menu_Usuario\TransferirMilhasUsuario.cs">
+      <id>266a470a-eae5-4723-9327-bb4f6b9345e6</id>
+    </Compile>
     <Compile Include="Smiles_Componentes\ReativarMilhas\Menu_ReativarMilhas.cs">
       <id>09fa5b93-09b8-42ad-a858-ccd2d56c56da</id>
     </Compile>
@@ -2464,6 +2467,9 @@
     <Compile Include="Smiles_Componentes\Resultado_Esperado\RP_Tooltip.cs">
       <id>d735d67c-d02b-439d-a517-3bb2ec3f5799</id>
     </Compile>
+    <Compile Include="Smiles_Componentes\Resultado_Esperado\RP_TransferirMilhas.cs">
+      <id>e0fffc59-aa43-4395-98ae-2a616ccb3045</id>
+    </Compile>
     <Compile Include="Smiles_Componentes\Resultado_Esperado\RP_ValidacaoAdesaoAposEmissao.cs">
       <id>ce2a3ec3-ba55-4bb4-a912-bf8964142250</id>
     </Compile>
@@ -2475,6 +2481,9 @@
     </Compile>
     <Compile Include="Smiles_Componentes\SolicitarMilhas\SolicitarMilhas.cs">
       <id>1386d943-0902-423b-8484-70243575eb61</id>
+    </Compile>
+    <Compile Include="Smiles_Componentes\Transferencia_De_Milhas\TransferirMilhas.cs">
+      <id>d16d0e0b-f65f-481a-b0c9-184c2cb83944</id>
     </Compile>
     <Compile Include="Smiles_UserCode.cs">
       <id>c34818a4-daa6-4b65-8801-5472efaf0ebb</id>
@@ -3566,6 +3575,9 @@
   <ItemGroup>
     <Folder Include="Busca_De_Voos">
       <id>5563d20b-4e28-402b-9f31-18cedd94926a</id>
+    </Folder>
+    <Folder Include="Smiles_Componentes\Transferencia_De_Milhas">
+      <id>1173931e-488d-446c-9cc5-2aab1a9dec5e</id>
     </Folder>
     <Folder Include="TESTE_GIT">
       <id>c9ed7761-7b1d-4279-a6a8-ede73f0b2d76</id>

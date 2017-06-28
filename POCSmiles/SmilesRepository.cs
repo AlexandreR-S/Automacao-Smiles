@@ -713,12 +713,12 @@ namespace POCSmiles
             RepoItemInfo _solicitarmilhas_datavooInfo;
             RepoItemInfo _solicitarmilhas_bilheteeletronicoprocurarInfo;
             RepoItemInfo _solicitarmilhas_cartaoembarqueprocurarInfo;
-            RepoItemInfo _solicitarmilhas_solicitarmilhasdevooInfo;
             RepoItemInfo _cabinedeviagemInfo;
             RepoItemInfo _aeroportodeorigemInfo;
             RepoItemInfo _solicitarmilhas_okInfo;
             RepoItemInfo _validacaopositiva_solicitacaomilhasInfo;
             RepoItemInfo _solicitarmilhas_buttontagfecharInfo;
+            RepoItemInfo _solicitarmilhas_solicitarmilhasdevooInfo;
             RepoItemInfo _solicitarmilhas_buttontagvermeuextratoInfo;
             RepoItemInfo _solicitarmilhas_btntransctionsInfo;
             RepoItemInfo _solicitarmilhas_sendmessagesmilesInfo;
@@ -1116,12 +1116,12 @@ namespace POCSmiles
                 _solicitarmilhas_datavooInfo = new RepoItemInfo(this, "SolicitarMilhas_DataVoo", ".//input[#'_smilescreditrequestportlet_WAR_smilesmemberportlet_flightDayG31']", 30000, null, "f6de6084-c837-4e25-84c3-12bc0d7b9096");
                 _solicitarmilhas_bilheteeletronicoprocurarInfo = new RepoItemInfo(this, "SolicitarMilhas_BilheteEletronicoProcurar", ".//input[@name='_smilescreditrequestportlet_WAR_smilesmemberportlet_fileEticket' and @type='file' and @visible='True']", 30000, null, "f5f30b63-d3e4-4780-851a-677fabf55fb1");
                 _solicitarmilhas_cartaoembarqueprocurarInfo = new RepoItemInfo(this, "SolicitarMilhas_CartaoEmbarqueProcurar", ".//input[@name='_smilescreditrequestportlet_WAR_smilesmemberportlet_fileBoardingPass' and @type='file' and @visible='True']", 30000, null, "861b8d03-1d3d-46bf-8078-5bca9ee21cd8");
-                _solicitarmilhas_solicitarmilhasdevooInfo = new RepoItemInfo(this, "SolicitarMilhas_SolicitarMilhasDeVoo", ".//.[@id~'btnRequestMiles' and @visible='True']", 30000, null, "1a2e2f9c-5efe-4f41-8411-1d2176d28443");
                 _cabinedeviagemInfo = new RepoItemInfo(this, "CabineDeViagem", ".//label[@innertext='Cabine de viagem']", 30000, null, "994497f4-6453-4a1a-ad91-81d73fe8b27c");
                 _aeroportodeorigemInfo = new RepoItemInfo(this, "AeroportoDeOrigem", ".//label[@innertext='Aeroporto de origem']", 30000, null, "fdff0b41-4744-4508-8d8a-c0a7651310c0");
                 _solicitarmilhas_okInfo = new RepoItemInfo(this, "SolicitarMilhas_OK", ".//.[@innertext='OK']", 30000, null, "2dc50403-0ce7-4d81-b9fc-fee6f74162bc");
                 _validacaopositiva_solicitacaomilhasInfo = new RepoItemInfo(this, "ValidacaoPositiva_SolicitacaoMilhas", ".//button[@innertext~'Voltar para minha conta']", 30000, null, "00c0e471-f2ae-4141-9c0c-f3f67024f931");
                 _solicitarmilhas_buttontagfecharInfo = new RepoItemInfo(this, "SolicitarMilhas_ButtonTagFechar", ".//button[@innertext~'Fechar']", 30000, null, "d032ed79-bfe4-4ab2-8039-690dbc3b223a");
+                _solicitarmilhas_solicitarmilhasdevooInfo = new RepoItemInfo(this, "SolicitarMilhas_SolicitarMilhasDeVoo", ".//button[@innertext='Enviar solicitação']", 30000, null, "e14e6a66-57ae-45f7-9c5d-c3be6ebb9995");
                 _solicitarmilhas_buttontagvermeuextratoInfo = new RepoItemInfo(this, "SolicitarMilhas_ButtonTagVerMeuExtrato", ".//button[@innertext~'Ver meu extrato']", 30000, null, "e15e876d-4fb4-4bcb-bded-e296fe00ebd7");
                 _solicitarmilhas_btntransctionsInfo = new RepoItemInfo(this, "SolicitarMilhas_BtnTransctions", ".//button[#'btnTransctions']", 30000, null, "45d60648-21dc-4c5c-a5b0-400544128f9d");
                 _solicitarmilhas_sendmessagesmilesInfo = new RepoItemInfo(this, "SolicitarMilhas_SendMessageSmiles", ".//button[#'sendMessageSmiles']", 30000, null, "1ef6680b-0a57-479e-b701-920134bc0eb6");
@@ -6652,30 +6652,6 @@ namespace POCSmiles
             }
 
             /// <summary>
-            /// The SolicitarMilhas_SolicitarMilhasDeVoo item.
-            /// </summary>
-            [RepositoryItem("1a2e2f9c-5efe-4f41-8411-1d2176d28443")]
-            public virtual Ranorex.Unknown SolicitarMilhas_SolicitarMilhasDeVoo
-            {
-                get
-                {
-                    return _solicitarmilhas_solicitarmilhasdevooInfo.CreateAdapter<Ranorex.Unknown>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SolicitarMilhas_SolicitarMilhasDeVoo item info.
-            /// </summary>
-            [RepositoryItemInfo("1a2e2f9c-5efe-4f41-8411-1d2176d28443")]
-            public virtual RepoItemInfo SolicitarMilhas_SolicitarMilhasDeVooInfo
-            {
-                get
-                {
-                    return _solicitarmilhas_solicitarmilhasdevooInfo;
-                }
-            }
-
-            /// <summary>
             /// The CabineDeViagem item.
             /// </summary>
             [RepositoryItem("994497f4-6453-4a1a-ad91-81d73fe8b27c")]
@@ -6792,6 +6768,30 @@ namespace POCSmiles
                 get
                 {
                     return _solicitarmilhas_buttontagfecharInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SolicitarMilhas_SolicitarMilhasDeVoo item.
+            /// </summary>
+            [RepositoryItem("e14e6a66-57ae-45f7-9c5d-c3be6ebb9995")]
+            public virtual Ranorex.ButtonTag SolicitarMilhas_SolicitarMilhasDeVoo
+            {
+                get
+                {
+                    return _solicitarmilhas_solicitarmilhasdevooInfo.CreateAdapter<Ranorex.ButtonTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SolicitarMilhas_SolicitarMilhasDeVoo item info.
+            /// </summary>
+            [RepositoryItemInfo("e14e6a66-57ae-45f7-9c5d-c3be6ebb9995")]
+            public virtual RepoItemInfo SolicitarMilhas_SolicitarMilhasDeVooInfo
+            {
+                get
+                {
+                    return _solicitarmilhas_solicitarmilhasdevooInfo;
                 }
             }
 
