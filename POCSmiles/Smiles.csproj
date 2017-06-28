@@ -506,6 +506,9 @@
     <Compile Include="Smiles_Componentes\Extrato\AcessarExtrato.cs">
       <id>93d38a14-52f2-429f-bb16-834073cf6cbe</id>
     </Compile>
+    <Compile Include="Smiles_Componentes\Favoritos\EditarFavorito.cs">
+      <id>cf22a727-1614-42a7-b11d-673eaaff4d69</id>
+    </Compile>
     <Compile Include="Smiles_Componentes\Favoritos\ExcluirFavorito.cs">
       <id>9cbc9d1c-eac4-48e1-b009-8f9e8e6dca8d</id>
     </Compile>
@@ -2421,6 +2424,9 @@
     </Compile>
     <Compile Include="Smiles_Componentes\Resultado_Esperado\RP_CriarEvento.cs">
       <id>40d8677a-7e67-4631-8f3b-fdf4eb90a236</id>
+    </Compile>
+    <Compile Include="Smiles_Componentes\Resultado_Esperado\RP_EditarFavorito.cs">
+      <id>788e50ea-9852-4341-91a4-6d4ff4bd7874</id>
     </Compile>
     <Compile Include="Smiles_Componentes\Resultado_Esperado\RP_EsqueciMeuNumeroSmiles.cs">
       <id>d3e1c87b-1c94-4fbe-8046-4128b5759dc4</id>

@@ -3478,7 +3478,7 @@ wIpgAFYEA7AiGIAVwQDOOXTkMFj6ixWh7xyG/wNt6t2BzTe8ugAAAABJRU5ErkJggg==
 			capname="unknown"
 			addcaps="unknown,webelement,buttontag"
 			refimgid="9a027fae-19f5-4870-904e-2670dbad5872">
-				/dom[@pageurl~'.smiles.com.br']//.[@innertext~'Gerenciar']
+				/dom[@pageurl~'.smiles.com.br']//.[@innertext~'Gerenciar passageiros favoritos']
 			</item>
 			<item
 			name="Favoritos_AdicionarNovoPassageiro"
@@ -3577,7 +3577,7 @@ wIpgAFYEA7AiGIAVwQDOOXTkMFj6ixWh7xyG/wNt6t2BzTe8ugAAAABJRU5ErkJggg==
 			capname="tdtag"
 			addcaps="unknown,webelement,tabletag"
 			refimgid="8a95ee95-21b5-43b9-8747-9b405cfe8488">
-				/dom[@pageurl~'.smiles.com.br']//div[#'p_p_id_favoritepassengerportlet_WAR_smilesmemberportlet_']//table//td[#'name']
+				/dom[@pageurl~'.smiles.com.br']//table//td[#'name']
 			</item>
 			<item
 			name="Favorito_Editar"

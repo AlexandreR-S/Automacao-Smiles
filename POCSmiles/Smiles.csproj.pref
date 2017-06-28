@@ -1,15 +1,13 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="SmilesRepository.rxrep" />
+    <Element value="Smiles_Componentes\Favoritos\EditarFavorito.cs" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="Smiles.rxtst" />
-    <Element value="Smiles_Componentes\SolicitarMilhas\SolicitarMilhas.cs" />
-    <Element value="SmilesRepository.cs" />
-    <Element value="SmilesRepository.rxrep" />
-    <Element value="Smiles_Componentes\Menu_Usuario\SolicitarMilhasUsuario.cs" />
-    <Element value="Program.cs" />
+    <Element value="Favoritos\EditarFavorito.cs" />
+    <Element value="Smiles_Componentes\Favoritos\EditarFavorito.cs" />
+    <Element value="Smiles_Componentes\Favoritos\InserirFavorito.cs" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
