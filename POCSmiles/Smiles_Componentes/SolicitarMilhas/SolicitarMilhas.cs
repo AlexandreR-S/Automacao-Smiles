@@ -234,17 +234,18 @@ namespace POCSmiles.Smiles_Componentes.SolicitarMilhas
 //				Delay.Milliseconds(0);
 				
 				DivTag dtag = repo.SmilesOMelhorProgramaDeMilhasS1.AbsoluteBasePath.ToString() + "//div[@id='btn-partner-" + CompanhiaAerea.ToLower() + "']";
-				dtag.Click();
+				dtag.PerformClick();
 				
-				Program.SetCalendarDate2("//img[@title='...']", DataVoo);
+				//Program.SetCalendarDate2("//img[@title='...']", DataVoo);
+				Program.SetCalendarDate2("//input[#'input-flight-day']", DataVoo);
 				Delay.Milliseconds(0);
 				
 				Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1' at Center.", repo.SmilesOMelhorProgramaDeMilhasS1.SelfInfo, new RecordItemIndex(2));
-				repo.SmilesOMelhorProgramaDeMilhasS1.Self.Click(1);
+				repo.SmilesOMelhorProgramaDeMilhasS1.Self.Click(Location.CenterRight);
 				Delay.Milliseconds(0);
 				
-				Program.CheckVisible();
-				Delay.Milliseconds(0);
+				//Program.CheckVisible();
+				//Delay.Milliseconds(0);
 				
 				//Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{TAB}{TAB}'.", new RecordItemIndex(4));
 				//Keyboard.Press("{TAB}{TAB}");
@@ -261,7 +262,7 @@ namespace POCSmiles.Smiles_Componentes.SolicitarMilhas
 					}
 				}
 				
-				Program.TypeKeys("//input[@name~'_smilescreditrequestportlet_WAR_smilesmemberportlet_trackingNumber' and @visible='True']", LocalizadorVoo);
+				Program.TypeKeys("//input[@name~'_smilescreditrequestportletv10_WAR_smilesmilesportlet_recordLocator' and @visible='True']", LocalizadorVoo);
 				Delay.Milliseconds(0);
 				
 				if(!String.IsNullOrEmpty(CabineViagem)){
@@ -322,14 +323,14 @@ namespace POCSmiles.Smiles_Componentes.SolicitarMilhas
 					}
 				}
 				Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1' at Center.", repo.SmilesOMelhorProgramaDeMilhasS1.SelfInfo, new RecordItemIndex(17));
-				repo.SmilesOMelhorProgramaDeMilhasS1.Self.Click(1);
+				repo.SmilesOMelhorProgramaDeMilhasS1.Self.Click(Location.CenterRight);
 				Delay.Milliseconds(490);
 				
 				Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Next}'.", new RecordItemIndex(18));
 				Delay.Milliseconds(90);
 				
 				Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.SolicitarMilhas_SolicitarMilhasDeVoo' at Center.", repo.SmilesOMelhorProgramaDeMilhasS1.SolicitarMilhas_SolicitarMilhasDeVooInfo, new RecordItemIndex(19));
-				repo.SmilesOMelhorProgramaDeMilhasS1.SolicitarMilhas_SolicitarMilhasDeVoo.EnsureVisible();
+				
 				repo.SmilesOMelhorProgramaDeMilhasS1.SolicitarMilhas_SolicitarMilhasDeVoo.Click();
 				Delay.Milliseconds(490);
 				//Program.ClickIfExist(repo.SmilesOMelhorProgramaDeMilhasS1.SolicitarMilhas_OK);

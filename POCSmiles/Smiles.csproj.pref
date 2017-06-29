@@ -5,9 +5,12 @@
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="Smiles.rxtst" />
-    <Element value="Favoritos\EditarFavorito.cs" />
-    <Element value="Smiles_Componentes\Favoritos\EditarFavorito.cs" />
     <Element value="Smiles_Componentes\Favoritos\InserirFavorito.cs" />
+    <Element value="SmilesRepository.cs" />
+    <Element value="Smiles_Componentes\Resultado_Esperado\RP_InserirFavorito.cs" />
+    <Element value="SmilesRepository.rxrep" />
+    <Element value="Program.cs" />
+    <Element value="Smiles_Componentes\Favoritos\EditarFavorito.cs" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
