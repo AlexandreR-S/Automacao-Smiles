@@ -2994,21 +2994,5 @@
 			lastcodegentimestamp="131431509603220578"
 			filelength="1543"/>
 		</codegenfilechangeinfo>
-		<codegenfilechangeinfo
-		fileitemid="d5070540-8a07-440c-b56e-002522ef0c17"
-		changehash="14841652177211573841"
-		lastcodegentimestamp="131432160464505767"
-		filelength="966">
-			<codegenfilechangeinfo
-			fileitemid="5cda05e5-5e1c-4689-b27a-d91c330eba78"
-			changehash="18446744072249297081"
-			lastcodegentimestamp="131432160464505767"
-			filelength="2767"/>
-			<codegenfilechangeinfo
-			fileitemid="18ff32f3-e14b-4038-8b81-2ea81a1a9adf"
-			changehash="938055033"
-			lastcodegentimestamp="131432160464505767"
-			filelength="1147"/>
-		</codegenfilechangeinfo>
 	</changestatecache>
 </projectusersettings>

@@ -8,9 +8,8 @@
   <Array name="files">
     <Element value="Smiles.rxtst" />
     <Element value="SmilesRepository.rxrep" />
-    <Element value="Smiles_Componentes\ClubeSmiles\AlterarPlano.cs" />
-    <Element value="Smiles_Componentes\ClubeSmiles\AlterarPlano.rxrec" />
     <Element value="ClubeSmiles\AlterarPlano.cs" />
+    <Element value="Smiles_Componentes\ClubeSmiles\AlterarPlano.cs" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
