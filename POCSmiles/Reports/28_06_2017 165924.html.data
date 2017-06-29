@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="843ac8a8c0d5a14"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="caiop"
+		host="DESKTOP-9T5H2RR"
+		rxversion="6.2.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="pt-BR"
+		screenresolution="1366x768"
+		timestamp="28/06/2017 16:59:24"
+		timestampiso="2017-06-28T19:59:24"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.497"
+			timeRelativeToTestModuleStartTime="00:00.497"
+			timeWallClock="16:59:24"
+			time="00:00.497"
+			level="Failure"
+			category="TestSuite">
+			<message>
+				The Excel file with name 'C:\Automacao - Smiles\lib\Massa\Resultado_Positivo_Smiles_Cadastrar Favorito.xlsx' could not be found.
+			</message>
+			<metainfo
+				stacktrace="   em Ranorex.Core.Data.ExcelDataConnector.LoadDataInternal(Boolean loadRowData, ColumnCollection&amp; columns, RowCollection&amp; rows, Int32&amp; rowCount)&#13;&#10;   em Ranorex.Core.Data.ExcelDataConnector.LoadDataImpl(ColumnCollection&amp; columns, RowCollection&amp; rows)&#13;&#10;   em Ranorex.Core.Data.DataConnector.LoadData(ColumnCollection&amp; columns, RowCollection&amp; rows)&#13;&#10;   em Ranorex.Core.Data.DataCache.LoadInternal()&#13;&#10;   em Ranorex.Core.Data.DataContext.Next(Boolean withAncestors)&#13;&#10;   em Ranorex.Core.Testing.TestSuiteRunner.RunInternal(Type containerType, String testSuiteXml, RunParams rp)"
+				loglvl="Failure"/>
+		</item>
+	</activity>
+</report>
