@@ -1,39 +1,4 @@
-<<<<<<< HEAD
-﻿<Properties>
-  <ActiveConfiguration value="Debug" />
-  <ActivePlatform value="x86" />
-  <SerializedValue name="ModuleBrowserState">
-    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <string>{551BD582-6B87-460D-9D7F-87D70B4528F0}</string>
-      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
-      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
-      <string>5563d20b-4e28-402b-9f31-18cedd94926a</string>
-      <string>3140e7cc-f6e6-4950-ac08-94d3d77cade8</string>
-      <string>58371fe5-103d-4f11-8928-08ca098df2f2</string>
-      <string>a28c718c-6fa8-45e0-b8da-cf135f767079</string>
-      <string>dc9caa23-e0a5-467e-9aa3-4323d1ed22d8</string>
-      <string>37a1c381-1479-4cbd-bb03-c06802325cc7</string>
-      <string>ff3c71d8-4d6f-42ea-be0e-10a008912649</string>
-      <string>c445b279-9864-470b-a798-40ca03ce56cf</string>
-      <string>1e9bf19f-3acc-4d8d-aac2-bb7f2caf7fba</string>
-      <string>6df9e6f9-bd6f-43e0-bcbd-4278f36c6e80</string>
-      <string>da5a500e-d233-4781-8764-ec3cc0c153fd</string>
-      <string>87389044-65b6-4b74-8607-3e7868af30ad</string>
-      <string>dd79133a-9ff0-487b-b8a2-8094c5daa7d1</string>
-      <string>0fc6a198-aeba-4a8b-b5e5-ce7c51e8e656</string>
-      <string>88268281-0c35-4c0f-8dbf-2daaef6767c8</string>
-      <string>37b2460a-5329-45ae-9513-487f32adf942</string>
-      <string>bfc0d6f2-ce5d-42f8-b803-d8e24f2e4fe8</string>
-      <string>180d1499-3caf-4892-bc2c-3a7d048c5a82</string>
-      <string>1173931e-488d-446c-9cc5-2aab1a9dec5e</string>
-      <string>9e7ad2db-31d1-4779-9371-ed295f8209e8</string>
-      <string>70158eb2-e37c-40ad-bd60-8d8793ffaf24</string>
-    </ArrayOfString>
-  </SerializedValue>
-  <ProjectBrowserState value="[Solution Smiles[Smiles[ClubeSmiles[AlterarPlano.rxrec[]]Menu_Usuario[TransferirMilhas.rxrec[]]Resultado_Esperado[RP_TransferirMilhas.rxrec[]RP_ValidacaoAdesaoAposEmissao.rxrec[]]Smiles_Componentes[Cadastro[]ClubeSmiles[]Compra_De_Milhas[]Comprar[]Generico[]Menu_Usuario[]Resultado_Esperado[]ShoppingSmiles[]SolicitarMilhas[]Transferencia_De_Milhas[]]SolicitarMilhas[SolicitarMilhas.rxrec[]]SmilesRepository.rxrep[]]]]&#xD;&#xA;Solution Smiles\Smiles\Smiles.rxtst&#xD;&#xA;Solution Smiles\Smiles\ErrorInspector.rxrec" />
-  <StartupProject value="{551BD582-6B87-460D-9D7F-87D70B4528F0}" />
-=======
-﻿<Properties>
+﻿﻿<Properties>
   <ActiveConfiguration value="Debug" />
   <ActivePlatform value="x86" />
   <SerializedValue name="ModuleBrowserState">
@@ -56,7 +21,6 @@
       <string>9e7ad2db-31d1-4779-9371-ed295f8209e8</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution Smiles[Smiles[Favoritos[EditarFavorito.rxrec[]]Resultado_Esperado[RP_EditarFavorito.rxrec[]]Smiles_Componentes[Favoritos[]Generico[]]SmilesRepository.rxrep[]]]]&#xD;&#xA;Solution Smiles\Smiles\Smiles_Componentes\Resultado_Esperado&#xD;&#xA;Solution Smiles\Smiles\Smiles_Componentes\Favoritos" />
+  <ProjectBrowserState value="[Solution Smiles[Smiles[Resultado_Esperado[RP_ValidacaoAdesaoAposEmissao.rxrec[]]Smiles_Componentes[Cadastro[]ClubeSmiles[]Compra_De_Milhas[]Favoritos[]Generico[]Menu_Usuario[]ReativarMilhas[]Resultado_Esperado[]SolicitarMilhas[]]SmilesRepository.rxrep[]]]]&#xD;&#xA;Solution Smiles\Smiles\Smiles.rxtst&#xD;&#xA;Solution Smiles" />
   <StartupProject value="{551BD582-6B87-460D-9D7F-87D70B4528F0}" />
->>>>>>> 1dcbe374574f136ac530fcfac898c9d256fda356
 </Properties>
