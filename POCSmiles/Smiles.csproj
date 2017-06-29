@@ -506,6 +506,9 @@
     <Compile Include="Smiles_Componentes\Extrato\AcessarExtrato.cs">
       <id>93d38a14-52f2-429f-bb16-834073cf6cbe</id>
     </Compile>
+    <Compile Include="Smiles_Componentes\Favoritos\EditarFavorito.cs">
+      <id>44dfea88-5d28-40bd-b87b-97ef87828caa</id>
+    </Compile>
     <Compile Include="Smiles_Componentes\Favoritos\ExcluirFavorito.cs">
       <id>9cbc9d1c-eac4-48e1-b009-8f9e8e6dca8d</id>
     </Compile>
