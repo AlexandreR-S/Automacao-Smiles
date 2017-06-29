@@ -1,15 +1,16 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="SmilesRepository.rxrep" />
+    <Element value="Smiles.rxtst" />
   </Array>
-  <Array name="bookmarks" />
+  <Array name="bookmarks">
+    <Element value="Breakpoint|C:\Automacao-Smiles\POCSmiles\Smiles_Componentes\Resultado_Esperado\MensagemTela.cs|63|5|True|Break||" />
+  </Array>
   <Array name="files">
     <Element value="Smiles.rxtst" />
-    <Element value="Smiles_Componentes\SolicitarMilhas\SolicitarMilhas.cs" />
-    <Element value="SmilesRepository.cs" />
     <Element value="SmilesRepository.rxrep" />
-    <Element value="Smiles_Componentes\Menu_Usuario\SolicitarMilhasUsuario.cs" />
-    <Element value="Program.cs" />
+    <Element value="Smiles_Componentes\ClubeSmiles\AlterarPlano.cs" />
+    <Element value="Smiles_Componentes\ClubeSmiles\AlterarPlano.rxrec" />
+    <Element value="ClubeSmiles\AlterarPlano.cs" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

@@ -477,7 +477,7 @@
       <id>db05a3c2-bcfb-482d-8bb7-48b85c59e88c</id>
     </Compile>
     <Compile Include="Smiles_Componentes\ClubeSmiles\AlterarPlano.cs">
-      <id>5cda05e5-5e1c-4689-b27a-d91c330eba78</id>
+      <id>d94be163-bc57-439a-a285-1e56933eb876</id>
     </Compile>
     <Compile Include="Smiles_Componentes\ClubeSmiles\ComprarSemTecladoVirtualClubeSmilesNew.cs">
       <id>92d533ea-d4fe-43bc-a6f8-d35d2c3ddd90</id>
