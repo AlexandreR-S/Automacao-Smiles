@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<Properties>
   <Array name="active">
     <Element value="Smiles_Componentes\Favoritos\EditarFavorito.cs" />
@@ -27,4 +28,35 @@
     </Array>
     <Properties name="watchVars" />
   </Properties>
+=======
+﻿<Properties>
+  <Array name="active">
+    <Element value="Smiles.rxtst" />
+  </Array>
+  <Array name="bookmarks">
+    <Element value="Breakpoint|C:\Automacao-Smiles\POCSmiles\Smiles_Componentes\Resultado_Esperado\MensagemTela.cs|63|5|True|Break||" />
+  </Array>
+  <Array name="files">
+    <Element value="Smiles.rxtst" />
+    <Element value="SmilesRepository.rxrep" />
+    <Element value="Smiles_Componentes\ClubeSmiles\AlterarPlano.cs" />
+    <Element value="Smiles_Componentes\ClubeSmiles\AlterarPlano.rxrec" />
+    <Element value="ClubeSmiles\AlterarPlano.cs" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <fileNames value="" />
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="POCSmiles.Mobile.RxBrowser.Login.Logout.Logout2()" />
+      <Element value="POCSmiles.ClubeSmiles.AdesaoCadastro.InvokeClick()" />
+      <Element value="POCSmiles.Mobile.RxBrowser.Pagamento.PagamentoComTecladoVirtual.selectListAsHuman(String text, String element)" />
+      <Element value="POCSmiles.Mobile.RxBrowser.Init.InitRxBrowser.WaitForDocumentLoad()" />
+      <Element value="POCSmiles.Mobile.RxBrowser.Init.InitRxBrowser.CheckDomState()" />
+      <Element value="POCSmiles.Mobile.RxBrowser.Pagamento.PagamentoComTecladoVirtual.selectList(String text, String element)" />
+    </Array>
+    <Properties name="watchVars" />
+  </Properties>
+>>>>>>> b4af220cf10f5833b97070a6afad0359a463e4d8
 </Properties>
