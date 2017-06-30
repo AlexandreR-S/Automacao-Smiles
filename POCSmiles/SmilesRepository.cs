@@ -1243,7 +1243,7 @@ namespace POCSmiles
                 _validacao_presenteenviadoInfo = new RepoItemInfo(this, "Validacao_PresenteEnviado", ".//h2[@innertext='Presente enviado']", 30000, null, "d5a0344c-f8ab-44b6-88d8-c3eadddc5f41");
                 _comprarmilhas_qntmilhasInfo = new RepoItemInfo(this, "ComprarMilhas_QntMilhas", ".//input[@id~'amount']", 30000, null, "8c9c2282-5144-4a57-bd56-19004c7fc582");
                 _comprarmilhas_comprarInfo = new RepoItemInfo(this, "ComprarMilhas_Comprar", ".//button[#'buyMilesBtn']", 30000, null, "860e8ced-636b-4409-bd60-aa3014107a11");
-                _minhaconta_gerenciarfavoritosInfo = new RepoItemInfo(this, "MinhaConta_GerenciarFavoritos", ".//.[@innertext~'Gerenciar']", 30000, null, "45978786-cc13-4f9c-b4e1-13944f782ef8");
+                _minhaconta_gerenciarfavoritosInfo = new RepoItemInfo(this, "MinhaConta_GerenciarFavoritos", ".//.[@innertext~'Gerenciar passageiros favoritos']", 30000, null, "45978786-cc13-4f9c-b4e1-13944f782ef8");
                 _favoritos_adicionarnovopassageiroInfo = new RepoItemInfo(this, "Favoritos_AdicionarNovoPassageiro", ".//button[@innertext~'^\\ Adicionar\\ novo\\ passageir']", 30000, null, "b6acc9b1-27ea-465a-8b81-a9ee8c1ab5be");
                 _favorito_nomeInfo = new RepoItemInfo(this, "Favorito_Nome", ".//input[#'_smilesfavoritepassengerportlet_WAR_smilesbookingportlet_FirstName']", 30000, null, "b5715ba0-db61-4175-b0eb-9011edfd66c1");
                 _favorito_sobrenomeInfo = new RepoItemInfo(this, "Favorito_Sobrenome", ".//input[#'_smilesfavoritepassengerportlet_WAR_smilesbookingportlet_LastName']", 30000, null, "b92cc403-cbc5-40c5-9ac3-3beaa389a19d");
@@ -11179,6 +11179,7 @@ namespace POCSmiles
             RepoItemInfo _inputtagsmilescreditrequestportletwarInfo;
             RepoItemInfo _inputtagsmilesloginportletwarsmilesloInfo;
             RepoItemInfo _inputtagsmilesloginportletwarsmileslo1Info;
+            RepoItemInfo _atagrgInfo;
 
             /// <summary>
             /// Creates a new FlightsAreaGateway  folder.
@@ -11202,6 +11203,7 @@ namespace POCSmiles
                 _inputtagsmilescreditrequestportletwarInfo = new RepoItemInfo(this, "InputTagSmilescreditrequestportletWAR", ".//input[#'_smilescreditrequestportlet_WAR_smilesmemberportlet_trackingNumberG31']", 30000, null, "bcfda123-7d42-492f-ada4-ed0bb50fec64");
                 _inputtagsmilesloginportletwarsmilesloInfo = new RepoItemInfo(this, "InputTagSmilesloginportletWARSmileslo", ".//input[#'_smilesloginportlet_WAR_smilesloginportlet_newPassword']", 30000, null, "ef80aefd-d131-46b2-a161-4c40a417e911");
                 _inputtagsmilesloginportletwarsmileslo1Info = new RepoItemInfo(this, "InputTagSmilesloginportletWARSmileslo1", ".//input[#'_smilesloginportlet_WAR_smilesloginportlet_confirmNewPassword']", 30000, null, "8176893c-1d05-4b30-b19c-cd7d341c5433");
+                _atagrgInfo = new RepoItemInfo(this, "ATagRG", ".//div[#'dk_container_documentTypePassenger']/a[@innertext='RG']", 30000, null, "e861e0ec-6135-4aad-8fcc-b85775f321d7");
             }
 
             /// <summary>
@@ -11609,6 +11611,30 @@ namespace POCSmiles
                 get
                 {
                     return _inputtagsmilesloginportletwarsmileslo1Info;
+                }
+            }
+
+            /// <summary>
+            /// The ATagRG item.
+            /// </summary>
+            [RepositoryItem("e861e0ec-6135-4aad-8fcc-b85775f321d7")]
+            public virtual Ranorex.ATag ATagRG
+            {
+                get
+                {
+                    return _atagrgInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ATagRG item info.
+            /// </summary>
+            [RepositoryItemInfo("e861e0ec-6135-4aad-8fcc-b85775f321d7")]
+            public virtual RepoItemInfo ATagRGInfo
+            {
+                get
+                {
+                    return _atagrgInfo;
                 }
             }
         }

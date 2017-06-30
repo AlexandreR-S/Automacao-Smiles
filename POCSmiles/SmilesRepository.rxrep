@@ -802,6 +802,16 @@ rxversion="6.2">
 				capname="inputtag">
 					/dom[@pageurl~'.smiles.com.br']//input[#'_smilesloginportlet_WAR_smilesloginportlet_confirmNewPassword']
 				</item>
+				<item
+				name="ATagRG"
+				id="e861e0ec-6135-4aad-8fcc-b85775f321d7"
+				searchtimeout="30000ms"
+				capname="atag"
+				refpath="/dom[@domain='portal-uat3.smiles.com.br']//div[#'dk_container_documentTypePassenger']/a[@innertext='RG']"
+				addcaps="unknown,webelement,atag"
+				refimgid="255804ef-3ee2-40af-a460-bfcf28c91f62">
+					/dom[@pageurl~'.smiles.com.br']//div[#'dk_container_documentTypePassenger']/a[@innertext='RG']
+				</item>
 				<basepath>
 					/dom[@pageurl~'.smiles.com.br']
 				</basepath>
@@ -3478,7 +3488,7 @@ wIpgAFYEA7AiGIAVwQDOOXTkMFj6ixWh7xyG/wNt6t2BzTe8ugAAAABJRU5ErkJggg==
 			capname="unknown"
 			addcaps="unknown,webelement,buttontag"
 			refimgid="9a027fae-19f5-4870-904e-2670dbad5872">
-				/dom[@pageurl~'.smiles.com.br']//.[@innertext~'Gerenciar']
+				/dom[@pageurl~'.smiles.com.br']//.[@innertext~'Gerenciar passageiros favoritos']
 			</item>
 			<item
 			name="Favoritos_AdicionarNovoPassageiro"

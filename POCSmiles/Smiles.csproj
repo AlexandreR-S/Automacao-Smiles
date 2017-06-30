@@ -2428,6 +2428,9 @@
     <Compile Include="Smiles_Componentes\Resultado_Esperado\RP_CriarEvento.cs">
       <id>40d8677a-7e67-4631-8f3b-fdf4eb90a236</id>
     </Compile>
+    <Compile Include="Smiles_Componentes\Resultado_Esperado\RP_EditarFavorito.cs">
+      <id>82dda44f-86ca-4906-a767-630971802d81</id>
+    </Compile>
     <Compile Include="Smiles_Componentes\Resultado_Esperado\RP_EsqueciMeuNumeroSmiles.cs">
       <id>d3e1c87b-1c94-4fbe-8046-4128b5759dc4</id>
     </Compile>

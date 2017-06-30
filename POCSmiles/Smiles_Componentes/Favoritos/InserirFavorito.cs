@@ -172,7 +172,7 @@ namespace POCSmiles.Smiles_Componentes.Favoritos
 				Delay.Milliseconds(0);
 				
 				Report.Log(ReportLevel.Info, "Invoke Action", "Invoking Select() on item 'SmilesOMelhorProgramaDeMilhasS1.Favorito_TipoDocumento'.", repo.SmilesOMelhorProgramaDeMilhasS1.Favorito_TipoDocumentoInfo, new RecordItemIndex(8));
-				repo.SmilesOMelhorProgramaDeMilhasS1.Favorito_TipoDocumento.Select();
+				Program.Invoke_Action_Favorito_TipoDocumento(TipoDocumento);
 				Delay.Milliseconds(0);
 				
 				Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$NumeroDocumento' with focus on 'SmilesOMelhorProgramaDeMilhasS1.Favorito_NumeroDocumento'.", repo.SmilesOMelhorProgramaDeMilhasS1.Favorito_NumeroDocumentoInfo, new RecordItemIndex(9));

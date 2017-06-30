@@ -12,6 +12,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Globalization;
 using System.Security.Permissions;
+using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading;
 
@@ -954,8 +955,56 @@ namespace POCSmiles
 				Report.Failure("Exception launched validating data on screen. Erro: " + e.Message);
 			}
 		}
+		
+		public static void Invoke_Action_Favorito_TipoDocumento(string tipoDocumento)
+		{
+			if (tipoDocumento.Equals("")) {
+				return;
+			}
+			Report.Log(ReportLevel.Info, "Invoke Action", "Invoking Select() on item 'SmilesOMelhorProgramaDeMilhasS1.Favorito_TipoDocumento'.", repo.SmilesOMelhorProgramaDeMilhasS1.Favorito_TipoDocumentoInfo);
+			//repo.SmilesOMelhorProgramaDeMilhasS1.Favorito_TipoDocumento.Select();
+			OptionTag OptT = repo.SmilesOMelhorProgramaDeMilhasS1.AbsoluteBasePath + "//select[@name='documentType']/option[@innertext~'"+tipoDocumento+"']";
+			OptT.Select();
+		}
 
+		public static string RandomStringAhplhaNumeric()
+		{
+			string txt = System.IO.Path.GetRandomFileName();
+			txt = txt.Replace(".", "");
+			return txt;
+		}
+		
 
+		public static List<char> _characters;
+		public static void NameGenerator()
+		{
+			_characters = new List<char>();
+			// Fill character list with A-Z.
+			for (int i = 65; i <= 90; i++)
+			{
+				_characters.Add((char)i);
+			}
+			// Fill character list with a-z.
+			for (int i = 97; i <= 122; i++)
+			{
+				_characters.Add((char)i);
+			}
+		}
+		
+		public static string Generate(int lenght)
+		{
+			NameGenerator();
+			Random random = new Random();
+			StringBuilder buffer = new StringBuilder(lenght);
+			for (int i = 0; i < lenght; i++)
+			{
+				int randomNumber = random.Next( 0, _characters.Count );
+				char randomChar = _characters[ randomNumber ];
+				buffer.Append(randomChar);
+				
+			}
+			return buffer.ToString();
+		}
 	}
 	
 }

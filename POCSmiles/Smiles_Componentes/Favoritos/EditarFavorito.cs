@@ -150,9 +150,25 @@ namespace POCSmiles.Smiles_Componentes.Favoritos
 			get { return repo.TipoDocumento; }
 			set { repo.TipoDocumento = value; }
 		}
+		
+		string _out_Sobrenome_Old = "";
+		[TestVariable("964f0337-4d03-41c1-a5a1-f85227cf4a63")]
+		public string out_Sobrenome_Old
+		{
+			get { return _out_Sobrenome_Old; }
+			set { _out_Sobrenome_Old = value; }
+		}
+		
+		string _out_Sobrenome_New = "";
+		[TestVariable("d9dcb159-e704-4435-b767-541a0d511cc4")]
+		public string out_Sobrenome_New
+		{
+			get { return _out_Sobrenome_New; }
+			set { _out_Sobrenome_New = value; }
+		}
 
 		#endregion
-
+		
 		/// <summary>
 		/// Performs the playback of actions in this module.
 		/// </summary>
@@ -163,7 +179,7 @@ namespace POCSmiles.Smiles_Componentes.Favoritos
 		{
 			Mouse.DefaultMoveTime = 300;
 			Keyboard.DefaultKeyPressTime = 100;
-			Delay.SpeedFactor = 1.0;
+			Delay.SpeedFactor = 1.0;		
 			
 			var iComponentStatus = Program.startComponent();
 			
@@ -171,7 +187,7 @@ namespace POCSmiles.Smiles_Componentes.Favoritos
 			
 			Sexo = Program.getProtonValue("in_Sexo");
 			Nome = Program.getProtonValue("in_Nome");
-			Sobrenome = Program.getProtonValue("in_Sobrenome");
+			Sobrenome = Program.Generate(10);
 			DiaNascimento = Program.getProtonValue("in_Data_Nascimento_Dia");
 			MesNascimento = Program.getProtonValue("in_Data_Nascimento_Mes");
 			AnoNascimento = Program.getProtonValue("in_Data_Nascimento_Ano");
@@ -187,37 +203,43 @@ namespace POCSmiles.Smiles_Componentes.Favoritos
 				repo.SmilesOMelhorProgramaDeMilhasS1.Favorito_Editar.Click(1);
 				Delay.Milliseconds(0);
 				
-				TypeKeys(Nome, "//input[#'_favoritepassengerportlet_WAR_smilesmemberportlet_FirstName']");
+				Program.TypeKeys("//input[#'_smilesfavoritepassengerportlet_WAR_smilesbookingportlet_FirstName']", Nome);
 				Delay.Milliseconds(0);
 				
-				TypeKeys(Sobrenome, "//input[#'_favoritepassengerportlet_WAR_smilesmemberportlet_LastName']");
+				out_Sobrenome_Old = Utils.GetAttrValue(repo.SmilesOMelhorProgramaDeMilhasS1.Favorito_Sobrenome, "tagvalue");
+				Program.setProtonOutput("out_Sobrenome_Old", out_Sobrenome_Old);
+				
+				Program.TypeKeys("//input[#'_smilesfavoritepassengerportlet_WAR_smilesbookingportlet_LastName']", Sobrenome);
 				Delay.Milliseconds(0);
+				
+				out_Sobrenome_New = Utils.GetAttrValue(repo.SmilesOMelhorProgramaDeMilhasS1.Favorito_Sobrenome, "tagvalue");
+				Program.setProtonOutput("out_Sobrenome_New", out_Sobrenome_New);
 				
 				SelectGenderFlag(Sexo);
 				Delay.Milliseconds(0);
 				
-				TypeKeys(DiaNascimento, "//input[@name='day']");
+				Program.TypeKeys("//input[@name='day']", DiaNascimento);
 				Delay.Milliseconds(0);
 				
-				TypeKeys(MesNascimento, "//input[@name='month']");
+				Program.TypeKeys("//input[@name='month']", MesNascimento);
 				Delay.Milliseconds(0);
 				
-				TypeKeys(AnoNascimento, "//input[@name='year']");
+				Program.TypeKeys("//input[@name='year']", AnoNascimento);
 				Delay.Milliseconds(0);
 				
-				Invoke_Action_Favorito_TipoDocumento(TipoDocumento);
+				Program.Invoke_Action_Favorito_TipoDocumento(TipoDocumento);
 				Delay.Milliseconds(0);
 				
-				TypeKeys(NumeroDocumento, "//input[@name='documentNumber']");
+				Program.TypeKeys("//input[@name='documentNumber']", NumeroDocumento);
 				Delay.Milliseconds(0);
 				
-				TypeKeys(Email, "//input[@name='email']");
+				Program.TypeKeys("//input[@name='email']", Email);
 				Delay.Milliseconds(0);
 				
 				Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.Favorito_Salvar' at Center.", repo.SmilesOMelhorProgramaDeMilhasS1.Favorito_SalvarInfo, new RecordItemIndex(10));
 				repo.SmilesOMelhorProgramaDeMilhasS1.Favorito_Salvar.Click(1);
 				Delay.Milliseconds(0);
-				
+
 				Report.Screenshot(ReportLevel.Success, "User", "", null, false, new RecordItemIndex(11));
 			}
 			
@@ -240,54 +262,6 @@ namespace POCSmiles.Smiles_Componentes.Favoritos
 			} catch (Exception) {
 				Report.Error("CadastrarUsuario - Error selecting genre");
 				throw new System.Exception("CadastrarUsuario.SeleclGenrerFlag");
-			}
-		}
-
-		public void Key_Sequence(string text, string element)
-		{
-			if (text.Equals("")) {
-				return;
-			}
-			Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable with focus on '" + element + "'.");
-			WebElement e = repo.SmilesOMelhorProgramaDeMilhasS1.AbsoluteBasePath.ToResolvedString() + element;
-			e.PressKeys("{END}{SHIFT DOWN}{HOME}{SHIFT UP}{DELETE}" + text,10);
-		}
-
-		public void Invoke_Action_Favorito_TipoDocumento(string tipoDocumento)
-		{
-			if (tipoDocumento.Equals("")) {
-				return;
-			}
-			Report.Log(ReportLevel.Info, "Invoke Action", "Invoking Select() on item 'SmilesOMelhorProgramaDeMilhasS1.Favorito_TipoDocumento'.", repo.SmilesOMelhorProgramaDeMilhasS1.Favorito_TipoDocumentoInfo);
-			//repo.SmilesOMelhorProgramaDeMilhasS1.Favorito_TipoDocumento.Select();
-			OptionTag OptT = repo.SmilesOMelhorProgramaDeMilhasS1.AbsoluteBasePath + "//select[@name='documentType']/option[@innertext~"+TipoDocumento+"]";
-			OptT.Select();
-		}
-		
-		public static void TypeKeys(string text, string element)
-		{
-			string typ = "";
-			int i;
-			
-			try
-			{
-				if (text.Equals("")) {
-					return;
-				}
-				Report.Log(ReportLevel.Info,"Inserting text '" + text + "'");
-				InputTag input = repo.SmilesOMelhorProgramaDeMilhasS1.AbsoluteBasePath.ToResolvedString() + element;
-				input.Focus();
-				for (i=0; i <= 100 ; i++){
-					typ = typ + "{BACK}";
-				}
-				input.PressKeys(typ,1);
-				
-				input.PressKeys("{END}{SHIFT DOWN}{HOME DOWN}{DELETE}{SHIFT UP}{HOME UP}" + text,Duration.FromMilliseconds(1));
-				Report.Log(ReportLevel.Info,"Text inserted '" + text + "'");
-			} catch (Exception e){
-				
-				Report.Error(Utils.GetComponentName() + " - Error launched trying to inserting text '" + text + "' on element '" + element + "'");
-				throw new System.Exception(Utils.GetComponentName() + ".TypeKeys");
 			}
 		}
 	}
