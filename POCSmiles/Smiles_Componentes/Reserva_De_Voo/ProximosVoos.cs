@@ -50,16 +50,22 @@ namespace POCSmiles.Smiles_Componentes.Reserva_De_Voo
 			Keyboard.DefaultKeyPressTime = 100;
 			Delay.SpeedFactor = 1.0;
 			
-			Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.MeusVoos_ProximosVoos' at Center.", repo.SmilesOMelhorProgramaDeMilhasS1.MeusVoos_ProximosVoosInfo, new RecordItemIndex(0));
-			repo.SmilesOMelhorProgramaDeMilhasS1.MeusVoos_ProximosVoos.Click(1);
-			Delay.Milliseconds(490);
+			var iComponentStatus = Program.startComponent();
 			
-			Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'SmilesOMelhorProgramaDeMilhasS1.MeusVoos_CancelarVoo'.", repo.SmilesOMelhorProgramaDeMilhasS1.MeusVoos_CancelarVooInfo, new RecordItemIndex(1));
-			Validate.Exists(repo.SmilesOMelhorProgramaDeMilhasS1.MeusVoos_CancelarVooInfo);
-			Delay.Milliseconds(0);
+			if(Convert.ToInt32(iComponentStatus) == 2){
+				
+				Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SmilesOMelhorProgramaDeMilhasS1.MeusVoos_ProximosVoos' at Center.", repo.SmilesOMelhorProgramaDeMilhasS1.MeusVoos_ProximosVoosInfo, new RecordItemIndex(0));
+				repo.SmilesOMelhorProgramaDeMilhasS1.MeusVoos_ProximosVoos.Click(1);
+				Delay.Milliseconds(490);
+				
+				Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'SmilesOMelhorProgramaDeMilhasS1.MeusVoos_CancelarVoo'.", repo.SmilesOMelhorProgramaDeMilhasS1.MeusVoos_CancelarVooInfo, new RecordItemIndex(1));
+				Validate.Exists(repo.SmilesOMelhorProgramaDeMilhasS1.MeusVoos_CancelarVooInfo);
+				Delay.Milliseconds(0);
+				
+				Report.Screenshot(ReportLevel.Success, "User", "", null, false, new RecordItemIndex(2));
+			}
 			
-			Report.Screenshot(ReportLevel.Success, "User", "", null, false, new RecordItemIndex(2));
-
+			iComponentStatus = Program.endComponent();
 		}
 	}
 }
